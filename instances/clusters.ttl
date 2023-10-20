@@ -1,0 +1,51 @@
+@prefix bua: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fub: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/fub/> .
+@prefix tub: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/tub/> .
+@prefix huzb: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/huzb/> .
+@prefix char: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/char/> .
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/SCIoI
+bua:SCIoI rdf:type owl:NamedIndividual ,
+                   bua:Exzellenzcluster ;
+          obo:BFO_0000050 huzb:huzb-50000052 ,
+                          tub:Technische_Universitaet_Berlin ;
+          rdfs:label "Exzellenzcluster Science of Intelligence"@de-de ,
+                     "Science of Intelligence Cluster of Excellence"@en-us ;
+          rdfs:seeAlso "https://www.scienceofintelligence.de/about-us/"@de-de .
+
+
+###  http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/bua
+bua:bua rdf:type owl:NamedIndividual ,
+                 bua:Forschungsallianz ;
+        obo:BFO_0000051 char:charite-universitaetsmedizin-berlin ,
+                        fub:Freie_Universitaet_Berlin ,
+                        huzb:huzb-50000052 ,
+                        tub:Technische_Universitaet_Berlin ;
+        rdfs:label "Berlin University Alliance"@de-de ,
+                   "Berlin University Alliance"@en-us .
+
+
+###  http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/matters-activity
+bua:matters-activity rdf:type owl:NamedIndividual ,
+                              bua:Exzellenzcluster ;
+                     obo:BFO_0000050 huzb:huzb-50000052 ,
+                                     tub:charite-universitaetsmedizin-berlin ;
+                     rdfs:label "Exzellenzcluster Matters of Activity"@de-de ,
+                                "Matters of Activity Cluster of Excellence"@en-us .
+
+
+###  http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/neurocure
+bua:neurocure rdf:type owl:NamedIndividual ,
+                       bua:Exzellenzcluster ;
+              obo:BFO_0000050 char:charite-universitaetsmedizin-berlin ;
+              bua:geritId "436452149" ;
+              rdfs:label "Exzellenzcluster NeuroCure"@de-de ,
+                         "NeuroCure Cluster of Excellence"@en-us .

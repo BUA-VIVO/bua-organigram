@@ -1,0 +1,2351 @@
+@prefix bua: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/> .
+@prefix char: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/char/> .
+@prefix fub: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/fub/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@base <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/fub/> .
+
+fub: a owl:Ontology ;
+    rdfs:label "Freie Universität Berlin Organisationsontologie"@de-de,
+        "Freie Universität Berlin Organizational Ontology"@en-us ;
+    dct:creator <https://orcid.org/0000-0003-4325-5751> ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.en> ;
+    vitro:ontologyPrefixAnnot "fub"^^xsd:string ;
+    owl:versionIRI fub:1.0 .
+
+fub:038c48bc-c5ba-3ea3-a7c1-1efbcb8fb165 a  bua:BUA_0000000,
+        owl:NamedIndividual ;
+    rdfs:label "Seminar für Katholische Theologie (WE 6)"@de-de, 
+        "Catholic Theology (WE 6)"@en-us ;
+    obo:BFO_0000050 fub:be9eef72-ff24-38b2-a552-b8c6c9f1d3ea ;
+    bua:geritId "15164" .
+
+fub:03fea69c-4d4d-3cc5-9250-550725e74789 a  bua:BUA_0000039 ;
+    rdfs:label "Klassische Gräzistik"@de-de,
+        "Classical Greek"@en-us ;
+    obo:BFO_0000050 fub:50edb449-fd24-37e7-a0f9-23123d4b7a00 .
+
+fub:045fb3ed-1799-3cb7-b1d5-6c9e578fb07d a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Pharmakologie und Toxikologie (WE14)"@de-de,
+        "Institute of Pharmacology and Toxicology (WE14)"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "15178" .
+
+fub:04bc94d5-b3e8-313d-b358-eb2612d0ed74 a  bua:BUA_0000001 ;
+    rdfs:label "Mikrobiologie"@de-de,
+        "Microbiology"@en-us ;
+    obo:BFO_0000050 fub:6c660bcb-764d-36e7-a49e-f8a0cf001c62 ;
+    bua:geritId "9520017" .
+
+fub:0691f566-9172-36fd-8284-bbec83d2efca a  bua:BUA_0000002 ;
+    rdfs:label "AG Netz - Theorie biologischer Soft-Matter-Systeme"@de-de,
+        "Research Group Netz - Theoretical Bio- and Soft Matter Physics"@en-us ;
+    obo:BFO_0000050 fub:8950b09b-f874-32d4-9ce6-e163d2630bb7 .
+
+fub:06bc0a88-c927-3bd2-b97d-8c9514e4bbbd a  bua:BUA_0000002 ;
+    rdfs:label "AG Horch - Ultraschnelle Dynamik in der Katalyse"@de-de,
+        "Research Group Horch - Ultrafast Dynamics in Catalysis"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:074034fd-8495-38c1-8e93-e1450809e953 a  bua:BUA_0000001 ;
+    rdfs:label "Bildungsforschung und soziale Systeme"@de-de,
+        "Department of Educational Research and Social Systems"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 .
+
+fub:084acf97-fb21-3684-94ba-7503c3f5d826 a  bua:BUA_0000002 ;
+    rdfs:label "AG Kuch - Spektroskopie und Spektromikroskopie an neuen magnetischen Materialien"@de-de,
+        "Research Group Kuch - Spectroscopy and spectromicroscopy of new magnetic materials"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:089f7d23-0992-3c27-9f57-b49c98f37afb a  bua:BUA_0000001 ;
+    rdfs:label "Pharmazeutische Chemie"@de-de,
+        "Pharmaceutical and Medicinal Chemistry"@en-us ;
+    obo:BFO_0000050 fub:bbbcf236-f267-3f6d-8254-b37be56535a5 .
+
+fub:0c9b65a0-85f6-31c7-9566-286de733b48a a  bua:BUA_0000002 ;
+    rdfs:label "AG Bolotin - Nanoscale Transport und Optoelektronik"@de-de,
+        "Research Group Bolotin - Quantum nanoelectronics of 2D materials"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:0ca2d91e-ff1b-31bc-b4fa-63749ffd05cf a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Politik und Recht"@de-de,
+        "Center for Politics and Law"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:0e127eb8-9823-35fb-8bfd-9b1d32513563 a  bua:BUA_0000030 ;
+    rdfs:label "Schweineklinik"@de-de,
+        "Swine Clinic"@en-us ;
+    obo:BFO_0000050 fub:0f03e4b3-cd53-3a5a-bf79-e08e4444f0d8 .
+
+fub:0e8c8a58-ffe1-31d4-8e40-acb78a523aae a  bua:BUA_0000002 ;
+    rdfs:label "Intelligente Systeme und Robotik"@de-de,
+        "Intelligent Systems and Robotics"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 .
+
+fub:0e918a39-cd88-3451-9a4d-bb398721069d a  bua:BUA_0000002 ;
+    rdfs:label "AG Lips - ASPIN: Spins in der Energieumwandlung und Quanteninformatik"@de-de,
+        "AG Lips - Spins in der Energieumwandlung und Quanteninformatik"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:0f00156c-b86b-35ef-9df6-1d66036cb9c8 a  bua:BUA_0000002 ;
+    rdfs:label "AG Bittl - Elektronenspinresonanz- und Einzelmolekülspektroskopie"@de-de,
+        "Research Group Bittl - Electron Spin Resonance and Single Molecule Spectroscopy"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:0f025e5a-4775-3126-891d-d25c70541592 a  bua:BUA_0000001 ;
+    rdfs:label "Surveyforschung"@de-de,
+        "Surveyresearch"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 .
+
+fub:0f190473-d1f4-3bc8-ba7a-64b5247b17d1 a  bua:BUA_0000001 ;
+    rdfs:label "Literaturwissenschaft"@de-de,
+        "Literary Studies"@en-us ;
+    obo:BFO_0000050 fub:7809d3c4-3e69-38a3-bbe9-7d6ae374add6 ;
+    bua:geritId "24056" .
+
+fub:0ff45fc6-6803-3784-9258-e28d5ca4c783 a  bua:BUA_0000036 ;
+    rdfs:label "Professur für Mikroökonomie"@de-de,
+        "Chair of Microeconomics"@en-us ;
+    obo:BFO_0000050 fub:17369b15-f2a0-3980-ba43-43d4acefdfe0 ;
+    bua:geritId "428844537" .
+
+fub:104097a5-701a-3e0a-af96-06a0b8fef49d a  bua:BUA_0000002 ;
+    rdfs:label "Künstliche Photosynthese"@de-de,
+        "Artificial Photosynthesis"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:13964baf-870d-31a1-b905-5384f71fed5b a  bua:BUA_0000026 ;
+    rdfs:label "Institut für Iranistik"@de-de,
+        "Institute of Iranian Studies"@en-us ;
+    obo:BFO_0000050 fub:cf84706c-7086-3f64-9a85-028762edcbf4 ;
+    bua:geritId "15159" .
+
+fub:14bfd207-8f44-3bc4-b870-cc9a09961398 a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Politikdidaktik/Politische Bildung"@de-de,
+        "Center for Didactics in Political Science"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:1549a584-7848-38e3-8910-112b91e44225 a  bua:BUA_0000001 ;
+    rdfs:label "Zoology"@de-de,
+        "Zoologie"@en-us ;
+    obo:BFO_0000050 fub:6c660bcb-764d-36e7-a49e-f8a0cf001c62 .
+
+fub:16cad475-c0c7-30e6-9cc6-d9e515c7bbe2 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Peter Szondi-Institut für Allgemeine und Vergleichende Literaturwissenschaft (WE 3)"@de-de,
+        "Peter Szondi Institute of Comparative Literature (WE 3)"@en-us ;
+    obo:BFO_0000050 fub:606a52db-1c8c-37fe-b41d-fe1e4fc0fa55 ;
+    bua:geritId "24056" .
+
+fub:17177ac7-735e-3a9e-97aa-ac8b8225d234 a  bua:BUA_0000001 ;
+    rdfs:label "Allgemeine Erziehungswissenschaft"@de-de,
+        "General Education"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "327993425" .
+
+fub:17316033-8e19-31be-96b3-f8ae68e28314 a  bua:BUA_0000001 ;
+    rdfs:label "Masterstudiengang Angewandte Literaturwissenschaft - Gegenwartsliteratur"@de-de,
+        "Master for Applied Literary Studies"@en-us ;
+    obo:BFO_0000050 fub:7809d3c4-3e69-38a3-bbe9-7d6ae374add6 .
+
+fub:17fd51a7-ed4e-33fd-8fda-247503051e3a a  bua:BUA_0000001 ;
+    rdfs:label "Evaluation und Qualitätssicherung im Bildungswesen"@de-de,
+        "Evaluation and Qualitiy Management in the Educational Sector"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "972338" .
+
+fub:18d6b24f-7a29-3ef6-b9a4-9c6f8093351b a  bua:BUA_0000001 ;
+    rdfs:label "Geochemistry, Hydrogeologie, Mineralogy"@en-us,
+        "Fachrichtung Geochemie, Hydrogeologie, Mineralogie"@de-de ;
+    obo:BFO_0000050 fub:bab1e2d9-e8e4-3e2d-aa46-be5a5c49dfec .
+
+fub:1a1de08a-fae1-3c61-bbb7-f230dac78485 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Virologie (WE05)"@de-de,
+        "Institute of Virology (WE05)"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "23853" .
+
+fub:1b912f84-9c7e-3c25-bdc9-d1fe1e58defd a  bua:BUA_0000036 ;
+    rdfs:label "Professur für Empirische Wirtschaftsforschung und Wirtschaftspolitik"@de-de,
+        "Chair of Empirical Economics"@en-us ;
+    obo:BFO_0000050 fub:17369b15-f2a0-3980-ba43-43d4acefdfe0 ;
+    bua:geritId "200567639" .
+
+fub:1be995ce-3013-36f3-972a-810138829dc6 a  bua:BUA_0000043 ;
+    rdfs:label "Filmwissenschaft"@de-de,
+        "Film Studies"@en-us ;
+    obo:BFO_0000050 fub:b037834d-86f2-3bec-b3b2-b388d7c1a485 ;
+    bua:geritId "980962" .
+
+fub:1d7e431d-924b-3c66-bd85-56b6de9edb2f a  bua:BUA_0000002 ;
+    rdfs:label "AG Heyne - Ultraschnelle Spektroskopie an biologisch relevanten Systemen"@de-de,
+        "Research Group Heyne - Ultrafast Spectroscopie on Biological Relevant Systems"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:1ec3eed1-f700-3b89-b6b7-c1d9f62d319b a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Mikrobiologie und Tierseuchen (WE07)"@de-de,
+        "Institute of Microbiology and Epizootics (WE07)"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "23935" .
+
+fub:212926f5-462c-3f20-b02b-0274fe42e787 a  bua:BUA_0000001 ;
+    rdfs:label "Global History"@de-de,
+        "Global History"@en-us ;
+    obo:BFO_0000050 fub:f2ce8fe9-71e7-3aed-8b3b-a0d02a477e72 .
+
+fub:21dcee7e-f718-34c9-b0b0-4bd855a3f667 a  bua:BUA_0000002 ;
+    rdfs:label "Abteilung für Heim, Zoo und Wildtiere"@de-de,
+        "Department of Home, Zoo and Wildlife"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 .
+
+fub:22116986-e4aa-3a3c-a8f4-475f50e1faf6 a  bua:BUA_0000002 ;
+    rdfs:label "Algebraische Geometrie"@de-de,
+        "Algebraic Geometry"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 ;
+    bua:geritId "200104447" .
+
+fub:221adf7a-a24f-3a3f-8ad5-5fb8945e881e a  bua:BUA_0000002 ;
+    rdfs:label "AG Reuther - Theorie des Quantenmagnetismus"@de-de,
+        "Research Group Reuther - Theory of Quantum Magnetism"@en-us ;
+    obo:BFO_0000050 fub:8950b09b-f874-32d4-9ce6-e163d2630bb7 .
+
+fub:23384faf-2ab3-3718-9b59-dbd1a11c9cc5 a  bua:BUA_0000001 ;
+    rdfs:label "Persönlichkeitspsychologie und Psychologische Diagnostik"@de-de,
+        "Personality Psychology and Psychological Assessment"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 .
+
+fub:23c7629f-af9a-325f-ba61-d8e829c590b3 a  bua:BUA_0000000,
+        owl:NamedIndividual ;
+    rdfs:label "Strafrecht (WE 2)"@de-de,
+        "Criminal Law"@en-us ;
+    obo:BFO_0000050 fub:0f8b00ae-6465-31fc-8544-0982d1f37acc ;
+    bua:geritId "15172" .
+
+fub:244b5c6e-a666-3bba-8e53-435886c34bea a  bua:BUA_0000002 ;
+    rdfs:label "AG Eisert - Quanten-Vielteilchentheorie, Quanteninformationstheorie und Quantenoptik"@de-de,
+        "Research Group Eisert - Quantum many-body theory, quantum information theory, and quantum optics"@en-us ;
+    obo:BFO_0000050 fub:8950b09b-f874-32d4-9ce6-e163d2630bb7 ;
+    bua:geritId "286456141" .
+
+fub:25baadf0-33f7-3e05-a502-6edddd6c50fe a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Nachhaltigkeit - Forschungszentrum für Nachhaltigkeit"@de-de,
+        "Research Centre for Sustainability"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:26270fed-45f4-3a9b-8721-3d4a6603e66b a  bua:BUA_0000002 ;
+    rdfs:label "Algorithmische Bioinformatik"@de-de,
+        "Algorithmic Bioinformatics"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 ;
+    bua:geritId "200101450" .
+
+fub:267695a9-f97e-3bf5-bd05-f758f2f026b7 a  bua:BUA_0000002 ;
+    rdfs:label "Arbeitsgruppe Kleintier"@de-de,
+        "Small animal reproduction"@en-us ;
+    obo:BFO_0000050 fub:c96750f7-40df-3e57-9199-a0cd32895238 .
+
+fub:26bf9880-cdfc-3896-a53b-e0977da81ac5 a  bua:BUA_0000001 ;
+    rdfs:label "Fachrichtung Fernerkundung und Geoinformatik"@de-de,
+        "Remote Sensing and Geoinformatics"@en-us ;
+    obo:BFO_0000050 fub:c63d0a3d-81d5-37c6-91f2-980ab2dfb7c7 ;
+    bua:geritId "23880" .
+
+fub:28115f3e-2466-3f6a-bdb4-172ab8e00f70 a  bua:BUA_0000001 ;
+    rdfs:label "Organische Chemie"@de-de,
+        "Organic Chemistry"@en-us ;
+    obo:BFO_0000050 fub:6eabed33-7d55-312b-a43f-3778f0609d3a ;
+    bua:geritId "15088" .
+
+fub:29e8ef6e-5aa8-3305-bc80-3f03dcafca42 a  bua:BUA_0000001 ;
+    rdfs:label "Politische Soziologie"@de-de,
+        "Political Sociology"@en-us ;
+    obo:BFO_0000050 fub:6e8850a1-28d3-3ea8-9063-ab4bff863c2d ;
+    bua:geritId "507605572" .
+
+fub:2b3ed0df-c96a-3080-b3de-b2f08be4e915 a  bua:BUA_0000002 ;
+    rdfs:label "AG Franke - Experimentelle Nanophysik"@de-de,
+        "Research Group Franke - Experimental Nanophysics"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:2c3ef739-5391-317b-b3aa-226d0a81fb2c a  bua:BUA_0000001 ;
+    rdfs:label "Neurobiologie"@de-de,
+        "Neurobiology"@en-us ;
+    obo:BFO_0000050 fub:6c660bcb-764d-36e7-a49e-f8a0cf001c62 ;
+    bua:geritId "23859" .
+
+fub:2ce8449e-cd32-3f20-b412-96549a145eea a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsbereich Makrosoziologie"@de-de,
+        "Research unit Macrosociology"@en-us ;
+    obo:BFO_0000050 fub:6e8850a1-28d3-3ea8-9063-ab4bff863c2d .
+
+fub:2cf6ec33-a478-3695-b3d1-44dc366e6401 a  bua:BUA_0000002 ;
+    rdfs:label "Interdisziplinäre Sicherheitsforschung"@de-de,
+        "Interdisciplinary Security Research"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 .
+
+fub:2d153b49-e0de-325e-bc38-a7daf4bc219f a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Tierpathologie (WE12)"@de-de,
+        "Institute of Veterinary Pathology (WE12)"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "15182" .
+
+fub:2e068a9e-b85b-3223-be7f-86cca17f69b4 a  bua:BUA_0000001 ;
+    rdfs:label "Public Health: Prävention und psychosoziale Gesundheitsforschung"@de-de,
+        "Prevention and Psychosocial Health Research"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "37904407" .
+
+fub:2e12cbfc-1507-3ee0-8a67-1db96c9cc6e5 a  bua:BUA_0000036 ;
+    rdfs:label "Lehrstuhl für öffentliche Finanzen"@de-de,
+        "Chair of Public Economics"@en-us ;
+    obo:BFO_0000050 fub:17369b15-f2a0-3980-ba43-43d4acefdfe0 ;
+    bua:geritId "152537494" .
+
+fub:2f121414-a5f9-3721-b9ce-8335bcf0fc6a a  bua:BUA_0000002 ;
+    rdfs:label "AG Clementi - Theoretische und rechnergestützte Biophysik"@de-de,
+        "Research Group Clementi - Theoretical and Computational Biophysics"@en-us ;
+    obo:BFO_0000050 fub:8950b09b-f874-32d4-9ce6-e163d2630bb7 .
+
+fub:2fec43d9-06d2-31e4-9910-6a95c4320a4c a  bua:BUA_0000002 ;
+    rdfs:label "Arbeitsgruppe Reproduktionsmedizin der Rinder und kleinen Wiederkäuer"@de-de,
+        "Cattle and Small Ruminants reproduction"@en-us ;
+    obo:BFO_0000050 fub:c96750f7-40df-3e57-9199-a0cd32895238 .
+
+fub:30255add-d8c2-3d48-a768-d973e2201555 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Lebensmittelsicherheit und -hygiene (WE08)"@de-de,
+        "Institute of Food Safety and Food Hygiene (WE08)"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "15177" .
+
+fub:31e40d0d-222d-3df3-96c5-2dedd73c4ea5 a  bua:BUA_0000001 ;
+    rdfs:label "Qualitative Sozial- und Bildungsforschung"@de-de,
+        "Qualitative Social and Educational Research"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "972337" .
+
+fub:3240dd7e-dcab-3d3b-9dc1-363adc1158f2 a  bua:BUA_0000002 ;
+    rdfs:label "Informationssicherheit"@de-de,
+        "Identity Management"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 .
+
+fub:32692294-3e92-39e1-a2e0-5166f6ff05de a  bua:BUA_0000026 ;
+    rdfs:label "Institut für Chinastudien"@de-de,
+        "Institute of Chinese Studies (incl. Chinese Languages)"@en-us ;
+    obo:BFO_0000050 fub:cf84706c-7086-3f64-9a85-028762edcbf4 .
+
+fub:32cd468b-52cf-3bc7-ab51-12cd08d0c900 a  bua:BUA_0000001 ;
+    rdfs:label "Biologische Psychologie und Kognitive Neurowissenschaft (ehem. AB Emotionspsychologie und Affektive Neurowissenschaft)"@de-de,
+        "Biological Psychology and Cognitive Neuroscience"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 .
+
+fub:333076e0-5ea3-3732-a847-e66f11532508 a  bua:BUA_0000001 ;
+    rdfs:label "Ästhetik und theoretische Philosophie"@de-de,
+        "Aesthetics and Theoretical Philosophy"@en-us ;
+    obo:BFO_0000050 fub:ca2de45e-2f5b-33a4-b2a0-96b243e6a6f8 .
+
+fub:346e0a22-7700-365d-88ba-ad5da7ca015b a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Europäische Integration"@de-de,
+        "Center for European Integration"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:353a3b8a-a087-3e3b-990f-d2a432b2dac9 a  bua:BUA_0000001 ;
+    rdfs:label "Linguistik"@de-de,
+        "Linguistics"@en-us ;
+    obo:BFO_0000050 fub:7809d3c4-3e69-38a3-bbe9-7d6ae374add6 ;
+    bua:geritId "20870" .
+
+fub:37bce7f2-0fe9-3ef8-bb9a-2accc7e1e245 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Kommunikationspolitik / Medienökonomie (Prof. Künzler)"@de-de,
+        "Division Kommunikationspolitik / Medienökonomie (Prof. Künzler)"@en-us ;
+    obo:BFO_0000050 fub:25916307-daef-381e-a1fe-ac3a5152fc96 ;
+    bua:geritId "23995" .
+
+fub:37ed81b2-028f-3afa-89e2-132d44890347 a  bua:BUA_0000002 ;
+    rdfs:label "Abteilung für Dermatologie"@de-de,
+        "Department of Dermatology"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 .
+
+fub:396c84b5-12a9-3cfe-b5de-9dda9a9baba7 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Digitalisierung und Partizipation (Prof. Neuberger)"@de-de,
+        "Division Digitalization and Participation (Prof. Neuberger)"@en-us ;
+    obo:BFO_0000050 fub:25916307-daef-381e-a1fe-ac3a5152fc96 .
+
+fub:39b71989-ebcb-350c-85eb-db2e934d55c4 a  bua:BUA_0000039 ;
+    rdfs:label "Byzantinistik"@de-de,
+        "Byzantine Studiess"@en-us ;
+    obo:BFO_0000050 fub:50edb449-fd24-37e7-a0f9-23123d4b7a00 ;
+    bua:geritId "15083" .
+
+fub:3a0c53d3-09bb-304f-8794-9a0375f9bbe7 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Communication of Knowledge / Science Communication (Prof. Görke)"@de-de,
+        "Division Communication of Knowledge / Science Communication (Prof. Görke)"@en-us ;
+    obo:BFO_0000050 fub:25916307-daef-381e-a1fe-ac3a5152fc96 .
+
+fub:3bad1861-2098-3368-a956-7e6bef666b22 a  bua:BUA_0000002 ;
+    rdfs:label "Gender Studies in der Mathematik"@de-de,
+        "Gender Studies in Mathematics"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:3be358dd-5a6c-3bac-90ee-a4cc474fd991 a  bua:BUA_0000002 ;
+    rdfs:label "Theoretical and Mathematical Physics in Molecular Simulation"@de-de,
+        "Theoretical and Mathematical Physics in Molecular Simulation"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:3bea4e35-c02d-394d-80ce-9c17c9545c9c a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Journalistik (Prof. Lünenborg)"@de-de,
+        "Division Journalism Studies (Prof. Lünenborg)"@en-us ;
+    obo:BFO_0000050 fub:25916307-daef-381e-a1fe-ac3a5152fc96 ;
+    bua:geritId "23992" .
+
+fub:3c851de5-6db9-3b00-93ea-c5aa178fcdf8 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Immunologie (WE06)"@de-de,
+        "Institute of Immunology (scientific unit 06)"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "15189" .
+
+fub:3eb5553a-7468-36fd-b0a0-01bdab3fb746 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Affective Societies: Dynamics of Social Coexistence in Mobile Worlds"@de-de,
+        "Research Area Gender, Body, Sexuality"@en-us ;
+    obo:BFO_0000050 fub:79a47f89-799c-3588-a376-a918024ca6bb .
+
+fub:4202e575-0fea-3bd8-9eac-2f5bcf0db6e0 a  bua:BUA_0000001 ;
+    rdfs:label "Paleontology"@en-us,
+        "Fachrichtung Paläontologie"@de-de ;
+    obo:BFO_0000050 fub:bab1e2d9-e8e4-3e2d-aa46-be5a5c49dfec .
+
+fub:4417c951-148d-3e22-b3e2-2b1b746247ba a  bua:BUA_0000001 ;
+    rdfs:label "Soziologie mit Schwerpunkt Gender Studies"@de-de,
+        "Sociology with focus on Gender Studies"@en-us ;
+    obo:BFO_0000050 fub:6e8850a1-28d3-3ea8-9063-ab4bff863c2d .
+
+fub:452f760a-674b-3040-9591-f72cf67788b7 a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung für Diagnostischer Dienst am Rind"@de-de,
+        "Department of Diagnostic Service for Cattle"@en-us ;
+    obo:BFO_0000050 fub:0f03e4b3-cd53-3a5a-bf79-e08e4444f0d8 .
+
+fub:458b8978-973a-3b6d-b900-787a4fc22eb0 a  bua:BUA_0000002 ;
+    rdfs:label "AG Kampfrath - Terahertz-Physik"@de-de,
+        "Research Group Kampfrath - Terahertz Physics"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:45d7ba07-0b3c-335e-954c-6c8d974c413f a  bua:BUA_0000002 ;
+    rdfs:label "Cybersecurity and AI"@de-de,
+        "Cybersecurity and AI"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 .
+
+fub:46959d63-7f54-30ad-aba4-81a259c55edc a  bua:BUA_0000026 ;
+    rdfs:label "Institute of Turkic Studies"@en-us,
+        "Institut für Turkologie" @de-de ;
+    obo:BFO_0000050 fub:cf84706c-7086-3f64-9a85-028762edcbf4 .
+
+fub:4737dbc5-453c-3d16-b1e8-3c55102597c4 a  bua:BUA_0000001 ;
+    rdfs:label "Allgemeine und Neurokognitive Psychologie"@de-de,
+        "Experimental Psychology and Neurocognitive Psychology"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "23933" .
+
+fub:475fa66a-d3f2-3e30-95cf-ed59620e364b a  bua:BUA_0000001 ;
+    rdfs:label "Sozialpädagogik"@de-de,
+        "Social Education in Social Work (Social Pedagogy)"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "20866" .
+
+fub:480a1e32-d25e-3499-9485-cc0d2d4d1a08 a  bua:BUA_0000002 ;
+    rdfs:label "AG Klimadiagnostik und Meteorologische Extremereignisse"@de-de,
+        "WG Climate Diagnostics and Extreme Meteorological Events"@en-us ;
+    obo:BFO_0000050 fub:b18711cf-b35a-3efe-8718-a1429ca599fc .
+
+fub:48c56587-ce47-3a0b-850b-7d401dfb1e2a a  bua:BUA_0000002 ;
+    rdfs:label "Abteilung für Neurologie"@de-de,
+        "Department of Neurology"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 .
+
+fub:4989ddea-810c-35db-8562-15fa90939fdd a  bua:BUA_0000002 ;
+    rdfs:label "Computer Systems and Telematics"@de-de,
+        "Computer Systems and Telematics"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 ;
+    bua:geritId "971276" .
+
+fub:4a759013-326e-3406-82e9-497c0d706510 a  bua:BUA_0000002 ;
+    rdfs:label "AG Rogal - Theorie struktureller Phasenumwandlungen in kondensierter Materie"@de-de,
+        "Research Group Rogal - Sampling structural phase transformations in condensed matter systems"@en-us ;
+    obo:BFO_0000050 fub:8950b09b-f874-32d4-9ce6-e163d2630bb7 .
+
+fub:4a89617d-152e-32db-bfda-ca5662227149 a  bua:BUA_0000001 ;
+    rdfs:label "Physikalische und Theoretische Chemie"@de-de,
+        "Physical and Theoretical Chemistry"@en-us ;
+    obo:BFO_0000050 fub:6eabed33-7d55-312b-a43f-3778f0609d3a ;
+    bua:geritId "15091" .
+
+fub:4ac42843-09b2-3161-ac66-cbf856a98e86 a  bua:BUA_0000001 ;
+    rdfs:label "Lernpsychologie"@de-de,
+        "Learning Psychology"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "373151081" .
+
+fub:4b3de1b2-c463-3a69-9163-2451f75c027d a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Romanische Philologie (WE 5)"@de-de,
+        "Institute of Romance Languages and Literatures (WE 5)"@en-us ;
+    obo:BFO_0000050 fub:606a52db-1c8c-37fe-b41d-fe1e4fc0fa55 ;
+    bua:geritId "15150" .
+
+fub:4b716114-1565-3a27-887d-9c86b3a7d4b1 a  bua:BUA_0000002 ;
+    rdfs:label "Labor"@de-de,
+        "Laboratory"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 ;
+    bua:geritId "193136807" .
+
+fub:4b91bca3-8625-3fa6-a1c3-1f2eb2081ce5 a  bua:BUA_0000002 ;
+    rdfs:label "Algebraische Topologie"@de-de,
+        "Algebraic Topology"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:4d2c5556-dc0e-3484-8373-60491d9f4c08 a  bua:BUA_0000001 ;
+    rdfs:label "Genetik"@de-de,
+        "Genetics"@en-us ;
+    obo:BFO_0000050 fub:6c660bcb-764d-36e7-a49e-f8a0cf001c62 ;
+    bua:geritId "23855" .
+
+fub:4e9381b3-8f57-332f-bd8d-9b333856ef2f a  bua:BUA_0000001 ;
+    rdfs:label "Sprachpraxis"@de-de,
+        "English for Academic Purposes"@en-us ;
+    obo:BFO_0000050 fub:7809d3c4-3e69-38a3-bbe9-7d6ae374add6 .
+
+fub:4f96db7d-7332-3eaa-ba00-e8381b021f95 a  bua:BUA_0000001 ;
+    rdfs:label "Integrationspädagogik, Bewegung und Sport"@de-de,
+        "Inclusive Education, Physical Activity and Sport"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "413461144" .
+
+fub:50612783-c1d1-3a07-9fb6-8c270d93f257 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Veterinär-Anatomie (WE01)"@de-de,
+        "Institute of Veterinary Anatomy"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "15181" .
+
+fub:50d7ecc8-aa8f-3c54-aafa-2e334f0e5101 a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Politische Soziologie der Bundesrepublik Deutschland"@de-de,
+        "Center for Political Sociology of Germany"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:521d604f-0bda-317d-abad-647fefc46623 a  bua:BUA_0000001 ;
+    rdfs:label "Unterrichts- und Schulevaluation"@de-de,
+        "Teaching and School Evaluation"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 .
+
+fub:52fec2ed-688b-3119-8009-509a77cde5e1 a  bua:BUA_0000002 ;
+    rdfs:label "Datenbanken und Informationssysteme"@de-de,
+        "Databases and Information Systems"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 .
+
+fub:54929ca6-8672-3d6e-9381-49596e454e97 a  bua:BUA_0000001 ;
+    rdfs:label "History Education"@de-de,
+        "History Education"@en-us ;
+    obo:BFO_0000050 fub:f2ce8fe9-71e7-3aed-8b3b-a0d02a477e72 .
+
+fub:55992f61-8952-30ab-bbe3-d4272e68f77e a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Veterinär-Physiologie (WE02)"@de-de,
+        "Institute of Veterinary Physiology (WE02)"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "15183" .
+
+fub:55e619da-db94-3ad1-b679-a6a24023ec55 a  bua:BUA_0000001 ;
+    rdfs:label "Schul- und Unterrichtsforschung"@de-de,
+        "School and Teaching Research"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "273534847" .
+
+fub:571db47d-3f66-3590-9ecd-15f49bd084ab a  bua:BUA_0000043 ;
+    rdfs:label "Theater- und Tanzwissenschaft"@de-de,
+        "Theater and Dance Studies"@en-us ;
+    obo:BFO_0000050 fub:b037834d-86f2-3bec-b3b2-b388d7c1a485 .
+
+fub:577ecf96-337f-369d-94e5-666e37066c72 a  bua:BUA_0000001 ;
+    rdfs:label "Empirische Bildungs- und Hochschulforschung"@de-de,
+        "Empirical Educational and Higher Education Research"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 .
+
+fub:5ad487b3-45fc-3136-a293-37f089bd3d66 a  bua:BUA_0000002 ;
+    rdfs:label "AG Statistische Meteorologie"@de-de,
+        "WG Statistical Meteorology"@en-us ;
+    obo:BFO_0000050 fub:b18711cf-b35a-3efe-8718-a1429ca599fc .
+
+fub:5c975f3e-6d49-393a-8443-398858e4e025 a  bua:BUA_0000002 ;
+    rdfs:label "AG Elsaesser - Experimentelle Biophysik und Weltraumwissenschaften"@de-de,
+        "Research Group Elsaesser - Experimental Biophysics and Space Sciences"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:5d1a8007-74df-38f8-a75e-72eed0446c9e a  bua:BUA_0000002 ;
+    rdfs:label "Abteilung für innere Medizin- Notfallmedizin (Innere Medizin, Dermatologie, Onkologie, Zytologie)"@de-de,
+        "Department of internal medicine - emergency medicine (internal medicine, dermatology, oncology, cytology)"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 .
+
+fub:5d2d64cc-b727-32dd-a8ef-194109e9f812 a  bua:BUA_0000001 ;
+    rdfs:label "Neural Dynamics of Visual Cognition"@de-de,
+        "Neural Dynamics of Visual Cognition"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 .
+
+fub:5d705c75-7aec-3ed7-9d8f-918a39998524 a  bua:BUA_0000002 ;
+    rdfs:label "Funktionalanalysis und Wahrscheinlichkeitstheorie"@de-de,
+        "Functional Analysis and Probability Theory"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 ;
+    bua:geritId "23867" .
+
+fub:5fffef7a-27f5-3b49-8a39-2928101769b6 a  bua:BUA_0000001 ;
+    rdfs:label "Ethik und interdisziplinäre Geschlechterforschung"@de-de,
+        "Ethics and Interdisciplinary Gender Studies"@en-us ;
+    obo:BFO_0000050 fub:ca2de45e-2f5b-33a4-b2a0-96b243e6a6f8 .
+
+fub:603710ac-1bb0-3906-a271-617f7996c3b7 a  bua:BUA_0000001 ;
+    rdfs:label "Neurocomputation and Neuroimaging"@de-de,
+        "Neurocomputation and Neuroimaging"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "274580387" .
+
+fub:603b3e48-b472-3898-922a-012655f523bb a  bua:BUA_0000004 ;
+    rdfs:label "Ambulanz"@de-de,
+        "Field Service/ Ambulance"@en-us ;
+    obo:BFO_0000050 fub:0f03e4b3-cd53-3a5a-bf79-e08e4444f0d8 .
+
+fub:607d37d6-880f-3083-8d23-01d8f5bb1648 a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Friedens- und Konfliktforschung"@de-de,
+        "Center for Peace and Conflict Studies"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:618daa6b-96ae-3ec3-8cf5-25e13d415aa1 a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung für Innere Medizin"@de-de,
+        "Department of Internal Medicine"@en-us ;
+    obo:BFO_0000050 fub:b67db508-af4f-3648-bc92-a556650c4751 .
+
+fub:61b9d6c2-f92c-3acf-9177-85344fa5fe9c a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Methoden empirischer Sozialforschung"@de-de,
+        "Center for Methods of Empirical Social Research"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:620e7a7a-993d-3bc1-a425-917585422697 a  bua:BUA_0000002 ;
+    rdfs:label "Computational Systems Biology"@de-de,
+        "Computational Systems Biology"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:6233251a-7abc-3c4a-916e-5108958c7aa8 a  bua:BUA_0000001 ;
+    rdfs:label "Seniorprofessur Jürgen Gerhards"@de-de,
+        "Senior Professor Jürgen Gerhards"@en-us ;
+    obo:BFO_0000050 fub:6e8850a1-28d3-3ea8-9063-ab4bff863c2d .
+
+fub:64bb5960-f749-3c67-b5fa-4fef28da740a a  bua:BUA_0000039 ;
+    rdfs:label "Neogräzistik"@de-de,
+        "Modern Greek Studies"@en-us ;
+    obo:BFO_0000050 fub:50edb449-fd24-37e7-a0f9-23123d4b7a00 ;
+    bua:geritId "200132266" .
+
+fub:64d2a0ff-ea5f-3904-9afb-0e62366fb00f a  bua:BUA_0000001 ;
+    rdfs:label "Klinische Psychologie und Psychotherapie"@de-de,
+        "Clinical Psychology and Psychotherapy"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "37884863" .
+
+fub:660e441b-dd6b-3e2a-ac99-ba725bb30062 a  bua:BUA_0000001 ;
+    rdfs:label "Klinische Kinder- und Jugendpsychologie und –psychotherapie"@de-de,
+        "Clinical child and adolescent psychology and psychotherapy"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 .
+
+fub:672b6fd8-ce63-321f-91c3-a4a982c24fec a  bua:BUA_0000004 ;
+    rdfs:label "Kunstgeschichte Südasiens (bis 2013)"@de-de,
+        "Art History of South Asia (until 2013)"@en-us ;
+    obo:BFO_0000050 fub:467358d3-946a-321b-8247-3a608fdea3e7 .
+
+fub:68d9a4ad-f6a0-3703-8a8b-7424894f2788 a  bua:BUA_0000001 ;
+    rdfs:label "Bildungsforschung / Heterogenität und Bildung"@de-de,
+        "Education Reserach / Heterogenity and Education"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "267120201" .
+
+fub:6993a7ea-919e-375b-a911-c7da95c32e76 a  bua:BUA_0000002 ;
+    rdfs:label "AG Satellitenmeteorologie"@de-de,
+        "WG Satellite Meteorology"@en-us ;
+    obo:BFO_0000050 fub:b18711cf-b35a-3efe-8718-a1429ca599fc ;
+    bua:geritId "971277" .
+
+fub:69c0c37a-f765-37fb-ab92-da7d14c0e3e7 a  bua:BUA_0000004 ;
+    rdfs:label "Kunst Afrikas"@de-de,
+        "Art History of Africa"@en-us ;
+    obo:BFO_0000050 fub:467358d3-946a-321b-8247-3a608fdea3e7 ;
+    bua:geritId "200030180" .
+
+fub:6b26b5e8-123e-3cd6-a1ad-7772ec1f0fe0 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Mediennutzung (Prof. Emmer)"@de-de,
+        "Division Media Use Research (Prof. Emmer)"@en-us ;
+    obo:BFO_0000050 fub:25916307-daef-381e-a1fe-ac3a5152fc96 .
+
+fub:6b34a7ec-80d8-317d-aff9-976491b12e6f a  bua:BUA_0000002 ;
+    rdfs:label "Artificial Intelligence for the Sciences"@de-de,
+        "Artificial Intelligence for the Sciences"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 ;
+    bua:geritId "517439812" .
+
+fub:6c161405-1030-326a-b5bd-89b9fc328ddc a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Tierschutz, Tierverhalten und Versuchstierkunde (WE11)"@de-de,
+        "Institute of Animal Welfare, Animal Behavior and Laboratory Animal Science (WE11)"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "15180" .
+
+fub:6dece3df-a7b9-3509-af5c-ab05b6fd9556 a  bua:BUA_0000001 ;
+    rdfs:label "Weiterbildung und Bildungsmanagement"@de-de,
+        "Further Education and Educational Management"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "971288" .
+
+fub:6e8d0d9a-4268-314a-a007-51c716643a05 a  bua:BUA_0000001 ;
+    rdfs:label "Didaktik der Alten Sprachen (Latein/Griechisch)"@de-de,
+        "Didactics of Classical Languages (Latin/Greek)"@en-us ;
+    obo:BFO_0000050 fub:50edb449-fd24-37e7-a0f9-23123d4b7a00 .
+
+fub:6eb224e1-e54d-3c9a-a92e-22011d34f623 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Freigeist Fellowship - The Populism of the Precarious"@de-de,
+        "Research Area Freigeist Fellowship - The Populism of the Precarious"@en-us ;
+    obo:BFO_0000050 fub:79a47f89-799c-3588-a376-a918024ca6bb .
+
+fub:6f812efa-e1a1-37a7-a4e5-aa5340bb9814 a  bua:BUA_0000001 ;
+    rdfs:label "Geschichte des Mittelalters"@de-de,
+        "Medieval History"@en-us ;
+    obo:BFO_0000050 fub:f2ce8fe9-71e7-3aed-8b3b-a0d02a477e72 .
+
+fub:702367d0-c5fc-3ad8-b40c-0d8da927e18a a  bua:BUA_0000002 ;
+    rdfs:label "AG von Oppen - Quantentransporttheorie"@de-de,
+        "Research Group von Oppen - Theory of Quantum Transport"@en-us ;
+    obo:BFO_0000050 fub:8950b09b-f874-32d4-9ce6-e163d2630bb7 .
+
+fub:703c846f-4697-377b-a4cd-832f236d848e a  bua:BUA_0000036 ;
+    rdfs:label "Professur für Statistik"@de-de,
+        "Chair of Statistics"@en-us ;
+    obo:BFO_0000050 fub:17369b15-f2a0-3980-ba43-43d4acefdfe0 .
+
+fub:70ffd80a-81b2-3627-b715-21beef6490a8 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Judaistik (WE 5)"@de-de,
+        "Institute of Jewish Studies (WE 5)"@en-us ;
+    obo:BFO_0000050 fub:be9eef72-ff24-38b2-a552-b8c6c9f1d3ea ;
+    bua:geritId "15161" .
+
+fub:719735fc-17d9-3b06-bb40-d4383cabe27a a  bua:BUA_0000001 ;
+    rdfs:label "Botanik"@de-de,
+        "Botany"@en-us ;
+    obo:BFO_0000050 fub:6c660bcb-764d-36e7-a49e-f8a0cf001c62 ;
+    bua:geritId "236620372" .
+
+fub:71f0d157-6ad9-31ec-985c-5f518b55f6d1 a  bua:BUA_0000002 ;
+    rdfs:label "AG Modellierung des Klimasystems"@de-de,
+        "WG Climate System Modeling"@en-us ;
+    obo:BFO_0000050 fub:b18711cf-b35a-3efe-8718-a1429ca599fc .
+
+fub:725e2415-74de-3fed-8584-ef3d390b6aa2 a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung Grenzflächenwissenschaft"@de-de,
+        "Department of Interface Science (ISC)"@en-us ;
+    obo:BFO_0000050 fub:dd86d1f0-dba5-3649-8ef0-0ae3fec0e36d .
+
+fub:72dac5a5-eb2e-31ed-9d7d-5e06a5cbb0f9 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Katastrophenforschung"@de-de,
+        "Disaster Research Unit"@en-us ;
+    obo:BFO_0000050 fub:79a47f89-799c-3588-a376-a918024ca6bb .
+
+fub:72f7a410-3515-3199-943a-9b7235b81de0 a  bua:BUA_0000001 ;
+    rdfs:label "Allgemeine Psychologie und Neuropsychologie"@de-de,
+        "Experimental Psychology and Neuropsychology"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "980960" .
+
+fub:73955f39-0e25-3a3b-a91f-eeabba9371ed a  bua:BUA_0000001 ;
+    rdfs:label "Methoden der empirischen Sozialforschung"@de-de,
+        "Methods of Empirical Social Research"@en-us ;
+    obo:BFO_0000050 fub:6e8850a1-28d3-3ea8-9063-ab4bff863c2d .
+
+fub:748d7d57-adc8-3d07-9ba4-4897f87342da a  bua:BUA_0000001 ;
+    rdfs:label "Pharmazeutische Technologie"@de-de,
+        "Pharmaceutical Technology"@en-us ;
+    obo:BFO_0000050 fub:bbbcf236-f267-3f6d-8254-b37be56535a5 ;
+    bua:geritId "972334" .
+
+fub:76fb94b0-0d4b-3a79-a7e0-9aef7d971b89 a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Internationale und Vergleichende Politische Ökonomie"@de-de,
+        "Center for International and Comparative Political Economy"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:776af293-6b3b-3b70-a4a9-9ac2f396d7ad a  bua:BUA_0000001 ;
+    rdfs:label "Philosophie des Geistes und Philosophie der Emotionen"@de-de,
+        "Philosophie des Geistes und Philosophie der Emotionen"@en-us ;
+    obo:BFO_0000050 fub:ca2de45e-2f5b-33a4-b2a0-96b243e6a6f8 .
+
+fub:77cb5df2-c1ab-322f-826d-48000d950830 a  bua:BUA_0000002 ;
+    rdfs:label "Biocomputing"@de-de,
+        "Biocomputing"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 ;
+    bua:geritId "200108123" .
+
+fub:78ed39fd-a628-34cf-b76b-198e41a2b8a5 a  bua:BUA_0000001 ;
+    rdfs:label "Physical Geography"@en-us,
+        "Fachrichtung Physische Geographie"@de-de ;
+    obo:BFO_0000050 fub:c63d0a3d-81d5-37c6-91f2-980ab2dfb7c7 .
+
+fub:78fb4825-8994-3010-80cf-f22c4bea9aa1 a  bua:BUA_0000026 ;
+    rdfs:label "Institut für Islamwissenschaft"@de-de,
+        "Institute of Islamic Studies"@en-us ;
+    obo:BFO_0000050 fub:cf84706c-7086-3f64-9a85-028762edcbf4 ;
+    bua:geritId "15160" .
+
+fub:7926ebb8-fc4e-305d-aa84-b152c89f5f0c a  bua:BUA_0000002 ;
+    rdfs:label "AG Behrends - EPR-Spektroskopie in der Photovoltaik"@de-de,
+        "Research Group Behrends - EPR Spectroscopy in Photovoltaics"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:79e33291-9156-311d-b6e7-56a590a4252a a  bua:BUA_0000026 ;
+    rdfs:label "Institut für Japanologie"@de-de,
+        "Institute of Japanese Studies"@en-us ;
+    obo:BFO_0000050 fub:cf84706c-7086-3f64-9a85-028762edcbf4 .
+
+fub:7a39c7d6-61a2-357a-adc2-edb8f0974fd4 a  bua:BUA_0000001 ;
+    rdfs:label "Mathematische Bildung und Gesellschaft"@de-de,
+        "Mathematics Education and Society"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 .
+
+fub:7a540fa6-6517-3afd-a936-1692b5daac4d a  bua:BUA_0000002 ;
+    rdfs:label "Komplexe Analysis"@de-de,
+        "Complex Analysis"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:7be5fb8d-c231-390d-a6fe-13d5347dbaf5 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Medical Anthropology | Global Health"@de-de,
+        "Research Area Medical Anthropology | Global Health"@en-us ;
+    obo:BFO_0000050 fub:79a47f89-799c-3588-a376-a918024ca6bb .
+
+fub:7bf494e9-f900-3216-b8ff-e6d0751232c6 a  bua:BUA_0000000,
+        owl:NamedIndividual ;
+    rdfs:label "Zivilrecht (WE 1)"@de-de,
+        "Civil Law"@en-us ;
+    obo:BFO_0000050 fub:0f8b00ae-6465-31fc-8544-0982d1f37acc .
+
+fub:7da7f943-6a0e-3556-bf94-7a68183e1495 a  bua:BUA_0000002 ;
+    rdfs:label "Didaktik der Mathematik"@de-de,
+        "Didaktik der Mathematik"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:7db7f741-7500-319e-884a-fdc5c50c2ffc a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Transformation im Diskurs"@de-de,
+        "Center for Transformation in Discourse"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:7f1610fc-4e64-386a-800a-476740acce0b a  bua:BUA_0000001 ;
+    rdfs:label "Didaktik des Englischen"@de-de,
+        "English Didactics"@en-us ;
+    obo:BFO_0000050 fub:7809d3c4-3e69-38a3-bbe9-7d6ae374add6 .
+
+fub:7f56640d-03a5-3da4-bbae-f7ad7a594791 a  bua:BUA_0000001 ;
+    rdfs:label "Public History"@de-de,
+        "Public History"@en-us ;
+    obo:BFO_0000050 fub:f2ce8fe9-71e7-3aed-8b3b-a0d02a477e72 .
+
+fub:7f6beaed-450a-3c9c-9c4c-b57cab28ce61 a  bua:BUA_0000002 ;
+    rdfs:label "Verwaltung"@de-de,
+        "Administration"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 ;
+    bua:geritId "117165167" .
+
+fub:81c7d46d-2927-3ca6-995a-ec545565cf3d a  bua:BUA_0000001 ;
+    rdfs:label "Anorganische Chemie"@de-de,
+        "Inorganic Chemistry"@en-us ;
+    obo:BFO_0000050 fub:6eabed33-7d55-312b-a43f-3778f0609d3a ;
+    bua:geritId "15088" .
+
+fub:81e4f20d-f260-3aa1-9daa-bd6e15032ae5 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Tierernährung (WE04)"@de-de,
+        "Institute of Animal Nutrition (WE04)"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "15179" .
+
+fub:837335cb-1dc7-3e2f-a4ff-1b7092b2d26c a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Religionswissenschaft (WE 8)"@de-de,
+        "Institute of Religious Studies (WE 8)"@en-us ;
+    obo:BFO_0000050 fub:be9eef72-ff24-38b2-a552-b8c6c9f1d3ea ;
+    bua:geritId "15162" .
+
+fub:85444643-1709-3a59-97ac-4cc4715f5772 a  bua:BUA_0000026 ;
+    rdfs:label "Institute of Korean Studies"@en-us,
+        "Institut für Koreastudien"@de-de ;
+    obo:BFO_0000050 fub:cf84706c-7086-3f64-9a85-028762edcbf4 .
+
+fub:868ba8d8-faea-3df5-a28e-a8cea222df04 a  bua:BUA_0000002 ;
+    rdfs:label "Theoretische Informatik"@de-de,
+        "Theoretical Informatics"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 ;
+    bua:geritId "20874" .
+
+fub:87fce8e9-a9d5-312a-811a-6f0f5788ac79 a  bua:BUA_0000001 ;
+    rdfs:label "Sozial-, Organisations- und Wirtschaftspsychologie"@de-de,
+        "Social, Organizational and Economic Psychology"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 .
+
+fub:88944354-2173-38f7-af52-9e15c7233cdb a  bua:BUA_0000001 ;
+    rdfs:label "Pharmazeutische Biologie"@de-de,
+        "Pharmaceutical Biology"@en-us ;
+    obo:BFO_0000050 fub:bbbcf236-f267-3f6d-8254-b37be56535a5 ;
+    bua:geritId "20748984" .
+
+fub:8a035482-3dbe-30e7-8cb3-e7900ecea866 a  bua:BUA_0000001 ;
+    rdfs:label "Klinisch-Psychologische Intervention"@de-de,
+        "Clinical Psychological Intervention"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "386871518" .
+
+fub:8b339a86-f2e4-3d8e-92d4-344ae1ada454 a  bua:BUA_0000001 ;
+    rdfs:label "Organisationspädagogik"@de-de,
+        "Division Consumer-Organizational Pedagogy"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "502670854" .
+
+fub:8cbe3f33-cdd9-35df-a5d8-1cc888ca0a64 a  bua:BUA_0000002 ;
+    rdfs:label "AG Weinelt - Ultraschnelle Dynamik an Oberflächen"@de-de,
+        "Research Group Weinelt - Ultrafast Surface Dynamics"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:8ce4690b-677c-3fa5-a3a6-3589ff47191a a  bua:BUA_0000001 ;
+    rdfs:label "Entwicklungswissenschaft und Angewandte Entwicklungspsychologie"@de-de,
+        "Developmental Science and Applied Developmental Psychology"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "15094" .
+
+fub:8cf63658-4ea5-3660-933f-c80d89f4ee9c a  bua:BUA_0000001 ;
+    rdfs:label "Rechnungslegung, Finanzierung, Besteuerung und Prüfung von Unternehmen"@de-de,
+        "Finance, Accounting & Taxation (FACTS)"@en-us ;
+    obo:BFO_0000050 fub:0cfe8af7-613a-3a04-b786-1eecf01f5afd .
+
+fub:8d00dbad-5bbc-3131-af6e-3497eb2afbe3 a  bua:BUA_0000002 ;
+    rdfs:label "AG Stadtmessnetz"@de-de,
+        "WG City Measurement Network"@en-us ;
+    obo:BFO_0000050 fub:b18711cf-b35a-3efe-8718-a1429ca599fc .
+
+fub:8dcc4683-c06a-3357-b194-263b57715aad a  bua:BUA_0000002 ;
+    rdfs:label "AG Reissig - Molekulare Biophysik mit Schwerpunkt photonische Materialien"@de-de,
+        "Research Group Reissig - Molecular Biophysics with focus on Photonic Materials"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:8dd92152-a8ad-3a02-adb6-6ade72417b11 a  bua:BUA_0000001 ;
+    rdfs:label "Theoretische Philosophie"@de-de,
+        "Theoretical Philosophy"@en-us ;
+    obo:BFO_0000050 fub:ca2de45e-2f5b-33a4-b2a0-96b243e6a6f8 .
+
+fub:8dda69dd-027f-3080-af65-cc29d95ef60f a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Politische Systeme Nordamerikas"@de-de,
+        "John F. Kennedy Institute for North American Studies"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:8f72d45a-3f5e-3455-803b-5eda39b0e0d3 a  bua:BUA_0000002 ;
+    rdfs:label "Internet Technologies"@de-de,
+        "Internet Technologies"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 .
+
+fub:8f9abb32-aea9-3ccc-8727-98994a846f11 a  bua:BUA_0000002 ;
+    rdfs:label "Diskrete Methoden in der algebraischen Geometrie & Mathematik für das Lehramt"@de-de,
+        "Discrete Algebraic Geometry & Math for Teaching Post"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:902fea58-6cb2-3ce9-a73e-d180928bef12 a  bua:BUA_0000002 ;
+    rdfs:label "Human-Centered Computing"@de-de,
+        "Human-Centered Computing"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 ;
+    bua:geritId "275412255" .
+
+fub:93ca7f15-d40d-3ff6-b3d1-5a902e00df58 a  bua:BUA_0000001 ;
+    rdfs:label "Empirische Bildungsforschung"@de-de,
+        "Empirical Research in Education"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "970992" .
+
+fub:94ff6460-0b65-3707-aea7-7b8fc3637c42 a  bua:BUA_0000001 ;
+    rdfs:label "Management-Department"@de-de,
+        "Department of Management"@en-us,
+        "Marketing Department"@en-us ;
+    obo:BFO_0000050 fub:0cfe8af7-613a-3a04-b786-1eecf01f5afd ;
+    bua:geritId "22784" .
+
+fub:9676c740-084d-3c7e-b410-fa505b8c268b a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Politisches System der Bundesrepublik Deutschland"@de-de,
+        "Center for German Politics"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:96a43730-de62-3e3a-915e-aa3d298d5d97 a  bua:BUA_0000001 ;
+    rdfs:label "Area Histories"@de-de,
+        "Area Histories"@en-us ;
+    obo:BFO_0000050 fub:f2ce8fe9-71e7-3aed-8b3b-a0d02a477e72 .
+
+fub:974e1a0b-c3cd-3cc3-8d4e-bb6595a311a1 a  bua:BUA_0000001 ;
+    rdfs:label "Fachrichtung Planetologie und Fernerkundung"@de-de,
+        "Planetary Sciences and Remote Sensing"@en-us ;
+    obo:BFO_0000050 fub:bab1e2d9-e8e4-3e2d-aa46-be5a5c49dfec ;
+    bua:geritId "199935899" .
+
+fub:989b7ab2-51d1-32e4-855b-82805bc02896 a  bua:BUA_0000001 ;
+    rdfs:label "Chemiedidaktik"@de-de,
+        "Chemistry Education"@en-us ;
+    obo:BFO_0000050 fub:6eabed33-7d55-312b-a43f-3778f0609d3a ;
+    bua:geritId "43557281" .
+
+fub:9a2f2041-0737-3f04-ad75-7550da3cb9d7 a  bua:BUA_0000036 ;
+    rdfs:label "Professur für Ökonometrie"@de-de,
+        "Chair of Econometrics"@en-us ;
+    obo:BFO_0000050 fub:17369b15-f2a0-3980-ba43-43d4acefdfe0 .
+
+fub:9ad5e1d7-f7dd-3e06-b153-50e055a5a0b4 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Kommunikationsgeschichte und Medienkulturen (Prof. Löblich)"@de-de,
+        "Division Communication History and Media Cultures (Prof. Löblich)"@en-us ;
+    obo:BFO_0000050 fub:25916307-daef-381e-a1fe-ac3a5152fc96 ;
+    bua:geritId "24053" .
+
+fub:9b115a34-490b-3632-8c7a-ec9e3b182689 a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Deutschland und Frankreich"@de-de,
+        "Center for Comparative Politics of Germany and France"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:9b25b50e-27bf-3e7f-a4e9-a84571776845 a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Osteuropa und Russland"@de-de,
+        "Center for Eastern Europe and Russia"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:9bd7dc14-c0b3-3232-84de-b513747a15e6 a  bua:BUA_0000001 ;
+    rdfs:label "Physiologie und Biochemie"@de-de,
+        "Plant Physiology and Biochemistry"@en-us ;
+    obo:BFO_0000050 fub:6c660bcb-764d-36e7-a49e-f8a0cf001c62 .
+
+fub:9cc7390a-742c-3d9e-96e0-29e52c12cf67 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Veterinär-Epidemiologie und Biometrie (WE16)"@de-de,
+        "Institute for Veterinary Epidemiology and Biostatistics"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "299147197" .
+
+fub:9d6c1e14-b076-3ea9-9c89-12270e719de8 a  bua:BUA_0000001 ;
+    rdfs:label "Soziologie, Schwerpunkt Soziologie der Emotionen"@de-de,
+        "Sociology of Emotions"@en-us ;
+    obo:BFO_0000050 fub:6e8850a1-28d3-3ea8-9063-ab4bff863c2d .
+
+fub:9e89050a-78c1-34f5-984a-3bf01f4af56c a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Tier- und Umwelthygiene, ITU (WE 10)"@de-de,
+        "Institute for Animal Hygiene and Environmental Health"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f .
+
+fub:9eb55f01-f281-3906-8a9f-e816d69d83d0 a  bua:BUA_0000002 ;
+    rdfs:label "AG Koch - Quantendynamik und -kontrolle"@de-de,
+        "Research Group Koch - Quantum dynamics and control"@en-us ;
+    obo:BFO_0000050 fub:8950b09b-f874-32d4-9ce6-e163d2630bb7 .
+
+fub:9f4ff2c0-5245-3c25-acd7-e4d6738ec4eb a  bua:BUA_0000004 ;
+    rdfs:label "Ostasiatische Kunstgeschichte"@de-de,
+        "Art History of East Asia"@en-us ;
+    obo:BFO_0000050 fub:467358d3-946a-321b-8247-3a608fdea3e7 ;
+    bua:geritId "200030491" .
+
+fub:a0117591-4de3-33aa-9f90-52e2fb47ce78 a  bua:BUA_0000002 ;
+    rdfs:label "AG Stadtklima und Gesundheit"@de-de,
+        "WG Urban Climate and Urban Monitoring Network"@en-us ;
+    obo:BFO_0000050 fub:b18711cf-b35a-3efe-8718-a1429ca599fc .
+
+fub:a0f8dc70-569d-3ce8-b85c-72444f8e6a9c a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung Theorie"@de-de,
+        "Theory Department"@en-us ;
+    obo:BFO_0000050 fub:dd86d1f0-dba5-3649-8ef0-0ae3fec0e36d .
+
+fub:a1875758-1f38-33bb-8b30-665a403bdca3 a  bua:BUA_0000002 ;
+    rdfs:label "AG Schlesinger - Genetische Biophysik"@de-de,
+        "Research Group Schlesinger - Genetic Biophysics"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:a18db29f-364d-3ba7-a751-255cdc97cd26 a  bua:BUA_0000002 ;
+    rdfs:label "Mathematische Geometrieverarbeitung"@de-de,
+        "Mathematical Geometry Processing"@en-us,
+        "Medizinische Bioinformatik"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:a40b2c78-6bc6-33b1-8eb2-09aa91918245 a  bua:BUA_0000002 ;
+    rdfs:label "Software Engineering"@de-de,
+        "Software Engineering"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 .
+
+fub:a42a8010-45f9-3c19-8d77-c3bf8b04318c a  bua:BUA_0000026 ;
+    rdfs:label "Institut für Vorderasiatische Archäologie"@de-de,
+        "Institute of Ancient near Eastern  Archaeology"@en-us ;
+    obo:BFO_0000050 fub:1aaa97b5-3a04-310c-a8e1-c1de4146a369 ;
+    bua:geritId "20856" .
+
+fub:a508d45e-4560-3616-b162-538083587584 a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung Anorganische Chemie"@de-de,
+        "Department of Inorganic Chemistry"@en-us ;
+    obo:BFO_0000050 fub:dd86d1f0-dba5-3649-8ef0-0ae3fec0e36d ;
+    bua:geritId "15088" .
+
+fub:a5904c76-11a3-3e92-9a8c-bff222783411 a  bua:BUA_0000026 ;
+    rdfs:label "Ägyptologisches Seminar"@de-de,
+        "Egyptology"@en-us ;
+    obo:BFO_0000050 fub:1aaa97b5-3a04-310c-a8e1-c1de4146a369 ;
+    bua:geritId "20859" .
+
+fub:a5cb5cd2-32a7-3261-b5a8-40a9ea8606ce a  bua:BUA_0000002 ;
+    rdfs:label "Sichere Identität"@de-de,
+        "Secure Identity"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 .
+
+fub:a63cb1fd-2cf8-393e-84c0-587beb22c659 a  bua:BUA_0000002 ;
+    rdfs:label "Computergestützte Statistische & Biologische Physik"@de-de,
+        "Computational Statistical & Biological Physics"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 ;
+    bua:geritId "274324289" .
+
+fub:a85fa32c-46fe-3a48-ae02-73259e7801d3 a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung für Reproduktionsmedizin"@de-de,
+        "Department of Reproductive Medicine"@en-us ;
+    obo:BFO_0000050 fub:b67db508-af4f-3648-bc92-a556650c4751 .
+
+fub:a9d139fd-9ded-358f-829a-0b5126318e21 a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Internationale Beziehungen"@de-de,
+        "Center for Transnational Studies, Foreign- and Security Policy"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:a9e226d0-1e15-356d-a5a1-b3d62af84134 a  bua:BUA_0000001 ;
+    rdfs:label "Sonderpädagogik"@de-de,
+        "Special Education"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "448908245" .
+
+fub:aa2c0bf8-3348-399e-889f-688632c8cd00 a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Maghreb, Mashreq und Golf"@de-de,
+        "Center for Middle Eastern and North African Politics"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:aa91dc3a-7a7b-35b3-9232-f01c759082a3 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Internationale Kommunikation (Prof. Richter)"@de-de,
+        "Division International Communication (Prof. Richter)"@en-us ;
+    obo:BFO_0000050 fub:25916307-daef-381e-a1fe-ac3a5152fc96 .
+
+fub:ab71b491-5014-33c4-b25a-6a3ed1234af1 a  bua:BUA_0000002 ;
+    rdfs:label "AG Dau -Biophysik und Photosynthese"@de-de,
+        "Research Group Dau - Biophysics and Photosynthesis"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:ac9a4070-fbb1-3e82-8849-f8b8186da79e a  bua:BUA_0000001 ;
+    rdfs:label "Ethik"@de-de,
+        "Ethics"@en-us ;
+    obo:BFO_0000050 fub:ca2de45e-2f5b-33a4-b2a0-96b243e6a6f8 ;
+    bua:geritId "15158" .
+
+fub:ae529aa2-4b0e-33b6-8c49-6eea2019bb04 a  bua:BUA_0000001 ;
+    rdfs:label "Sachunterricht und seine Didaktik"@de-de,
+        "Sachunterricht and its didactics"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 .
+
+fub:b0607c5e-5cc5-3efd-bb5d-7d166104e991 a  bua:BUA_0000026 ;
+    rdfs:label "Institut für Altorientalistik"@de-de,
+        "Institute of Ancient Near Eastern Languages and Civilizations"@en-us ;
+    obo:BFO_0000050 fub:1aaa97b5-3a04-310c-a8e1-c1de4146a369 ;
+    bua:geritId "15081" .
+
+fub:b0c22222-64dc-3859-99c9-163726629636 a  bua:BUA_0000002 ;
+    rdfs:label "Abteilung für Ophthalmologie"@de-de,
+        "Department of Ophthalmology"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 .
+
+fub:b203b7eb-66bc-35f1-87fe-7eca9e8fc396 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Gender, Body, Sexuality"@de-de,
+        "Research Area Gender, Body, Sexuality"@en-us ;
+    obo:BFO_0000050 fub:79a47f89-799c-3588-a376-a918024ca6bb .
+
+fub:b3c50301-44bb-362c-b10f-6173a74f9a49 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Veterinär-Biochemie (WE03)"@de-de,
+        "Institute of Veterinary Biochemistry (WE03)"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "23936" .
+
+fub:b422c06f-0a27-3acf-bae9-367b1062bf25 a  bua:BUA_0000036 ;
+    rdfs:label "Lehrstuhl für Finanzwissenschaft"@de-de,
+        "Chair of International Public Economics"@en-us ;
+    obo:BFO_0000050 fub:17369b15-f2a0-3980-ba43-43d4acefdfe0 ;
+    bua:geritId "277007463" .
+
+fub:b48403be-ef75-3ea5-9c1a-ec239de2b29a a  bua:BUA_0000002 ;
+    rdfs:label "Numerische Analysis Partieller Differentialgleichungen"@de-de,
+        "Numerical Analysis of Partial Differential Equations"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:b68054ca-934c-3849-ae3f-bf25c5212878 a  bua:BUA_0000001 ;
+    rdfs:label "Praktische Philosophie"@de-de,
+        "Practical Philosophy"@en-us ;
+    obo:BFO_0000050 fub:ca2de45e-2f5b-33a4-b2a0-96b243e6a6f8 ;
+    bua:geritId "24109" .
+
+fub:b70fe2ca-d6ab-3e0f-8cb0-9749e15b2822 a  bua:BUA_0000002 ;
+    rdfs:label "Programmiersprachen"@de-de,
+        "Programming Languages"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 ;
+    bua:geritId "200102205" .
+
+
+fub:bcebf1ce-be83-3dcb-aef3-91643a0815cb a  bua:BUA_0000002 ;
+    rdfs:label "Diskrete Geometrie und Topologische Kombinatorik"@de-de,
+        "Discrete Geometry Group and Topological Combinatorics"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:bf311a2c-435f-34d3-a453-2863e8d6569b a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Gender and Diversity"@de-de,
+        "Center for Gender and Diversity"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:c03bd13a-7c48-342f-b4cb-c69e13d4043a a  bua:BUA_0000001 ;
+    rdfs:label "Fachrichtung Anthropogeographie"@de-de,
+        "Human Geography"@en-us ;
+    obo:BFO_0000050 fub:c63d0a3d-81d5-37c6-91f2-980ab2dfb7c7 ;
+    bua:geritId "316211241" .
+
+fub:c08ef9d9-8d4e-33ed-90a8-b121da3875d4 a  bua:BUA_0000001 ;
+    rdfs:label "Frühe Neuzeit"@de-de,
+        "Early Modern History"@en-us ;
+    obo:BFO_0000050 fub:f2ce8fe9-71e7-3aed-8b3b-a0d02a477e72 .
+
+fub:c1dfea52-f50a-393e-9aaa-5c0176e2ab77 a  bua:BUA_0000002 ;
+    rdfs:label "Mathematik in den Lebenswissenschaften"@de-de,
+        "Mathematics in Life Sciences"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:c23f1a42-bf5a-3a84-a0be-70b2f4bd61b1 a  bua:BUA_0000002 ;
+    rdfs:label "AG Nürnberg - Biophysik und Biochemie fotosynthetischer Organismen"@de-de,
+        "Research Group Nürnberg - Biophysics and Biochemistry of Photosynthetic Organisms"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:c317fb58-ed1b-3240-9f61-1d8c47a18834 a  bua:BUA_0000002 ;
+    rdfs:label "Röntgen"@de-de,
+        "X-Raying"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 .
+
+fub:c337130b-be49-34a6-b054-7694b45c55fa a  bua:BUA_0000002 ;
+    rdfs:label "AG Meteorologische Informations- und Kommunikationssysteme"@de-de,
+        "WG Meteorological Information and Communication Systems"@en-us ;
+    obo:BFO_0000050 fub:b18711cf-b35a-3efe-8718-a1429ca599fc ;
+    bua:geritId "971278" .
+
+fub:c4f7d57c-ea62-3cf9-91c1-b16ca3df2a19 a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung für Ophthalmologie"@de-de,
+        "Department of Ophthalmology"@en-us ;
+    obo:BFO_0000050 fub:b67db508-af4f-3648-bc92-a556650c4751 .
+
+fub:c54bd864-749a-3a14-9bac-a2906ecb1371 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Deutsche und Niederländische Philologie (WE 4)"@de-de,
+        "Institute of German and Dutch Languages and Literatures (WE 4)"@en-us ;
+    obo:BFO_0000050 fub:606a52db-1c8c-37fe-b41d-fe1e4fc0fa55 ;
+    bua:geritId "15107" .
+
+fub:c63d582a-09e4-3e97-8960-463b76225bca a  bua:BUA_0000001 ;
+    rdfs:label "Didaktik Deutsch – Sprachliche und kulturelle Bildung"@de-de,
+        "Didactics German - Linguistic and Cultural Education"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 .
+
+fub:c651e116-6c59-31da-b067-d76be4350885 a  bua:BUA_0000002 ;
+    rdfs:label "Geometrische Analysis"@de-de,
+        "Geometric Analysis"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 ;
+    bua:geritId "20875" .
+
+fub:c719249f-d29b-3e9a-bb57-f3e0780e3cf3 a  bua:BUA_0000002 ;
+    rdfs:label "Abteilung für Radioonkologie"@de-de,
+        "Department of Radiation Oncology"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 .
+
+fub:c7381345-9da6-3522-b4aa-e8800f794941 a  bua:BUA_0000002 ;
+    rdfs:label "Nichtlineare Dynamik"@de-de,
+        "Nonlinear Dynamics"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:c832af75-3295-3cd5-9978-139046ee5061 a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung Molekülphysik"@de-de,
+        "Department of Molecular Physics"@en-us ;
+    obo:BFO_0000050 fub:dd86d1f0-dba5-3649-8ef0-0ae3fec0e36d .
+
+fub:c8dda69c-fb74-3cfc-ab9b-436fb1468680 a  bua:BUA_0000002 ;
+    rdfs:label "Diskrete Biomathematik"@de-de,
+        "Discrete Biomathematics"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 ;
+    bua:geritId "397032028" .
+
+fub:c9f3f984-0fa8-36e9-bc64-c853f82e49e1 a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Lateinamerika"@de-de,
+        "Center for Latin American Studies"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:cb7d5eeb-925b-3fd5-8614-fc679fd03b4f a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung für Bestandsbetreuung"@de-de,
+        "Department of Herd Management Service"@en-us ;
+    obo:BFO_0000050 fub:0f03e4b3-cd53-3a5a-bf79-e08e4444f0d8 .
+
+fub:cbb8677e-33df-3de0-8920-5da5c377e8b1 a  bua:BUA_0000043 ;
+    rdfs:label "Musikwissenschaft"@de-de,
+        "Musicology"@en-us ;
+    obo:BFO_0000050 fub:b037834d-86f2-3bec-b3b2-b388d7c1a485 ;
+    bua:geritId "15082" .
+
+fub:cc345bac-54e3-3f84-99fe-3cc6fc6ed713 a  bua:BUA_0000001 ;
+    rdfs:label "Anthropologie und Erziehung"@de-de,
+        "Anthropology and Education"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "20864" .
+
+fub:cc782e97-9d86-3916-a47b-c3657b123229 a  bua:BUA_0000039 ;
+    rdfs:label "Mittellatein"@de-de,
+        "Medieval Latin"@en-us ;
+    obo:BFO_0000050 fub:50edb449-fd24-37e7-a0f9-23123d4b7a00 ;
+    bua:geritId "20858" .
+
+fub:cd223fa6-a238-3539-94bf-34311afbeabd a  bua:BUA_0000001 ;
+    rdfs:label "Gesundheitspsychologie"@de-de,
+        "Health Psychology"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "37884791" .
+
+fub:cd5c792f-75a8-3891-a03a-5cfb651bc8ed a  bua:BUA_0000002 ;
+    rdfs:label "AG Fumagalli -Struktur und Magneto-Optische Eigenschaften von dünnen Filmen; Nah-Feld Optik"@de-de,
+        "Research Group Fumagalli - Thin Films - Near-field Optical Microscopy"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:cdbbf87b-d121-3cde-9f1c-5459c8e76f72 a  bua:BUA_0000001 ;
+    rdfs:label "Cultural Studies"@de-de,
+        "Cultural Studies"@en-us ;
+    obo:BFO_0000050 fub:7809d3c4-3e69-38a3-bbe9-7d6ae374add6 .
+
+fub:d01717a0-8b7a-3998-828a-a1dc44deb86c a  bua:BUA_0000001 ;
+    rdfs:label "Fachrichtung Angewandte Geographie, Umwelthydrologie und Ressourcenmanagement"@de-de,
+        "Applied Geography, Environmental Hydrology and Resource Management"@en-us ;
+    obo:BFO_0000050 fub:c63d0a3d-81d5-37c6-91f2-980ab2dfb7c7 ;
+    bua:geritId "23878" .
+
+fub:d03e9f38-b4dd-36ee-87f8-6d3fa7837cb0 a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Politische Theorie und Philosophie"@de-de,
+        "Center for Political Theory and Philosophy"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:d299dc15-ba26-32c6-a2f1-1154142f78d1 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Religionsethnologie: Religious Diversity in Transnational Context"@de-de,
+        "Research Area Religious Diversity in Transnational Contexts"@en-us ;
+    obo:BFO_0000050 fub:79a47f89-799c-3588-a376-a918024ca6bb .
+
+fub:d3e8d726-406f-319a-a7fe-61c53984d4ce a  bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "AG Didaktik der Physik"@de-de,
+        "Research Group Physics Education"@en-us ;
+    obo:BFO_0000050 fub:2ef5e0b4-b786-3c11-aec3-90fa3add6ecd .
+
+fub:d4326064-e18f-3e6d-ac23-f019a78d45a0 a  bua:BUA_0000002 ;
+    rdfs:label "Abteilung für Kardiologie"@de-de,
+        "Department of Cardiology"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 .
+
+fub:d4af6098-2bd7-3722-bb66-a243a14d953f a  bua:BUA_0000001 ;
+    rdfs:label "Verhaltensbiologie"@de-de,
+        "Animal Behavior"@en-us ;
+    obo:BFO_0000050 fub:6c660bcb-764d-36e7-a49e-f8a0cf001c62 ;
+    bua:geritId "20863" .
+
+fub:d54cd7b3-3dbe-32da-ba60-3ada835abd6f a  bua:BUA_0000039 ;
+    rdfs:label "Klassische Latinistik"@de-de,
+        "Classical Latin"@en-us ;
+    obo:BFO_0000050 fub:50edb449-fd24-37e7-a0f9-23123d4b7a00 .
+
+fub:d5af52ca-e9a6-3d60-8195-6848c656cea1 a  bua:BUA_0000002 ;
+    rdfs:label "Arithmetic Geometry"@en-us,
+        "Arithmetische Geometrie"@de-de ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:d637deac-c3a9-30fc-bd6e-4f00270d2ac7 a  bua:BUA_0000001 ;
+    rdfs:label "Empirische Erziehungswissenschaft"@de-de,
+        "Empirical Education"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "20865" .
+
+fub:d6720eef-43b5-3fca-9b06-3ceee4b51c21 a  bua:BUA_0000030 ;
+    rdfs:label "Wiederkäuerklinik"@de-de,
+        "Ruminant Clinic"@en-us ;
+    obo:BFO_0000050 fub:0f03e4b3-cd53-3a5a-bf79-e08e4444f0d8 .
+
+fub:d6ae452c-10cd-3a6f-899f-e0b09f46cc2e a  bua:BUA_0000001 ;
+    rdfs:label "Psychologische Diagnostik, Differentielle- und Persönlichkeitspsychologie"@de-de,
+        "Psychological Assessment, Differential- and Personality Psychology"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "15098" .
+
+fub:d7076771-7c9c-3de2-ac23-f6d3f0ddfa68 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsbereich STS und Umweltethnologie"@de-de,
+        "Research Area FSTS and environmental anthropology"@en-us ;
+    obo:BFO_0000050 fub:79a47f89-799c-3588-a376-a918024ca6bb .
+
+fub:d73e5b6f-bd71-3d9c-96cc-a20bd5b5c075 a  bua:BUA_0000001 ;
+    rdfs:label "Alte Geschichte"@de-de,
+        "Ancient History"@en-us ;
+    obo:BFO_0000050 fub:f2ce8fe9-71e7-3aed-8b3b-a0d02a477e72 ;
+    bua:geritId "23921" .
+
+fub:d7565037-2465-3b45-b0ea-5503f7dd0754 a  bua:BUA_0000002 ;
+    rdfs:label "Kombinatorik und Graphentheorie"@de-de,
+        "Combinatorics and Graph Theory"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 ;
+    bua:geritId "15110" .
+
+fub:d774cdde-e404-3c7f-813d-ada1bfe2da48 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Organisationskommunikation (Prof. Raupp)"@de-de,
+        "Division Organisationskommunikation (Prof. Raupp)"@en-us ;
+    obo:BFO_0000050 fub:25916307-daef-381e-a1fe-ac3a5152fc96 ;
+    bua:geritId "20872" .
+
+fub:d85f0209-8a17-31ae-a3bc-8af3418436d3 a  bua:BUA_0000001 ;
+    rdfs:label "Geschichte der Philosophie"@de-de,
+        "History of Philosophy"@en-us ;
+    obo:BFO_0000050 fub:ca2de45e-2f5b-33a4-b2a0-96b243e6a6f8 ;
+    bua:geritId "402836608" .
+
+fub:d997f483-685a-34b2-9e51-3542efac9fd9 a  bua:BUA_0000002 ;
+    rdfs:label "AG Brouwer - Theorie der Kondensierten Materie"@de-de,
+        "Research Group Brouwer - Theoretical Mesoscopic Physics"@en-us ;
+    obo:BFO_0000050 fub:8950b09b-f874-32d4-9ce6-e163d2630bb7 .
+
+fub:da09a5da-d17f-3ae4-9c74-0c2cba79e133 a  bua:BUA_0000001 ;
+    rdfs:label "Department Wirtschaftsinformatik"@de-de,
+        "Department of Information Systems"@en-us ;
+    obo:BFO_0000050 fub:0cfe8af7-613a-3a04-b786-1eecf01f5afd ;
+    bua:geritId "22786" .
+
+fub:da0edd34-3668-3dcf-8ca8-49283294678d a  bua:BUA_0000001 ;
+    rdfs:label "Schulpädagogik/Schulentwicklungsforschung"@de-de,
+        "School Pedagogy and School Improvement Research"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "970895" .
+
+fub:da40a7fb-81e4-3a12-96d3-b81170fd5326 a  bua:BUA_0000002 ;
+    rdfs:label "Dependable Distributed Systems"@de-de,
+        "Dependable Distributed Systems"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 .
+
+fub:daf2e1c5-29d1-38a6-ad86-118a5db53350 a  bua:BUA_0000020,
+        owl:NamedIndividual ;
+    rdfs:label "Dahlem Center for Complex Quantum Systems"@de-de,
+        "Dahlem Center für komplexe Quantensysteme"@en-us ;
+    obo:BFO_0000050 fub:2ef5e0b4-b786-3c11-aec3-90fa3add6ecd .
+
+fub:db89b82e-03e4-3187-8a09-192d5e850594 a  bua:BUA_0000001 ;
+    rdfs:label "Didaktik der Biologie"@de-de,
+        "Didactics"@en-us ;
+    obo:BFO_0000050 fub:6c660bcb-764d-36e7-a49e-f8a0cf001c62 ;
+    bua:geritId "23860" .
+
+fub:dc2ad24f-a49f-3e8f-a0b2-d64d42c94700 a  bua:BUA_0000002 ;
+    rdfs:label "Numerik partieller Differentialgleichungen der numerischen Strömungsmechanik"@de-de,
+        "Partial Differential Equations in Numerical Fluid Mechanics"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:dc5f391d-9052-3e44-976b-4980d16245ff a  bua:BUA_0000001 ;
+    rdfs:label "Klinische Pharmazie"@de-de,
+        "Clinical Pharmacy"@en-us ;
+    obo:BFO_0000050 fub:bbbcf236-f267-3f6d-8254-b37be56535a5 ;
+    bua:geritId "972332" .
+
+fub:dcd69454-de5a-3cc9-b356-663c063e6f69 a  bua:BUA_0000001 ;
+    rdfs:label "Schwerpunkt Umwelt- und Klimapolitik"@de-de,
+        "Center for Comparative Politics with a Focus on Environmental and Climate Politics"@en-us ;
+    obo:BFO_0000050 fub:aeca1781-036a-37a1-acd5-075bcd89817d .
+
+fub:dd764893-a17d-33a0-8763-bf16f02b1cff a  bua:BUA_0000002 ;
+    rdfs:label "Dahlem Center for Machine Learning and Robotics"@de-de,
+        "Dahlem Center for Machine Learning and Robotics"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 ;
+    bua:geritId "23870" .
+
+fub:de9184ae-51ec-3751-ab92-f245cd929759 a  bua:BUA_0000001 ;
+    rdfs:label "Tectonics and Sedimentology"@en-us,
+        "Fachrichtung Tektonik und Sedimentologie"@de-de ;
+    obo:BFO_0000050 fub:bab1e2d9-e8e4-3e2d-aa46-be5a5c49dfec .
+
+fub:df1ab0f9-5b23-32dc-8aca-54f28820f4e5 a  bua:BUA_0000001 ;
+    rdfs:label "Biochemie"@de-de,
+        "Biochemistry"@en-us ;
+    obo:BFO_0000050 fub:6eabed33-7d55-312b-a43f-3778f0609d3a ;
+    bua:geritId "37251860" .
+
+fub:dfcd0a78-e27a-35ec-a6c0-ae67ccf3023b a  bua:BUA_0000001 ;
+    rdfs:label "Allgemeine Grundschulpädagogik"@de-de,
+        "Primary Education"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 .
+
+fub:e2351f86-21e6-334a-abe4-b6867f691621 a  bua:BUA_0000001 ;
+    rdfs:label "Frühkindliche Bildungsforschung"@de-de,
+        "Early Childhood Education Research"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "420645605" .
+
+fub:e2816259-8bfc-3c50-87bc-beecf8f3903b a  bua:BUA_0000002 ;
+    rdfs:label "Corporate Semantic Web"@de-de,
+        "Corporate Semantic Web"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 ;
+    bua:geritId "972343" .
+
+fub:e355697f-5ec1-36cf-bc46-63fec6424cf0 a  bua:BUA_0000043 ;
+    rdfs:label "Seminar für Semitistik und Arabistik"@de-de,
+        "Seminar for Semitic and Arabic Studies"@en-us ;
+    obo:BFO_0000050 fub:cf84706c-7086-3f64-9a85-028762edcbf4 ;
+    bua:geritId "20860" .
+
+fub:e48aef65-3b67-35bd-ad9b-95e3aba57534 a  bua:BUA_0000001 ;
+    rdfs:label "Sozialphilosophie"@de-de,
+        "Social Philosophy"@en-us ;
+    obo:BFO_0000050 fub:ca2de45e-2f5b-33a4-b2a0-96b243e6a6f8 .
+
+fub:e4eb249a-a14d-31ce-b53c-987e91bd551a a  bua:BUA_0000001 ;
+    rdfs:label "Methoden und Evaluation"@de-de,
+        "Methods and Evaluations"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "273323406" .
+
+fub:e583aea7-c44a-3f8a-b7c4-e6ad6dad870d a  bua:BUA_0000002 ;
+    rdfs:label "AG Theoretische Meteorologie"@de-de,
+        "TWG heoretical Meteorology"@en-us ;
+    obo:BFO_0000050 fub:b18711cf-b35a-3efe-8718-a1429ca599fc .
+
+fub:e6423ecd-731a-3aa7-8045-dd57ec556974 a  bua:BUA_0000000,
+        owl:NamedIndividual ;
+    rdfs:label "Öffentliches Recht (WE 3)"@de-de,
+        "Public Law"@en-us ;
+    obo:BFO_0000050 fub:0f8b00ae-6465-31fc-8544-0982d1f37acc ;
+    bua:geritId "15171" .
+
+fub:e7619092-8206-3694-9fa0-62964428af7a a  bua:BUA_0000002 ;
+    rdfs:label "AG Atmosphärendynamik"@de-de,
+        "WG Physics of the Middle Atmosphere"@en-us ;
+    obo:BFO_0000050 fub:b18711cf-b35a-3efe-8718-a1429ca599fc .
+
+fub:e8a087a8-6b98-3258-84f8-5fc63eca1e53 a  bua:BUA_0000002 ;
+    rdfs:label "Secure Systems Engineering"@de-de,
+        "Secure Systems Engineering"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 .
+
+fub:e8a3197e-7d04-3fba-90ca-11f7c821c064 a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung für Orthopädie und Chirurgie"@de-de,
+        "Department of Orthopedics and Surgery"@en-us ;
+    obo:BFO_0000050 fub:b67db508-af4f-3648-bc92-a556650c4751 .
+
+fub:e8d80167-692a-3e43-a8f5-900560214439 a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung für Chirurgie (Allgemeine Chirurgie, Orthopädie, Neurochirurgie)"@de-de,
+        "Department of Surgery (General Surgery, Orthopedics, Neurosurgery)"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 .
+
+fub:e9f4f297-e228-3b41-9c2d-257fb2df93c8 a  bua:BUA_0000001 ;
+    rdfs:label "Pharmakologie"@de-de,
+        "Pharmacology"@en-us ;
+    obo:BFO_0000050 fub:bbbcf236-f267-3f6d-8254-b37be56535a5 ;
+    bua:geritId "972333" .
+
+fub:ead8c4a4-3534-3cc6-9fa6-e670c42c2f76 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Medienanalyse / Forschungsmethoden (Prof. Trebbe)"@de-de,
+        "Division Media Analysis / Research Methods (Prof. Trebbe)"@en-us ;
+    obo:BFO_0000050 fub:25916307-daef-381e-a1fe-ac3a5152fc96 .
+
+fub:eb4cf17f-705f-36e5-95cf-54e4941fbfc2 a  bua:BUA_0000002 ;
+    rdfs:label "Geophysical Fluid Dynamics"@de-de,
+        "Geophysical Fluid Dynamics"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 ;
+    bua:geritId "273735113" .
+
+fub:ef2fe483-b81f-31df-87d7-1eddefd7978b a  bua:BUA_0000001 ;
+    rdfs:label "Computational Cognitive Neuroscience"@de-de,
+        "Computational Cognitive Neuroscience"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 ;
+    bua:geritId "407129442" .
+
+fub:ef4127df-8a06-309b-b0b9-e8ee892fa67c a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung für Bildgebung"@de-de,
+        "Department of Imaging"@en-us ;
+    obo:BFO_0000050 fub:b67db508-af4f-3648-bc92-a556650c4751 .
+
+fub:efe9c0ae-7b58-3f31-b42b-1ab94c907210 a  bua:BUA_0000004 ;
+    rdfs:label "Labor"@de-de,
+        "Laboratory"@en-us ;
+    obo:BFO_0000050 fub:0f03e4b3-cd53-3a5a-bf79-e08e4444f0d8 ;
+    bua:geritId "193136807" .
+
+fub:f004ea0f-9b6d-3318-a84b-2d288ad20626 a  bua:BUA_0000002 ;
+    rdfs:label "AG Troposphärische Umweltforschung"@de-de,
+        "WG Tropospheric Environmental Research"@en-us ;
+    obo:BFO_0000050 fub:b18711cf-b35a-3efe-8718-a1429ca599fc ;
+    bua:geritId "971280" .
+
+fub:f02e824a-d64b-3ae9-9a9e-ec83ce27349f a  bua:BUA_0000001 ;
+    rdfs:label "Frühkindliche Bildung und Erziehung"@de-de,
+        "Early Childhood Education"@en-us ;
+    obo:BFO_0000050 fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "405962099" .
+
+fub:f24c8659-10a6-32a2-b76f-6b8e7718f19e a  bua:BUA_0000002 ;
+    rdfs:label "AG Noé - Computergestützte Molekularbiologie"@de-de,
+        "Research Group Noé - Computational Molecular Biology"@en-us ;
+    obo:BFO_0000050 fub:8950b09b-f874-32d4-9ce6-e163d2630bb7 .
+
+fub:f505b01f-2f58-3c8c-b453-205e8ac8f6f3 a  bua:BUA_0000002 ;
+    rdfs:label "Zentrum für Digitale Medien"@de-de,
+        "Centre for Digital Media"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 .
+
+fub:f58104e8-8966-367a-9e66-fc24c69fdfc0 a  bua:BUA_0000002 ;
+    rdfs:label "AG Reich - Physik von Nanostrukturen"@de-de,
+        "Research Group Reich - Physics of Nanostructures"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 .
+
+fub:f6f144a2-d583-32df-90b9-4546cb83f66b a  bua:BUA_0000001 ;
+    rdfs:label "Neueste Geschichte"@de-de,
+        "Modern History"@en-us ;
+    obo:BFO_0000050 fub:f2ce8fe9-71e7-3aed-8b3b-a0d02a477e72 .
+
+fub:f6f40dfd-98c1-37ab-a24b-5ef1eac6f89f a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Kommunikationstheorie / Medienwirkungsforschung (Prof. Pfetsch)"@de-de,
+        "Division Communication Theory and Media Effects (Prof. Pfetsch)"@en-us ;
+    obo:BFO_0000050 fub:25916307-daef-381e-a1fe-ac3a5152fc96 .
+
+fub:f70ca3af-7b22-30f7-bcc8-39d801127f38 a  bua:BUA_0000002 ;
+    rdfs:label "Didaktik der Informatik"@de-de,
+        "Computing Education"@en-us ;
+    obo:BFO_0000050 fub:662f3ab9-01c7-3002-93dd-8118df550762 ;
+    bua:geritId "200102111" .
+
+fub:f731b43a-0f6d-3543-a33b-001945200aad a  bua:BUA_0000036 ;
+    rdfs:label "Endowment Chair of the Bundesbank"@de-de,
+        "Endowment Chair of the Bundesbank"@en-us ;
+    obo:BFO_0000050 fub:17369b15-f2a0-3980-ba43-43d4acefdfe0 .
+
+fub:f7e917bb-a606-3491-af90-80888dc09729 a  bua:BUA_0000004 ;
+    rdfs:label "Abteilung Physikalische Chemie"@de-de,
+        "Department of Physical Chemistry (PC)"@en-us ;
+    obo:BFO_0000050 fub:dd86d1f0-dba5-3649-8ef0-0ae3fec0e36d .
+
+fub:f8560625-4ca2-3b46-856e-c2cf24560892 a  bua:BUA_0000001 ;
+    rdfs:label "Kulturvergleichende Entwicklungspsychologie"@de-de,
+        "Comparative Cultural Developmental Psychology"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369 .
+
+fub:f9af8a8a-1ea8-3660-a10d-1791929dd6b2 a  bua:BUA_0000002 ;
+    rdfs:label "Computational Proteomics"@de-de,
+        "Computational Proteomics"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 .
+
+fub:fa049166-296f-377d-a7c6-1c87ff561e5b a  bua:BUA_0000002 ;
+    rdfs:label "Uncertainty Quantification"@de-de,
+        "Uncertainty Quantification"@en-us ;
+    obo:BFO_0000050 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 ;
+    bua:geritId "386699919" .
+
+fub:fa3080da-c760-340b-8aeb-10fb0fb98892 a  bua:BUA_0000002 ;
+    rdfs:label "AG Heberle - Experimentelle Molekulare Biophysik"@de-de,
+        "Research Group Heberle - Experimental Molecular Biophysics"@en-us ;
+    obo:BFO_0000050 fub:0f0f6e59-5b38-352e-835c-ee30c2551300 ;
+    bua:geritId "275653837" .
+
+fub:fa66bbc7-c7d1-3778-9359-151361d8a306 a  bua:BUA_0000001 ;
+    rdfs:label "Arbeitsstelle Psychologische Anthropologie"@de-de,
+        "Research Area Anthropology of Emotion"@en-us ;
+    obo:BFO_0000050 fub:79a47f89-799c-3588-a376-a918024ca6bb .
+
+fub:fafdbc84-2fcd-37e4-8334-82c396ee5393 a  bua:BUA_0000001 ;
+    rdfs:label "Geophysics"@en-us,
+        "Fachrichtung Geophysik"@de-de ;
+    obo:BFO_0000050 fub:bab1e2d9-e8e4-3e2d-aa46-be5a5c49dfec ;
+    bua:geritId "273735113" .
+
+fub:fbbbdfcd-6c86-3ef3-b98b-d38b37277303 a  bua:BUA_0000026 ;
+    rdfs:label "Institut für Klassische Archäologie"@de-de,
+        "Institute of Classical Archaeology"@en-us ;
+    obo:BFO_0000050 fub:1aaa97b5-3a04-310c-a8e1-c1de4146a369 ;
+    bua:geritId "15078" .
+
+fub:fc5999ca-5f7b-3d28-8b22-1442430c953f a  bua:BUA_0000026 ;
+    rdfs:label "Institute of Ancient Near Eastern Archaeology"@en-us,
+        "Institut für Prähistorische Archäologie (Ur- und Frühgeschichte)"@de-de ;
+    obo:BFO_0000050 fub:1aaa97b5-3a04-310c-a8e1-c1de4146a369 .
+
+fub:fe141008-fe7b-3a18-b157-e38eec8c6a65 a  bua:BUA_0000002 ;
+    rdfs:label "Apotheke"@de-de,
+        "Farmacy"@en-us ;
+    obo:BFO_0000050 fub:25e93e33-b559-380d-8d69-a90560b76977 .
+
+fub:ff79974d-1f2f-31b7-b6e0-62dcdcc18b1e a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Parasitologie und Tropenveterinärmedizin (WE13)"@de-de,
+        "Institute for Parasitology and Tropical Veterinary Medicine (WE13)"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    bua:geritId "23937" .
+
+fub:d1b70aa3-90bb-329b-b465-40e3949b9778 a  bua:BUA_0000001 ;
+    rdfs:label "Methoden und Evaluation/Qualitätssicherung"@de-de,
+        "Methods and Evaluation / Quality Assurance"@en-us ;
+    obo:BFO_0000050 fub:5f276038-b3c7-399a-9a0e-dd073b22b369,
+        fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "313460071" .
+
+fub:1ddf96d7-8d42-38d1-a1d6-c47ad539d877 a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Mathematik und Informatik"@de-de,
+        "Department of Mathematics and Computer Science"@en-us ;
+    obo:BFO_0000050 fub:Freie_Universitaet_Berlin ;
+    obo:BFO_0000051 fub:1f3f0655-3ac1-30fa-ac84-6a978757b319,
+        fub:662f3ab9-01c7-3002-93dd-8118df550762 ;
+    bua:geritId "13207" .
+
+fub:2f63cb29-129c-3f97-a362-f27012dbea3c a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Erziehungswissenschaft und Psychologie"@de-de,
+        "Department of Education and Psychology"@en-us ;
+    obo:BFO_0000050 fub:Freie_Universitaet_Berlin ;
+    obo:BFO_0000051 fub:5f276038-b3c7-399a-9a0e-dd073b22b369,
+        fub:b769f052-1d26-35e5-a21b-d239e9221f67 ;
+    bua:geritId "13205" .
+
+fub:451ffd3d-c935-3f3e-98bf-439388fcc51d a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Wirtschaftswissenschaft"@de-de,
+        "School of Business and Economics"@en-us ;
+    obo:BFO_0000050 fub:Freie_Universitaet_Berlin ;
+    obo:BFO_0000051 fub:0cfe8af7-613a-3a04-b786-1eecf01f5afd,
+        fub:17369b15-f2a0-3980-ba43-43d4acefdfe0 ;
+    bua:geritId "13215" .
+
+fub:c96750f7-40df-3e57-9199-a0cd32895238 a  bua:BUA_0000030,
+        owl:NamedIndividual ;
+    rdfs:label "Tierklinik für Fortpflanzung (WE19)"@de-de,
+        "Animal Reproduction Clinic"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    obo:BFO_0000051 fub:267695a9-f97e-3bf5-bd05-f758f2f026b7,
+        fub:2fec43d9-06d2-31e4-9910-6a95c4320a4c ;
+    bua:geritId "15191" .
+
+fub:0cfe8af7-613a-3a04-b786-1eecf01f5afd a  bua:BUA_0000000,
+        owl:NamedIndividual ;
+    rdfs:label "Betriebswirtschaftslehre"@de-de,
+        "Business Administration"@en-us ;
+    obo:BFO_0000050 fub:451ffd3d-c935-3f3e-98bf-439388fcc51d ;
+    obo:BFO_0000051 fub:8cf63658-4ea5-3660-933f-c80d89f4ee9c,
+        fub:94ff6460-0b65-3707-aea7-7b8fc3637c42,
+        fub:da09a5da-d17f-3ae4-9c74-0c2cba79e133 ;
+    bua:geritId "282763097" .
+
+fub:0f8b00ae-6465-31fc-8544-0982d1f37acc a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Rechtswissenschaft"@de-de,
+        "Department of Law"@en-us ;
+    obo:BFO_0000050 fub:Freie_Universitaet_Berlin ;
+    obo:BFO_0000051 fub:23c7629f-af9a-325f-ba61-d8e829c590b3,
+        fub:7bf494e9-f900-3216-b8ff-e6d0751232c6,
+        fub:e6423ecd-731a-3aa7-8045-dd57ec556974 ;
+    bua:geritId "13213" .
+
+fub:32a036cc-cb92-37f1-ae67-79db485fa27c a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Biologie, Chemie, Pharmazie"@de-de,
+        "Department of Biology, Chemistry, Pharmacy"@en-us ;
+    obo:BFO_0000050 fub:Freie_Universitaet_Berlin ;
+    obo:BFO_0000051 fub:6c660bcb-764d-36e7-a49e-f8a0cf001c62,
+        fub:6eabed33-7d55-312b-a43f-3778f0609d3a,
+        fub:bbbcf236-f267-3f6d-8254-b37be56535a5 ;
+    bua:geritId "13204" .
+
+fub:32ce03d5-9ea8-3a49-b3d2-bf866ab91c46 a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Geowissenschaften"@de-de,
+        "Department of Earth Sciences"@en-us ;
+    obo:BFO_0000050 fub:Freie_Universitaet_Berlin ;
+    obo:BFO_0000051 fub:b18711cf-b35a-3efe-8718-a1429ca599fc,
+        fub:bab1e2d9-e8e4-3e2d-aa46-be5a5c49dfec,
+        fub:c63d0a3d-81d5-37c6-91f2-980ab2dfb7c7 ;
+    bua:geritId "13206" .
+
+fub:467358d3-946a-321b-8247-3a608fdea3e7 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Kunsthistorisches Institut (WE 2)"@de-de,
+        "Art History (WE 2)"@en-us ;
+    obo:BFO_0000050 fub:be9eef72-ff24-38b2-a552-b8c6c9f1d3ea ;
+    obo:BFO_0000051 fub:672b6fd8-ce63-321f-91c3-a4a982c24fec,
+        fub:69c0c37a-f765-37fb-ab92-da7d14c0e3e7,
+        fub:9f4ff2c0-5245-3c25-acd7-e4d6738ec4eb ;
+    bua:geritId "23926" .
+
+fub:b037834d-86f2-3bec-b3b2-b388d7c1a485 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Theaterwissenschaft (WE 7)"@de-de,
+        "Institute of Theater Studies (WE 7)"@en-us ;
+    obo:BFO_0000050 fub:606a52db-1c8c-37fe-b41d-fe1e4fc0fa55 ;
+    obo:BFO_0000051 fub:1be995ce-3013-36f3-972a-810138829dc6,
+        fub:571db47d-3f66-3590-9ecd-15f49bd084ab,
+        fub:cbb8677e-33df-3de0-8920-5da5c377e8b1 ;
+    bua:geritId "15154" .
+
+fub:c63d0a3d-81d5-37c6-91f2-980ab2dfb7c7 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Geographische Wissenschaften"@de-de,
+        "Institute of Geographical Sciences"@en-us ;
+    obo:BFO_0000050 fub:32ce03d5-9ea8-3a49-b3d2-bf866ab91c46 ;
+    obo:BFO_0000051 fub:26bf9880-cdfc-3896-a53b-e0977da81ac5,
+        fub:78ed39fd-a628-34cf-b76b-198e41a2b8a5,
+        fub:c03bd13a-7c48-342f-b4cb-c69e13d4043a,
+        fub:d01717a0-8b7a-3998-828a-a1dc44deb86c ;
+    bua:geritId "15100" .
+
+fub:dd4829c5-e695-3f53-bc6e-d029d6155a4c a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Politik- und Sozialwissenschaften"@de-de,
+        "Department of Political and Social Sciences"@en-us ;
+    obo:BFO_0000050 fub:Freie_Universitaet_Berlin ;
+    obo:BFO_0000051 fub:25916307-daef-381e-a1fe-ac3a5152fc96,
+        fub:6e8850a1-28d3-3ea8-9063-ab4bff863c2d,
+        fub:79a47f89-799c-3588-a376-a918024ca6bb,
+        fub:aeca1781-036a-37a1-acd5-075bcd89817d ;
+    bua:geritId "13212" .
+
+fub:1aaa97b5-3a04-310c-a8e1-c1de4146a369 a  bua:BUA_0000000,
+        owl:NamedIndividual ;
+    rdfs:label "Altertumswissenschaften (WE 3)"@de-de,
+        "Ancient Studies (WE 3)"@en-us ;
+    obo:BFO_0000050 fub:be9eef72-ff24-38b2-a552-b8c6c9f1d3ea ;
+    obo:BFO_0000051 fub:a42a8010-45f9-3c19-8d77-c3bf8b04318c,
+        fub:a5904c76-11a3-3e92-9a8c-bff222783411,
+        fub:b0607c5e-5cc5-3efd-bb5d-7d166104e991,
+        fub:fbbbdfcd-6c86-3ef3-b98b-d38b37277303,
+        fub:fc5999ca-5f7b-3d28-8b22-1442430c953f ;
+    bua:geritId "13203" .
+
+fub:2ef5e0b4-b786-3c11-aec3-90fa3add6ecd a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Physik"@de-de,
+        "Department of Physics"@en-us ;
+    obo:BFO_0000050 fub:Freie_Universitaet_Berlin ;
+    obo:BFO_0000051 fub:0f0f6e59-5b38-352e-835c-ee30c2551300,
+        fub:8950b09b-f874-32d4-9ce6-e163d2630bb7,
+        fub:d3e8d726-406f-319a-a7fe-61c53984d4ce,
+        fub:daf2e1c5-29d1-38a6-ad86-118a5db53350,
+        fub:dd86d1f0-dba5-3649-8ef0-0ae3fec0e36d ;
+    bua:geritId "13211" .
+
+fub:6eabed33-7d55-312b-a43f-3778f0609d3a a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Chemie und Biochemie"@de-de,
+        "Institute of Chemistry and Biochemistry"@en-us ;
+    obo:BFO_0000050 fub:32a036cc-cb92-37f1-ae67-79db485fa27c ;
+    obo:BFO_0000051 fub:28115f3e-2466-3f6a-bdb4-172ab8e00f70,
+        fub:4a89617d-152e-32db-bfda-ca5662227149,
+        fub:81c7d46d-2927-3ca6-995a-ec545565cf3d,
+        fub:989b7ab2-51d1-32e4-855b-82805bc02896,
+        fub:df1ab0f9-5b23-32dc-8aca-54f28820f4e5 ;
+    bua:geritId "15090" .
+
+fub:b67db508-af4f-3648-bc92-a556650c4751 a  bua:BUA_0000030,
+        owl:NamedIndividual ;
+    rdfs:label "Klinik für Klauentiere (WE18)"@de-de,
+        "Ruminant and Swine Clinic"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    obo:BFO_0000051 fub:618daa6b-96ae-3ec3-8cf5-25e13d415aa1,
+        fub:a85fa32c-46fe-3a48-ae02-73259e7801d3,
+        fub:c4f7d57c-ea62-3cf9-91c1-b16ca3df2a19,
+        fub:e8a3197e-7d04-3fba-90ca-11f7c821c064,
+        fub:ef4127df-8a06-309b-b0b9-e8ee892fa67c ;
+    bua:geritId "15185" .
+
+fub:bab1e2d9-e8e4-3e2d-aa46-be5a5c49dfec a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Geologische Wissenschaften"@de-de,
+        "Institute of Geological Sciences"@en-us ;
+    obo:BFO_0000050 fub:32ce03d5-9ea8-3a49-b3d2-bf866ab91c46 ;
+    obo:BFO_0000051 fub:18d6b24f-7a29-3ef6-b9a4-9c6f8093351b,
+        fub:4202e575-0fea-3bd8-9eac-2f5bcf0db6e0,
+        fub:974e1a0b-c3cd-3cc3-8d4e-bb6595a311a1,
+        fub:de9184ae-51ec-3751-ab92-f245cd929759,
+        fub:fafdbc84-2fcd-37e4-8334-82c396ee5393 ;
+    bua:geritId "15100" .
+
+fub:bbbcf236-f267-3f6d-8254-b37be56535a5 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Pharmazie"@de-de,
+        "Institute of Pharmacy"@en-us ;
+    obo:BFO_0000050 fub:32a036cc-cb92-37f1-ae67-79db485fa27c ;
+    obo:BFO_0000051 fub:089f7d23-0992-3c27-9f57-b49c98f37afb,
+        fub:748d7d57-adc8-3d07-9ba4-4897f87342da,
+        fub:88944354-2173-38f7-af52-9e15c7233cdb,
+        fub:dc5f391d-9052-3e44-976b-4980d16245ff,
+        fub:e9f4f297-e228-3b41-9c2d-257fb2df93c8 ;
+    bua:geritId "15151" .
+
+fub:dd86d1f0-dba5-3649-8ef0-0ae3fec0e36d a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Fritz-Haber-Institut der Max-Planck-Gesellschaft (FHI)"@de-de,
+        "Fritz Haber Institute of the Max Planck Society (FHI)"@en-us ;
+    obo:BFO_0000050 fub:2ef5e0b4-b786-3c11-aec3-90fa3add6ecd ;
+    obo:BFO_0000051 fub:725e2415-74de-3fed-8584-ef3d390b6aa2,
+        fub:a0f8dc70-569d-3ce8-b85c-72444f8e6a9c,
+        fub:a508d45e-4560-3616-b162-538083587584,
+        fub:c832af75-3295-3cd5-9978-139046ee5061,
+        fub:f7e917bb-a606-3491-af90-80888dc09729 .
+
+fub:0f03e4b3-cd53-3a5a-bf79-e08e4444f0d8 a  bua:BUA_0000030,
+        owl:NamedIndividual ;
+    rdfs:label "Klinik für Pferde, allgemeine Chirurgie und Radiologie (WE17)"@de-de,
+        "Equine Clinic: Surgery and Radiology"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    obo:BFO_0000051 fub:0e127eb8-9823-35fb-8bfd-9b1d32513563,
+        fub:452f760a-674b-3040-9591-f72cf67788b7,
+        fub:603b3e48-b472-3898-922a-012655f523bb,
+        fub:cb7d5eeb-925b-3fd5-8614-fc679fd03b4f,
+        fub:d6720eef-43b5-3fca-9b06-3ceee4b51c21,
+        fub:efe9c0ae-7b58-3f31-b42b-1ab94c907210 .
+
+fub:50edb449-fd24-37e7-a0f9-23123d4b7a00 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Griechische und Lateinische Philologie (WE 2)"@de-de,
+        "Institute of Greek and Latin Languages and Literatures (WE 2)"@en-us ;
+    obo:BFO_0000050 fub:606a52db-1c8c-37fe-b41d-fe1e4fc0fa55 ;
+    obo:BFO_0000051 fub:03fea69c-4d4d-3cc5-9250-550725e74789,
+        fub:39b71989-ebcb-350c-85eb-db2e934d55c4,
+        fub:64bb5960-f749-3c67-b5fa-4fef28da740a,
+        fub:6e8d0d9a-4268-314a-a007-51c716643a05,
+        fub:cc782e97-9d86-3916-a47b-c3657b123229,
+        fub:d54cd7b3-3dbe-32da-ba60-3ada835abd6f ;
+    bua:geritId "15079" .
+
+fub:6e8850a1-28d3-3ea8-9063-ab4bff863c2d a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Soziologie"@de-de,
+        "Institute of Sociology"@en-us ;
+    obo:BFO_0000050 fub:dd4829c5-e695-3f53-bc6e-d029d6155a4c ;
+    obo:BFO_0000051 fub:29e8ef6e-5aa8-3305-bc80-3f03dcafca42,
+        fub:2ce8449e-cd32-3f20-b412-96549a145eea,
+        fub:4417c951-148d-3e22-b3e2-2b1b746247ba,
+        fub:6233251a-7abc-3c4a-916e-5108958c7aa8,
+        fub:73955f39-0e25-3a3b-a91f-eeabba9371ed,
+        fub:9d6c1e14-b076-3ea9-9c89-12270e719de8 ;
+    bua:geritId "15156" .
+
+fub:7809d3c4-3e69-38a3-bbe9-7d6ae374add6 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Englische Philologie (WE 6)"@de-de,
+        "Institute of English Language and Literature (WE 6)"@en-us ;
+    obo:BFO_0000050 fub:606a52db-1c8c-37fe-b41d-fe1e4fc0fa55 ;
+    obo:BFO_0000051 fub:0f190473-d1f4-3bc8-ba7a-64b5247b17d1,
+        fub:17316033-8e19-31be-96b3-f8ae68e28314,
+        fub:353a3b8a-a087-3e3b-990f-d2a432b2dac9,
+        fub:4e9381b3-8f57-332f-bd8d-9b333856ef2f,
+        fub:7f1610fc-4e64-386a-800a-476740acce0b,
+        fub:cdbbf87b-d121-3cde-9f1c-5459c8e76f72 ;
+    bua:geritId "15149" .
+
+fub:17369b15-f2a0-3980-ba43-43d4acefdfe0 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Volkswirtschaftslehre"@de-de,
+        "Department of Economics"@en-us ;
+    obo:BFO_0000050 fub:451ffd3d-c935-3f3e-98bf-439388fcc51d ;
+    obo:BFO_0000051 fub:0ff45fc6-6803-3784-9258-e28d5ca4c783,
+        fub:1b912f84-9c7e-3c25-bdc9-d1fe1e58defd,
+        fub:2e12cbfc-1507-3ee0-8a67-1db96c9cc6e5,
+        fub:703c846f-4697-377b-a4cd-832f236d848e,
+        fub:9a2f2041-0737-3f04-ad75-7550da3cb9d7,
+        fub:b422c06f-0a27-3acf-bae9-367b1062bf25,
+        fub:f731b43a-0f6d-3543-a33b-001945200aad .
+
+fub:606a52db-1c8c-37fe-b41d-fe1e4fc0fa55 a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Philosophie und Geisteswissenschaften"@de-de,
+        "Department of Philosophy and Humanities"@en-us ;
+    obo:BFO_0000050 fub:Freie_Universitaet_Berlin ;
+    obo:BFO_0000051 fub:16cad475-c0c7-30e6-9cc6-d9e515c7bbe2,
+        fub:4b3de1b2-c463-3a69-9163-2451f75c027d,
+        fub:50edb449-fd24-37e7-a0f9-23123d4b7a00,
+        fub:7809d3c4-3e69-38a3-bbe9-7d6ae374add6,
+        fub:b037834d-86f2-3bec-b3b2-b388d7c1a485,
+        fub:c54bd864-749a-3a14-9bac-a2906ecb1371,
+        fub:ca2de45e-2f5b-33a4-b2a0-96b243e6a6f8 ;
+    bua:geritId "13209" .
+
+fub:be9eef72-ff24-38b2-a552-b8c6c9f1d3ea a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Geschichts- und Kulturwissenschaften"@de-de,
+        "Department of History and Cultural Studies"@en-us ;
+    obo:BFO_0000050 fub:Freie_Universitaet_Berlin ;
+    obo:BFO_0000051 fub:038c48bc-c5ba-3ea3-a7c1-1efbcb8fb165,
+        fub:1aaa97b5-3a04-310c-a8e1-c1de4146a369,
+        fub:467358d3-946a-321b-8247-3a608fdea3e7,
+        fub:70ffd80a-81b2-3627-b715-21beef6490a8,
+        fub:837335cb-1dc7-3e2f-a4ff-1b7092b2d26c,
+        fub:cf84706c-7086-3f64-9a85-028762edcbf4,
+        fub:f2ce8fe9-71e7-3aed-8b3b-a0d02a477e72 ;
+    bua:geritId "13210" .
+
+fub:cf84706c-7086-3f64-9a85-028762edcbf4 a  bua:BUA_0000000,
+        owl:NamedIndividual ;
+    rdfs:label "Ostasien und Vorderer Orient (WE 4)"@de-de,
+        "East Asia and the Middle East (WE 4)"@en-us ;
+    obo:BFO_0000050 fub:be9eef72-ff24-38b2-a552-b8c6c9f1d3ea ;
+    obo:BFO_0000051 fub:13964baf-870d-31a1-b905-5384f71fed5b,
+        fub:32692294-3e92-39e1-a2e0-5166f6ff05de,
+        fub:46959d63-7f54-30ad-aba4-81a259c55edc,
+        fub:78fb4825-8994-3010-80cf-f22c4bea9aa1,
+        fub:79e33291-9156-311d-b6e7-56a590a4252a,
+        fub:85444643-1709-3a59-97ac-4cc4715f5772,
+        fub:e355697f-5ec1-36cf-bc46-63fec6424cf0 ;
+    bua:geritId "971289" .
+
+fub:6c660bcb-764d-36e7-a49e-f8a0cf001c62 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Biologie"@de-de,
+        "Institute of Biology"@en-us ;
+    obo:BFO_0000050 fub:32a036cc-cb92-37f1-ae67-79db485fa27c ;
+    obo:BFO_0000051 fub:04bc94d5-b3e8-313d-b358-eb2612d0ed74,
+        fub:1549a584-7848-38e3-8910-112b91e44225,
+        fub:2c3ef739-5391-317b-b3aa-226d0a81fb2c,
+        fub:4d2c5556-dc0e-3484-8373-60491d9f4c08,
+        fub:719735fc-17d9-3b06-bb40-d4383cabe27a,
+        fub:9bd7dc14-c0b3-3232-84de-b513747a15e6,
+        fub:d4af6098-2bd7-3722-bb66-a243a14d953f,
+        fub:db89b82e-03e4-3187-8a09-192d5e850594 ;
+    bua:geritId "23853" .
+
+fub:79a47f89-799c-3588-a376-a918024ca6bb a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Sozial- und Kulturanthropologie"@de-de,
+        "Institute of Social and Cultural Anthropology"@en-us ;
+    obo:BFO_0000050 fub:dd4829c5-e695-3f53-bc6e-d029d6155a4c ;
+    obo:BFO_0000051 fub:3eb5553a-7468-36fd-b0a0-01bdab3fb746,
+        fub:6eb224e1-e54d-3c9a-a92e-22011d34f623,
+        fub:72dac5a5-eb2e-31ed-9d7d-5e06a5cbb0f9,
+        fub:7be5fb8d-c231-390d-a6fe-13d5347dbaf5,
+        fub:b203b7eb-66bc-35f1-87fe-7eca9e8fc396,
+        fub:d299dc15-ba26-32c6-a2f1-1154142f78d1,
+        fub:d7076771-7c9c-3de2-ac23-f6d3f0ddfa68,
+        fub:fa66bbc7-c7d1-3778-9359-151361d8a306 ;
+    bua:geritId "323069311" .
+
+fub:ca2de45e-2f5b-33a4-b2a0-96b243e6a6f8 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Philosophie"@de-de,
+        "Institute of Philosophy"@en-us ;
+    obo:BFO_0000050 fub:606a52db-1c8c-37fe-b41d-fe1e4fc0fa55 ;
+    obo:BFO_0000051 fub:333076e0-5ea3-3732-a847-e66f11532508,
+        fub:5fffef7a-27f5-3b49-8a39-2928101769b6,
+        fub:776af293-6b3b-3b70-a4a9-9ac2f396d7ad,
+        fub:8dd92152-a8ad-3a02-adb6-6ade72417b11,
+        fub:ac9a4070-fbb1-3e82-8849-f8b8186da79e,
+        fub:b68054ca-934c-3849-ae3f-bf25c5212878,
+        fub:d85f0209-8a17-31ae-a3bc-8af3418436d3,
+        fub:e48aef65-3b67-35bd-ad9b-95e3aba57534 ;
+    bua:geritId "15155" .
+
+fub:f2ce8fe9-71e7-3aed-8b3b-a0d02a477e72 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Geschichte - Friedrich-Meinecke-Institut (WE 1)"@de-de,
+        "Friedrich Meinecke Institute of History"@en-us ;
+    obo:BFO_0000050 fub:be9eef72-ff24-38b2-a552-b8c6c9f1d3ea ;
+    obo:BFO_0000051 fub:212926f5-462c-3f20-b02b-0274fe42e787,
+        fub:54929ca6-8672-3d6e-9381-49596e454e97,
+        fub:6f812efa-e1a1-37a7-a4e5-aa5340bb9814,
+        fub:7f56640d-03a5-3da4-bbae-f7ad7a594791,
+        fub:96a43730-de62-3e3a-915e-aa3d298d5d97,
+        fub:c08ef9d9-8d4e-33ed-90a8-b121da3875d4,
+        fub:d73e5b6f-bd71-3d9c-96cc-a20bd5b5c075,
+        fub:f6f144a2-d583-32df-90b9-4546cb83f66b .
+
+fub:8950b09b-f874-32d4-9ce6-e163d2630bb7 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Theoretische Physik (WE 2)"@de-de,
+        "Institute of Theoretical Physics"@en-us ;
+    obo:BFO_0000050 fub:2ef5e0b4-b786-3c11-aec3-90fa3add6ecd ;
+    obo:BFO_0000051 fub:0691f566-9172-36fd-8284-bbec83d2efca,
+        fub:221adf7a-a24f-3a3f-8ad5-5fb8945e881e,
+        fub:244b5c6e-a666-3bba-8e53-435886c34bea,
+        fub:2f121414-a5f9-3721-b9ce-8335bcf0fc6a,
+        fub:4a759013-326e-3406-82e9-497c0d706510,
+        fub:702367d0-c5fc-3ad8-b40c-0d8da927e18a,
+        fub:9eb55f01-f281-3906-8a9f-e816d69d83d0,
+        fub:d997f483-685a-34b2-9e51-3542efac9fd9,
+        fub:f24c8659-10a6-32a2-b76f-6b8e7718f19e ;
+    bua:geritId "15166" .
+
+fub:25916307-daef-381e-a1fe-ac3a5152fc96 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Publizistik- und Kommunikationswissenschaft"@de-de,
+        "Institute for Media and Communication Studies"@en-us ;
+    obo:BFO_0000050 fub:dd4829c5-e695-3f53-bc6e-d029d6155a4c ;
+    obo:BFO_0000051 fub:37bce7f2-0fe9-3ef8-bb9a-2accc7e1e245,
+        fub:396c84b5-12a9-3cfe-b5de-9dda9a9baba7,
+        fub:3a0c53d3-09bb-304f-8794-9a0375f9bbe7,
+        fub:3bea4e35-c02d-394d-80ce-9c17c9545c9c,
+        fub:6b26b5e8-123e-3cd6-a1ad-7772ec1f0fe0,
+        fub:9ad5e1d7-f7dd-3e06-b153-50e055a5a0b4,
+        fub:aa91dc3a-7a7b-35b3-9232-f01c759082a3,
+        fub:d774cdde-e404-3c7f-813d-ada1bfe2da48,
+        fub:ead8c4a4-3534-3cc6-9fa6-e670c42c2f76,
+        fub:f6f40dfd-98c1-37ab-a24b-5ef1eac6f89f ;
+    bua:geritId "15153" .
+
+fub:Freie_Universitaet_Berlin a bua:Universitaet,
+        owl:NamedIndividual ;
+    rdfs:label "Freie Universität Berlin"@de-de,
+        "Freie Universität Berlin"@en-us ;
+    obo:BFO_0000050 bua:bua ;
+    obo:BFO_0000051 char:charite-universitaetsmedizin-berlin,
+        fub:0f8b00ae-6465-31fc-8544-0982d1f37acc,
+        fub:1ddf96d7-8d42-38d1-a1d6-c47ad539d877,
+        fub:2ef5e0b4-b786-3c11-aec3-90fa3add6ecd,
+        fub:2f63cb29-129c-3f97-a362-f27012dbea3c,
+        fub:32a036cc-cb92-37f1-ae67-79db485fa27c,
+        fub:32ce03d5-9ea8-3a49-b3d2-bf866ab91c46,
+        fub:451ffd3d-c935-3f3e-98bf-439388fcc51d,
+        fub:606a52db-1c8c-37fe-b41d-fe1e4fc0fa55,
+        fub:be9eef72-ff24-38b2-a552-b8c6c9f1d3ea,
+        fub:dd4829c5-e695-3f53-bc6e-d029d6155a4c,
+        fub:e8531c8c-3188-3c42-81b9-24930695c87f .
+
+fub:b18711cf-b35a-3efe-8718-a1429ca599fc a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Meteorologie"@de-de,
+        "Institute of Meteorology"@en-us ;
+    obo:BFO_0000050 fub:32ce03d5-9ea8-3a49-b3d2-bf866ab91c46 ;
+    obo:BFO_0000051 fub:480a1e32-d25e-3499-9485-cc0d2d4d1a08,
+        fub:5ad487b3-45fc-3136-a293-37f089bd3d66,
+        fub:6993a7ea-919e-375b-a911-c7da95c32e76,
+        fub:71f0d157-6ad9-31ec-985c-5f518b55f6d1,
+        fub:8d00dbad-5bbc-3131-af6e-3497eb2afbe3,
+        fub:a0117591-4de3-33aa-9f90-52e2fb47ce78,
+        fub:c337130b-be49-34a6-b054-7694b45c55fa,
+        fub:e583aea7-c44a-3f8a-b7c4-e6ad6dad870d,
+        fub:e7619092-8206-3694-9fa0-62964428af7a,
+        fub:f004ea0f-9b6d-3318-a84b-2d288ad20626 ;
+    bua:geritId "15102" .
+
+fub:25e93e33-b559-380d-8d69-a90560b76977 a  bua:BUA_0000030,
+        owl:NamedIndividual ;
+    rdfs:label "Klinik für kleine Haustiere (WE20)"@de-de,
+        "Small Animal Clinic"@en-us ;
+    obo:BFO_0000050 fub:e8531c8c-3188-3c42-81b9-24930695c87f ;
+    obo:BFO_0000051 fub:21dcee7e-f718-34c9-b0b0-4bd855a3f667,
+        fub:37ed81b2-028f-3afa-89e2-132d44890347,
+        fub:48c56587-ce47-3a0b-850b-7d401dfb1e2a,
+        fub:4b716114-1565-3a27-887d-9c86b3a7d4b1,
+        fub:5d1a8007-74df-38f8-a75e-72eed0446c9e,
+        fub:7f6beaed-450a-3c9c-9c4c-b57cab28ce61,
+        fub:b0c22222-64dc-3859-99c9-163726629636,
+        fub:c317fb58-ed1b-3240-9f61-1d8c47a18834,
+        fub:c719249f-d29b-3e9a-bb57-f3e0780e3cf3,
+        fub:d4326064-e18f-3e6d-ac23-f019a78d45a0,
+        fub:e8d80167-692a-3e43-a8f5-900560214439,
+        fub:fe141008-fe7b-3a18-b157-e38eec8c6a65 ;
+    bua:geritId "15187" .
+
+fub:0f0f6e59-5b38-352e-835c-ee30c2551300 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Experimentalphysik (WE 1)"@de-de,
+        "Institute of Experimental Physics"@en-us ;
+    obo:BFO_0000050 fub:2ef5e0b4-b786-3c11-aec3-90fa3add6ecd ;
+    obo:BFO_0000051 fub:06bc0a88-c927-3bd2-b97d-8c9514e4bbbd,
+        fub:084acf97-fb21-3684-94ba-7503c3f5d826,
+        fub:0c9b65a0-85f6-31c7-9566-286de733b48a,
+        fub:0e918a39-cd88-3451-9a4d-bb398721069d,
+        fub:0f00156c-b86b-35ef-9df6-1d66036cb9c8,
+        fub:1d7e431d-924b-3c66-bd85-56b6de9edb2f,
+        fub:2b3ed0df-c96a-3080-b3de-b2f08be4e915,
+        fub:458b8978-973a-3b6d-b900-787a4fc22eb0,
+        fub:5c975f3e-6d49-393a-8443-398858e4e025,
+        fub:7926ebb8-fc4e-305d-aa84-b152c89f5f0c,
+        fub:8cbe3f33-cdd9-35df-a5d8-1cc888ca0a64,
+        fub:8dcc4683-c06a-3357-b194-263b57715aad,
+        fub:a1875758-1f38-33bb-8b30-665a403bdca3,
+        fub:ab71b491-5014-33c4-b25a-6a3ed1234af1,
+        fub:c23f1a42-bf5a-3a84-a0be-70b2f4bd61b1,
+        fub:cd5c792f-75a8-3891-a03a-5cfb651bc8ed,
+        fub:f58104e8-8966-367a-9e66-fc24c69fdfc0,
+        fub:fa3080da-c760-340b-8aeb-10fb0fb98892 ;
+    bua:geritId "15165" .
+
+fub:e8531c8c-3188-3c42-81b9-24930695c87f a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Veterinärmedizin"@de-de,
+        "Department of Veterinary Medicine"@en-us ;
+    obo:BFO_0000050 fub:Freie_Universitaet_Berlin ;
+    obo:BFO_0000051 fub:045fb3ed-1799-3cb7-b1d5-6c9e578fb07d,
+        fub:0f03e4b3-cd53-3a5a-bf79-e08e4444f0d8,
+        fub:1a1de08a-fae1-3c61-bbb7-f230dac78485,
+        fub:1ec3eed1-f700-3b89-b6b7-c1d9f62d319b,
+        fub:25e93e33-b559-380d-8d69-a90560b76977,
+        fub:2d153b49-e0de-325e-bc38-a7daf4bc219f,
+        fub:30255add-d8c2-3d48-a768-d973e2201555,
+        fub:3c851de5-6db9-3b00-93ea-c5aa178fcdf8,
+        fub:50612783-c1d1-3a07-9fb6-8c270d93f257,
+        fub:55992f61-8952-30ab-bbe3-d4272e68f77e,
+        fub:6c161405-1030-326a-b5bd-89b9fc328ddc,
+        fub:81e4f20d-f260-3aa1-9daa-bd6e15032ae5,
+        fub:9cc7390a-742c-3d9e-96e0-29e52c12cf67,
+        fub:9e89050a-78c1-34f5-984a-3bf01f4af56c,
+        fub:b3c50301-44bb-362c-b10f-6173a74f9a49,
+        fub:b67db508-af4f-3648-bc92-a556650c4751,
+        fub:c96750f7-40df-3e57-9199-a0cd32895238,
+        fub:ff79974d-1f2f-31b7-b6e0-62dcdcc18b1e ;
+    bua:geritId "13214" .
+
+fub:aeca1781-036a-37a1-acd5-075bcd89817d a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Otto-Suhr-Institut für Politikwissenschaft"@de-de,
+        "Otto Suhr Institute of Political Science"@en-us ;
+    obo:BFO_0000050 fub:dd4829c5-e695-3f53-bc6e-d029d6155a4c ;
+    obo:BFO_0000051 fub:0ca2d91e-ff1b-31bc-b4fa-63749ffd05cf,
+        fub:14bfd207-8f44-3bc4-b870-cc9a09961398,
+        fub:25baadf0-33f7-3e05-a502-6edddd6c50fe,
+        fub:346e0a22-7700-365d-88ba-ad5da7ca015b,
+        fub:50d7ecc8-aa8f-3c54-aafa-2e334f0e5101,
+        fub:607d37d6-880f-3083-8d23-01d8f5bb1648,
+        fub:61b9d6c2-f92c-3acf-9177-85344fa5fe9c,
+        fub:76fb94b0-0d4b-3a79-a7e0-9aef7d971b89,
+        fub:7db7f741-7500-319e-884a-fdc5c50c2ffc,
+        fub:8dda69dd-027f-3080-af65-cc29d95ef60f,
+        fub:9676c740-084d-3c7e-b410-fa505b8c268b,
+        fub:9b115a34-490b-3632-8c7a-ec9e3b182689,
+        fub:9b25b50e-27bf-3e7f-a4e9-a84571776845,
+        fub:a9d139fd-9ded-358f-829a-0b5126318e21,
+        fub:aa2c0bf8-3348-399e-889f-688632c8cd00,
+        fub:bf311a2c-435f-34d3-a453-2863e8d6569b,
+        fub:c9f3f984-0fa8-36e9-bc64-c853f82e49e1,
+        fub:d03e9f38-b4dd-36ee-87f8-6d3fa7837cb0,
+        fub:dcd69454-de5a-3cc9-b356-663c063e6f69 ;
+    bua:geritId "23973" .
+
+fub:5f276038-b3c7-399a-9a0e-dd073b22b369 a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Wissenschaftsbereich Psychologie"@de-de,
+        "Psychology"@en-us ;
+    obo:BFO_0000050 fub:2f63cb29-129c-3f97-a362-f27012dbea3c ;
+    obo:BFO_0000051 fub:0f025e5a-4775-3126-891d-d25c70541592,
+        fub:23384faf-2ab3-3718-9b59-dbd1a11c9cc5,
+        fub:2e068a9e-b85b-3223-be7f-86cca17f69b4,
+        fub:32cd468b-52cf-3bc7-ab51-12cd08d0c900,
+        fub:4737dbc5-453c-3d16-b1e8-3c55102597c4,
+        fub:4ac42843-09b2-3161-ac66-cbf856a98e86,
+        fub:5d2d64cc-b727-32dd-a8ef-194109e9f812,
+        fub:603710ac-1bb0-3906-a271-617f7996c3b7,
+        fub:64d2a0ff-ea5f-3904-9afb-0e62366fb00f,
+        fub:660e441b-dd6b-3e2a-ac99-ba725bb30062,
+        fub:72f7a410-3515-3199-943a-9b7235b81de0,
+        fub:87fce8e9-a9d5-312a-811a-6f0f5788ac79,
+        fub:8a035482-3dbe-30e7-8cb3-e7900ecea866,
+        fub:8ce4690b-677c-3fa5-a3a6-3589ff47191a,
+        fub:cd223fa6-a238-3539-94bf-34311afbeabd,
+        fub:d1b70aa3-90bb-329b-b465-40e3949b9778,
+        fub:d6ae452c-10cd-3a6f-899f-e0b09f46cc2e,
+        fub:e4eb249a-a14d-31ce-b53c-987e91bd551a,
+        fub:ef2fe483-b81f-31df-87d7-1eddefd7978b,
+        fub:f8560625-4ca2-3b46-856e-c2cf24560892 .
+
+fub:662f3ab9-01c7-3002-93dd-8118df550762 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Informatik"@de-de,
+        "Institute of Computer Science"@en-us ;
+    obo:BFO_0000050 fub:1ddf96d7-8d42-38d1-a1d6-c47ad539d877 ;
+    obo:BFO_0000051 fub:0e8c8a58-ffe1-31d4-8e40-acb78a523aae,
+        fub:26270fed-45f4-3a9b-8721-3d4a6603e66b,
+        fub:2cf6ec33-a478-3695-b3d1-44dc366e6401,
+        fub:3240dd7e-dcab-3d3b-9dc1-363adc1158f2,
+        fub:45d7ba07-0b3c-335e-954c-6c8d974c413f,
+        fub:4989ddea-810c-35db-8562-15fa90939fdd,
+        fub:52fec2ed-688b-3119-8009-509a77cde5e1,
+        fub:868ba8d8-faea-3df5-a28e-a8cea222df04,
+        fub:8f72d45a-3f5e-3455-803b-5eda39b0e0d3,
+        fub:902fea58-6cb2-3ce9-a73e-d180928bef12,
+        fub:a40b2c78-6bc6-33b1-8eb2-09aa91918245,
+        fub:a5cb5cd2-32a7-3261-b5a8-40a9ea8606ce,
+        fub:b70fe2ca-d6ab-3e0f-8cb0-9749e15b2822,
+        char:ec931f9a-1ae5-3b93-9941-cbb8f4e15f46,
+        fub:da40a7fb-81e4-3a12-96d3-b81170fd5326,
+        fub:dd764893-a17d-33a0-8763-bf16f02b1cff,
+        fub:e2816259-8bfc-3c50-87bc-beecf8f3903b,
+        fub:e8a087a8-6b98-3258-84f8-5fc63eca1e53,
+        fub:f505b01f-2f58-3c8c-b453-205e8ac8f6f3,
+        fub:f70ca3af-7b22-30f7-bcc8-39d801127f38 ;
+    bua:geritId "15108" .
+
+fub:b769f052-1d26-35e5-a21b-d239e9221f67 a  bua:BUA_0000011,
+        owl:NamedIndividual ;
+    rdfs:label "Wissenschaftsbereich Erziehungswissenschaft und Grundschulpädagogik"@de-de,
+        "Education"@en-us ;
+    obo:BFO_0000050 fub:2f63cb29-129c-3f97-a362-f27012dbea3c ;
+    obo:BFO_0000051 fub:074034fd-8495-38c1-8e93-e1450809e953,
+        fub:17177ac7-735e-3a9e-97aa-ac8b8225d234,
+        fub:17fd51a7-ed4e-33fd-8fda-247503051e3a,
+        fub:31e40d0d-222d-3df3-96c5-2dedd73c4ea5,
+        fub:475fa66a-d3f2-3e30-95cf-ed59620e364b,
+        fub:4f96db7d-7332-3eaa-ba00-e8381b021f95,
+        fub:521d604f-0bda-317d-abad-647fefc46623,
+        fub:55e619da-db94-3ad1-b679-a6a24023ec55,
+        fub:577ecf96-337f-369d-94e5-666e37066c72,
+        fub:68d9a4ad-f6a0-3703-8a8b-7424894f2788,
+        fub:6dece3df-a7b9-3509-af5c-ab05b6fd9556,
+        fub:7a39c7d6-61a2-357a-adc2-edb8f0974fd4,
+        fub:8b339a86-f2e4-3d8e-92d4-344ae1ada454,
+        fub:93ca7f15-d40d-3ff6-b3d1-5a902e00df58,
+        fub:a9e226d0-1e15-356d-a5a1-b3d62af84134,
+        fub:ae529aa2-4b0e-33b6-8c49-6eea2019bb04,
+        fub:c63d582a-09e4-3e97-8960-463b76225bca,
+        fub:cc345bac-54e3-3f84-99fe-3cc6fc6ed713,
+        fub:d1b70aa3-90bb-329b-b465-40e3949b9778,
+        fub:d637deac-c3a9-30fc-bd6e-4f00270d2ac7,
+        fub:da0edd34-3668-3dcf-8ca8-49283294678d,
+        fub:dfcd0a78-e27a-35ec-a6c0-ae67ccf3023b,
+        fub:e2351f86-21e6-334a-abe4-b6867f691621,
+        fub:f02e824a-d64b-3ae9-9a9e-ec83ce27349f .
+
+fub:1f3f0655-3ac1-30fa-ac84-6a978757b319 a  bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Mathematik"@de-de,
+        "Institute of Mathematics"@en-us ;
+    obo:BFO_0000050 fub:1ddf96d7-8d42-38d1-a1d6-c47ad539d877 ;
+    obo:BFO_0000051 fub:104097a5-701a-3e0a-af96-06a0b8fef49d,
+        fub:22116986-e4aa-3a3c-a8f4-475f50e1faf6,
+        fub:3bad1861-2098-3368-a956-7e6bef666b22,
+        fub:3be358dd-5a6c-3bac-90ee-a4cc474fd991,
+        fub:4b91bca3-8625-3fa6-a1c3-1f2eb2081ce5,
+        fub:5d705c75-7aec-3ed7-9d8f-918a39998524,
+        fub:620e7a7a-993d-3bc1-a425-917585422697,
+        fub:6b34a7ec-80d8-317d-aff9-976491b12e6f,
+        fub:77cb5df2-c1ab-322f-826d-48000d950830,
+        fub:7a540fa6-6517-3afd-a936-1692b5daac4d,
+        fub:7da7f943-6a0e-3556-bf94-7a68183e1495,
+        fub:8f9abb32-aea9-3ccc-8727-98994a846f11,
+        fub:a18db29f-364d-3ba7-a751-255cdc97cd26,
+        fub:a63cb1fd-2cf8-393e-84c0-587beb22c659,
+        fub:b48403be-ef75-3ea5-9c1a-ec239de2b29a,
+        fub:bcebf1ce-be83-3dcb-aef3-91643a0815cb,
+        fub:c1dfea52-f50a-393e-9aaa-5c0176e2ab77,
+        fub:c651e116-6c59-31da-b067-d76be4350885,
+        fub:c7381345-9da6-3522-b4aa-e8800f794941,
+        fub:c8dda69c-fb74-3cfc-ab9b-436fb1468680,
+        fub:d5af52ca-e9a6-3d60-8195-6848c656cea1,
+        fub:d7565037-2465-3b45-b0ea-5503f7dd0754,
+        fub:dc2ad24f-a49f-3e8f-a0b2-d64d42c94700,
+        fub:eb4cf17f-705f-36e5-95cf-54e4941fbfc2,
+        fub:f9af8a8a-1ea8-3660-a10d-1791929dd6b2,
+        fub:fa049166-296f-377d-a7c6-1c87ff561e5b ;
+    bua:geritId "15109" .
+

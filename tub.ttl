@@ -1,0 +1,3694 @@
+@prefix bua: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tub: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/tub/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix char: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/char/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix huzb: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/huzb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix vivode: <http://vivoweb.org/ontology/core/de> .
+@prefix vivobua: <http://vivo.berlin-university-alliance.de/ontology/core/v1/vivo/bua#> .
+@prefix vivo-bua-fub: <http://vivo.berlin-university-alliance.de/ontology/core/v1/vivo/bua/fub#> .
+@prefix vivo-bua-char: <http://vivo.berlin-university-alliance.de/ontology/core/v1/vivo/bua/char#> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix faecherklassifikation: <https://onto.tib.eu/destf/cs/> .
+@prefix tub: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/tub/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@base <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/tub/> .
+
+
+
+tub: a owl:Ontology ;
+    rdfs:label "Charité – Universitätsmedizin Berlin Organisationsontologie"@de-de,
+        "Charité – Universitätsmedizin Berlin Organizational Ontology"@en-us ;
+    vitro:ontologyPrefixAnnot "tub"^^xsd:string ;
+    rdfs:label "Technische Universität Berlin Organization Ontology"@en-us ,
+            "Technische Universität Berlin Organisationsontologie"@de-de ;
+    dct:creator <https://orcid.org/0000-0003-4325-5751> ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.en> ;
+    owl:versionIRI tub:1.0 .
+                                                                                  
+
+
+###  http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/bua
+bua:bua rdf:type owl:NamedIndividual .
+
+
+tub:1bcdd586-240e-3e77-8521-d83827147f6b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Festkörper- und Materialchemie"@de-de,
+        "Department of Solid State and Materials Chemistry"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 .
+
+tub:b9483fe6-8352-39c1-b681-d8bd24018d96 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Strukturelle Chemische Biologie und Cheminformatik"@de-de,
+        "Department of Structural Chemical Biology – Cheminformatics"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:ac1eb868-8e07-3a4d-82ce-da6c360c7cb8 .
+
+bua:bua a bua:BUA_0000016,
+        owl:NamedIndividual ;
+    rdfs:label "Berlin University Alliance"@de-de,
+        "Berlin University Alliance"@en-us .
+
+tub:00d65272-a9d1-3b80-acd0-801ce60c21d3 a bua:BUA_0000053,
+        owl:NamedIndividual ;
+    rdfs:label "Zentraleinrichtung Center for Junior Scholars (CJS)"@de-de,
+        "Central Facility Center for Junior Scholars (CJS)"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin .
+
+tub:0128aa1b-b318-3034-9d1b-7ada58b82151 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Ingenieurgeologie"@de-de,
+        "Department of Engineering Geology"@en-us ;
+    obo:BFO_0000050 tub:fedb8031-bd26-3be8-8af5-6173474d0c69 ;
+    bua:geritId "26635" .
+
+tub:014d65cf-dfbd-381a-bf6e-28524d1860ad a bua:BUA_0000055,
+        owl:NamedIndividual ;
+    rdfs:label "School of Education (SETUB)"@de-de,
+        "School of Education (SETUB)"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin .
+
+tub:014d95b2-85cb-3b02-b851-25bb9ec4e4c4 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Computersimulationen und Theorie komplexer Fluide"@de-de,
+        "Research group on Computer Simulations and Theory of Complex Fluids"@en-us ;
+    obo:BFO_0000050 tub:cdce808b-fc1d-32e2-b120-b37220aedb3e .
+
+tub:0199b1a4-c90d-3478-88e0-f5ca5be0dafc a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Logik und Semantik"@de-de,
+        "Research Group Logic and Semantics"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba ;
+    bua:geritId "26359" .
+
+tub:01b6cc4d-2c4d-3df0-a3ed-21b7f77b5736 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Umwelt-Governance"@de-de,
+        "Environmental Governance Research Group"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 ;
+    bua:geritId "498608763" .
+
+tub:01b72cea-fc40-3f1e-9a1b-21ed2b19d70f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Raumsoziologie/ Stadt- und Raumsoziologie"@de-de,
+        "Chair of Urban and Regional Sociology"@en-us ;
+    obo:BFO_0000050 tub:f535c8af-16e8-3bad-bc74-46b66a321c92 .
+
+tub:02c246d0-4177-3f59-b849-9c2d90e90e1e a bua:BUA_0000003,
+        owl:NamedIndividual ;
+    rdfs:label "Zentrum für Antisemitismusforschung"@de-de,
+        "Center for Research on Antisemitism"@en-us ;
+    obo:BFO_0000050 tub:45b04086-5402-38dd-80f3-73645db20e23 ;
+    bua:geritId "15202" .
+
+tub:04bef34e-852c-3872-bc7e-ca3172b58fe7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Entwerfen und Konstruieren - Massivbau"@de-de,
+        "Department of Solid Structures"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "49824566" .
+
+tub:04d386d3-e179-3176-88e6-4e82c7941ec6 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Robotics"@de-de,
+        "Robotics and Biology Laboratory Research Group"@en-us ;
+    obo:BFO_0000050 tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf ;
+    bua:geritId "981020" .
+
+tub:05108876-25d4-3a08-8572-f5deecba0488 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bau- und Planungsrecht"@de-de,
+        "Chair of Building, Planning and Environmental Law"@en-us ;
+    obo:BFO_0000050 tub:1fe38b73-7636-34ee-bce0-85b320558830 .
+
+tub:05b4d380-caf7-3904-805e-eadb3e42ef6c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Lebensmittelchemie und Toxikologie"@de-de,
+        "Department Food Chemistry and Toxicology"@en-us ;
+    obo:BFO_0000050 tub:988112dc-8148-3dde-9187-0f13247cdeb1 ;
+    bua:geritId "980868" .
+
+tub:05f6dd65-4c6c-32e6-adfb-7519c4199251 a bua:BUA_0000036,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet für Kunstgeschichte Ostmitteleuropas"@de-de,
+        "Department of Art History of East Central Europe"@en-us ;
+    obo:BFO_0000050 tub:0cb95e7f-332f-3866-84e8-7471669af2d0 .
+
+tub:06497888-d689-3aa4-8c7b-cafcdf20a0ef a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Kommunikationswissenschaft"@de-de,
+        "Department of Communication Science"@en-us ;
+    obo:BFO_0000050 tub:3b66e010-1a89-3aa9-84e1-cd4c90ce04b3 ;
+    bua:geritId "26013" .
+
+tub:07e7fa4f-9190-3a83-91c7-e9447b86ee5b a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Lehmann Elektronenmikroskopie und -holographie"@de-de,
+        "Research group Lehmann on Electron microscopy and holography group"@en-us ;
+    obo:BFO_0000050 tub:f97de598-57c9-3f86-9e31-19aa10d33694 .
+
+tub:07e9e6e5-c95a-327d-b859-d1b33bb12feb a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Systemdynamik und Reibungsphysik"@de-de,
+        "Department of System Dynamics and Friction Physics"@en-us ;
+    obo:BFO_0000050 tub:0204c6da-5964-39e2-9340-2406e4f56186 ;
+    bua:geritId "981573" .
+
+tub:08b848d0-795e-323e-8e01-c7c1f366767e a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Architekturen der Vermittlungsknoten"@de-de,
+        "Chair of Next Generation Networks (AV)"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca .
+
+tub:09dfcb6f-b22c-3858-ba28-142846e12575 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet für Bioanalytik"@de-de,
+        "Department of Bioanalytics"@en-us ;
+    obo:BFO_0000050 tub:8a72786a-a65d-32c7-a81c-82ae2160f641 .
+
+tub:0aefda85-e0aa-327e-8714-e4fd674d5a4f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Elektrische Energiespeichertechnik"@de-de,
+        "Department of Electrical Energy Storage Technology"@en-us ;
+    obo:BFO_0000050 tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9 ;
+    bua:geritId "264589091" .
+
+tub:0bcb34b4-bfb4-3eb7-9bcb-70d625f5cbe6 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Nachrichtenübertragung"@de-de,
+        "Communication Systems Group"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca ;
+    bua:geritId "26358" .
+
+tub:0c37715f-b5b5-34ea-87d8-c0db5179d9cb a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Strategische Führung und globales Management"@de-de,
+        "Chair of Strategic Leadership and Global Management"@en-us ;
+    obo:BFO_0000050 tub:3d2d3c43-9009-3caa-8aec-759eeaf7ae73 ;
+    bua:geritId "125994068" .
+
+tub:0c73ca3c-6e4d-3ec6-81d6-b0c4d44b69b3 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Entwerfen und Konstruieren - Verbundstrukturen"@de-de,
+        "Department of Design and Construction of Composite Structures Section"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "123534835" .
+
+tub:0d335748-df7d-32ff-8d90-bfb5c63cee85 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Reitzenstein - Optoelektronik und Quantenbauelemente"@de-de,
+        "Working group Reitzenstein on Optoelectronics and Quantum Devices"@en-us ;
+    obo:BFO_0000050 tub:058c7cca-efbb-384f-9a28-46a4d3badd92 .
+
+tub:0f0bc5cd-cd69-3588-a25f-d2c02bac491f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Nachhaltigkeitsökonomie menschlicher Siedlungen"@de-de,
+        "Sustainability Economics of Human Settlements Research Group"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 .
+
+tub:0f23828b-4c01-33a0-96c4-d519e78b66b6 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Habitat Unit: Städtebau und internationale Urbanistik"@de-de,
+        "Chair of International Urbanism and Design"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:102c1c06-b37d-3835-af81-5961ad1ed723 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Organisationssoziologie"@de-de,
+        "The Chair for Sociology of Organizations"@en-us ;
+    obo:BFO_0000050 tub:f535c8af-16e8-3bad-bc74-46b66a321c92 ;
+    bua:geritId "125746819" .
+
+tub:115a7d87-b8cd-3360-8ab9-8e101b53db43 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe von Prof. R. Wolf"@de-de,
+        "Research group of Prof. R. Wolf"@en-us ;
+    obo:BFO_0000050 tub:b4f3d3a2-2205-3473-97dd-33437e3c53b3,
+        tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b .
+
+tub:125cc076-b01f-3685-a9f9-89dcb9e888e1 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Höchstfrequenztechnologien"@de-de,
+        "Department of High-Frequency Technologies"@en-us ;
+    obo:BFO_0000050 tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 .
+
+tub:126e8655-84d9-3d61-a4ee-8a4e49371ff2 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Ökosystemkunde/Pflanzenökologie"@de-de,
+        "Chair of Ecosystem Science / Plant Ecology"@en-us ;
+    obo:BFO_0000050 tub:b1ea973e-b158-3f63-bab8-ad12d0b65d97 ;
+    bua:geritId "30822" .
+
+tub:1277bec9-8d33-343f-a9d6-4cd4f13bfaba a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Industry Grade Networks and Clouds"@de-de,
+        "Chair of Industry Grade Networks and Clouds"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca .
+
+tub:13ecbb51-3396-30d0-b27b-3e18d1f8fcbe a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Kneissl - Experimentelle Nanophysik und Photonik"@de-de,
+        "Research group Kneissl on Experimental Nanophysics and Photonics"@en-us ;
+    obo:BFO_0000050 tub:058c7cca-efbb-384f-9a28-46a4d3badd92 .
+
+tub:14c3708c-c590-33e3-a0c4-0dfde6d1fc45 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Numerische Methoden kompressibler und reaktiver Strömungen"@de-de,
+        "Department of Numerical Methods of Compressible and Reactive Flows"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab .
+
+tub:1528d1a4-05ee-35d9-b525-3cd0fe95a663 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Controlling und Rechnungslegung"@de-de,
+        "Chair of Accounting and Management Control"@en-us ;
+    obo:BFO_0000050 tub:36a10295-3dbb-3ee0-91be-a32e3935e37a ;
+    bua:geritId "26862" .
+
+tub:153b0e94-2917-32a1-9b68-9dd67a27eb19 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Fahrerverhaltensbeobachtung für energetische Optimierung und Unfallvermeidung"@de-de,
+        "Chair of Naturalistic Driving Observation for Energetic Optimisation and Accident Avoidance"@en-us ;
+    obo:BFO_0000050 tub:6c54dad6-7028-3c3d-8c4e-5aa6c202d091 .
+
+tub:1700535d-004d-3ecd-9d34-bd8884e544ba a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Baustoffe und Bauchemie"@de-de,
+        "Chair of Building Materials and Building Chemistry"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "26628" .
+
+tub:1701d983-f4f7-32ca-b46a-7c574f110f0c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Fachgebiet Psychoakustik"@de-de,
+        "Department of Psychoacoustics"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab .
+
+tub:172b2711-b41f-3b8b-8007-5616c2af5809 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Wissenschaftsgeschichte"@de-de,
+        "History of Science Department"@en-us ;
+    obo:BFO_0000050 tub:30cc8168-c5dd-3635-a203-7a32fe947c9d .
+
+tub:177d0d68-0230-34b8-b01d-80c26693d670 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Exergiebasierte Methoden für kältetechnische Systeme"@de-de,
+        "Chair of Exergy-based methods for refrigeration systems"@en-us ;
+    obo:BFO_0000050 tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b .
+
+tub:18ec64b8-fc42-3ee5-9011-a8b1cd7eea1b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Methodenlehre und Maritime Psychologie"@de-de,
+        "Chair of Methodology and Maritime Psychology"@en-us ;
+    obo:BFO_0000050 tub:317f0340-e061-3fa5-b9a0-c763729ae036 .
+
+tub:19a53a69-a479-3f7e-90cb-8785dadcadfb a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Schienenfahrzeuge"@de-de,
+        "Department Automotive Engineering"@en-us ;
+    obo:BFO_0000050 tub:6c54dad6-7028-3c3d-8c4e-5aa6c202d091 ;
+    bua:geritId "122162201" .
+
+tub:1ace7fab-3418-3437-9ae6-b280d03f169f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Ökonomie und Politik des Klimawandels"@de-de,
+        "Climate Economics and Public Policy Research Group"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 .
+
+tub:1b84d72d-ee5c-304c-9386-3e93fbfeb97f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Landschaftsarchitektur Entwerfen"@de-de,
+        "Landscape Architecture Design Research Group"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 ;
+    bua:geritId "26790" .
+
+tub:1bfbd11f-7ad8-37c6-89b5-1ae5166e0bfb a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Kontrolle selbstorganisierender nichtlinearer Systeme"@de-de,
+        "Department of Control of Self-Organizing Nonlinear Systems"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14 .
+
+tub:1c0fcbb3-3ecd-3841-89a6-62fbb8b2d226 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Anorganische Chemie / Metallorganische Chemie und Anorganische Materialien"@de-de,
+        "Department of Inorganic Chemistry / Organometallic Chemistry and Inorganic Materials"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:4e5b3002-2d52-385f-9589-59dbac890b75 .
+
+tub:1c1f0316-e128-34b0-8b85-faa9b288850c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Open Science"@de-de,
+        "Open Science department"@en-us ;
+    obo:BFO_0000050 tub:30cc8168-c5dd-3635-a203-7a32fe947c9d .
+
+tub:1cf3e582-6345-3a35-b4e2-422923e40411 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Umweltverfahrenstechnik"@de-de,
+        "Department of Environmental Process Engineering"@en-us ;
+    obo:BFO_0000050 tub:1c06e07b-3c99-383a-bec8-b853475535bd ;
+    bua:geritId "82019963" .
+
+tub:1f212d6a-a250-3d37-a704-2d2762811b53 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Landschaftsbau-Objektbau"@de-de,
+        "Landscaping and Object Construction Research Group"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 ;
+    bua:geritId "26787" .
+
+tub:1fda4758-4384-33eb-9c63-aacbba025f36 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Literaturwissenschaft"@de-de,
+        "Department of literary studies"@en-us ;
+    obo:BFO_0000050 tub:30cc8168-c5dd-3635-a203-7a32fe947c9d ;
+    bua:geritId "26016" .
+
+tub:1fe8a21a-f12f-3a6c-8435-80718cef2082 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Tragwerksentwurf und -konstruktion"@de-de,
+        "Chair of Design and Structure"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 ;
+    bua:geritId "126668773" .
+
+tub:232d7380-208a-36d5-b870-6e2eecfa929e a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Stabilität und Versagen funktionsoptimierter Strukturen"@de-de,
+        "Department of Stability and Failure of Functionally Optimised Structures"@en-us ;
+    obo:BFO_0000050 tub:0204c6da-5964-39e2-9340-2406e4f56186 ;
+    bua:geritId "365697715" .
+
+tub:240021be-49c2-379f-adee-6beaabb3c546 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Software and Business Engineering (SBE)"@de-de,
+        "Chair of Software and Business Engineering (SBE)"@en-us ;
+    obo:BFO_0000050 tub:258bc48b-ab8f-3d76-818b-098c2d536db3 ;
+    bua:geritId "464629853" .
+
+tub:26277a63-2af8-3146-8124-01db186190b8 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Elektronik und medizinische Signalverarbeitung"@de-de,
+        "Department of Electronics and Medical Signal Processing"@en-us ;
+    obo:BFO_0000050 tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9 ;
+    bua:geritId "26347" .
+
+tub:26e30803-b362-3688-ad8b-3587226c2d84 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Wolters Physikalische Grundlagen der IT-Sicherheit"@de-de,
+        "Research group Wolters on Physical basics of IT security"@en-us ;
+    obo:BFO_0000050 tub:f97de598-57c9-3f86-9e31-19aa10d33694 .
+
+tub:28118763-6e6f-301a-8226-07a8b256988a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Allgemeine Linguistik"@de-de,
+        "Department of General Linguistics"@en-us ;
+    obo:BFO_0000050 tub:3b66e010-1a89-3aa9-84e1-cd4c90ce04b3 ;
+    bua:geritId "26012" .
+
+tub:297dc00d-0fea-363a-a5b0-d7c10f05ef8d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Geobiotechnologie"@de-de,
+        "Department of Geobiotechnology"@en-us ;
+    obo:BFO_0000050 tub:8a72786a-a65d-32c7-a81c-82ae2160f641 ;
+    bua:geritId "409127980" .
+
+tub:29bc4d8e-a7ac-37b8-8d62-a80733dceac0 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mensch-Maschine-Systeme"@de-de,
+        "Chair of Human-Machine Systems"@en-us ;
+    obo:BFO_0000050 tub:317f0340-e061-3fa5-b9a0-c763729ae036 ;
+    bua:geritId "26555" .
+
+tub:29cb3503-ecf2-3370-82c8-aff75ad8aee6 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Agromechatronik"@de-de,
+        "Department of Agromechatronics"@en-us ;
+    obo:BFO_0000050 tub:969c7c58-9965-3c04-9cbf-502b16149eb3 .
+
+tub:2acc5d5d-7ccf-3805-8b85-aa0479d4679f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Lichttechnik"@de-de,
+        "Department of Lighting Engineering"@en-us ;
+    obo:BFO_0000050 tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9 ;
+    bua:geritId "26351" .
+
+tub:2b680e5c-d2d0-306f-9434-65950f68a1d2 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Lebensmitteltechnologie und -materialwissenschaften"@de-de,
+        "Department of Food Technology and Food Material Science"@en-us ;
+    obo:BFO_0000050 tub:988112dc-8148-3dde-9187-0f13247cdeb1 ;
+    bua:geritId "20946" .
+
+tub:2db5035e-4f25-383d-a0ff-005c4162bfe7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Physikalische Geodäsie"@de-de,
+        "Chair of Physical Geodesy"@en-us ;
+    obo:BFO_0000050 tub:f005d5b8-bdff-36b7-b972-9e0032524a32 .
+
+tub:2e2eb4e3-a591-3eba-8d36-7849170311f5 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Beschichtungstechnik"@de-de,
+        "Department of Coating Technology"@en-us ;
+    obo:BFO_0000050 tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 .
+
+tub:2e3dcd06-e1d0-3add-8cf3-b224352ff093 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Algorithmik und Komplexitätstheorie"@de-de,
+        "Algorithmics and Computational Complexity Research Group"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba ;
+    bua:geritId "195604436" .
+
+tub:2e93c2f9-d7fa-3b3f-a11b-0d0bdf997a50 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Angewandte Physik"@de-de,
+        "Applied Physics Research group"@en-us ;
+    obo:BFO_0000050 tub:058c7cca-efbb-384f-9a28-46a4d3badd92 ;
+    bua:geritId "15229" .
+
+tub:2f6d28f4-6fd3-3f29-a797-86195ecc39ef a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Leistungselektronik"@de-de,
+        "Power Electronics"@en-us ;
+    obo:BFO_0000050 tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9 ;
+    bua:geritId "26350" .
+
+tub:2f8d3443-77cf-39f5-b46f-3e038e29d979 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Handhabungs- und Montagetechnik"@de-de,
+        "Field of Assembly and Handling Technology"@en-us ;
+    obo:BFO_0000050 tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 .
+
+tub:3034fcd9-290a-3628-b725-0cdeef1cc4c7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bestandsentwicklung und Erneuerung von Siedlungseinheiten"@de-de,
+        "Chair of Urban Renewal and Sustainable Development"@en-us ;
+    obo:BFO_0000050 tub:1fe38b73-7636-34ee-bce0-85b320558830 ;
+    bua:geritId "125767207" .
+
+tub:32fd1132-d970-3b09-b1e2-62b3680ac17d a bua:BUA_0000053,
+        owl:NamedIndividual ;
+    rdfs:label "Zentraleinrichtung Moderne Sprachen (ZEMS)"@de-de,
+        "Central Facility for Modern Languages (ZEMS)"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin ;
+    bua:geritId "13251" .
+
+tub:33a1cb31-94ed-3c9a-ae1f-a32cb92d710c a bua:BUA_0000053,
+        owl:NamedIndividual ;
+    rdfs:label "Zentrum Technik und Gesellschaft (ZTG)"@de-de,
+        "Center for Technology and Society (ZTG)"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin ;
+    bua:geritId "13254" .
+
+tub:344e7ab9-409e-3c6a-98c1-531647f452c7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bodenkunde"@de-de,
+        "Chair of Soil Science"@en-us ;
+    obo:BFO_0000050 tub:b1ea973e-b158-3f63-bab8-ad12d0b65d97 ;
+    bua:geritId "30726" .
+
+tub:3568d588-146f-38e5-990d-ccf54e14bc20 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Dopher -  Lasermolekülspektroskopie und Umweltphysik"@de-de,
+        "Research group Dopher on group Laser Molecular Spectroscopy and Environmental Physics"@en-us ;
+    obo:BFO_0000050 tub:f97de598-57c9-3f86-9e31-19aa10d33694 .
+
+tub:36127349-374d-3446-a068-4b8c9c542dec a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet für Bioverfahrenstechnik"@de-de,
+        "Department of Bioprocess Engineering"@en-us ;
+    obo:BFO_0000050 tub:8a72786a-a65d-32c7-a81c-82ae2160f641 .
+
+tub:3620e1f0-29d5-390f-a410-0da72ba1cca3 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Arbeits-, Ingenieur- und Organisationspsychologie"@de-de,
+        "Chair Work, Engineering & Organizational Psychology"@en-us ;
+    obo:BFO_0000050 tub:317f0340-e061-3fa5-b9a0-c763729ae036 ;
+    bua:geritId "26545" .
+
+tub:36556f79-74a7-3059-a9a6-ab1a2c4f1b67 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Theoretische Grundlagen der Kommunikationstechnik - CommIT"@de-de,
+        "CommIT - The Communications and Information Theory Group"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca ;
+    bua:geritId "282384874" .
+
+tub:366f39c0-3553-334c-b73b-2d38d227dd9f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Regelungssysteme"@de-de,
+        "Department of Control Systems"@en-us ;
+    obo:BFO_0000050 tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9 ;
+    bua:geritId "30717379" .
+
+tub:36dab51a-3972-3c68-aba8-370ad3c30696 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Neurotechnologie"@de-de,
+        "Institute of Neurotechnology"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba .
+
+tub:3889a9c0-ae8e-3252-8cae-e8fd0f54b878 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Quantennichtgleichgewichtsdynamik"@de-de,
+        "Research group Quantum Non-Equilibrium Dynamics"@en-us ;
+    obo:BFO_0000050 tub:cdce808b-fc1d-32e2-b120-b37220aedb3e .
+
+tub:38ac96f1-7ee0-3712-925c-f29d77d521ab a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Straßenwesen"@de-de,
+        "Department of Road Engineering"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "123555063" .
+
+tub:39074192-54b4-3e79-85e3-aaadf33a72f4 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Wirtschafts- und Infrastrukturpolitik"@de-de,
+        "Chair of Economic and Infrastructure Policy"@en-us ;
+    obo:BFO_0000050 tub:4954ea4f-08bc-34b8-a344-db8cb89d5960 ;
+    bua:geritId "26853" .
+
+tub:395271ef-1428-344d-8c4e-9d659c1384e2 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Remote Sensing Image Analysis"@de-de,
+        "Remote Sensing Image Analysis Group"@en-us ;
+    obo:BFO_0000050 tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf .
+
+tub:39746a66-c435-3d5b-8e9d-59dd282a3c5e a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Maschinelles Lernen / Intelligente Datenanalyse"@de-de,
+        "Machine Learning/Intelligent Data Analysis group"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba ;
+    bua:geritId "121077197" .
+
+tub:3997aa40-b8cc-3fd4-a303-acd27853493d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bildende Kunst"@de-de,
+        "Chair of Fine Arts"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 ;
+    bua:geritId "126404329" .
+
+tub:39c219ef-efaa-336f-abf5-c68ad4e52085 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Methoden der empirischen Sozialforschung"@de-de,
+        "Department of Methods of Social Research"@en-us ;
+    obo:BFO_0000050 tub:f535c8af-16e8-3bad-bc74-46b66a321c92 ;
+    bua:geritId "125746588" .
+
+tub:3a1999c1-e0f4-39b7-8e5f-0455987abdbf a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Qualitätswissenschaft"@de-de,
+        "Quality Science Section"@en-us ;
+    obo:BFO_0000050 tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 ;
+    bua:geritId "123154660" .
+
+tub:3a7c8fa3-73be-313d-af0f-9172d2fc8c26 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Präzisionsnavigation und -ortung"@de-de,
+        "Chair of Precise Navigation and Positioning"@en-us ;
+    obo:BFO_0000050 tub:f005d5b8-bdff-36b7-b972-9e0032524a32 ;
+    bua:geritId "123740765" .
+
+tub:3b9da993-7f12-3942-92b1-86c7ff406ec0 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Distributed Security Infrastructures (DSI)"@de-de,
+        "Department for Distributed Security Infrastructures (DSI)"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba ;
+    bua:geritId "450982992" .
+
+tub:3ded6311-af0d-3359-87cb-3a6426954fe3 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Straßenplanung und Straßenbetrieb"@de-de,
+        "Department of Road Planning and Road Traffic"@en-us ;
+    obo:BFO_0000050 tub:6d77653d-cd96-352d-bca8-76c9b1b4f423 ;
+    bua:geritId "17137682" .
+
+tub:3e136454-af9a-3487-a49a-0d6f7f7cf941 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Gebäudetechnik und Entwerfen"@de-de,
+        "Chair of Building Engineering and Design"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 ;
+    bua:geritId "49005006" .
+
+tub:3e16b60a-f7ef-38c6-a2ea-e8119fa48c63 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Pädagogische Psychologie"@de-de,
+        "Department of Pedagogical Psychology"@en-us ;
+    obo:BFO_0000050 tub:95fe76e8-7ece-3e79-aba2-dcfd96f6ed00 .
+
+tub:3e882560-8d0f-3cc3-9d6c-cc3000a9b682 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Angewandte Geochemie"@de-de,
+        "Department of Applied Geochemistry"@en-us ;
+    obo:BFO_0000050 tub:fedb8031-bd26-3be8-8af5-6173474d0c69 ;
+    bua:geritId "178859285" .
+
+tub:3f2751f3-6b1c-375e-a44c-eebbe4c2f655 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Methodik der Geoinformationstechnik"@de-de,
+        "Chair of Methods of Geoinformation Science"@en-us ;
+    obo:BFO_0000050 tub:f005d5b8-bdff-36b7-b972-9e0032524a32 ;
+    bua:geritId "23349" .
+
+tub:4187024c-e2e5-34ad-9cb4-981976a615a5 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Integrierte Verkehrsplanung"@de-de,
+        "Chair of Integrated Transport Planning"@en-us ;
+    obo:BFO_0000050 tub:6d77653d-cd96-352d-bca8-76c9b1b4f423 ;
+    bua:geritId "122186606" .
+
+tub:433c3968-435c-31ac-9cc0-ae2a4d2455ba a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Technologie- und Innovationsmanagement"@de-de,
+        "Chair of Technology and Innovation Management"@en-us ;
+    obo:BFO_0000050 tub:3d2d3c43-9009-3caa-8aec-759eeaf7ae73 ;
+    bua:geritId "26865" .
+
+tub:43d3f5f1-608e-3c06-ae2b-f3c839aeca2b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Agententechnologien in betrieblichen Anwendungen und der Telekommunikation"@de-de,
+        "Department of Agent Technologies in Business Applications and Telecommunications"@en-us ;
+    obo:BFO_0000050 tub:258bc48b-ab8f-3d76-818b-098c2d536db3 .
+
+tub:43f527e3-dfe0-3f7d-a297-8158fa9721f0 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Stadt- und Regionalökonomie"@de-de,
+        "Chair of Urban and Regional Economics"@en-us ;
+    obo:BFO_0000050 tub:1fe38b73-7636-34ee-bce0-85b320558830 ;
+    bua:geritId "62810026" .
+
+tub:449a4f87-330c-3101-81f7-d30ba7e31889 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Allgemeine Soziologie"@de-de,
+        "Chair of General Sociology"@en-us ;
+    obo:BFO_0000050 tub:f535c8af-16e8-3bad-bc74-46b66a321c92 .
+
+tub:44b22645-1eb0-3364-9dcd-f73ac512608a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mobile Cloud Computing"@de-de,
+        "Mobile Cloud Computing research group"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca ;
+    bua:geritId "415548985" .
+
+tub:45679968-4a5c-33af-abdb-8dbdf569cb9c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Interkulturelle Erziehung"@de-de,
+        "Department of Intercultural Education"@en-us ;
+    obo:BFO_0000050 tub:95fe76e8-7ece-3e79-aba2-dcfd96f6ed00 .
+
+tub:45a95a71-ad8d-33c7-9cf0-ed43176b9e27 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Smart Water Networks"@de-de,
+        "Department of Smart Water Networks"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab .
+
+tub:45bc37c9-73ef-389e-9dc8-21a11fe7231a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Dekarbonisierte Energiesysteme"@de-de,
+        "Department of Decarbonized Energy Systems"@en-us ;
+    obo:BFO_0000050 tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b .
+
+tub:45c6737a-4bb0-32b9-b863-3941ab9e45cd a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Woggon Nichtlineare Optik"@de-de,
+        "Research group Group Woggon on Nonlinear Optics"@en-us ;
+    obo:BFO_0000050 tub:08cba762-e034-3bfb-84b0-ecbccb1f6140,
+        tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b,
+        tub:f97de598-57c9-3f86-9e31-19aa10d33694 ;
+    obo:BFO_0000051 tub:115a7d87-b8cd-3360-8ab9-8e101b53db43,
+        tub:6210dbf9-b62f-3578-bc0b-4d59bf0ab4de,
+        tub:6f6fa339-b9d7-388b-8f32-7be7945e8d32,
+        tub:a04a6dea-34b2-3712-8aae-9a70e6137f1f,
+        tub:ad0b6d2e-2f85-3e1e-b26f-d81cce70c604,
+        tub:c86c9a94-4d5b-3b0a-b16d-bd75623a7bc6 .
+
+tub:469378b3-2ffa-3b73-8b49-5969bde0c345 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Deutsch als Fremd- und Fachsprache"@de-de,
+        "Department of German as a foreign and technical language"@en-us ;
+    obo:BFO_0000050 tub:3b66e010-1a89-3aa9-84e1-cd4c90ce04b3 ;
+    bua:geritId "118803834" .
+
+tub:46944d6f-2acf-329a-bc2d-e9e64877b248 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Digitales Engineering 4.0"@de-de,
+        "Department of Digital Engineering 4.0"@en-us ;
+    obo:BFO_0000050 tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 .
+
+tub:469da730-2c50-3fff-b01d-4cc82932d485 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mechanische Verfahrenstechnik und Aufbereitung"@de-de,
+        "Department of Mechanical process engineering and processing"@en-us ;
+    obo:BFO_0000050 tub:10734a9a-19e9-3a0e-abc0-4fc9b8ae38e9 ;
+    bua:geritId "26319" .
+
+tub:46c09af2-059b-31ca-97ab-d140e56757c9 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Digitaler Wandel in Energiesystemen"@de-de,
+        "Department of Digital Transformation in Energy Systems"@en-us ;
+    obo:BFO_0000050 tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b .
+
+tub:48a1515f-1cbc-38f7-9e74-ebf702acf2ca a bua:BUA_0000053,
+        owl:NamedIndividual ;
+    rdfs:label "Zentraleinrichtung Wissenschaftliche Weiterbildung und Kooperation (ZEWK)"@de-de,
+        "Central Facility for Scientific Further Education and Cooperation (ZEWK)"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin .
+
+tub:494a293f-092a-3cff-af88-30eaa5449b8f a bua:BUA_0000053,
+        owl:NamedIndividual ;
+    rdfs:label "Zentraleinrichtung Hochschulsport (ZEH)"@de-de,
+        "Central facility University Sports Center (ZEH)"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin .
+
+tub:4ab3ca1a-0f65-3d78-986c-afbf71a7d2cf a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Entwerfen und Konstruieren - Stahlbau"@de-de,
+        "Department of Metal and Lightweight Construction"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "49824566" .
+
+tub:4af2b42a-4599-3eda-90b2-c19d9edc7854 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet für Lebensmittelverfahrenstechnik"@de-de,
+        "Department of food processing technology"@en-us ;
+    obo:BFO_0000050 tub:988112dc-8148-3dde-9187-0f13247cdeb1 ;
+    bua:geritId "43741755" .
+
+tub:4be12092-e42b-3f66-8599-4d7e3b8ae056 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Ökohydrologie & Landschaftsbewertung"@de-de,
+        "Chair of Ecohydrology and Landscape Assessment"@en-us ;
+    obo:BFO_0000050 tub:b1ea973e-b158-3f63-bab8-ad12d0b65d97 ;
+    bua:geritId "314328619" .
+
+tub:4d6708c6-1ec0-3239-8703-b61072840801 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Wirtschafts-, Unternehmens- und Technikrecht"@de-de,
+        "Chair of Business, Company and Technology Law"@en-us ;
+    obo:BFO_0000050 tub:4954ea4f-08bc-34b8-a344-db8cb89d5960 .
+
+tub:4e5d91c6-4f93-3bfc-8654-64f3d87c5dad a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Medizinische Biotechnologie"@de-de,
+        "Department of Medical Biotechnology"@en-us ;
+    obo:BFO_0000050 tub:8a72786a-a65d-32c7-a81c-82ae2160f641 ;
+    bua:geritId "78969312" .
+
+tub:4eeed0f9-f478-39d7-b01a-e61baf30df06 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Computational Psychology"@de-de,
+        "Department of Computational Psychology"@en-us ;
+    obo:BFO_0000050 tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf .
+
+tub:5008816f-6559-38ac-b5cf-24d37d2ce899 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Wasserreinhaltung"@de-de,
+        "Working Group Specialty Area of Water Quality Engineering"@en-us ;
+    obo:BFO_0000050 tub:1c06e07b-3c99-383a-bec8-b853475535bd ;
+    bua:geritId "26337" .
+
+tub:506665a1-7a74-333b-8e7d-50a4f725904c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Telecommunication Networks Group (TKN)"@de-de,
+        "Telecommunication Networks Group (TKN)"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca .
+
+tub:515c932b-c733-3e14-8ee4-aea8b9bd3797 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mikrowellen- und Optoelektronik"@de-de,
+        "Department of Microwaves and Optoelectronics"@en-us ;
+    obo:BFO_0000050 tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 .
+
+tub:541c7d8d-d90b-30a5-8cd1-e7a88f8a70c7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Architekturgeschichte"@de-de,
+        "Department of Architectural History"@en-us ;
+    obo:BFO_0000050 tub:0cb95e7f-332f-3866-84e8-7471669af2d0 .
+
+tub:54c3c7c8-aca9-3c3d-aa16-f9988ee2b0c7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Fügetechnik"@de-de,
+        "Department of Joining Technology"@en-us ;
+    obo:BFO_0000050 tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 .
+
+tub:561f0660-8382-3dd4-b548-b6c3ff99c52b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Energietechnik und Umweltschutz"@de-de,
+        "Chair of Energy Engineering and Environmental Protection"@en-us ;
+    obo:BFO_0000050 tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b ;
+    bua:geritId "971496" .
+
+tub:562c8b46-23b8-3400-a5d0-938c224f943d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Vegetationstechnik und Pflanzenverwendung"@de-de,
+        "Vegetation Technology and Plant Utilization Research Group"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 ;
+    bua:geritId "26795" .
+
+tub:56a60dfe-8b50-327c-95e1-f77d3d9af6f4 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bauinformatik"@de-de,
+        "Department of Computing in Construction"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "26626" .
+
+tub:56c2110a-32db-3bff-aaed-9c448677b7c1 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Grundbau und Bodenmechanik"@de-de,
+        "Department of Foundation Engineering and Soil Mechanics"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "26629" .
+
+tub:576c0d63-c126-30d7-b9f1-568c061ede35 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet CoLab: Architekturdarstellung und -gestaltung"@de-de,
+        "Chair of CoLab: Architectural Representation and Design"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:576f171c-bc6d-31fb-aa79-5b6b49fa8311 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Kunstgeschichte"@de-de,
+        "Department of Art History"@en-us ;
+    obo:BFO_0000050 tub:0cb95e7f-332f-3866-84e8-7471669af2d0 ;
+    bua:geritId "26009" .
+
+tub:57c420a7-cd65-363c-aeaa-d0091249e183 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Dynamik und Betrieb technischer Anlagen"@de-de,
+        "Department of Process Dynamics and Operations"@en-us ;
+    obo:BFO_0000050 tub:10734a9a-19e9-3a0e-abc0-4fc9b8ae38e9 ;
+    bua:geritId "26326" .
+
+tub:58d704bb-7aba-36e1-bbaa-c31a2dadd28a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Entwurf und Betrieb Maritimer Systeme"@de-de,
+        "Department of Design and Operation of Maritime Systems"@en-us ;
+    obo:BFO_0000050 tub:a8afc5d0-69a1-39ca-af4a-218bf07424ca ;
+    bua:geritId "26586" .
+
+
+tub:59ab7108-f10d-32a6-a980-270c0aa46d4a a bua:BUA_0000003,
+        owl:NamedIndividual ;
+    rdfs:label "Center for Metropolitan Studies"@de-de,
+        "Center for Metropolitan Studies"@en-us ;
+    obo:BFO_0000050 tub:0cb95e7f-332f-3866-84e8-7471669af2d0 ;
+    bua:geritId "29346158" .
+
+tub:5a8f11ca-e3ce-3955-82ed-d2f4a2a0049d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Causal Inference and Climate Informatics"@de-de,
+        "Causal Inference and Climate Informatics Group"@en-us ;
+    obo:BFO_0000050 tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf .
+
+tub:5bdd8f55-b3ce-3b04-a3bd-ee96d3a61b18 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bauphysik und Baukonstruktionen"@de-de,
+        "Department of Building Physics and Structural Design"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "26627" .
+
+tub:5c04ce5a-495e-30f4-8233-63b722160ed3 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Entrepreneurship und Innovationsmanagement"@de-de,
+        "Chair of Entrepreneurship and Innovation Management"@en-us ;
+    obo:BFO_0000050 tub:3d2d3c43-9009-3caa-8aec-759eeaf7ae73 ;
+    bua:geritId "162346000" .
+
+tub:5c2f0ce0-799e-3a37-b2fc-8ea2fff5f6a7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Planungstheorie und Analyse städtischer und regionaler Politiken"@de-de,
+        "Chair of Planning Theory and Urban-Regional Policy Analysis"@en-us ;
+    obo:BFO_0000050 tub:1fe38b73-7636-34ee-bce0-85b320558830 ;
+    bua:geritId "125787141" .
+
+tub:5c4a7337-5ed5-3607-916b-bb145b101579 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Verbrennungskinetik"@de-de,
+        "Chair of Combustion Kinetics"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab ;
+    bua:geritId "310183204" .
+
+tub:5cf47a34-b9df-35ee-908d-8b5f8d87f1d7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Thermodynamik in dynamischen Gasturbinenprozessen"@de-de,
+        "Department of Thermodynamics in dynamic gas turbine processes"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab .
+
+tub:5d101461-c4c7-3b5e-991f-7345a5e204d9 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Dynamik instabiler Strömungen"@de-de,
+        "Department of Flow Instabilities and Dynamics"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab ;
+    bua:geritId "424639459" .
+
+tub:5df67f70-b47f-3964-869f-c60c73bbb01f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet CODE: Entwerfen und Baukonstruktion / Konstruktionen und Praktiken"@de-de,
+        "Chair of CODE: Design and Building Construction / Constructions and Practices"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:60501707-c92d-3cc3-a6e6-f4e8b67ef701 a bua:BUA_0000055,
+        owl:NamedIndividual ;
+    rdfs:label "Zentralinstitut El Gouna"@de-de,
+        "Central Institute El Gouna"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin .
+
+tub:6210dbf9-b62f-3578-bc0b-4d59bf0ab4de a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Prof. J. Büchner - SMART: Simulation und Modellierung Astrophysikalischer Rekonnexion und Turbulenz"@de-de,
+        "Research group pf Prof. J. Büchner - SMART: Simulation and Modeling of Astrophysical Reconnection and Turbulence"@en-us ;
+    obo:BFO_0000050 tub:b4f3d3a2-2205-3473-97dd-33437e3c53b3 .
+
+tub:6271be17-2efe-3c18-b6b9-a7e06a248309 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Medizintechnik"@de-de,
+        "Department of Medical Technology"@en-us ;
+    obo:BFO_0000050 tub:969c7c58-9965-3c04-9cbf-502b16149eb3 ;
+    bua:geritId "26598" .
+
+tub:64759d69-413e-356d-8280-24242855db8a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Kognitionspsychologie und Kognitive Ergonomie"@de-de,
+        "Chair of cognitive psychology and cognitive ergonomics"@en-us ;
+    obo:BFO_0000050 tub:317f0340-e061-3fa5-b9a0-c763729ae036 ;
+    bua:geritId "26543" .
+
+tub:66f104db-d038-3600-865f-684def175c18 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Wasserwirtschaft und Hydrosystemmodellierung"@de-de,
+        "Chair of Water Resources Management and Modeling of Hydrosystems"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "26630" .
+
+tub:69917e61-4678-3642-8b41-dafbcde49ea1 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Arbeitswissenschaft"@de-de,
+        "Division of Ergonomics"@en-us ;
+    obo:BFO_0000050 tub:317f0340-e061-3fa5-b9a0-c763729ae036 ;
+    bua:geritId "26549" .
+
+tub:6996a2e8-c2e9-3f04-8b71-3d144fccdd0d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet GNSS-Fernerkundung, Navigation und Positionierung"@de-de,
+        "Chair of GNSS-Remote Sensing, Navigation and Positioning"@en-us ;
+    obo:BFO_0000050 tub:f005d5b8-bdff-36b7-b972-9e0032524a32 .
+
+tub:6a3f3f5e-14bf-3f6c-bf17-3507eb55430c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Sustainable Engineering"@de-de,
+        "Department of Sustainable Engineering"@en-us ;
+    obo:BFO_0000050 tub:1c06e07b-3c99-383a-bec8-b853475535bd ;
+    bua:geritId "120319578" .
+
+tub:6b37f9cc-0a33-3db1-9587-48b0dee15c98 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Systemtechnik baulicher Anlagen"@de-de,
+        "Department of Civil and Building Systems"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "435413330" .
+
+tub:6ca034e4-dcf9-3b7e-8651-f6ab6af05104 a bua:BUA_0000036,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Schul- und Berufspädagogik"@de-de,
+        "Chair of school and vocational education"@en-us ;
+    obo:BFO_0000050 tub:95fe76e8-7ece-3e79-aba2-dcfd96f6ed00 .
+
+tub:6caef682-3a85-37e0-99b8-5c6b4bf73167 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Werkstofftechnik"@de-de,
+        "Department of Materials Engineering"@en-us ;
+    obo:BFO_0000050 tub:9fdb4081-629c-38b1-836a-b8f74c116213 ;
+    bua:geritId "14250315" .
+
+tub:6d8be47e-4873-3400-988d-b2024bbeeb74 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Planetengeodäsie"@de-de,
+        "Chair of Planetary Geodesy"@en-us ;
+    obo:BFO_0000050 tub:f005d5b8-bdff-36b7-b972-9e0032524a32 ;
+    bua:geritId "123760182" .
+
+tub:6e3fb256-ca72-3fde-8c92-7071b35c8dce a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet CUD: Städtebau und Urbanisierung"@de-de,
+        "Chair for Urban Design and Urbanization"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 ;
+    bua:geritId "126443734" .
+
+tub:6f021c19-9129-3698-ad09-4426c0e014e5 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Integrierte Modellierung energieeffizienter Fahrzeugantriebsstränge"@de-de,
+        "Department of Integrated Modelling of Energy-Efficient Vehicle Powertrains"@en-us ;
+    obo:BFO_0000050 tub:6c54dad6-7028-3c3d-8c4e-5aa6c202d091 ;
+    bua:geritId "433777396" .
+
+tub:6f6fa339-b9d7-388b-8f32-7be7945e8d32 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe von Prof. D. Schulze-Makuch"@de-de,
+        "Research group of Prof. D. Schulze-Makuch"@en-us ;
+    obo:BFO_0000050 tub:b4f3d3a2-2205-3473-97dd-33437e3c53b3 .
+
+tub:72228a8b-ee35-31f1-8c56-add2ace2f885 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Landschaftsökonomie"@de-de,
+        "Landscape Economy Research Group"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 .
+
+tub:73111f4d-70e8-3b51-8edd-2428f570971a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Audiokommunikation"@de-de,
+        "Department of audio communication"@en-us ;
+    obo:BFO_0000050 tub:3b66e010-1a89-3aa9-84e1-cd4c90ce04b3 ;
+    bua:geritId "118824459" .
+
+tub:74624e70-cf3a-32f5-a582-344c523c2b5a a bua:BUA_0000053,
+        owl:NamedIndividual ;
+    rdfs:label "Zentraleinrichtung Campusmanagement (ZECM)"@de-de,
+        "Central facility campus management (ZECM)"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin .
+
+tub:771f1332-c48f-3bae-91f1-f5336dfd85fd a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Angewandte und Molekulare Mikrobiologie"@de-de,
+        "Department of Applied and Molecular Microbiology"@en-us ;
+    obo:BFO_0000050 tub:8a72786a-a65d-32c7-a81c-82ae2160f641 ;
+    bua:geritId "20944" .
+
+tub:777cc25d-a493-3545-87b0-7b9a07f3950e a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Metallische Werkstoffe"@de-de,
+        "Chair for Metallic Materials"@en-us ;
+    obo:BFO_0000050 tub:9fdb4081-629c-38b1-836a-b8f74c116213 ;
+    bua:geritId "26330" .
+
+tub:782df34c-f9c3-3df7-b94a-a3d87c0e2ff4 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Kreislaufwirtschaft und Recyclingtechnologie"@de-de,
+        "Chair of Circular Economy and Recycling Technology"@en-us ;
+    obo:BFO_0000050 tub:1c06e07b-3c99-383a-bec8-b853475535bd ;
+    bua:geritId "20045872" .
+
+tub:78cebfef-196d-3e15-a36a-e2ad618af993 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet HealthCare: Architecture for Health"@de-de,
+        "Chair of HealthCare: Architecture for Health"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:78d721f9-79fa-3cac-bf63-171fe10a5f75 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Security in Telecommunications"@de-de,
+        "Chair for Security in Telecommunications"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba .
+
+tub:790edeb7-2b47-317e-942e-94dfb338447b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Medientechnik"@de-de,
+        "Media Technology Group"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca ;
+    bua:geritId "26598" .
+
+tub:7a120fdc-0e0f-329e-8e8c-e5f797235bd9 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet A13: Baukonstruktion und Entwerfen"@de-de,
+        "Chair of A13: Design and Building Construction"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:7a3489b5-c959-3933-bdc9-f8354003276b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet für Food Colloids"@de-de,
+        "Department for Food Colloids"@en-us ;
+    obo:BFO_0000050 tub:988112dc-8148-3dde-9187-0f13247cdeb1 .
+
+tub:7ae256be-81c8-30c1-9d61-689c9753a881 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Kunstgeschichte der Moderne"@de-de,
+        "Department of Modern Art History"@en-us ;
+    obo:BFO_0000050 tub:0cb95e7f-332f-3866-84e8-7471669af2d0 ;
+    bua:geritId "26009" .
+
+tub:7afe9c7b-0eb6-3f24-8223-fa8d5589d345 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Kanngießer Analytical X-ray Physics"@de-de,
+        "Research Group Kanngießer on Analytical X-ray Physics"@en-us ;
+    obo:BFO_0000050 tub:f97de598-57c9-3f86-9e31-19aa10d33694 .
+
+tub:7c6c2a45-fc7a-3d63-8680-e03b1ef8ea1a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Synthese und Katalyse"@de-de,
+        "Department of Synthesis and Catalysis"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 .
+
+tub:7dafa7a6-15c2-3711-8ea2-cd5f356cf6f5 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Management im Gesundheitswesen"@de-de,
+        "Chair of Health Care Management"@en-us ;
+    obo:BFO_0000050 tub:3d2d3c43-9009-3caa-8aec-759eeaf7ae73 ;
+    bua:geritId "15234" .
+
+tub:7dc4ca44-67fb-3a88-bc27-80122151a790 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Kraftfahrzeuge"@de-de,
+        "Department Automotive Engineering"@en-us ;
+    obo:BFO_0000050 tub:6c54dad6-7028-3c3d-8c4e-5aa6c202d091 ;
+    bua:geritId "122142498" .
+
+tub:7ed37d78-8624-3945-bce8-2e3c06d1cd32 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Nichtlineare Laserdynamik"@de-de,
+        "Research group on Nonlinear Laser Dynamics"@en-us ;
+    obo:BFO_0000050 tub:cdce808b-fc1d-32e2-b120-b37220aedb3e .
+
+tub:7f6c8da6-c8e5-3aef-8974-773e62d730d4 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Luftfahrzeugbau und Leichtbau"@de-de,
+        "Chair of Aircraft Design and Aerostructures"@en-us ;
+    obo:BFO_0000050 tub:9f90efd2-22da-323c-8930-fb6bb39d23c7 ;
+    bua:geritId "122264597" .
+
+tub:7fca0c81-838c-3b18-94b4-242994007515 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Innovationsökonomik"@de-de,
+        "Chair of Innovation Economics"@en-us ;
+    obo:BFO_0000050 tub:3d2d3c43-9009-3caa-8aec-759eeaf7ae73 ;
+    bua:geritId "70428568" .
+
+tub:803097f0-81ab-3d1a-9ff0-b83a11e14c00 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Landschaftsplanung und Landschaftsentwicklung"@de-de,
+        "Landscape Planning and Development Research Group"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 ;
+    bua:geritId "26793" .
+
+tub:8093d3bc-4687-3537-9f90-a2225fb0f6cc a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Städtebau und Siedlungswesen"@de-de,
+        "Chair of Urban Design and Urban Development"@en-us ;
+    obo:BFO_0000050 tub:1fe38b73-7636-34ee-bce0-85b320558830 ;
+    bua:geritId "125869972" .
+
+tub:815dbe97-2723-3661-97cb-dbd418f39c79 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Luftfahrtantriebe"@de-de,
+        "Chair of Aero Engines"@en-us ;
+    obo:BFO_0000050 tub:9f90efd2-22da-323c-8930-fb6bb39d23c7 ;
+    bua:geritId "122244888" .
+
+tub:8198d98a-3250-3b2f-bf52-86649aa4ca26 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Angewandte Gewässerökologie"@de-de,
+        "Chair of Applied Aquatic Ecology"@en-us ;
+    obo:BFO_0000050 tub:b1ea973e-b158-3f63-bab8-ad12d0b65d97 .
+
+tub:81dbfe45-2c9d-3b8e-96c3-b70d62ee57f4 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Sichere und vertrauenswürdige netzangebundene Systemarchitekturen"@de-de,
+        "Secure and Trustworthy Network-Attached System Architectures Research Group"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba ;
+    bua:geritId "433769328" .
+
+tub:836b1672-c20f-3a50-9dce-24356475f26c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Mathematical Foundations of Data Science"@de-de,
+        "Mathematical Foundations of Data Science"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14 .
+
+tub:8371a638-333f-3a03-8ec2-a6933b34a217 a bua:BUA_0000053,
+        owl:NamedIndividual ;
+    rdfs:label "Zentraleinrichtung Elektronenmikroskopie (ZELMI)"@de-de,
+        "Central facility electron microscopy (ZELMI)"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin ;
+    bua:geritId "13240" .
+
+tub:83bbe05b-a4e9-3422-8ba8-7691984c925d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bau- und Stadtbaugeschichte"@de-de,
+        "Chair of History of Architecture and Urban Architecture"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 ;
+    bua:geritId "26831" .
+
+tub:83de7bce-15f9-3e72-8c40-9adc997cb659 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Network Information Theory Group"@de-de,
+        "Network Information Theory Group"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca .
+
+tub:847cd67c-407f-36a5-996a-94185b1d4598 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Service-centric Networking"@de-de,
+        "Department of Service-centric Networking"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca ;
+    bua:geritId "435417991" .
+
+tub:85af553a-4026-3926-a822-c21a22cdb53d a bua:BUA_0000003,
+        owl:NamedIndividual ;
+    rdfs:label "Center for Cultural Studies on Science and Technology in China"@de-de,
+        "Center for Cultural Studies on Science and Technology in China"@en-us ;
+    obo:BFO_0000050 tub:30cc8168-c5dd-3635-a203-7a32fe947c9d ;
+    bua:geritId "26007" .
+
+tub:88bb711f-bbca-325c-a8e0-b88e5367a0c7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Medienwissenschaft"@de-de,
+        "Department of Media Studies"@en-us ;
+    obo:BFO_0000050 tub:3b66e010-1a89-3aa9-84e1-cd4c90ce04b3 ;
+    bua:geritId "20745374" .
+
+tub:8969a2ee-7d57-3bd0-b17c-387a95502f84 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Nano Interconnect Technologies"@de-de,
+        "Department of Nano Interconnect Technologies"@en-us ;
+    obo:BFO_0000050 tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 ;
+    bua:geritId "206718368" .
+
+tub:89c28348-e459-3fd4-9298-6fbf8b9b31cc a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Fahrzeugantriebe"@de-de,
+        "Department of Vehicle Propulsion"@en-us ;
+    obo:BFO_0000050 tub:6c54dad6-7028-3c3d-8c4e-5aa6c202d091 .
+
+tub:8a10b391-a6c4-3a7e-986a-4f8b0250b509 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Internet Network Architectures"@de-de,
+        "Chair of Internet Network Architectures"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca .
+
+tub:8acb2877-5b76-3bb7-b860-e9fecb699163 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Energieverfahrenstechnik und Umwandlungstechniken regenerativer Energien"@de-de,
+        "Department of Energy process engineering and conversion techniques of regenerative energies"@en-us ;
+    obo:BFO_0000050 tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b ;
+    bua:geritId "26317" .
+
+tub:8b59d103-2ea3-37b7-a927-b30bbb76c149 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Abteilung Perowskit Tandemsolarzellen"@de-de,
+        "Department Perovskite Tandem Solar Cells"@en-us ;
+    obo:BFO_0000050 tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 .
+
+tub:8bd8d70c-bb90-35da-ab7f-17b97fddb643 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Wirtschaftsverkehr"@de-de,
+        "Department of Commercial Transport"@en-us ;
+    obo:BFO_0000050 tub:b7911e73-ca45-3bf1-a249-3485fac8bdc6 ;
+    bua:geritId "458434148" .
+
+tub:8c043b20-fc97-3f52-8bef-4ed9eaf1e9a0 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Robotic Interactive Perception"@de-de,
+        "Department of Robotic Interactive Perception"@en-us ;
+    obo:BFO_0000050 tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf .
+
+tub:8d439f2f-6a5c-3e28-9311-fb0631dba632 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Architektur Eingebetteter Systeme (AES)"@de-de,
+        "Embedded Systems Architecture (AES) group"@en-us ;
+    obo:BFO_0000050 tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf ;
+    bua:geritId "26366" .
+
+tub:8d89f2ce-e4d7-3af2-944f-38aa5487faee a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Kognitive Modellierung in dynamischen Mensch-Maschine Systemen"@de-de,
+        "Chair of Cognitive Modeling in dynamic Human-Machine Systems"@en-us ;
+    obo:BFO_0000050 tub:317f0340-e061-3fa5-b9a0-c763729ae036 ;
+    bua:geritId "265970716" .
+
+tub:8d90e381-9d6d-3315-8651-77d072907687 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Hochfrequenztechnik - Photonik"@de-de,
+        "Department of Hochfrequenztechnik – Photonics"@en-us ;
+    obo:BFO_0000050 tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 ;
+    bua:geritId "26354" .
+
+tub:8dbd953c-f1a0-3f92-b3af-ed1c072c2af4 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Umweltchemie und Luftreinhaltung"@de-de,
+        "Department of Environmental Chemistry and Air Research"@en-us ;
+    obo:BFO_0000050 tub:1c06e07b-3c99-383a-bec8-b853475535bd ;
+    bua:geritId "26336" .
+
+tub:8eafdebd-85f5-3c2f-b4ed-18df9c848ed2 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Industrielle Automatisierungstechnik"@de-de,
+        "Department of Industrial Automation Technology"@en-us ;
+    obo:BFO_0000050 tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 ;
+    bua:geritId "123151130" .
+
+tub:8fd330b6-9c4c-31fb-994c-252bdbf73eea a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Wirtschaftsinformatik – Information Systems Engineering"@de-de,
+        "Department of Business Informatics - Commercial Information Technology and Quantitative Methods"@en-us ;
+    obo:BFO_0000050 tub:258bc48b-ab8f-3d76-818b-098c2d536db3 ;
+    bua:geritId "313498829" .
+
+tub:90a9312e-ad35-3c51-8b82-9045140dbc79 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Flugmechanik, Flugregelung und Aeroelastizität"@de-de,
+        "Department of Flight Mechanics, Flight Control and Aeroelasticity"@en-us ;
+    obo:BFO_0000050 tub:9f90efd2-22da-323c-8930-fb6bb39d23c7 ;
+    bua:geritId "122489952" .
+
+tub:917821f7-3271-3de0-b457-48946792cc53 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Modellierung kognitiver Prozesse"@de-de,
+        "Department of Modelling of Cognitive Processes"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba ;
+    bua:geritId "121098223" .
+
+tub:921fb448-118d-3a26-9aa3-7b2d710ac2cd a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet CHORA: Städtebau und nachhaltige Stadtentwicklung"@de-de,
+        "Chair for Sustainable Planning and Urban Design"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:923d0ee2-ff6e-35ea-915b-ddfd978b5e74 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Digitale Märkte"@de-de,
+        "Chair of Digital Markets"@en-us ;
+    obo:BFO_0000050 tub:36a10295-3dbb-3ee0-91be-a32e3935e37a .
+
+tub:92422a64-8371-34ef-b912-097a991d66b5 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Raumfahrttechnik"@de-de,
+        "Chair of Space Technology"@en-us ;
+    obo:BFO_0000050 tub:9f90efd2-22da-323c-8930-fb6bb39d23c7 ;
+    bua:geritId "122490097" .
+
+tub:9382cf9f-2686-389c-a763-7697cbda59a0 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Gensch Terahertz- und Laserspektroskopie"@de-de,
+        "Research Group Gensch  on Terahertz and Laser Spectroscopy"@en-us ;
+    obo:BFO_0000050 tub:f97de598-57c9-3f86-9e31-19aa10d33694 .
+
+tub:948f507a-6f90-3b57-be07-b919a6527a45 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Biopsychologie und Neuroergonomie"@de-de,
+        "Department of Biological Psychology and Neuroergonomics"@en-us ;
+    obo:BFO_0000050 tub:317f0340-e061-3fa5-b9a0-c763729ae036 ;
+    bua:geritId "26552" .
+
+tub:95edfcc8-7734-3ee9-bec5-1d492fb8aae3 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Globale Energiesystemanalyse"@de-de,
+        "Department of Global Energy Systems Analysis"@en-us ;
+    obo:BFO_0000050 tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b .
+
+tub:968c033d-ddb4-3306-b15a-421174c6d5cd a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Angewandte Geophysik"@de-de,
+        "Department of Applied Geophysics"@en-us ;
+    obo:BFO_0000050 tub:fedb8031-bd26-3be8-8af5-6173474d0c69 ;
+    bua:geritId "30763" .
+
+tub:975fddb5-9143-3809-b8ef-3e3b11dc21be a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Methoden der Produktentwicklung und Mechatronik"@de-de,
+        "Department of Product Development and Mechatronics Research Group"@en-us ;
+    obo:BFO_0000050 tub:969c7c58-9965-3c04-9cbf-502b16149eb3 ;
+    bua:geritId "221393870" .
+
+tub:97e56796-9960-377e-9e72-5461f0ee5224 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Makroökonomie"@de-de,
+        "Fachgebiet Mikroökonomie"@de-de,
+        "Chair of Macroeconomics"@en-us,
+        "Chair of Microeconomics"@en-us ;
+    obo:BFO_0000050 tub:4954ea4f-08bc-34b8-a344-db8cb89d5960 ;
+    bua:geritId "54063922" .
+
+tub:996663b7-abb1-33d1-b204-c8a25be89257 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Ethik und Technikphilosophie"@de-de,
+        "Department of Ethics and philosophy of technology"@en-us ;
+    obo:BFO_0000050 tub:30cc8168-c5dd-3635-a203-7a32fe947c9d .
+
+tub:99e7a9be-be4e-3894-8e24-ee7a7093d0a4 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Tribologie"@de-de,
+        "Department of tribology"@en-us ;
+    obo:BFO_0000050 tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 .
+
+tub:9b210ba2-ea41-3edc-be50-1dc2b7587237 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Turbomaschinen- und Thermoakustik"@de-de,
+        "Department of Turbomachinery and Thermoacoustics"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab ;
+    bua:geritId "422772571" .
+
+tub:9ba23531-a6bc-3e2c-bc97-8eca886ca740 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Smirnova Strong Field Theory"@de-de,
+        "Research group Smirnova Strong Field Theory"@en-us ;
+    obo:BFO_0000050 tub:f97de598-57c9-3f86-9e31-19aa10d33694 .
+
+tub:9c3209ab-c10b-358c-aada-ed85ebf0d08c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet „Open Distributed Systems” (ODS)"@de-de,
+        "Open Distributed Systems (ODS) group"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca .
+
+tub:9c6dc6f6-99f9-37fc-aa99-a4547464ba79 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Research Group on Distributed and Operating Systems (DOS)"@de-de,
+        "Research Group on Distributed and Operating Systems (DOS)"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca .
+
+tub:9c9d4a7e-d0b7-3add-9143-2a323a34067f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Empirische Industrieökonomik"@de-de,
+        "Chair of Empirical Industrial Economics"@en-us ;
+    obo:BFO_0000050 tub:4954ea4f-08bc-34b8-a344-db8cb89d5960 .
+
+tub:9d58bb0d-a7c6-380a-a091-c1911f4bc29d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Philosophie der Kognition"@de-de,
+        "Department of Philosophy of cognition"@en-us ;
+    obo:BFO_0000050 tub:30cc8168-c5dd-3635-a203-7a32fe947c9d ;
+    bua:geritId "457632628" .
+
+tub:9d633d9e-1f25-3cf6-ae59-78228b89cf74 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Zerstörungsfreie Baustoffprüfung"@de-de,
+        "Department of Non-destructive material testing"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 .
+
+tub:9dd07879-f1d8-36a4-8059-a9308c06ec17 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Hehl: Baukonstruktion und Entwerfen"@de-de,
+        "Chair of Hehl: Design and Building Construction"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:9e2f971d-3454-3798-a911-cbf3bec6ec5d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Neuronale Informationsverarbeitung"@de-de,
+        "Neural Information Processing Group"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba ;
+    bua:geritId "981021" .
+
+tub:9ec8d947-db9d-3d70-97a0-7f73b4de8efd a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Strukturmechanik und Strukturberechnung"@de-de,
+        "Department of Structural Mechanics and Analysis"@en-us ;
+    obo:BFO_0000050 tub:0204c6da-5964-39e2-9340-2406e4f56186 ;
+    bua:geritId "89740321" .
+
+tub:9fbc0d3a-0a16-36d1-aaac-b2e3f684bca8 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Ökonomie des öffentlichen Sektors, insbesondere Gesundheitsökonomie"@de-de,
+        "Chair of Public Sector and Health Economics"@en-us ;
+    obo:BFO_0000050 tub:4954ea4f-08bc-34b8-a344-db8cb89d5960 .
+
+tub:9fff6472-4896-346e-9929-0cfd2dd313ed a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Elektromechanische Konstruktionen"@de-de,
+        "Mechatronic Systems Laboratory"@en-us ;
+    obo:BFO_0000050 tub:969c7c58-9965-3c04-9cbf-502b16149eb3 ;
+    bua:geritId "403637568" .
+
+tub:a04a6dea-34b2-3712-8aae-9a70e6137f1f a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Prof. D. Breitschwerdt"@de-de,
+        "Research group of Prof. D. Breitschwerdt"@en-us ;
+    obo:BFO_0000050 tub:b4f3d3a2-2205-3473-97dd-33437e3c53b3 .
+
+tub:a1f1333f-3093-345a-9c70-c0e577ace5c4 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Architekturtheorie"@de-de,
+        "Chair of Theory of Architecture"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 ;
+    bua:geritId "126403808" .
+
+tub:a21b9bab-1ff3-3998-938f-411b204f760a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Gender in MINT und Planung/ Feminist STS"@de-de,
+        "Department of Gender in STEM and Planning/ Feminist STS"@en-us ;
+    obo:BFO_0000050 tub:93f603e2-cdf3-3838-bc77-008da2bca9ad .
+
+tub:a36726ff-936c-3ee7-8052-02f0980867b0 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Industrielles Produktions- und Dienstleistungsmanagement"@de-de,
+        "Chair of Production and Operations Management"@en-us ;
+    obo:BFO_0000050 tub:36a10295-3dbb-3ee0-91be-a32e3935e37a ;
+    bua:geritId "26861" .
+
+tub:a4404d20-ddf3-3b24-9374-496cf26c4707 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Heindel - Quantenkommunikations Systeme"@de-de,
+        "Research group Heindel on quantum communication systems"@en-us ;
+    obo:BFO_0000050 tub:058c7cca-efbb-384f-9a28-46a4d3badd92 .
+
+tub:a4990175-b425-3c79-84fd-783a3a800820 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Solare Brennstoffe"@de-de,
+        "Department of solar fuels"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:0de994ab-8344-3b0d-8d9e-e2bdd88c658e .
+
+tub:a4996e37-dc13-3e70-9b4d-c6a42da3107e a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mikroelektronik- Aufbau- u. Verbindungstechniken"@de-de,
+        "Fachgebiet Mikroelektronik- Aufbau- u. Verbindungstechniken"@en-us ;
+    obo:BFO_0000050 tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 ;
+    bua:geritId "26355" .
+
+tub:a517949d-2b4b-3255-963b-32fde0ac7f21 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Umweltprüfung und Umweltplanung"@de-de,
+        "Environmental Assessment and Planning Research Group"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 ;
+    bua:geritId "124020185" .
+
+tub:a523fa72-9952-34f5-96f7-cbd7d74edba7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Stochastische Prozesse und ihre Anwendungen"@de-de,
+        "Department of stochastic processes and their applications"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    bua:geritId "119541176" .
+
+tub:a6059805-2b5e-35e0-b053-ac92bdc2857d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Intelligente Systeme"@de-de,
+        "Learning and Intelligent Systems research lab"@en-us ;
+    obo:BFO_0000050 tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf .
+
+tub:a6748ad4-0d8d-309e-90cd-e25567f7eb41 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Elektronische Mess- und Diagnosetechnik"@de-de,
+        "Department of Electronic Measurement and Diagnostic Technology"@en-us ;
+    obo:BFO_0000050 tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9 ;
+    bua:geritId "120611637" .
+
+tub:a78f311f-a574-346c-88f1-9d67df4c7271 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Quality and Usability Lab"@de-de,
+        "Quality and Usability Lab"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba ;
+    bua:geritId "75650148" .
+
+tub:a83b7da0-3ac9-3ed2-bcb6-1fd63ddb0404 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Photonische Kommunikationssysteme"@de-de,
+        "Photonic Communication Systems Group"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca .
+
+tub:a8c8d490-dd3d-37bb-93a8-64de73da97da a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Informationstheorie und deren Anwendungen - ITA"@de-de,
+        "Information Theory and Applications Chair"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca ;
+    bua:geritId "320838805" .
+
+tub:a8e218d0-bc0b-3111-99ad-420418398ea5 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Industrielle Informationstechnik"@de-de,
+        "Department of Industrial Information Technology"@en-us ;
+    obo:BFO_0000050 tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 ;
+    bua:geritId "123154495" .
+
+tub:aa9f9ad1-1e52-3b63-9c90-5134817a6bf5 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Geodäsie und Ausgleichungsrechnung"@de-de,
+        "Chair of Geodesy and Adjustment Theory"@en-us ;
+    obo:BFO_0000050 tub:f005d5b8-bdff-36b7-b972-9e0032524a32 ;
+    bua:geritId "16832382" .
+
+tub:aad0bfaf-f2d9-3a95-babc-7213e4574fb7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Statik und Dynamik"@de-de,
+        "Department of Structural Mechanics"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "49844243" .
+
+tub:ad0b6d2e-2f85-3e1e-b26f-d81cce70c604 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Prof. W.-C. Müller - Plasma-Astrophysik"@de-de,
+        "Research group Prof. W.-C. Müller  on Plasma astrophysics"@en-us ;
+    obo:BFO_0000050 tub:b4f3d3a2-2205-3473-97dd-33437e3c53b3 .
+
+tub:ada7cdb3-cbef-31ad-a4e9-36411228da5a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Technische Akustik"@de-de,
+        "Department of Engineering Acoustics"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab ;
+    bua:geritId "341673426" .
+
+tub:add36784-849a-37fd-829f-288b0342e4a2 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bauwirtschaft und Baubetrieb"@de-de,
+        "Department of Construction Management"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3,
+        tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b ;
+    bua:geritId "49824519" .
+
+tub:ade24967-19c4-3aff-a6d9-bcb683e966f9 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Data Analysis and Modeling of Turbulent Flows"@de-de,
+        "Department of Data Analysis and Modeling of Turbulent Flows"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab .
+
+tub:aec293fb-db64-3636-88e8-18d6e4380e2d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Umweltmikrobiologie"@de-de,
+        "Chair of Environmental Microbiology"@en-us ;
+    obo:BFO_0000050 tub:1c06e07b-3c99-383a-bec8-b853475535bd ;
+    bua:geritId "26335" .
+
+tub:afbf5801-25e0-385a-bd69-f9672123c6cd a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Ökonometrie und Wirtschaftsstatistik"@de-de,
+        "Chair of Econometrics and Business Statistics"@en-us ;
+    obo:BFO_0000050 tub:4954ea4f-08bc-34b8-a344-db8cb89d5960 ;
+    bua:geritId "126258292" .
+
+tub:aff739c7-6af4-386e-b52a-399dfa4af691 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Angewandte Dynamische Systeme"@de-de,
+        "Department of Applied Dynamical Systems"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14 .
+
+tub:b017a751-9df5-3155-9638-a05a40d56dc9 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbgebiet Effiziente Algorithmen"@de-de,
+        "Research group Efficient Algorithms (ALGO)"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba .
+
+tub:b09f1316-5d26-3f87-acd1-8c8313a30778 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Kontinuumsmechanik und Materialtheorie"@de-de,
+        "Department Continuum Mechanics and Materials Theory"@en-us ;
+    obo:BFO_0000050 tub:0204c6da-5964-39e2-9340-2406e4f56186 ;
+    bua:geritId "122531034" .
+
+tub:b22dde7a-c3f8-37db-b294-f3b4e9d34055 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Natural Building Lab: Konstruktives Entwerfen und klimagerechte Architektur"@de-de,
+        "Chair of Natural Building Lab: Constructive Design & Climate Adaptive Architecture"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:b3899700-0bab-3c34-95f6-6694d0b300c0 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Flugführung und Luftverkehr"@de-de,
+        "Chair of Flight Guidance & Air Transport"@en-us ;
+    obo:BFO_0000050 tub:9f90efd2-22da-323c-8930-fb6bb39d23c7 ;
+    bua:geritId "122410405" .
+
+tub:b5f52b16-d9fb-391b-bf36-6e4ee631a090 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Landschaftsarchitektur Freiraumplanung"@de-de,
+        "Landscape Architecture / Open Space Planning Research Group"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 ;
+    bua:geritId "124011656" .
+
+tub:b628b5f9-52d3-32c3-84e0-17f49650f4b5 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bahnbetrieb und Infrastruktur"@de-de,
+        "Department of Track and Railway Operations"@en-us ;
+    obo:BFO_0000050 tub:6d77653d-cd96-352d-bca8-76c9b1b4f423 ;
+    bua:geritId "118783977" .
+
+tub:b66fd9de-d498-329b-bfef-02d491c3cbd9 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Informations- und Kommunikationsmanagement"@de-de,
+        "Chair of Information and Communication Management"@en-us ;
+    obo:BFO_0000050 tub:3d2d3c43-9009-3caa-8aec-759eeaf7ae73 ;
+    bua:geritId "125974014" .
+
+tub:b708ac32-31db-3a91-b380-fc82434a81f3 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Institut Silizium-Photovoltaik"@de-de,
+        "Institute of Silicon Photovoltaics"@en-us ;
+    obo:BFO_0000050 tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 .
+
+tub:b843b5d6-8c0a-3dc6-b699-b43cd622f7c0 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Experimentelle Strömungsmechanik"@de-de,
+        "Department of Experimental Flow Mechanics"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab ;
+    bua:geritId "981558" .
+
+tub:b859d473-bbd7-3018-9d26-a0a5c5f59dea a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Theoretische Philosophie"@de-de,
+        "Department of Theoretical Philosophy"@en-us ;
+    obo:BFO_0000050 tub:30cc8168-c5dd-3635-a203-7a32fe947c9d ;
+    bua:geritId "426817031" .
+
+tub:b87c4124-4f82-341b-8cb7-757bd962691a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Klimatologie"@de-de,
+        "Chair of Climatology"@en-us ;
+    obo:BFO_0000050 tub:b1ea973e-b158-3f63-bab8-ad12d0b65d97 ;
+    bua:geritId "125685156" .
+
+tub:b98d3f2b-4668-3f4a-89bb-b302d4e83c80 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Angewandte Biochemie"@de-de,
+        "Department of Applied Biochemistry"@en-us ;
+    obo:BFO_0000050 tub:8a72786a-a65d-32c7-a81c-82ae2160f641 ;
+    bua:geritId "178859285" .
+
+tub:b99694e8-2ff3-30a6-b178-b6228bba0679 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Werkstoffe der Hetero-Systemintegration"@de-de,
+        "Department of Werkstoffe der Hetero-Systemintegration"@en-us ;
+    obo:BFO_0000050 tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 ;
+    bua:geritId "403549229" .
+
+tub:b9a089fd-41de-3a4c-9245-ffe92e56c30a a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Thomsen - Experimentalphysik und Festkörperphysik"@de-de,
+        "Research group Thomsen on Experimental Physics and Solid State Physics"@en-us ;
+    obo:BFO_0000050 tub:058c7cca-efbb-384f-9a28-46a4d3badd92 .
+
+tub:ba416338-3c32-35d2-9997-d00b3bda6fca a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Stadtökologie"@de-de,
+        "Chair of Urban Ecosystem Sciences"@en-us ;
+    obo:BFO_0000050 tub:b1ea973e-b158-3f63-bab8-ad12d0b65d97 .
+
+tub:bacfa8b8-f739-3146-97ad-4743b8be2e66 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Orts-, Regional- und Landesplanung"@de-de,
+        "Chair of Urban and Regional Development – Local, Regional and Federal State Planning"@en-us ;
+    obo:BFO_0000050 tub:1fe38b73-7636-34ee-bce0-85b320558830 ;
+    bua:geritId "125767407" .
+
+tub:bb6c8d6b-6763-30d5-aabe-84ae475a90a0 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Statistische Physik weicher Materie und biologischer Systeme"@de-de,
+        "Research group on Statistical Physics of Soft Matter and Biological Systems"@en-us ;
+    obo:BFO_0000050 tub:cdce808b-fc1d-32e2-b120-b37220aedb3e ;
+    bua:geritId "119809796" .
+
+tub:bd2bf1ac-e7d6-3865-9f05-e56a1cd5e5b4 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Hydrogeologie"@de-de,
+        "Department of Hydrogeology"@en-us ;
+    obo:BFO_0000050 tub:fedb8031-bd26-3be8-8af5-6173474d0c69 ;
+    bua:geritId "36842443" .
+
+tub:bf55055e-4221-31a6-9480-035e11688e17 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Siedlungswasserwirtschaft"@de-de,
+        "Department of Water Resources Management"@en-us ;
+    obo:BFO_0000050 tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 ;
+    bua:geritId "49742686" .
+
+tub:bf6748c2-1850-3dda-9be2-3c0b9e1df078 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Internet und Gesellschaft"@de-de,
+        "Chair of Internet and Society"@en-us ;
+    obo:BFO_0000050 tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca .
+
+tub:c0273158-d782-3fa3-8593-1d2c00a7164e a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Thermodynamik und Thermische Verfahrenstechnik"@de-de,
+        "Chair of Thermodynamics and Thermal Separation Processes"@en-us ;
+    obo:BFO_0000050 tub:10734a9a-19e9-3a0e-abc0-4fc9b8ae38e9 ;
+    bua:geritId "26320" .
+
+tub:c0aac550-8cba-3b6e-a644-23818b2108de a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Esser - Oberflächenanalytik"@de-de,
+        "Research group Esser on surface analysis"@en-us ;
+    obo:BFO_0000050 tub:058c7cca-efbb-384f-9a28-46a4d3badd92 .
+
+tub:c0bfb773-53ce-32db-801a-aaf19fbd8295 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Struktur und Eigenschaften von Materialien"@de-de,
+        "Department of structure and properties of materials"@en-us ;
+    obo:BFO_0000050 tub:9fdb4081-629c-38b1-836a-b8f74c116213 ;
+    bua:geritId "19863433" .
+
+tub:c26ae961-e44f-34fe-ae00-f041a3995e88 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Energie- und Ressourcenmanagement"@de-de,
+        "Chair of Energy and Resource Management"@en-us ;
+    obo:BFO_0000050 tub:3d2d3c43-9009-3caa-8aec-759eeaf7ae73 ;
+    bua:geritId "26866" .
+
+tub:c3009193-7c04-32fb-8a62-fc56a29545f4 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Lebensmittelchemie und Analytik"@de-de,
+        "Department of food chemistry and analytics"@en-us ;
+    obo:BFO_0000050 tub:988112dc-8148-3dde-9187-0f13247cdeb1 ;
+    bua:geritId "20701864" .
+
+tub:c33a1110-0b6a-38d6-80eb-335865b2f191 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Maschinen- und Energieanlagentechnik"@de-de,
+        "Chair for Energy Conversion Technology"@en-us ;
+    obo:BFO_0000050 tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b ;
+    bua:geritId "26315" .
+
+tub:c5aa7ad7-65e1-3daa-b03e-61d2c97f6434 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mechatronische Maschinendynamik"@de-de,
+        "Chair of Mechatronics and Machine Dynamics"@en-us ;
+    obo:BFO_0000050 tub:0204c6da-5964-39e2-9340-2406e4f56186 ;
+    bua:geritId "41202485" .
+
+tub:c62d716c-51b8-33dc-93b8-c4a59376f5dd a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Physikalisch-Organische Chemie"@de-de,
+        "Department of physical-organic chemistry"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 ;
+    bua:geritId "426551474" .
+
+tub:c69caea4-a0a8-3715-af08-de56122b9fb5 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Konstruktion von Maschinensystemen"@de-de,
+        "Department of Machinery System Design"@en-us ;
+    obo:BFO_0000050 tub:969c7c58-9965-3c04-9cbf-502b16149eb3 ;
+    bua:geritId "121585572" .
+
+tub:c6dc7b1b-ff21-34d1-b527-a8a3393cb13b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Numerische Fluiddynamik"@de-de,
+        "Computational Fluid Dynamics"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab ;
+    bua:geritId "971501" .
+
+tub:c73d1d74-7a40-3078-b133-6ac1682be73a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Finanzierung und Investition"@de-de,
+        "Chair of Finance and Investment"@en-us ;
+    obo:BFO_0000050 tub:36a10295-3dbb-3ee0-91be-a32e3935e37a ;
+    bua:geritId "26856" .
+
+tub:c747946a-ea96-3ae5-b893-cb49239780bd a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet LIA: Entwerfen und Gebäudekunde"@de-de,
+        "Chair for LIA - Laboratory for Integrative Architecture"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:c7e97832-dcc5-3034-86a3-4f87aeda15a8 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mixed Signal Circuit Design (MSC)"@de-de,
+        "Chair of Mixed Signal Circuit Design (MSC)"@en-us ;
+    obo:BFO_0000050 tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf ;
+    bua:geritId "20685230" .
+
+tub:c86c9a94-4d5b-3b0a-b16d-bd75623a7bc6 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe von Prof. H. Rauer"@de-de,
+        "Research group of Prof. H. Rauer"@en-us ;
+    obo:BFO_0000050 tub:b4f3d3a2-2205-3473-97dd-33437e3c53b3 .
+
+tub:c9053557-0359-3e33-8f67-806a11ed4080 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Satellitengeodäsie"@de-de,
+        "Chair of Satellite Geodesy"@en-us ;
+    obo:BFO_0000050 tub:f005d5b8-bdff-36b7-b972-9e0032524a32 ;
+    bua:geritId "123742135" .
+
+tub:c90cec20-cddd-328c-9c06-15c02e31698a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Angewandte Analysis und Algebra"@de-de,
+        "Department of Applied Analysis and Algebra"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14 .
+
+tub:ca4f0d07-a9d8-399a-97b6-b6389e4ce99b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Angewandte Physikalische Chemie"@de-de,
+        "Department of Applied Physical Chemistry"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:ac1eb868-8e07-3a4d-82ce-da6c360c7cb8 .
+
+tub:ca5d104b-6307-3983-b3d5-bc01ee9aad0f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Planungs- und Architektursoziologie"@de-de,
+        "Department of Sociology of Planning and Architecture"@en-us ;
+    obo:BFO_0000050 tub:f535c8af-16e8-3bad-bc74-46b66a321c92 ;
+    bua:geritId "62829586" .
+
+tub:cbf78db8-72fd-313e-9ccc-e6f0065c41d0 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Dähne - Festkörpernanoskopie"@de-de,
+        "Research group Dähne on solid-state nanoscopy"@en-us ;
+    obo:BFO_0000050 tub:058c7cca-efbb-384f-9a28-46a4d3badd92 .
+
+tub:cc6164d0-cb1a-36e8-9b9b-1a2088d602a5 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Keramische Werkstoffe"@de-de,
+        "Department of ceramic materials"@en-us ;
+    obo:BFO_0000050 tub:9fdb4081-629c-38b1-836a-b8f74c116213 ;
+    bua:geritId "26329" .
+
+tub:cc7c5c8c-f222-3d00-9426-5a48b3280477 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Physikalische Chemie / Nanostrukturierte  Biomaterialien"@de-de,
+        "Department of Physical Chemistry / Nanostructured Biomaterials"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 .
+
+tub:ccbac834-cd4d-3956-b5b5-1eda98761968 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Hochspannungstechnik"@de-de,
+        "Department of High Voltage Engineering"@en-us ;
+    obo:BFO_0000050 tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9 ;
+    bua:geritId "26349" .
+
+tub:cd6b7b3b-8373-3fbb-9af4-ccf1cf0bfe71 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Dynamik Maritimer Systeme"@de-de,
+        "Department of Dynamics of Maritime Systemss"@en-us ;
+    obo:BFO_0000050 tub:a8afc5d0-69a1-39ca-af4a-218bf07424ca ;
+    bua:geritId "20762518" .
+
+tub:ce10cd77-1568-39d2-8f32-6ce437ac8671 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Nachhaltige Unternehmensentwicklung"@de-de,
+        "Department of Sustainable Corporate Development"@en-us ;
+    obo:BFO_0000050 tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 ;
+    bua:geritId "259805269" .
+
+tub:cef03778-0b8f-33eb-a36c-d519ad8015f4 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Sozialwissenschaftliche Wissenschafts- und Technikforschung"@de-de,
+        "Department of Social Science and Technology Research"@en-us ;
+    obo:BFO_0000050 tub:30cc8168-c5dd-3635-a203-7a32fe947c9d ;
+    bua:geritId "505705587" .
+
+tub:d08333a9-cea7-39b5-944a-8f30d9dc7768 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Planungs- und Bauökonomie / Immobilienwirtschaft"@de-de,
+        "Chair of Planning and Construction Economics / Real Estate"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 ;
+    bua:geritId "20772264" .
+
+tub:d20bb39b-bb3e-35c0-b088-48437c0ee44c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet DE / CO Entwerfen und Baukonstruktion"@de-de,
+        "Chair of DE / CO Design and building construction"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:d37c6a15-fde2-3cf2-8300-5f03d06510d3 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Digitalisierung der Arbeitswelt"@de-de,
+        "Department of digitization of the working world"@en-us ;
+    obo:BFO_0000050 tub:f535c8af-16e8-3bad-bc74-46b66a321c92 .
+
+tub:d3b905ba-6120-3e12-8026-e4ac80429654 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Seismik"@de-de,
+        "Department of Seismology"@en-us ;
+    obo:BFO_0000050 tub:fedb8031-bd26-3be8-8af5-6173474d0c69 .
+
+tub:d3c779d1-12a8-351e-80ca-d4a52a1a3abb a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Energieversorgungsnetze und Integration erneuerbarer Energien"@de-de,
+        "Department of Sustainable Electric Networks and Sources of Energy"@en-us ;
+    obo:BFO_0000050 tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9 ;
+    bua:geritId "120648720" .
+
+tub:d4ba3170-c773-34dc-b620-8be35d5b6914 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Technologie für Dünnschicht-Bauelementes"@de-de,
+        "Department of Technology of Thin Film Devices"@en-us ;
+    obo:BFO_0000050 tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 ;
+    bua:geritId "277572003" .
+
+tub:d4cd9c42-66be-3fc7-8fee-7f73acd7efe5 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Allgemeine und Historische Erziehungswissenschaft"@de-de,
+        "Department of General and Historical Education"@en-us ;
+    obo:BFO_0000050 tub:95fe76e8-7ece-3e79-aba2-dcfd96f6ed00 .
+
+tub:d54d5a9d-2cb4-3319-9407-04c38253466c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Historische Bauforschung und Baudenkmalpflege"@de-de,
+        "Chair of Historical Building Research and Monument Conservation"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:d5ea25ef-39c4-35f9-9910-fb5f48bef1a3 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe  Ernstorfer Ultrafast Nanoscience"@de-de,
+        "Research group Erndorfer on Ultrafast Nanoscience"@en-us ;
+    obo:BFO_0000050 tub:f97de598-57c9-3f86-9e31-19aa10d33694 .
+
+tub:d9610253-cb32-3375-b7ac-6aa28c707d26 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Nichtlineare Optik und Quantenelektronik"@de-de,
+        "Research group on Nonlinear Optics and Quantum Electronics."@en-us ;
+    obo:BFO_0000050 tub:cdce808b-fc1d-32e2-b120-b37220aedb3e ;
+    bua:geritId "119808921" .
+
+tub:d97a9d81-f168-3ddb-a285-01a5cb19e9a2 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Modelle und Theorie Verteilter Systeme"@de-de,
+        "Chair Models and Theory of Distributed Systems"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba ;
+    bua:geritId "120974545" .
+
+tub:da9b1eff-9b23-3294-ae4e-0bfbe3ba5ecf a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Honorarprofessur für Gartenkunst und Gartendenkmalpflege"@de-de,
+        "Honorary professorship for garden monument conservation"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 .
+
+tub:dbc9f0c5-a800-3523-828c-7fe1ba437c76 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet vanR: Entwerfen und Gebäudekunde"@de-de,
+        "Chair of vanR: Design and Building Science"@en-us ;
+    obo:BFO_0000050 tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 .
+
+tub:dc33d0d3-2608-327f-9190-1e3966de9ca2 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Werkzeugmaschinen und Fertigungstechnik"@de-de,
+        "Chair of Machine Tools and Manufacturing Technology"@en-us ;
+    obo:BFO_0000050 tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 ;
+    bua:geritId "123154924" .
+
+tub:dc5f69d1-2b90-30a9-86b5-188de09156ae a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Marketing"@de-de,
+        "Chair of Marketing"@en-us ;
+    obo:BFO_0000050 tub:36a10295-3dbb-3ee0-91be-a32e3935e37a ;
+    bua:geritId "26857" .
+
+tub:dca83dca-abb4-3287-a8be-ccd274c83b5d a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Eisebitt Laserphysik"@de-de,
+        "Research group Eisebitt on laser physics"@en-us ;
+    obo:BFO_0000050 tub:f97de598-57c9-3f86-9e31-19aa10d33694 .
+
+tub:dccd1937-80bd-31bf-9744-695cd2817c21 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Denkmalpflege"@de-de,
+        "Chair of Heritage Conservation"@en-us ;
+    obo:BFO_0000050 tub:1fe38b73-7636-34ee-bce0-85b320558830 ;
+    bua:geritId "29857173" .
+
+tub:dcfcaccf-97fc-38d0-b0eb-58ae8d9de71c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Logistik"@de-de,
+        "Chair of Logistics"@en-us ;
+    obo:BFO_0000050 tub:3d2d3c43-9009-3caa-8aec-759eeaf7ae73 ;
+    bua:geritId "125992101" .
+
+tub:dd56d17c-a888-350b-982d-ff07fa424e72 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Energie-, Komfort und Gesundheit in Gebäuden"@de-de,
+        "Department of energy, comfort and health in buildings"@en-us ;
+    obo:BFO_0000050 tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b .
+
+tub:dd89d92b-0f80-357e-97be-5beca7bbf07f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Verkehrssystemplanung und Verkehrstelematik"@de-de,
+        "Department of Transport Systems Planning and Transport Telematics"@en-us ;
+    obo:BFO_0000050 tub:6d77653d-cd96-352d-bca8-76c9b1b4f423 ;
+    bua:geritId "122186016" .
+
+tub:de10f180-96fb-38c5-b103-40bdffc6f80d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Theoretische Elektrotechnik"@de-de,
+        " Chair of Theoretische Elektrotechnik"@en-us ;
+    obo:BFO_0000050 tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 ;
+    bua:geritId "26368" .
+
+tub:dfad9bd3-ca48-3d42-9ec6-9156934303b1 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mikro- und Feingeräte"@de-de,
+        "Chair of Micro and Precision Devices"@en-us ;
+    obo:BFO_0000050 tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 ;
+    bua:geritId "22894" .
+
+tub:e0f161ae-b45b-3886-94c7-46bf118a8cdb a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Reservoir engineering"@de-de,
+        "Department of Reservoir engineering"@en-us ;
+    obo:BFO_0000050 tub:fedb8031-bd26-3be8-8af5-6173474d0c69 .
+
+tub:e5aced2f-a5c4-31c5-bd97-a439ed7be8fd a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Polymerwerkstoffe und –technologien"@de-de,
+        "Department of polymer materials and technologies"@en-us ;
+    obo:BFO_0000050 tub:9fdb4081-629c-38b1-836a-b8f74c116213 .
+
+tub:e6c5599c-a691-3279-a4ae-dad31645817f a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Möller Cluster und Nanokristalle"@de-de,
+        "Research group Möller on Cluster und Nanokristalle"@en-us ;
+    obo:BFO_0000050 tub:f97de598-57c9-3f86-9e31-19aa10d33694 .
+
+tub:e70a84a4-250c-3a61-adaf-ea63ad81a775 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachdidaktik Elektro-, Fahrzeug-, Informations-, Medien- und Metalltechnik"@de-de,
+        "Specialised Didactics for Metal and Electrical and Electronic Engineering"@en-us ;
+    obo:BFO_0000050 tub:ca087621-6c2b-32df-b79e-6b3ebf5decdc,
+        tub:d13289cb-6b8e-3cb4-b5c2-003c05e04e38 .
+
+tub:e793c585-d61f-30c2-8eb2-d3e382b6ae8d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Konstruktion und Produktzuverlässigkeit"@de-de,
+        "Chair of Engineering Design & Product Reliability"@en-us ;
+    obo:BFO_0000050 tub:969c7c58-9965-3c04-9cbf-502b16149eb3 ;
+    bua:geritId "811537" .
+
+tub:e7a6e9d5-ca6a-3c32-b49c-c02aec65fc02 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Technikgeschichte"@de-de,
+        "Department of Technical History"@en-us ;
+    obo:BFO_0000050 tub:30cc8168-c5dd-3635-a203-7a32fe947c9d ;
+    bua:geritId "323376413" .
+
+tub:e85a8266-f6f9-35ad-9875-5c261b41c312 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Software and Embedded Systems Engineering"@de-de,
+        "Chair Software and Embedded Systems Engineering"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba .
+
+tub:ea3e4c7e-a308-3f65-b9e3-ac82d757e8b7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachbereich Hochfrequenzsysteme"@de-de,
+        "Department of High Frequency Systems"@en-us ;
+    obo:BFO_0000050 tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 .
+
+tub:eac8dbc8-6225-347c-a5bc-08307b2670ee a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Sensorik und Aktuatorik"@de-de,
+        "Department of Sensor & Actuator Technology"@en-us ;
+    obo:BFO_0000050 tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9 ;
+    bua:geritId "231524468" .
+
+tub:eb600e0f-393c-37f1-99d9-fcd8104d1bb6 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Elektrische Antriebstechnik"@de-de,
+        "Department of Electrical Drives"@en-us ;
+    obo:BFO_0000050 tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9 ;
+    bua:geritId "26348" .
+
+tub:eba6c3a3-bc03-3fcf-8c2c-80f992942754 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Energie- und Klimapolitik"@de-de,
+        "Chair of Energy and Climate Policy"@en-us ;
+    obo:BFO_0000050 tub:4954ea4f-08bc-34b8-a344-db8cb89d5960 .
+
+tub:ebad3813-6781-3f06-b534-3ceb25de669d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Datenbanksysteme und Informationsmanagement"@de-de,
+        "Database Systems and Information Management Group"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba ;
+    bua:geritId "26370" .
+
+tub:ec218d20-8f24-374e-847e-eda92956f83e a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet für Fluidsystemdynamik"@de-de,
+        "Chair of Fluid System Dynamics"@en-us ;
+    obo:BFO_0000050 tub:cc842743-06c5-346a-911f-53ab0fc5d3ab .
+
+tub:ec2ae9f2-da61-365d-a187-7088bf2bb5a9 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Praktische Philosophie"@de-de,
+        "Department of Practical Philosophy"@en-us ;
+    obo:BFO_0000050 tub:30cc8168-c5dd-3635-a203-7a32fe947c9d .
+
+tub:ec734bcd-b6b5-3540-8739-d84c181154b6 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Gender und Diversity in der Technik und Produktentwicklung"@de-de,
+        "Department of Gender and Diversity in Technology and Product Development"@en-us ;
+    obo:BFO_0000050 tub:969c7c58-9965-3c04-9cbf-502b16149eb3 ;
+    bua:geritId "463113360" .
+
+tub:eddb05fb-3d95-3724-b14a-60a96b410e16 a bua:BUA_0000053,
+        owl:NamedIndividual ;
+    rdfs:label "Universitätsbibliothek der Technische Universität Berlin"@de-de,
+        "University library of the Technical University of Berlin"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin ;
+    bua:geritId "10167" .
+
+tub:f153b713-772c-324a-b5cc-0a1610328deb a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mathematische Stochastik und Anwendungen in statistischer Physik und Biologie"@de-de,
+        "Department of Mathematical Stochastics and Applications in Statistical Physics and Biology"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14 .
+
+tub:f212070f-6c0f-3f74-bc05-29488b1bc761 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Planungsbezogene Tieroekologie"@de-de,
+        "Chair of Planning-related Animal Ecology"@en-us ;
+    obo:BFO_0000050 tub:b1ea973e-b158-3f63-bab8-ad12d0b65d97 .
+
+tub:f30bc947-4026-3dad-b6f3-613d707257f9 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Regelungstechnik"@de-de,
+        "Chair of Measurement and Control"@en-us ;
+    obo:BFO_0000050 tub:10734a9a-19e9-3a0e-abc0-4fc9b8ae38e9 .
+
+tub:f320c332-12ad-317b-b4f6-be16841d6a7b a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Wagner - Halbleiter Nanophononik und Nanophotonik"@de-de,
+        "Research group Wagner on Semiconductor nanophononics and nanophotonics"@en-us ;
+    obo:BFO_0000050 tub:058c7cca-efbb-384f-9a28-46a4d3badd92 .
+
+tub:f4c07d7c-99ea-34a4-9ef4-2dffc5d28b12 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Lebensmittelbiotechnologie und -prozesstechnik"@de-de,
+        "Department of Food Biotechnology and Food Process Engineering"@en-us ;
+    obo:BFO_0000050 tub:988112dc-8148-3dde-9187-0f13247cdeb1 ;
+    bua:geritId "26340" .
+
+tub:f50e1eb4-674a-36a3-a43b-8e9a997c4bb8 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Computer Graphics"@de-de,
+        "Department of Computer Graphics"@en-us ;
+    obo:BFO_0000050 tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf ;
+    bua:geritId "26365" .
+
+tub:f892ff72-fa92-3789-b34f-7c55aac7d753 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Technik- und Innovationssoziologie"@de-de,
+        "Department of Sociology of Technology and Innovation"@en-us ;
+    obo:BFO_0000050 tub:f535c8af-16e8-3bad-bc74-46b66a321c92 .
+
+tub:f93688fe-63a2-33b0-b9d0-f1d7fe23b087 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Wissenschaftliches Rechnen"@de-de,
+        "Department of Scientific Computing"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:6d0048ad-e0c3-3a59-9a97-e51e703cbd96 ;
+    bua:geritId "119520292" .
+
+tub:fa008731-810a-31e5-b346-e672ae0c9f84 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Unsicherheit, inverse Modellierung und maschinelles Lernen"@de-de,
+        "Chair Uncertainty, inverse modeling and machine learning"@en-us ;
+    obo:BFO_0000050 tub:879ecad7-36c9-3233-a518-8a0d213894ba .
+
+tub:fb1aacf3-42dc-3118-97b9-222be3a153a8 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Verfahrenstechnik"@de-de,
+        "Chair of Chemical & Process Engineering"@en-us ;
+    obo:BFO_0000050 tub:10734a9a-19e9-3a0e-abc0-4fc9b8ae38e9 ;
+    bua:geritId "26321" .
+
+tub:fce40f8e-a531-3b44-b2a4-81e8cb0b71a8 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Brauwesen"@de-de,
+        "Chair of Brewing Science"@en-us ;
+    obo:BFO_0000050 tub:988112dc-8148-3dde-9187-0f13247cdeb1 ;
+    bua:geritId "119828449" .
+
+tub:ff0fa68e-aa47-3b3a-84a8-11cb21271b17 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Experimentelle Wirtschaftsforschung"@de-de,
+        "Chair of Experimental Economics"@en-us ;
+    obo:BFO_0000050 tub:4954ea4f-08bc-34b8-a344-db8cb89d5960 .
+
+tub:ff59be4c-54eb-3b62-9979-ca86bf5798f9 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Digitale Vernetzung von Gebäuden, Energieversorgungsanlagen und Nutzenden"@de-de,
+        "Department of digital networking of buildings, energy supply systems and users"@en-us ;
+    obo:BFO_0000050 tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b .
+
+tub:ffc36c27-39df-3713-a09d-64bbff66505b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Geoinformation in der Umweltplanung"@de-de,
+        "Geoinformation in Environmental Planning Lab Research Group"@en-us ;
+    obo:BFO_0000050 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 ;
+    bua:geritId "124007621" .
+
+tub:08c72fa3-d2a9-3100-91db-4c5dd12adc60 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Modellierung, Simulation und Optimierung realer Prozesse"@de-de,
+        "Department of modelling, simulation and optimization of real processes"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:6d0048ad-e0c3-3a59-9a97-e51e703cbd96 .
+
+tub:0d7aec70-f7eb-3ad3-805b-505d8fb5cd38 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Differentialgleichungen"@de-de,
+        "Department of Differential Equations"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:6d0048ad-e0c3-3a59-9a97-e51e703cbd96 ;
+    bua:geritId "119318297" .
+
+tub:16909185-ba65-3abe-ba2b-852c54eb3a6d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Anorganische Chemie / Festkörperchemie"@de-de,
+        "Department of Inorganic Chemistry / Solid State Chemistry"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:4e5b3002-2d52-385f-9589-59dbac890b75 .
+
+tub:1bb78744-9ebd-37f3-aafe-ac6abeb4ebb0 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mathematische Visualisierung"@de-de,
+        "Department of Mathematical Visualization"@en-us ;
+    obo:BFO_0000050 tub:129e0598-d65d-3b91-b777-1b473b39428e,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    bua:geritId "119561711" .
+
+tub:1d88993d-c53b-3d99-9f85-0ec9efbdbd52 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Dynamische Systeme"@de-de,
+        "Department of Dynamic Systems"@en-us ;
+    obo:BFO_0000050 tub:129e0598-d65d-3b91-b777-1b473b39428e,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 .
+
+tub:1f794297-e764-31c5-be7c-d2f6180a8a64 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bioanorganische Chemie"@de-de,
+        "Department of bioinorganic chemistry"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:4e5b3002-2d52-385f-9589-59dbac890b75 .
+
+tub:1ff3f9c2-4db4-36dd-b24b-98f92ac45723 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Angewandte Mathematik"@de-de,
+        "Department of Applied Mathematics"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:6d0048ad-e0c3-3a59-9a97-e51e703cbd96 ;
+    bua:geritId "445917501" .
+
+tub:2200de88-75ad-32d9-a0c6-bdb01d9c1e7b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Theoretische Chemie"@de-de,
+        "Department of Theoretical Chemistry"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:ac1eb868-8e07-3a4d-82ce-da6c360c7cb8 .
+
+tub:25872fb0-bcef-3cc6-9a11-e80760c541fa a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Modellierung biomolekularer Systeme"@de-de,
+        "Department of modeling of biomolecular systems"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:ac1eb868-8e07-3a4d-82ce-da6c360c7cb8 .
+
+tub:2aaf9326-e15b-3f67-bc4c-d561aa068d9d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Diskrete Optimierung"@de-de,
+        "Department of Discrete Optimization"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:b3f84b06-e324-3289-af36-9c12ec5a8ab6 .
+
+tub:2ce64e27-12e3-3c6c-8054-75b6e53b60de a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Stochastische Analysis"@de-de,
+        "Department of Stochastic Analysis"@en-us ;
+    obo:BFO_0000050 tub:1e232daf-32a2-34d5-ba66-cc680f3470f1,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    bua:geritId "119520524" .
+
+tub:2f9e45ab-cfe5-38e1-960c-5bc4fbf44279 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mathematische Optimierung"@de-de,
+        "Department of Mathematical Optimization"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:b3f84b06-e324-3289-af36-9c12ec5a8ab6 .
+
+tub:31e8e256-1507-3c33-8e80-872b5d329e9d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Nachhaltige Mobilität und transdisziplinäre Forschungsmethoden (NaMo)"@de-de,
+        "Department of Sustainable Mobility and Transdisciplinary Research Methods (NaMo)"@en-us ;
+    obo:BFO_0000050 tub:ca087621-6c2b-32df-b79e-6b3ebf5decdc,
+        tub:f23a81f9-0ac2-3980-b5ce-e700885cc7a8 .
+
+tub:33478b7d-8cff-372f-96e2-e3c8078e1753 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Daten-Assimilation in den Neurowissenschaften"@de-de,
+        "Department of data assimilation in neuroscience"@en-us ;
+    obo:BFO_0000050 tub:1e232daf-32a2-34d5-ba66-cc680f3470f1,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    bua:geritId "433785640" .
+
+tub:34861f5c-a90b-3b0e-8625-3f18b914b272 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Nichtlineare Algebra"@de-de,
+        "Department of Nonlinear Algebra"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:b3f84b06-e324-3289-af36-9c12ec5a8ab6 .
+
+tub:369c300a-7a0c-3619-a7ac-4cb1263056f7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Analytische Chemie"@de-de,
+        "Department of Analytical Chemistry"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:4e5b3002-2d52-385f-9589-59dbac890b75 .
+
+tub:38678cdb-8c0d-3122-9983-5323a397ba98 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Physikalische Chemie / Biophysikalische Chemie"@de-de,
+        "Department of physical chemistry / biophysical chemistry"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:ac1eb868-8e07-3a4d-82ce-da6c360c7cb8 .
+
+tub:3f80839a-eaaa-3e7d-9913-e03a3d16925b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Differentialgeometrie und Visualisierung"@de-de,
+        "Department of Differential Geometry and Visualization"@en-us ;
+    obo:BFO_0000050 tub:129e0598-d65d-3b91-b777-1b473b39428e,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 .
+
+tub:438a30fe-0ee0-39a1-91e2-8ff0d96ad36d a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Wahrscheinlichkeitstheorie"@de-de,
+        "Department of Probability Theory"@en-us ;
+    obo:BFO_0000050 tub:1e232daf-32a2-34d5-ba66-cc680f3470f1,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    bua:geritId "119459404" .
+
+tub:45d4fc06-a395-3548-9f31-0fcaef0a14ec a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Fachdidaktik Bautechnik und Landschaftsgestaltung"@de-de,
+        "Department of Didactics of Civil Engineering and Landscape Design"@en-us ;
+    obo:BFO_0000050 tub:ca087621-6c2b-32df-b79e-6b3ebf5decdc,
+        tub:d13289cb-6b8e-3cb4-b5c2-003c05e04e38 ;
+    bua:geritId "298644381" .
+
+tub:50e560b1-3667-39fa-99c3-413af82db855 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Grundlagen und Methoden der Kristallzüchtung"@de-de,
+        "Department of fundamentals and methods of crystal growth"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:4e5b3002-2d52-385f-9589-59dbac890b75 .
+
+tub:56dd313b-955d-30d1-a8f5-8e914b1dafe2 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Fachdidaktik Arbeitslehre"@de-de,
+        "Department of vocational teaching didactics"@en-us ;
+    obo:BFO_0000050 tub:ca087621-6c2b-32df-b79e-6b3ebf5decdc,
+        tub:f23a81f9-0ac2-3980-b5ce-e700885cc7a8 ;
+    bua:geritId "298619593" .
+
+tub:636ec633-7734-3801-b929-b0032b7ce0ca a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Theoretische Chemie - Quantenchemie"@de-de,
+        "Department of Theoretical Chemistry - Quantum Chemistry"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:ac1eb868-8e07-3a4d-82ce-da6c360c7cb8 .
+
+tub:685259c4-d113-3aeb-8205-cec71e4e1dca a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Geometrie"@de-de,
+        "Department of Geometry"@en-us ;
+    obo:BFO_0000050 tub:129e0598-d65d-3b91-b777-1b473b39428e,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    bua:geritId "119561522" .
+
+tub:6b51c456-a329-38a8-a481-a9d2fb69f0c3 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Computer Vision & Remote Sensing"@de-de,
+        "Computer Vision and Remote Sensing laboratory"@en-us ;
+    obo:BFO_0000050 tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf,
+        tub:f005d5b8-bdff-36b7-b972-9e0032524a32 ;
+    bua:geritId "981019" .
+
+tub:7138c8e2-72ac-314a-819e-03faebc74402 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Organische Chemie / Synthese und Katalyse"@de-de,
+        "Department of Organic Chemistry / Synthesis and Catalysis"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:3ae2d68a-ea88-38d8-bb56-94ed2add0cda .
+
+tub:7269547d-d1cb-35a0-8ea4-278600d22517 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Finanz- und Versicherungsmathematik"@de-de,
+        "Department of financial and insurance mathematics"@en-us ;
+    obo:BFO_0000050 tub:1e232daf-32a2-34d5-ba66-cc680f3470f1,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    bua:geritId "119561864" .
+
+tub:758a13f1-11df-31e0-b80b-fd75211ed40e a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Physikalische Chemie / Molekulare Materialwissenschaften"@de-de,
+        "Department of Physical Chemistry / Molecular Materials Science"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:ac1eb868-8e07-3a4d-82ce-da6c360c7cb8 .
+
+tub:785b0c3e-7488-316a-b6f1-3b4688aed534 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Arbeitslehre/Technik und Partizipation"@de-de,
+        "Department of Work, Technology and Participation"@en-us ;
+    obo:BFO_0000050 tub:ca087621-6c2b-32df-b79e-6b3ebf5decdc,
+        tub:f23a81f9-0ac2-3980-b5ce-e700885cc7a8 ;
+    bua:geritId "279116902" .
+
+tub:7ac6302e-4db7-3be7-87cc-8a3f3f05b559 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Biokatalyse"@de-de,
+        "Department of biocatalysis"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 .
+
+tub:7b49b2c7-baaa-30ad-a5f6-19bb2e5f0f23 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Simulation und Optimierung in Natur- und Ingenieurwissenschaften"@de-de,
+        "Department of simulation and optimization in natural and engineering sciences"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:6d0048ad-e0c3-3a59-9a97-e51e703cbd96 ;
+    bua:geritId "119336096" .
+
+tub:7e3384f6-e4da-31d1-a6b7-f45cef15736a a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Kombinatorische Optimierung und Graphenalgorithmen"@de-de,
+        "Department of Combinatorial Optimization and Graph Algorithms"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:b3f84b06-e324-3289-af36-9c12ec5a8ab6 .
+
+tub:82a5ec39-f531-34fe-84c1-1c774b09da1b a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Diskrete Geometrie"@de-de,
+        "Department of Discrete Geometry"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:b3f84b06-e324-3289-af36-9c12ec5a8ab6 .
+
+tub:86e2da90-d451-30c6-8dc4-3ce32324ea84 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Wechselwirkende Teilchensysteme"@de-de,
+        "Department of Interacting Particle Systems"@en-us ;
+    obo:BFO_0000050 tub:1e232daf-32a2-34d5-ba66-cc680f3470f1,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    bua:geritId "119520427" .
+
+tub:888639eb-18bf-3051-addb-d600321810d1 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Modellierung mit Differentialgleichungen"@de-de,
+        "Department of modeling with differential equations"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:6d0048ad-e0c3-3a59-9a97-e51e703cbd96 ;
+    bua:geritId "119336004" .
+
+tub:8fbb5cef-b7e4-3b21-b8b1-c782af814ea2 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Technische Chemie / Chemische Katalyse"@de-de,
+        "Department of Chemical Engineering / Chemical Catalysis"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:0de994ab-8344-3b0d-8d9e-e2bdd88c658e .
+
+tub:9503ef66-43fa-3670-af8f-065a48fcc791 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Technische Chemie / Elektrokatalyse - Materialien"@de-de,
+        "Department of Chemical Engineering / Electrocatalysis - Materials"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:0de994ab-8344-3b0d-8d9e-e2bdd88c658e .
+
+tub:9d7075d9-5c42-3499-ad52-e3c50ed8e7a2 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Numerische Mathematik"@de-de,
+        "Department of Numerical Mathematics"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:6d0048ad-e0c3-3a59-9a97-e51e703cbd96 ;
+    bua:geritId "119439347" .
+
+tub:9f0f3e46-b4b8-3f1e-bf02-50b22514b951 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bioenergetik"@de-de,
+        "Department of Bioenergetics"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 ;
+    obo:BFO_0000051 tub:ac1eb868-8e07-3a4d-82ce-da6c360c7cb8 .
+
+tub:a731ae7f-ecbf-3768-a5d1-97ade4712331 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Stochastik und quantitative Finanzmathematik"@de-de,
+        "Department of stochastics and quantitative financial mathematics"@en-us ;
+    obo:BFO_0000050 tub:1e232daf-32a2-34d5-ba66-cc680f3470f1,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 .
+
+tub:a75c344c-0457-3ee6-a284-8508ac1bbdfe a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Biologische Chemie"@de-de,
+        "Department of Biological Chemistry"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 .
+
+tub:ae72c2ca-12da-3622-900c-00cb77e166b7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Software und Algorithmen für die diskrete Optimierung"@de-de,
+        "Dpartment of Discrete Optimization Software and Algorithms"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:b3f84b06-e324-3289-af36-9c12ec5a8ab6 .
+
+tub:af6ac0c6-104c-3599-9923-a85cac954274 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Sozial-ökologische Transformation"@de-de,
+        "Department of social-ecological transformation"@en-us ;
+    obo:BFO_0000050 tub:ca087621-6c2b-32df-b79e-6b3ebf5decdc,
+        tub:f23a81f9-0ac2-3980-b5ce-e700885cc7a8 .
+
+tub:b9ca5e85-76aa-38f5-b392-fba16928cbf7 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Organische Chemie"@de-de,
+        "Department of Organic Chemistry"@en-us .
+
+tub:ca9b238c-aaa6-3cad-91d4-b54c7cb46e2e a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Diskrete Mathematik"@de-de,
+        "Department of Discrete Mathematics"@en-us ;
+    obo:BFO_0000050 tub:129e0598-d65d-3b91-b777-1b473b39428e,
+        tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:b3f84b06-e324-3289-af36-9c12ec5a8ab6 ;
+    bua:geritId "119315946" .
+
+tub:cddc6ae4-f948-34b9-9626-3dd1892f9d46 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Numerik der Nichtlinearen Optimierung"@de-de,
+        "Department of numerics in nonlinear optimization"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:6d0048ad-e0c3-3a59-9a97-e51e703cbd96 ;
+    bua:geritId "119459017" .
+
+tub:cfeddcf8-0823-3c8e-91d0-9c05adebcb8c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Technische Chemie / Mehrphasen-Reaktionstechnik"@de-de,
+        "Department of Chemical Engineering / Reaction Enineering of Heterogenic Systems"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:0de994ab-8344-3b0d-8d9e-e2bdd88c658e .
+
+tub:d0179145-5c22-3e1b-9ce5-aa26adc9f0c3 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Arbeitslehre/Ökonomie und Nachhaltiger Konsum"@de-de,
+        "Department of Work Studies/Economics and Sustainable Consumption"@en-us ;
+    obo:BFO_0000050 tub:ca087621-6c2b-32df-b79e-6b3ebf5decdc,
+        tub:f23a81f9-0ac2-3980-b5ce-e700885cc7a8 ;
+    bua:geritId "298638512" .
+
+tub:d758bd82-5009-3401-bff0-8ed31fd6ee77 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Algorithmische Algebra"@de-de,
+        "Department of Algorithmic Algebra"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:b3f84b06-e324-3289-af36-9c12ec5a8ab6 .
+
+tub:da78f6d2-3f74-3311-9a4c-1d349b10c975 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Differentialgeometrie"@de-de,
+        "Department of Differential Geometry"@en-us ;
+    obo:BFO_0000050 tub:129e0598-d65d-3b91-b777-1b473b39428e,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 .
+
+tub:e67bec35-0652-3cd9-9c7d-21dbcc60011f a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Funktionsmaterialien"@de-de,
+        "Department of functional materials"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:4e5b3002-2d52-385f-9589-59dbac890b75 .
+
+tub:eb203e82-ea27-3162-b88d-0e8534d61004 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Finanzmathematik"@de-de,
+        "Department of Financial Mathematics"@en-us ;
+    obo:BFO_0000050 tub:1e232daf-32a2-34d5-ba66-cc680f3470f1,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    bua:geritId "119520891" .
+
+tub:f388c57c-eab1-38ba-91ed-e627d03838a3 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Mathematische Stochastik / Stochastische Prozesse in den Neurowissenschaften"@de-de,
+        "Department of Mathematical Stochastics / Stochastic Processes in the Neurosciences"@en-us ;
+    obo:BFO_0000050 tub:1e232daf-32a2-34d5-ba66-cc680f3470f1,
+        tub:21831632-703d-34b1-8c88-21dbff243f14 .
+
+tub:f46bd0b5-142a-36b4-9d98-b6c7113de0d1 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Wissensdynamik und Nachhaltigkeit in den Technikwissenschaften"@de-de,
+        "Department of Knowledge Dynamics and Sustainability in Technical Sciences"@en-us ;
+    obo:BFO_0000050 tub:30cc8168-c5dd-3635-a203-7a32fe947c9d ;
+    bua:geritId "435366388" .
+
+tub:b4f3d3a2-2205-3473-97dd-33437e3c53b3 a owl:namedindividual,
+    bua:BUA_0000003, bua:BUA_0000012 ;
+    rdfs:label "Centre of Astronomy and Astrophysics"@en-us ,
+               "Zentrum für Astronomie und Astrophysik"@de-de ;
+    obo:BFO_0000050 tub:08cba762-e034-3bfb-84b0-ecbccb1f6140 ;
+    obo:BFO_0000051 tub:a04a6dea-34b2-3712-8aae-9a70e6137f1f,
+                    tub:ad0b6d2e-2f85-3e1e-b26f-d81cce70c604,
+                    tub:6f6fa339-b9d7-388b-8f32-7be7945e8d32,
+                    tub:115a7d87-b8cd-3360-8ab9-8e101b53db43,
+                    tub:c86c9a94-4d5b-3b0a-b16d-bd75623a7bc6,
+                    tub:6210dbf9-b62f-3578-bc0b-4d59bf0ab4de .
+
+tub:fc00b817-29dd-3abb-8aa2-ecf4f6df70fb a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Organische Chemie / Naturstofforientierte Synthesechemie"@de-de,
+        "Department of Organic Chemistry / Natural Product Synthesis"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66,
+        tub:3ae2d68a-ea88-38d8-bb56-94ed2add0cda .
+
+tub:fc717d92-28eb-3563-95ef-e90f2b52ba6c a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Numerische Lineare Algebra"@de-de,
+        "Department of Numerical Linear Algebra"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:6d0048ad-e0c3-3a59-9a97-e51e703cbd96 .
+
+tub:3ae2d68a-ea88-38d8-bb56-94ed2add0cda a bua:BUA_0000013,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgruppe Organische Chemie"@de-de,
+        "Organic Chemistry Research Unit"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 ;
+    obo:BFO_0000051 tub:7138c8e2-72ac-314a-819e-03faebc74402,
+        tub:7ac6302e-4db7-3be7-87cc-8a3f3f05b559,
+        tub:a75c344c-0457-3ee6-a284-8508ac1bbdfe,
+        tub:b9ca5e85-76aa-38f5-b392-fba16928cbf7,
+        tub:c62d716c-51b8-33dc-93b8-c4a59376f5dd,
+        tub:fc00b817-29dd-3abb-8aa2-ecf4f6df70fb ;
+    bua:geritId "17362954" .
+
+tub:93f603e2-cdf3-3838-bc77-008da2bca9ad a bua:BUA_0000003,
+        owl:NamedIndividual ;
+    rdfs:label "Zentrum für Interdisziplinäre Frauen- und Geschlechterforschung"@de-de,
+        "Center for Interdisciplinary Women's and Gender Studies"@en-us ;
+    obo:BFO_0000050 tub:45b04086-5402-38dd-80f3-73645db20e23 ;
+    obo:BFO_0000051 tub:2b662ebe-a8dc-3ab0-b7b6-39b1e73c357d,
+        tub:a21b9bab-1ff3-3998-938f-411b204f760a ;
+    bua:geritId "15203" .
+
+tub:2b662ebe-a8dc-3ab0-b7b6-39b1e73c357d a bua:BUA_0000003, owl:NamedIndividual, bua:Einrichtung ;
+     rdfs:label "Techno Club at the Center for Interdisciplinary Women's and Gender Studies (ZIFG)"@en-us ,
+                "Techno-Club am Zentrum für Interdisziplinäre Frauen- und Geschlechterforschung (ZIFG)"@de-de ;
+    obo:BFO_0000050 tub:93f603e2-cdf3-3838-bc77-008da2bca9ad .
+
+
+tub:a8afc5d0-69a1-39ca-af4a-218bf07424ca a bua:BUA_0000001,
+        owl:NamedIndividual ;
+    rdfs:label "Bereich Schiffs- und Meerestechnik"@de-de,
+        "Division of Ship and marine technology"@en-us ;
+    obo:BFO_0000050 tub:b7911e73-ca45-3bf1-a249-3485fac8bdc6 ;
+    obo:BFO_0000051 tub:58d704bb-7aba-36e1-bbaa-c31a2dadd28a,
+        tub:cd6b7b3b-8373-3fbb-9af4-ccf1cf0bfe71 ;
+    bua:geritId "122185530" .
+
+tub:c30cb23e-6f0a-31e7-a0e9-13d1aa061224 a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Diskrete Mathematik / Geometrie"@de-de,
+        "Department of Discrete Mathematics / Geometry"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14,
+        tub:b3f84b06-e324-3289-af36-9c12ec5a8ab6 ;
+    bua:geritId "119315946" .
+
+
+
+tub:ff26216f-4968-3282-82e0-83a87ee310ae a bua:BUA_0000012,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgebiet Bildung für Nachhaltige Ernährung und Lebensmittelwissenschaft"@de-de,
+        "Department of Education for Sustainable Nutrition and Food Science"@en-us ;
+    obo:BFO_0000050 tub:ca087621-6c2b-32df-b79e-6b3ebf5decdc,
+        tub:f23a81f9-0ac2-3980-b5ce-e700885cc7a8 .
+
+tub:258bc48b-ab8f-3d76-818b-098c2d536db3 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Wirtschaftsinformatik und Quantitative Methoden"@de-de,
+        "Institute of Commercial Information Technology and Quantitative Methods"@en-us ;
+    obo:BFO_0000050 tub:08574b86-65ce-3ca7-9497-5d136930c6e4 ;
+    obo:BFO_0000051 tub:240021be-49c2-379f-adee-6beaabb3c546,
+        tub:43d3f5f1-608e-3c06-ae2b-f3c839aeca2b,
+        tub:8fd330b6-9c4c-31fb-994c-252bdbf73eea ;
+    bua:geritId "26371" .
+
+tub:56119fe4-18cd-3115-8811-5dc19911b196 a bua:BUA_0000014,
+        owl:NamedIndividual ;
+    rdfs:label "Fakultät VII Wirtschaft und Management"@de-de,
+        "Faculty VII Economics and Management"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin ;
+    obo:BFO_0000051 tub:36a10295-3dbb-3ee0-91be-a32e3935e37a,
+        tub:3d2d3c43-9009-3caa-8aec-759eeaf7ae73,
+        tub:4954ea4f-08bc-34b8-a344-db8cb89d5960 ;
+    bua:geritId "13245" .
+
+tub:8fff2867-6fd6-3bc5-a2ca-a1e01669b7f5 a bua:BUA_0000014,
+        owl:NamedIndividual ;
+    rdfs:label "Fakultät II Mathematik und Naturwissenschaften"@de-de,
+        "Faculty II Mathematics and Natural sciences"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin ;
+    obo:BFO_0000051 tub:08cba762-e034-3bfb-84b0-ecbccb1f6140,
+        tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 ;
+    bua:geritId "13247" .
+
+tub:08cba762-e034-3bfb-84b0-ecbccb1f6140 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Physikalische Institut"@de-de,
+        "Physics Institute"@en-us ;
+    obo:BFO_0000050 tub:8fff2867-6fd6-3bc5-a2ca-a1e01669b7f5 ;
+    obo:BFO_0000051 tub:058c7cca-efbb-384f-9a28-46a4d3badd92,
+        tub:b4f3d3a2-2205-3473-97dd-33437e3c53b3,
+        tub:cdce808b-fc1d-32e2-b120-b37220aedb3e,
+        tub:f97de598-57c9-3f86-9e31-19aa10d33694 .
+
+tub:0de994ab-8344-3b0d-8d9e-e2bdd88c658e a bua:BUA_0000013,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgruppe Technische Chemie"@de-de,
+        "Chemical Engineering Research Unit"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 ;
+    obo:BFO_0000051 tub:8fbb5cef-b7e4-3b21-b8b1-c782af814ea2,
+        tub:9503ef66-43fa-3670-af8f-065a48fcc791,
+        tub:cfeddcf8-0823-3c8e-91d0-9c05adebcb8c ;
+    bua:geritId "404693324" .
+
+tub:6d77653d-cd96-352d-bca8-76c9b1b4f423 a bua:BUA_0000001,
+        owl:NamedIndividual ;
+    rdfs:label "Bereich Verkehrsplanung und Verkehrssystemtechnik"@de-de,
+        "Division of traffic planning and traffic system technology"@en-us ;
+    obo:BFO_0000050 tub:b7911e73-ca45-3bf1-a249-3485fac8bdc6 ;
+    obo:BFO_0000051 tub:3ded6311-af0d-3359-87cb-3a6426954fe3,
+        tub:4187024c-e2e5-34ad-9cb4-981976a615a5,
+        tub:b628b5f9-52d3-32c3-84e0-17f49650f4b5,
+        tub:dd89d92b-0f80-357e-97be-5beca7bbf07f ;
+    bua:geritId "20697648" .
+
+tub:95fe76e8-7ece-3e79-aba2-dcfd96f6ed00 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Erziehungswissenschaft"@de-de,
+        "Institute of Education"@en-us ;
+    obo:BFO_0000050 tub:45b04086-5402-38dd-80f3-73645db20e23 ;
+    obo:BFO_0000051 tub:3e16b60a-f7ef-38c6-a2ea-e8119fa48c63,
+        tub:45679968-4a5c-33af-abdb-8dbdf569cb9c,
+        tub:6ca034e4-dcf9-3b7e-8651-f6ab6af05104,
+        tub:d4cd9c42-66be-3fc7-8fee-7f73acd7efe5 ;
+    bua:geritId "15222" .
+
+tub:b7911e73-ca45-3bf1-a249-3485fac8bdc6 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Land- und Seeverkehr (ILS)"@de-de,
+        "Institute of Land and Sea Transport Systems (ILS)"@en-us ;
+    obo:BFO_0000050 tub:9687cef1-aefd-31c0-a7df-1b581a1c0988 ;
+    obo:BFO_0000051 tub:6c54dad6-7028-3c3d-8c4e-5aa6c202d091,
+        tub:6d77653d-cd96-352d-bca8-76c9b1b4f423,
+        tub:8bd8d70c-bb90-35da-ab7f-17b97fddb643,
+        tub:a8afc5d0-69a1-39ca-af4a-218bf07424ca ;
+    bua:geritId "26561" .
+
+tub:0204c6da-5964-39e2-9340-2406e4f56186 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Mechanik"@de-de,
+        "Institute of Mechanics"@en-us ;
+    obo:BFO_0000050 tub:9687cef1-aefd-31c0-a7df-1b581a1c0988 ;
+    obo:BFO_0000051 tub:07e9e6e5-c95a-327d-b859-d1b33bb12feb,
+        tub:232d7380-208a-36d5-b870-6e2eecfa929e,
+        tub:9ec8d947-db9d-3d70-97a0-7f73b4de8efd,
+        tub:b09f1316-5d26-3f87-acd1-8c8313a30778,
+        tub:c5aa7ad7-65e1-3daa-b03e-61d2c97f6434 ;
+    bua:geritId "15213" .
+
+tub:0cb95e7f-332f-3866-84e8-7471669af2d0 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Kunstwissenschaft und Historische Urbanistik"@de-de,
+        "Institute for Art History and Historical Urban Studies"@en-us ;
+    obo:BFO_0000050 tub:45b04086-5402-38dd-80f3-73645db20e23 ;
+    obo:BFO_0000051 tub:05f6dd65-4c6c-32e6-adfb-7519c4199251,
+        tub:541c7d8d-d90b-30a5-8cd1-e7a88f8a70c7,
+        tub:576f171c-bc6d-31fb-aa79-5b6b49fa8311,
+        tub:59ab7108-f10d-32a6-a980-270c0aa46d4a,
+        tub:7ae256be-81c8-30c1-9d61-689c9753a881 ;
+    bua:geritId "15200" .
+
+tub:10734a9a-19e9-3a0e-abc0-4fc9b8ae38e9 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Prozess- und Verfahrenstechnik"@de-de,
+        "Institute for process and chemical engineering"@en-us ;
+    obo:BFO_0000050 tub:15714873-426d-3a30-90dc-3434001914d6 ;
+    obo:BFO_0000051 tub:469da730-2c50-3fff-b01d-4cc82932d485,
+        tub:57c420a7-cd65-363c-aeaa-d0091249e183,
+        tub:c0273158-d782-3fa3-8593-1d2c00a7164e,
+        tub:f30bc947-4026-3dad-b6f3-613d707257f9,
+        tub:fb1aacf3-42dc-3118-97b9-222be3a153a8 ;
+    bua:geritId "15209" .
+
+tub:36a10295-3dbb-3ee0-91be-a32e3935e37a a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Betriebswirtschaftlehre"@de-de,
+        "Institute of Business Administration"@en-us ;
+    obo:BFO_0000050 tub:56119fe4-18cd-3115-8811-5dc19911b196 ;
+    obo:BFO_0000051 tub:1528d1a4-05ee-35d9-b525-3cd0fe95a663,
+        tub:923d0ee2-ff6e-35ea-915b-ddfd978b5e74,
+        tub:a36726ff-936c-3ee7-8052-02f0980867b0,
+        tub:c73d1d74-7a40-3078-b133-6ac1682be73a,
+        tub:dc5f69d1-2b90-30a9-86b5-188de09156ae ;
+    bua:geritId "15219" .
+
+tub:3b66e010-1a89-3aa9-84e1-cd4c90ce04b3 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Sprache und Kommunikation"@de-de,
+        "Institute for Language and Communication"@en-us ;
+    obo:BFO_0000050 tub:45b04086-5402-38dd-80f3-73645db20e23 ;
+    obo:BFO_0000051 tub:06497888-d689-3aa4-8c7b-cafcdf20a0ef,
+        tub:28118763-6e6f-301a-8226-07a8b256988a,
+        tub:469378b3-2ffa-3b73-8b49-5969bde0c345,
+        tub:73111f4d-70e8-3b51-8edd-2428f570971a,
+        tub:88bb711f-bbca-325c-a8e0-b88e5367a0c7 ;
+    bua:geritId "26011" .
+
+tub:6c54dad6-7028-3c3d-8c4e-5aa6c202d091 a bua:BUA_0000001,
+        owl:NamedIndividual ;
+    rdfs:label "Bereich Fahrzeugtechnik"@de-de,
+        "Division of Automotive Engineering"@en-us ;
+    obo:BFO_0000050 tub:b7911e73-ca45-3bf1-a249-3485fac8bdc6 ;
+    obo:BFO_0000051 tub:153b0e94-2917-32a1-9b68-9dd67a27eb19,
+        tub:19a53a69-a479-3f7e-90cb-8785dadcadfb,
+        tub:6f021c19-9129-3698-ad09-4426c0e014e5,
+        tub:7dc4ca44-67fb-3a88-bc27-80122151a790,
+        tub:89c28348-e459-3fd4-9298-6fbf8b9b31cc ;
+    bua:geritId "216069472" .
+
+tub:9f90efd2-22da-323c-8930-fb6bb39d23c7 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Luft- und Raumfahrt (ILR)"@de-de,
+        "Institute of Aviation and Space Flight"@en-us ;
+    obo:BFO_0000050 tub:9687cef1-aefd-31c0-a7df-1b581a1c0988 ;
+    obo:BFO_0000051 tub:7f6c8da6-c8e5-3aef-8974-773e62d730d4,
+        tub:815dbe97-2723-3661-97cb-dbd418f39c79,
+        tub:90a9312e-ad35-3c51-8b82-9045140dbc79,
+        tub:92422a64-8371-34ef-b912-097a991d66b5,
+        tub:b3899700-0bab-3c34-95f6-6694d0b300c0 ;
+    bua:geritId "15211" .
+
+tub:9fdb4081-629c-38b1-836a-b8f74c116213 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Werkstoffwissenschaften und -technologien"@de-de,
+        "Institute for Materials Science and Technologies"@en-us ;
+    obo:BFO_0000050 tub:15714873-426d-3a30-90dc-3434001914d6 ;
+    obo:BFO_0000051 tub:6caef682-3a85-37e0-99b8-5c6b4bf73167,
+        tub:777cc25d-a493-3545-87b0-7b9a07f3950e,
+        tub:c0bfb773-53ce-32db-801a-aaf19fbd8295,
+        tub:cc6164d0-cb1a-36e8-9b9b-1a2088d602a5,
+        tub:e5aced2f-a5c4-31c5-bd97-a439ed7be8fd ;
+    bua:geritId "26327" .
+
+tub:cdce808b-fc1d-32e2-b120-b37220aedb3e a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Theoretische Physik"@de-de,
+        "Institute for Theoretical Physics"@en-us ;
+    obo:BFO_0000050 tub:08cba762-e034-3bfb-84b0-ecbccb1f6140 ;
+    obo:BFO_0000051 tub:014d95b2-85cb-3b02-b851-25bb9ec4e4c4,
+        tub:3889a9c0-ae8e-3252-8cae-e8fd0f54b878,
+        tub:7ed37d78-8624-3945-bce8-2e3c06d1cd32,
+        tub:bb6c8d6b-6763-30d5-aabe-84ae475a90a0,
+        tub:d9610253-cb32-3375-b7ac-6aa28c707d26 ;
+    bua:geritId "15227" .
+
+tub:08574b86-65ce-3ca7-9497-5d136930c6e4 a bua:BUA_0000014,
+        owl:NamedIndividual ;
+    rdfs:label "Fakultät IV Elektrotechnik und Informatik"@de-de,
+        "Faculty IV Electrical Engineering and Computer Science"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin ;
+    obo:BFO_0000051 tub:258bc48b-ab8f-3d76-818b-098c2d536db3,
+        tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9,
+        tub:879ecad7-36c9-3233-a518-8a0d213894ba,
+        tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf,
+        tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345,
+        tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca ;
+    bua:geritId "13246" .
+
+tub:129e0598-d65d-3b91-b777-1b473b39428e a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Geometrie und Mathematische Physik"@de-de,
+        "Workgroup Geometry and Mathematical Physics"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    obo:BFO_0000051 tub:1bb78744-9ebd-37f3-aafe-ac6abeb4ebb0,
+        tub:1d88993d-c53b-3d99-9f85-0ec9efbdbd52,
+        tub:3f80839a-eaaa-3e7d-9913-e03a3d16925b,
+        tub:685259c4-d113-3aeb-8205-cec71e4e1dca,
+        tub:c30cb23e-6f0a-31e7-a0e9-13d1aa061224,
+        tub:da78f6d2-3f74-3311-9a4c-1d349b10c975 ;
+    bua:geritId "163086203" .
+
+tub:15714873-426d-3a30-90dc-3434001914d6 a bua:BUA_0000014,
+        owl:NamedIndividual ;
+    rdfs:label "Fakultät III Prozesswissenschaften"@de-de,
+        "Faculty III Process sciences"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin ;
+    obo:BFO_0000051 tub:10734a9a-19e9-3a0e-abc0-4fc9b8ae38e9,
+        tub:1c06e07b-3c99-383a-bec8-b853475535bd,
+        tub:8a72786a-a65d-32c7-a81c-82ae2160f641,
+        tub:988112dc-8148-3dde-9187-0f13247cdeb1,
+        tub:9fdb4081-629c-38b1-836a-b8f74c116213,
+        tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b ;
+    bua:geritId "13244" .
+
+tub:1c06e07b-3c99-383a-bec8-b853475535bd a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Technischer Umweltschutz"@de-de,
+        "Institute of Environmental technology"@en-us ;
+    obo:BFO_0000050 tub:15714873-426d-3a30-90dc-3434001914d6 ;
+    obo:BFO_0000051 tub:1cf3e582-6345-3a35-b4e2-422923e40411,
+        tub:5008816f-6559-38ac-b5cf-24d37d2ce899,
+        tub:6a3f3f5e-14bf-3f6c-bf17-3507eb55430c,
+        tub:782df34c-f9c3-3df7-b94a-a3d87c0e2ff4,
+        tub:8dbd953c-f1a0-3f92-b3af-ed1c072c2af4,
+        tub:aec293fb-db64-3636-88e8-18d6e4380e2d ;
+    bua:geritId "15208" .
+
+tub:4e5b3002-2d52-385f-9589-59dbac890b75 a bua:BUA_0000013,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgruppe Anorganische und Analytische Chemie"@de-de,
+        "Inorganic and Analytical Chemistry Research Unit"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 ;
+    obo:BFO_0000051 tub:16909185-ba65-3abe-ba2b-852c54eb3a6d,
+        tub:1c0fcbb3-3ecd-3841-89a6-62fbb8b2d226,
+        tub:1f794297-e764-31c5-be7c-d2f6180a8a64,
+        tub:369c300a-7a0c-3619-a7ac-4cb1263056f7,
+        tub:50e560b1-3667-39fa-99c3-413af82db855,
+        tub:e67bec35-0652-3cd9-9c7d-21dbcc60011f ;
+    bua:geritId "404693154" .
+
+tub:8a72786a-a65d-32c7-a81c-82ae2160f641 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Biotechnologie"@de-de,
+        "Institute of Biotechnology"@en-us ;
+    obo:BFO_0000050 tub:15714873-426d-3a30-90dc-3434001914d6 ;
+    obo:BFO_0000051 tub:09dfcb6f-b22c-3858-ba28-142846e12575,
+        tub:297dc00d-0fea-363a-a5b0-d7c10f05ef8d,
+        tub:36127349-374d-3446-a068-4b8c9c542dec,
+        tub:4e5d91c6-4f93-3bfc-8654-64f3d87c5dad,
+        tub:771f1332-c48f-3bae-91f1-f5336dfd85fd,
+        tub:b98d3f2b-4668-3f4a-89bb-b302d4e83c80 ;
+    bua:geritId "15215" .
+
+
+
+tub:fedb8031-bd26-3be8-8af5-6173474d0c69 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Angewandte Geowissenschaften"@de-de,
+        "Institute of Applied Geosciences"@en-us ;
+    obo:BFO_0000050 tub:4b42cd59-1377-3b94-b95d-c855de68d3f6 ;
+    obo:BFO_0000051 tub:0128aa1b-b318-3034-9d1b-7ada58b82151,
+        tub:3e882560-8d0f-3cc3-9d6c-cc3000a9b682,
+        tub:968c033d-ddb4-3306-b15a-421174c6d5cd,
+        tub:bd2bf1ac-e7d6-3865-9f05-e56a1cd5e5b4,
+        tub:d3b905ba-6120-3e12-8026-e4ac80429654,
+        tub:e0f161ae-b45b-3886-94c7-46bf118a8cdb ;
+    bua:geritId "15233" .
+
+tub:1fe38b73-7636-34ee-bce0-85b320558830 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Stadt- und Regionalplanung"@de-de,
+        "Institute of Urban and Regional Planning"@en-us ;
+    obo:BFO_0000050 tub:4b42cd59-1377-3b94-b95d-c855de68d3f6 ;
+    obo:BFO_0000051 tub:05108876-25d4-3a08-8572-f5deecba0488,
+        tub:3034fcd9-290a-3628-b725-0cdeef1cc4c7,
+        tub:43f527e3-dfe0-3f7d-a297-8158fa9721f0,
+        tub:5c2f0ce0-799e-3a37-b2fc-8ea2fff5f6a7,
+        tub:8093d3bc-4687-3537-9f90-a2225fb0f6cc,
+        tub:bacfa8b8-f739-3146-97ad-4743b8be2e66,
+        tub:dccd1937-80bd-31bf-9744-695cd2817c21 ;
+    bua:geritId "26798" .
+
+tub:317f0340-e061-3fa5-b9a0-c763729ae036 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Psychologie und Arbeitswissenschaft"@de-de,
+        "Institute of Psychology and Ergonomics"@en-us ;
+    obo:BFO_0000050 tub:9687cef1-aefd-31c0-a7df-1b581a1c0988 ;
+    obo:BFO_0000051 tub:18ec64b8-fc42-3ee5-9011-a8b1cd7eea1b,
+        tub:29bc4d8e-a7ac-37b8-8d62-a80733dceac0,
+        tub:3620e1f0-29d5-390f-a410-0da72ba1cca3,
+        tub:64759d69-413e-356d-8280-24242855db8a,
+        tub:69917e61-4678-3642-8b41-dafbcde49ea1,
+        tub:8d89f2ce-e4d7-3af2-944f-38aa5487faee,
+        tub:948f507a-6f90-3b57-be07-b919a6527a45 ;
+    bua:geritId "26542" .
+
+tub:45b04086-5402-38dd-80f3-73645db20e23 a bua:BUA_0000014,
+        owl:NamedIndividual ;
+    rdfs:label "Fakultät I Geistes- und Bildungswissenschaften"@de-de,
+        "Faculty I Humanities and Educational Sciences"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin ;
+    obo:BFO_0000051 tub:02c246d0-4177-3f59-b849-9c2d90e90e1e,
+        tub:0cb95e7f-332f-3866-84e8-7471669af2d0,
+        tub:30cc8168-c5dd-3635-a203-7a32fe947c9d,
+        tub:3b66e010-1a89-3aa9-84e1-cd4c90ce04b3,
+        tub:93f603e2-cdf3-3838-bc77-008da2bca9ad,
+        tub:95fe76e8-7ece-3e79-aba2-dcfd96f6ed00,
+        tub:ca087621-6c2b-32df-b79e-6b3ebf5decdc ;
+    bua:geritId "13242" .
+
+tub:9687cef1-aefd-31c0-a7df-1b581a1c0988 a bua:BUA_0000014,
+        owl:NamedIndividual ;
+    rdfs:label "Fakultät V Verkehrs- und Maschinensysteme"@de-de,
+        "Faculty V Mechanical Engineering and Transport systems"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin ;
+    obo:BFO_0000051 tub:0204c6da-5964-39e2-9340-2406e4f56186,
+        tub:317f0340-e061-3fa5-b9a0-c763729ae036,
+        tub:644ca06b-f41a-3c8a-8136-9cd9f650c222,
+        tub:969c7c58-9965-3c04-9cbf-502b16149eb3,
+        tub:9f90efd2-22da-323c-8930-fb6bb39d23c7,
+        tub:b7911e73-ca45-3bf1-a249-3485fac8bdc6,
+        tub:cc842743-06c5-346a-911f-53ab0fc5d3ab ;
+    bua:geritId "13243" .
+
+tub:969c7c58-9965-3c04-9cbf-502b16149eb3 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Maschinenkonstruktion und Systemtechnik"@de-de,
+        "Institute of Machine Design and Systems Engineering"@en-us ;
+    obo:BFO_0000050 tub:9687cef1-aefd-31c0-a7df-1b581a1c0988 ;
+    obo:BFO_0000051 tub:29cb3503-ecf2-3370-82c8-aff75ad8aee6,
+        tub:6271be17-2efe-3c18-b6b9-a7e06a248309,
+        tub:975fddb5-9143-3809-b8ef-3e3b11dc21be,
+        tub:9fff6472-4896-346e-9929-0cfd2dd313ed,
+        tub:c69caea4-a0a8-3715-af08-de56122b9fb5,
+        tub:e793c585-d61f-30c2-8eb2-d3e382b6ae8d,
+        tub:ec734bcd-b6b5-3540-8739-d84c181154b6 ;
+    bua:geritId "26597" .
+
+tub:988112dc-8148-3dde-9187-0f13247cdeb1 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Lebensmitteltechnologie und Lebensmittelchemie"@de-de,
+        "Institute of Food Technology and Food Chemistry"@en-us ;
+    obo:BFO_0000050 tub:15714873-426d-3a30-90dc-3434001914d6 ;
+    obo:BFO_0000051 tub:05b4d380-caf7-3904-805e-eadb3e42ef6c,
+        tub:2b680e5c-d2d0-306f-9434-65950f68a1d2,
+        tub:4af2b42a-4599-3eda-90b2-c19d9edc7854,
+        tub:7a3489b5-c959-3933-bdc9-f8354003276b,
+        tub:c3009193-7c04-32fb-8a62-fc56a29545f4,
+        tub:f4c07d7c-99ea-34a4-9ef4-2dffc5d28b12,
+        tub:fce40f8e-a531-3b44-b2a4-81e8cb0b71a8 ;
+    bua:geritId "15218" .
+
+tub:b1ea973e-b158-3f63-bab8-ad12d0b65d97 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Ökologie"@de-de,
+        "Institute for Ecology"@en-us ;
+    obo:BFO_0000050 tub:4b42cd59-1377-3b94-b95d-c855de68d3f6 ;
+    obo:BFO_0000051 tub:126e8655-84d9-3d61-a4ee-8a4e49371ff2,
+        tub:344e7ab9-409e-3c6a-98c1-531647f452c7,
+        tub:4be12092-e42b-3f66-8599-4d7e3b8ae056,
+        tub:8198d98a-3250-3b2f-bf52-86649aa4ca26,
+        tub:b87c4124-4f82-341b-8cb7-757bd962691a,
+        tub:ba416338-3c32-35d2-9997-d00b3bda6fca,
+        tub:f212070f-6c0f-3f74-bc05-29488b1bc761 ;
+    bua:geritId "20275" .
+
+tub:f535c8af-16e8-3bad-bc74-46b66a321c92 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Soziologie"@de-de,
+        "Institute of Sociology"@en-us ;
+    obo:BFO_0000050 tub:4b42cd59-1377-3b94-b95d-c855de68d3f6 ;
+    obo:BFO_0000051 tub:01b72cea-fc40-3f1e-9a1b-21ed2b19d70f,
+        tub:102c1c06-b37d-3835-af81-5961ad1ed723,
+        tub:39c219ef-efaa-336f-abf5-c68ad4e52085,
+        tub:449a4f87-330c-3101-81f7-d30ba7e31889,
+        tub:ca5d104b-6307-3983-b3d5-bc01ee9aad0f,
+        tub:d37c6a15-fde2-3cf2-8300-5f03d06510d3,
+        tub:f892ff72-fa92-3789-b34f-7c55aac7d753 ;
+    bua:geritId "20274" .
+
+tub:058c7cca-efbb-384f-9a28-46a4d3badd92 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Festkörperphysik"@de-de,
+        "Institute of Solid State Physics"@en-us ;
+    obo:BFO_0000050 tub:08cba762-e034-3bfb-84b0-ecbccb1f6140 ;
+    obo:BFO_0000051 tub:0d335748-df7d-32ff-8d90-bfb5c63cee85,
+        tub:13ecbb51-3396-30d0-b27b-3e18d1f8fcbe,
+        tub:2e93c2f9-d7fa-3b3f-a11b-0d0bdf997a50,
+        tub:a4404d20-ddf3-3b24-9374-496cf26c4707,
+        tub:b9a089fd-41de-3a4c-9245-ffe92e56c30a,
+        tub:c0aac550-8cba-3b6e-a644-23818b2108de,
+        tub:cbf78db8-72fd-313e-9ccc-e6f0065c41d0,
+        tub:f320c332-12ad-317b-b4f6-be16841d6a7b ;
+    bua:geritId "15225" .
+
+tub:1e232daf-32a2-34d5-ba66-cc680f3470f1 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Stochastik und Finanzmathematik"@de-de,
+        "Workgroup Stochastics and Mathematical Finance"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    obo:BFO_0000051 tub:2ce64e27-12e3-3c6c-8054-75b6e53b60de,
+        tub:33478b7d-8cff-372f-96e2-e3c8078e1753,
+        tub:438a30fe-0ee0-39a1-91e2-8ff0d96ad36d,
+        tub:7269547d-d1cb-35a0-8ea4-278600d22517,
+        tub:86e2da90-d451-30c6-8dc4-3ce32324ea84,
+        tub:a731ae7f-ecbf-3768-a5d1-97ade4712331,
+        tub:eb203e82-ea27-3162-b88d-0e8534d61004,
+        tub:f388c57c-eab1-38ba-91ed-e627d03838a3 ;
+    bua:geritId "283688844" .
+
+tub:3d2d3c43-9009-3caa-8aec-759eeaf7ae73 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Technologie und Management"@de-de,
+        "Institute of Technology and Management"@en-us ;
+    obo:BFO_0000050 tub:56119fe4-18cd-3115-8811-5dc19911b196 ;
+    obo:BFO_0000051 tub:0c37715f-b5b5-34ea-87d8-c0db5179d9cb,
+        tub:433c3968-435c-31ac-9cc0-ae2a4d2455ba,
+        tub:5c04ce5a-495e-30f4-8233-63b722160ed3,
+        tub:7dafa7a6-15c2-3711-8ea2-cd5f356cf6f5,
+        tub:7fca0c81-838c-3b18-94b4-242994007515,
+        tub:b66fd9de-d498-329b-bfef-02d491c3cbd9,
+        tub:c26ae961-e44f-34fe-ae00-f041a3995e88,
+        tub:dcfcaccf-97fc-38d0-b0eb-58ae8d9de71c ;
+    bua:geritId "15221" .
+
+tub:4954ea4f-08bc-34b8-a344-db8cb89d5960 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Volkswirtschaftlehre und Wirtschaftsrecht"@de-de,
+        "Institute of Economics and Law"@en-us ;
+    obo:BFO_0000050 tub:56119fe4-18cd-3115-8811-5dc19911b196 ;
+    obo:BFO_0000051 tub:39074192-54b4-3e79-85e3-aaadf33a72f4,
+        tub:4d6708c6-1ec0-3239-8703-b61072840801,
+        tub:97e56796-9960-377e-9e72-5461f0ee5224,
+        tub:9c9d4a7e-d0b7-3add-9143-2a323a34067f,
+        tub:9fbc0d3a-0a16-36d1-aaac-b2e3f684bca8,
+        tub:afbf5801-25e0-385a-bd69-f9672123c6cd,
+        tub:eba6c3a3-bc03-3fcf-8c2c-80f992942754,
+        tub:ff0fa68e-aa47-3b3a-84a8-11cb21271b17 ;
+    bua:geritId "15220" .
+
+tub:4b42cd59-1377-3b94-b95d-c855de68d3f6 a bua:BUA_0000014,
+        owl:NamedIndividual ;
+    rdfs:label "Fakultät VI Planen Bauen Umwelt"@de-de,
+        "Faculty V Planning Building Environment"@en-us ;
+    obo:BFO_0000050 tub:Technische_Universitaet_Berlin ;
+    obo:BFO_0000051 tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06,
+        tub:1fe38b73-7636-34ee-bce0-85b320558830,
+        tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789,
+        tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3,
+        tub:b1ea973e-b158-3f63-bab8-ad12d0b65d97,
+        tub:f005d5b8-bdff-36b7-b972-9e0032524a32,
+        tub:f535c8af-16e8-3bad-bc74-46b66a321c92,
+        tub:fedb8031-bd26-3be8-8af5-6173474d0c69 ;
+    bua:geritId "13248" .
+
+tub:ac1eb868-8e07-3a4d-82ce-da6c360c7cb8 a bua:BUA_0000013,
+        owl:NamedIndividual ;
+    rdfs:label "Fachgruppe Physikalische und Theoretische Chemie"@de-de,
+        "Physical and Theoretical Chemistry Research Unit"@en-us ;
+    obo:BFO_0000050 tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 ;
+    obo:BFO_0000051 tub:2200de88-75ad-32d9-a0c6-bdb01d9c1e7b,
+        tub:25872fb0-bcef-3cc6-9a11-e80760c541fa,
+        tub:38678cdb-8c0d-3122-9983-5323a397ba98,
+        tub:636ec633-7734-3801-b929-b0032b7ce0ca,
+        tub:758a13f1-11df-31e0-b80b-fd75211ed40e,
+        tub:9f0f3e46-b4b8-3f1e-bf02-50b22514b951,
+        tub:ca4f0d07-a9d8-399a-97b6-b6389e4ce99b ;
+    bua:geritId "404693523" .
+
+tub:f005d5b8-bdff-36b7-b972-9e0032524a32 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Geodäsie und Geoinformationstechnik"@de-de,
+        "Institute of Geodesy and Geoinformation Science"@en-us ;
+    obo:BFO_0000050 tub:4b42cd59-1377-3b94-b95d-c855de68d3f6 ;
+    obo:BFO_0000051 tub:2db5035e-4f25-383d-a0ff-005c4162bfe7,
+        tub:3a7c8fa3-73be-313d-af0f-9172d2fc8c26,
+        tub:3f2751f3-6b1c-375e-a44c-eebbe4c2f655,
+        tub:6996a2e8-c2e9-3f04-8b71-3d144fccdd0d,
+        tub:6b51c456-a329-38a8-a481-a9d2fb69f0c3,
+        tub:6d8be47e-4873-3400-988d-b2024bbeeb74,
+        tub:aa9f9ad1-1e52-3b63-9c90-5134817a6bf5,
+        tub:c9053557-0359-3e33-8f67-806a11ed4080 ;
+    bua:geritId "15232" .
+
+tub:6d0048ad-e0c3-3a59-9a97-e51e703cbd96 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Modellierung, Numerik, Differentialgleichungen"@de-de,
+        "Modelling, Numerics, Differential Equations Workgroup"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    obo:BFO_0000051 tub:08c72fa3-d2a9-3100-91db-4c5dd12adc60,
+        tub:0d7aec70-f7eb-3ad3-805b-505d8fb5cd38,
+        tub:1ff3f9c2-4db4-36dd-b24b-98f92ac45723,
+        tub:7b49b2c7-baaa-30ad-a5f6-19bb2e5f0f23,
+        tub:888639eb-18bf-3051-addb-d600321810d1,
+        tub:9d7075d9-5c42-3499-ad52-e3c50ed8e7a2,
+        tub:cddc6ae4-f948-34b9-9626-3dd1892f9d46,
+        tub:f93688fe-63a2-33b0-b9d0-f1d7fe23b087,
+        tub:fc717d92-28eb-3563-95ef-e90f2b52ba6c ;
+    bua:geritId "283688825" .
+
+tub:b3f84b06-e324-3289-af36-9c12ec5a8ab6 a bua:BUA_0000002,
+        owl:NamedIndividual ;
+    rdfs:label "Arbeitsgruppe Diskrete und Algorithmische Mathematik"@de-de,
+        "Workgroup Discrete and Algorithmic Mathematics"@en-us ;
+    obo:BFO_0000050 tub:21831632-703d-34b1-8c88-21dbff243f14 ;
+    obo:BFO_0000051 tub:2aaf9326-e15b-3f67-bc4c-d561aa068d9d,
+        tub:2f9e45ab-cfe5-38e1-960c-5bc4fbf44279,
+        tub:34861f5c-a90b-3b0e-8625-3f18b914b272,
+        tub:7e3384f6-e4da-31d1-a6b7-f45cef15736a,
+        tub:82a5ec39-f531-34fe-84c1-1c774b09da1b,
+        tub:ae72c2ca-12da-3622-900c-00cb77e166b7,
+        tub:c30cb23e-6f0a-31e7-a0e9-13d1aa061224,
+        tub:ca9b238c-aaa6-3cad-91d4-b54c7cb46e2e,
+        tub:d758bd82-5009-3401-bff0-8ed31fd6ee77 ;
+    bua:geritId "283688767" .
+
+tub:41a8069f-3ba8-397d-b2bb-2d16cc39f0e9 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Energie- und Automatisierungstechnik"@de-de,
+        "Institute of Energy and Automation Technology"@en-us ;
+    obo:BFO_0000050 tub:08574b86-65ce-3ca7-9497-5d136930c6e4 ;
+    obo:BFO_0000051 tub:0aefda85-e0aa-327e-8714-e4fd674d5a4f,
+        tub:26277a63-2af8-3146-8124-01db186190b8,
+        tub:2acc5d5d-7ccf-3805-8b85-aa0479d4679f,
+        tub:2f6d28f4-6fd3-3f29-a797-86195ecc39ef,
+        tub:366f39c0-3553-334c-b73b-2d38d227dd9f,
+        tub:a6748ad4-0d8d-309e-90cd-e25567f7eb41,
+        tub:ccbac834-cd4d-3956-b5b5-1eda98761968,
+        tub:d3c779d1-12a8-351e-80ca-d4a52a1a3abb,
+        tub:eac8dbc8-6225-347c-a5bc-08307b2670ee,
+        tub:eb600e0f-393c-37f1-99d9-fcd8104d1bb6 ;
+    bua:geritId "26346" .
+
+tub:ca087621-6c2b-32df-b79e-6b3ebf5decdc a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Berufliche Bildung und Arbeitslehre"@de-de,
+        "Institute of Vocational Education and Training"@en-us ;
+    obo:BFO_0000050 tub:45b04086-5402-38dd-80f3-73645db20e23 ;
+    obo:BFO_0000051 tub:31e8e256-1507-3c33-8e80-872b5d329e9d,
+        tub:45d4fc06-a395-3548-9f31-0fcaef0a14ec,
+        tub:56dd313b-955d-30d1-a8f5-8e914b1dafe2,
+        tub:785b0c3e-7488-316a-b6f1-3b4688aed534,
+        tub:af6ac0c6-104c-3599-9923-a85cac954274,
+        tub:d0179145-5c22-3e1b-9ce5-aa26adc9f0c3,
+        tub:d13289cb-6b8e-3cb4-b5c2-003c05e04e38,
+        tub:f23a81f9-0ac2-3980-b5ce-e700885cc7a8,
+        tub:ff26216f-4968-3282-82e0-83a87ee310ae ;
+    bua:geritId "26015" .
+
+
+
+tub:ce3ab5f7-6803-3caf-ba72-b2b8cccb6caf a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Technische Informatik und Mikroelektronik"@de-de,
+        "Institute of Computer Engineering and Microelectronics"@en-us ;
+    obo:BFO_0000050 tub:08574b86-65ce-3ca7-9497-5d136930c6e4 ;
+    obo:BFO_0000051 tub:04d386d3-e179-3176-88e6-4e82c7941ec6,
+        tub:395271ef-1428-344d-8c4e-9d659c1384e2,
+        tub:4eeed0f9-f478-39d7-b01a-e61baf30df06,
+        tub:5a8f11ca-e3ce-3955-82ed-d2f4a2a0049d,
+        tub:6b51c456-a329-38a8-a481-a9d2fb69f0c3,
+        tub:8c043b20-fc97-3f52-8bef-4ed9eaf1e9a0,
+        tub:8d439f2f-6a5c-3e28-9311-fb0631dba632,
+        tub:a6059805-2b5e-35e0-b053-ac92bdc2857d,
+        tub:c7e97832-dcc5-3034-86a3-4f87aeda15a8,
+        tub:f50e1eb4-674a-36a3-a43b-8e9a997c4bb8 ;
+    bua:geritId "26364" .
+
+tub:f97de598-57c9-3f86-9e31-19aa10d33694 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Optik und Atomare Physik"@de-de,
+        "Institute for Optics and Atomic Physics"@en-us ;
+    obo:BFO_0000050 tub:08cba762-e034-3bfb-84b0-ecbccb1f6140 ;
+    obo:BFO_0000051 tub:07e7fa4f-9190-3a83-91c7-e9447b86ee5b,
+        tub:26e30803-b362-3688-ad8b-3587226c2d84,
+        tub:3568d588-146f-38e5-990d-ccf54e14bc20,
+        tub:45c6737a-4bb0-32b9-b863-3941ab9e45cd,
+        tub:7afe9c7b-0eb6-3f24-8223-fa8d5589d345,
+        tub:9382cf9f-2686-389c-a763-7697cbda59a0,
+        tub:9ba23531-a6bc-3e2c-bc97-8eca886ca740,
+        tub:d5ea25ef-39c4-35f9-9910-fb5f48bef1a3,
+        tub:dca83dca-abb4-3287-a8be-ccd274c83b5d,
+        tub:e6c5599c-a691-3279-a4ae-dad31645817f ;
+    bua:geritId "15226" .
+
+tub:30cc8168-c5dd-3635-a203-7a32fe947c9d a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Philosophie, Literatur-, Wissenschafts- & Technikgeschichte"@de-de,
+        "Institute for Philosophy, Literature, Science & Technology History"@en-us ;
+    obo:BFO_0000050 tub:45b04086-5402-38dd-80f3-73645db20e23 ;
+    obo:BFO_0000051 tub:172b2711-b41f-3b8b-8007-5616c2af5809,
+        tub:1c1f0316-e128-34b0-8b85-faa9b288850c,
+        tub:1fda4758-4384-33eb-9c63-aacbba025f36,
+        tub:85af553a-4026-3926-a822-c21a22cdb53d,
+        tub:996663b7-abb1-33d1-b204-c8a25be89257,
+        tub:9d58bb0d-a7c6-380a-a091-c1911f4bc29d,
+        tub:b859d473-bbd7-3018-9d26-a0a5c5f59dea,
+        tub:cef03778-0b8f-33eb-a36c-d519ad8015f4,
+        tub:e7a6e9d5-ca6a-3c32-b49c-c02aec65fc02,
+        tub:ec2ae9f2-da61-365d-a187-7088bf2bb5a9,
+        tub:f46bd0b5-142a-36b4-9d98-b6c7113de0d1 ;
+    bua:geritId "15201" .
+
+tub:644ca06b-f41a-3c8a-8136-9cd9f650c222 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Werkzeugmaschinen und Fabrikbetrieb IWF"@de-de,
+        "Institute of Machine Tools and Manufacturing Technology"@en-us ;
+    obo:BFO_0000050 tub:9687cef1-aefd-31c0-a7df-1b581a1c0988 ;
+    obo:BFO_0000051 tub:2e2eb4e3-a591-3eba-8d36-7849170311f5,
+        tub:2f8d3443-77cf-39f5-b46f-3e038e29d979,
+        tub:3a1999c1-e0f4-39b7-8e5f-0455987abdbf,
+        tub:46944d6f-2acf-329a-bc2d-e9e64877b248,
+        tub:54c3c7c8-aca9-3c3d-aa16-f9988ee2b0c7,
+        tub:8eafdebd-85f5-3c2f-b4ed-18df9c848ed2,
+        tub:99e7a9be-be4e-3894-8e24-ee7a7093d0a4,
+        tub:a8e218d0-bc0b-3111-99ad-420418398ea5,
+        tub:ce10cd77-1568-39d2-8f32-6ce437ac8671,
+        tub:dc33d0d3-2608-327f-9190-1e3966de9ca2,
+        tub:dfad9bd3-ca48-3d42-9ec6-9156934303b1,
+        tub:f46bd0b5-142a-36b4-9d98-b6c7113de0d1 ;
+    bua:geritId "15210" .
+
+tub:d04bf1c9-8e6f-3da8-ac94-4b2023729345 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Hochfrequenz- und Halbleiter-Systemtechnologien"@de-de,
+        "Institute of High-Frequency and Semiconductor System Technologies"@en-us ;
+    obo:BFO_0000050 tub:08574b86-65ce-3ca7-9497-5d136930c6e4 ;
+    obo:BFO_0000051 tub:125cc076-b01f-3685-a9f9-89dcb9e888e1,
+        tub:515c932b-c733-3e14-8ee4-aea8b9bd3797,
+        tub:8969a2ee-7d57-3bd0-b17c-387a95502f84,
+        tub:8b59d103-2ea3-37b7-a927-b30bbb76c149,
+        tub:8d90e381-9d6d-3315-8651-77d072907687,
+        tub:a4996e37-dc13-3e70-9b4d-c6a42da3107e,
+        tub:b708ac32-31db-3a91-b380-fc82434a81f3,
+        tub:b99694e8-2ff3-30a6-b178-b6228bba0679,
+        tub:d4ba3170-c773-34dc-b620-8be35d5b6914,
+        tub:de10f180-96fb-38c5-b103-40bdffc6f80d,
+        tub:ea3e4c7e-a308-3f65-b9e3-ac82d757e8b7 ;
+    bua:geritId "26352" .
+
+tub:09922bfb-3251-3e3d-84c2-1b857aa6ba06 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Landschaftsarchitektur und Umweltplanung"@de-de,
+        "Institute of Landscape Architecture and Environmental Planning"@en-us ;
+    obo:BFO_0000050 tub:4b42cd59-1377-3b94-b95d-c855de68d3f6 ;
+    obo:BFO_0000051 tub:01b6cc4d-2c4d-3df0-a3ed-21b7f77b5736,
+        tub:0f0bc5cd-cd69-3588-a25f-d2c02bac491f,
+        tub:1ace7fab-3418-3437-9ae6-b280d03f169f,
+        tub:1b84d72d-ee5c-304c-9386-3e93fbfeb97f,
+        tub:1f212d6a-a250-3d37-a704-2d2762811b53,
+        tub:562c8b46-23b8-3400-a5d0-938c224f943d,
+        tub:72228a8b-ee35-31f1-8c56-add2ace2f885,
+        tub:803097f0-81ab-3d1a-9ff0-b83a11e14c00,
+        tub:a517949d-2b4b-3255-963b-32fde0ac7f21,
+        tub:b5f52b16-d9fb-391b-bf36-6e4ee631a090,
+        tub:da9b1eff-9b23-3294-ae4e-0bfbe3ba5ecf,
+        tub:ffc36c27-39df-3713-a09d-64bbff66505b ;
+    bua:geritId "26786" .
+
+tub:cc842743-06c5-346a-911f-53ab0fc5d3ab a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Strömungsmechanik und Technische Akustik (ISTA)"@de-de,
+        "Institute of Flow Mechanics and Technical Acoustics (ISTA)"@en-us ;
+    obo:BFO_0000050 tub:93f603e2-cdf3-3838-bc77-008da2bca9ad,
+        tub:9687cef1-aefd-31c0-a7df-1b581a1c0988 ;
+    obo:BFO_0000051 tub:14c3708c-c590-33e3-a0c4-0dfde6d1fc45,
+        tub:1701d983-f4f7-32ca-b46a-7c574f110f0c,
+        tub:45a95a71-ad8d-33c7-9cf0-ed43176b9e27,
+        tub:5c4a7337-5ed5-3607-916b-bb145b101579,
+        tub:5cf47a34-b9df-35ee-908d-8b5f8d87f1d7,
+        tub:5d101461-c4c7-3b5e-991f-7345a5e204d9,
+        tub:9b210ba2-ea41-3edc-be50-1dc2b7587237,
+        tub:ada7cdb3-cbef-31ad-a4e9-36411228da5a,
+        tub:ade24967-19c4-3aff-a6d9-bcb683e966f9,
+        tub:b843b5d6-8c0a-3dc6-b699-b43cd622f7c0,
+        tub:c6dc7b1b-ff21-34d1-b527-a8a3393cb13b,
+        tub:ec218d20-8f24-374e-847e-eda92956f83e ;
+    bua:geritId "15214" .
+
+tub:d00339a6-29e8-3ec0-a8a7-6a324cb49a6b a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Energietechnik"@de-de,
+        "Institute of Energy technology"@en-us ;
+    obo:BFO_0000050 tub:15714873-426d-3a30-90dc-3434001914d6 ;
+    obo:BFO_0000051 tub:177d0d68-0230-34b8-b01d-80c26693d670,
+        tub:45bc37c9-73ef-389e-9dc8-21a11fe7231a,
+        tub:46c09af2-059b-31ca-97ab-d140e56757c9,
+        tub:561f0660-8382-3dd4-b548-b6c3ff99c52b,
+        tub:8acb2877-5b76-3bb7-b860-e9fecb699163,
+        tub:95edfcc8-7734-3ee9-bec5-1d492fb8aae3,
+        tub:c33a1110-0b6a-38d6-80eb-335865b2f191,
+        tub:dc973cbb-e375-3330-bd8c-bd3f8c9229c3,
+        tub:dd56d17c-a888-350b-982d-ff07fa424e72,
+        tub:ff59be4c-54eb-3b62-9979-ca86bf5798f9 ;
+    bua:geritId "15205" .
+
+tub:700b697d-c6d3-3a50-9e36-7ba186e5fcf3 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Bauingenieurwesen"@de-de,
+        "Institute of Civil Engineering"@en-us ;
+    obo:BFO_0000050 tub:4b42cd59-1377-3b94-b95d-c855de68d3f6 ;
+    obo:BFO_0000051 tub:04bef34e-852c-3872-bc7e-ca3172b58fe7,
+        tub:0c73ca3c-6e4d-3ec6-81d6-b0c4d44b69b3,
+        tub:1700535d-004d-3ecd-9d34-bd8884e544ba,
+        tub:38ac96f1-7ee0-3712-925c-f29d77d521ab,
+        tub:4ab3ca1a-0f65-3d78-986c-afbf71a7d2cf,
+        tub:56a60dfe-8b50-327c-95e1-f77d3d9af6f4,
+        tub:56c2110a-32db-3bff-aaed-9c448677b7c1,
+        tub:5bdd8f55-b3ce-3b04-a3bd-ee96d3a61b18,
+        tub:66f104db-d038-3600-865f-684def175c18,
+        tub:6b37f9cc-0a33-3db1-9587-48b0dee15c98,
+        tub:9d633d9e-1f25-3cf6-ae59-78228b89cf74,
+        tub:aad0bfaf-f2d9-3a95-babc-7213e4574fb7,
+        tub:add36784-849a-37fd-829f-288b0342e4a2,
+        tub:bf55055e-4221-31a6-9480-035e11688e17 ;
+    bua:geritId "15231" .
+
+tub:879ecad7-36c9-3233-a518-8a0d213894ba a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Softwaretechnik und Theoretische Informatik"@de-de,
+        "Institute of Software Engineering and Theoretical Computer Science"@en-us ;
+    obo:BFO_0000050 tub:08574b86-65ce-3ca7-9497-5d136930c6e4 ;
+    obo:BFO_0000051 tub:0199b1a4-c90d-3478-88e0-f5ca5be0dafc,
+        tub:2e3dcd06-e1d0-3add-8cf3-b224352ff093,
+        tub:36dab51a-3972-3c68-aba8-370ad3c30696,
+        tub:39746a66-c435-3d5b-8e9d-59dd282a3c5e,
+        tub:3b9da993-7f12-3942-92b1-86c7ff406ec0,
+        tub:78d721f9-79fa-3cac-bf63-171fe10a5f75,
+        tub:81dbfe45-2c9d-3b8e-96c3-b70d62ee57f4,
+        tub:917821f7-3271-3de0-b457-48946792cc53,
+        tub:9e2f971d-3454-3798-a911-cbf3bec6ec5d,
+        tub:a78f311f-a574-346c-88f1-9d67df4c7271,
+        tub:b017a751-9df5-3155-9638-a05a40d56dc9,
+        tub:d97a9d81-f168-3ddb-a285-01a5cb19e9a2,
+        tub:e85a8266-f6f9-35ad-9875-5c261b41c312,
+        tub:ebad3813-6781-3f06-b534-3ceb25de669d,
+        tub:fa008731-810a-31e5-b346-e672ae0c9f84 ;
+    bua:geritId "26369" .
+
+tub:d9828b22-ba36-3ab6-85c8-ab610e8b99ca a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Telekommunikationssysteme"@de-de,
+        "Institute of Telecommunication Systems"@en-us ;
+    obo:BFO_0000050 tub:08574b86-65ce-3ca7-9497-5d136930c6e4 ;
+    obo:BFO_0000051 tub:08b848d0-795e-323e-8e01-c7c1f366767e,
+        tub:0bcb34b4-bfb4-3eb7-9bcb-70d625f5cbe6,
+        tub:1277bec9-8d33-343f-a9d6-4cd4f13bfaba,
+        tub:36556f79-74a7-3059-a9a6-ab1a2c4f1b67,
+        tub:44b22645-1eb0-3364-9dcd-f73ac512608a,
+        tub:506665a1-7a74-333b-8e7d-50a4f725904c,
+        tub:790edeb7-2b47-317e-942e-94dfb338447b,
+        tub:83de7bce-15f9-3e72-8c40-9adc997cb659,
+        tub:847cd67c-407f-36a5-996a-94185b1d4598,
+        tub:8a10b391-a6c4-3a7e-986a-4f8b0250b509,
+        tub:9c3209ab-c10b-358c-aada-ed85ebf0d08c,
+        tub:9c6dc6f6-99f9-37fc-aa99-a4547464ba79,
+        tub:a83b7da0-3ac9-3ed2-bcb6-1fd63ddb0404,
+        tub:a8c8d490-dd3d-37bb-93a8-64de73da97da,
+        tub:bf6748c2-1850-3dda-9be2-3c0b9e1df078 ;
+    bua:geritId "26357" .
+
+tub:Technische_Universitaet_Berlin a bua:BUA_0000047 ,
+        owl:NamedIndividual ;
+    rdfs:label "Technische Universität Berlin"@de-de,
+        "Technische Universität Berlin"@en-us ;
+    obo:BFO_0000050 bua:bua,
+        <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/tub/http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/bua> ;
+    obo:BFO_0000051 tub:00d65272-a9d1-3b80-acd0-801ce60c21d3,
+        tub:014d65cf-dfbd-381a-bf6e-28524d1860ad,
+        tub:08574b86-65ce-3ca7-9497-5d136930c6e4,
+        tub:15714873-426d-3a30-90dc-3434001914d6,
+        tub:32fd1132-d970-3b09-b1e2-62b3680ac17d,
+        tub:33a1cb31-94ed-3c9a-ae1f-a32cb92d710c,
+        tub:45b04086-5402-38dd-80f3-73645db20e23,
+        tub:48a1515f-1cbc-38f7-9e74-ebf702acf2ca,
+        tub:494a293f-092a-3cff-af88-30eaa5449b8f,
+        tub:4b42cd59-1377-3b94-b95d-c855de68d3f6,
+        tub:56119fe4-18cd-3115-8811-5dc19911b196,
+        bua:SCIoI,
+        tub:60501707-c92d-3cc3-a6e6-f4e8b67ef701,
+        tub:74624e70-cf3a-32f5-a582-344c523c2b5a,
+        tub:8371a638-333f-3a03-8ec2-a6933b34a217,
+        tub:8fff2867-6fd6-3bc5-a2ca-a1e01669b7f5,
+        tub:9687cef1-aefd-31c0-a7df-1b581a1c0988,
+        tub:eddb05fb-3d95-3724-b14a-60a96b410e16 ;
+    bua:geritId "10167" .
+
+tub:2b50f4f0-53fc-36a0-9c71-47d0c7b48789 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Architektur"@de-de,
+        "Institute of Architecture"@en-us ;
+    obo:BFO_0000050 tub:4b42cd59-1377-3b94-b95d-c855de68d3f6 ;
+    obo:BFO_0000051 tub:0f23828b-4c01-33a0-96c4-d519e78b66b6,
+        tub:1fe8a21a-f12f-3a6c-8435-80718cef2082,
+        tub:3997aa40-b8cc-3fd4-a303-acd27853493d,
+        tub:3e136454-af9a-3487-a49a-0d6f7f7cf941,
+        tub:576c0d63-c126-30d7-b9f1-568c061ede35,
+        tub:5df67f70-b47f-3964-869f-c60c73bbb01f,
+        tub:6e3fb256-ca72-3fde-8c92-7071b35c8dce,
+        tub:78cebfef-196d-3e15-a36a-e2ad618af993,
+        tub:7a120fdc-0e0f-329e-8e8c-e5f797235bd9,
+        tub:83bbe05b-a4e9-3422-8ba8-7691984c925d,
+        tub:921fb448-118d-3a26-9aa3-7b2d710ac2cd,
+        tub:9dd07879-f1d8-36a4-8059-a9308c06ec17,
+        tub:a1f1333f-3093-345a-9c70-c0e577ace5c4,
+        tub:b22dde7a-c3f8-37db-b294-f3b4e9d34055,
+        tub:c747946a-ea96-3ae5-b893-cb49239780bd,
+        tub:d08333a9-cea7-39b5-944a-8f30d9dc7768,
+        tub:d20bb39b-bb3e-35c0-b088-48437c0ee44c,
+        tub:d54d5a9d-2cb4-3319-9407-04c38253466c,
+        tub:dbc9f0c5-a800-3523-828c-7fe1ba437c76 ;
+    bua:geritId "26830" .
+
+tub:0bcdd317-8698-3c3e-a242-5e2652e80d66 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Chemie"@de-de,
+        "Institute of Chemistry"@en-us ;
+    obo:BFO_0000050 tub:8fff2867-6fd6-3bc5-a2ca-a1e01669b7f5 ;
+    obo:BFO_0000051 tub:0de994ab-8344-3b0d-8d9e-e2bdd88c658e,
+        tub:16909185-ba65-3abe-ba2b-852c54eb3a6d,
+        tub:1f794297-e764-31c5-be7c-d2f6180a8a64,
+        tub:2200de88-75ad-32d9-a0c6-bdb01d9c1e7b,
+        tub:25872fb0-bcef-3cc6-9a11-e80760c541fa,
+        tub:369c300a-7a0c-3619-a7ac-4cb1263056f7,
+        tub:38678cdb-8c0d-3122-9983-5323a397ba98,
+        tub:3ae2d68a-ea88-38d8-bb56-94ed2add0cda,
+        tub:4e5b3002-2d52-385f-9589-59dbac890b75,
+        tub:50e560b1-3667-39fa-99c3-413af82db855,
+        tub:636ec633-7734-3801-b929-b0032b7ce0ca,
+        tub:7138c8e2-72ac-314a-819e-03faebc74402,
+        tub:758a13f1-11df-31e0-b80b-fd75211ed40e,
+        tub:7ac6302e-4db7-3be7-87cc-8a3f3f05b559,
+        tub:7c6c2a45-fc7a-3d63-8680-e03b1ef8ea1a,
+        tub:8fbb5cef-b7e4-3b21-b8b1-c782af814ea2,
+        tub:9503ef66-43fa-3670-af8f-065a48fcc791,
+        tub:9f0f3e46-b4b8-3f1e-bf02-50b22514b951,
+        tub:a4990175-b425-3c79-84fd-783a3a800820,
+        tub:a75c344c-0457-3ee6-a284-8508ac1bbdfe,
+        tub:ac1eb868-8e07-3a4d-82ce-da6c360c7cb8,
+        tub:b9ca5e85-76aa-38f5-b392-fba16928cbf7,
+        tub:cc7c5c8c-f222-3d00-9426-5a48b3280477,
+        tub:cfeddcf8-0823-3c8e-91d0-9c05adebcb8c,
+        tub:e67bec35-0652-3cd9-9c7d-21dbcc60011f,
+        tub:fc00b817-29dd-3abb-8aa2-ecf4f6df70fb ;
+    bua:geritId "26311" .
+
+tub:21831632-703d-34b1-8c88-21dbff243f14 a bua:BUA_0000026,
+        owl:NamedIndividual ;
+    rdfs:label "Institut für Mathematik"@de-de,
+        "Institute of Mathematics"@en-us ;
+    obo:BFO_0000050 tub:8fff2867-6fd6-3bc5-a2ca-a1e01669b7f5 ;
+    obo:BFO_0000051 tub:08c72fa3-d2a9-3100-91db-4c5dd12adc60,
+        tub:0d7aec70-f7eb-3ad3-805b-505d8fb5cd38,
+        tub:129e0598-d65d-3b91-b777-1b473b39428e,
+        tub:1bb78744-9ebd-37f3-aafe-ac6abeb4ebb0,
+        tub:1bfbd11f-7ad8-37c6-89b5-1ae5166e0bfb,
+        tub:1d88993d-c53b-3d99-9f85-0ec9efbdbd52,
+        tub:1e232daf-32a2-34d5-ba66-cc680f3470f1,
+        tub:1ff3f9c2-4db4-36dd-b24b-98f92ac45723,
+        tub:2aaf9326-e15b-3f67-bc4c-d561aa068d9d,
+        tub:2ce64e27-12e3-3c6c-8054-75b6e53b60de,
+        tub:2f9e45ab-cfe5-38e1-960c-5bc4fbf44279,
+        tub:33478b7d-8cff-372f-96e2-e3c8078e1753,
+        tub:34861f5c-a90b-3b0e-8625-3f18b914b272,
+        tub:3f80839a-eaaa-3e7d-9913-e03a3d16925b,
+        tub:438a30fe-0ee0-39a1-91e2-8ff0d96ad36d,
+        tub:685259c4-d113-3aeb-8205-cec71e4e1dca,
+        tub:6d0048ad-e0c3-3a59-9a97-e51e703cbd96,
+        tub:7269547d-d1cb-35a0-8ea4-278600d22517,
+        tub:7b49b2c7-baaa-30ad-a5f6-19bb2e5f0f23,
+        tub:7e3384f6-e4da-31d1-a6b7-f45cef15736a,
+        tub:82a5ec39-f531-34fe-84c1-1c774b09da1b,
+        tub:836b1672-c20f-3a50-9dce-24356475f26c,
+        tub:86e2da90-d451-30c6-8dc4-3ce32324ea84,
+        tub:888639eb-18bf-3051-addb-d600321810d1,
+        tub:9d7075d9-5c42-3499-ad52-e3c50ed8e7a2,
+        tub:a523fa72-9952-34f5-96f7-cbd7d74edba7,
+        tub:a731ae7f-ecbf-3768-a5d1-97ade4712331,
+        tub:ae72c2ca-12da-3622-900c-00cb77e166b7,
+        tub:aff739c7-6af4-386e-b52a-399dfa4af691,
+        tub:b3f84b06-e324-3289-af36-9c12ec5a8ab6,
+        tub:c30cb23e-6f0a-31e7-a0e9-13d1aa061224,
+        tub:c90cec20-cddd-328c-9c06-15c02e31698a,
+        tub:ca9b238c-aaa6-3cad-91d4-b54c7cb46e2e,
+        tub:cddc6ae4-f948-34b9-9626-3dd1892f9d46,
+        tub:d758bd82-5009-3401-bff0-8ed31fd6ee77,
+        tub:da78f6d2-3f74-3311-9a4c-1d349b10c975,
+        tub:eb203e82-ea27-3162-b88d-0e8534d61004,
+        tub:f153b713-772c-324a-b5cc-0a1610328deb,
+        tub:f388c57c-eab1-38ba-91ed-e627d03838a3,
+        tub:fc717d92-28eb-3563-95ef-e90f2b52ba6c ;
+    bua:geritId "26310" .
+    
+

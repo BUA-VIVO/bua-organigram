@@ -1,0 +1,1330 @@
+@prefix bua: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/> .
+@prefix faecherklassifikation: <https://onto.tib.eu/destf/cs/> .
+@prefix huzb: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/huzb/> .
+
+
+########################################################################################################
+#  Humboldt-Universität zu Berlin Subject Matter Relations from scripted extract - not manually proof read
+########################################################################################################
+
+huzb:huzb-50000195 bua:hasKnowledgeArea faecherklassifikation:2500 .
+
+huzb:huzb-50000208 bua:hasKnowledgeArea faecherklassifikation:2670 .
+
+huzb:huzb-50000220 bua:hasKnowledgeArea faecherklassifikation:2560 .
+
+huzb:huzb-50000221 bua:hasKnowledgeArea faecherklassifikation:2560 .
+
+huzb:huzb-50000224 bua:hasKnowledgeArea faecherklassifikation:2560 .
+
+huzb:huzb-50000227 bua:hasKnowledgeArea faecherklassifikation:2570 .
+
+huzb:huzb-50000243 bua:hasKnowledgeArea faecherklassifikation:6220 .
+
+huzb:huzb-50000244 bua:hasKnowledgeArea faecherklassifikation:6220 .
+
+huzb:huzb-50000245 bua:hasKnowledgeArea faecherklassifikation:6220 .
+
+huzb:huzb-50000251 bua:hasKnowledgeArea faecherklassifikation:6220 .
+
+huzb:huzb-50000252 bua:hasKnowledgeArea faecherklassifikation:6210 .
+
+huzb:huzb-50000262 bua:hasKnowledgeArea faecherklassifikation:4050 .
+
+huzb:huzb-50000264 bua:hasKnowledgeArea faecherklassifikation:6240 .
+
+huzb:huzb-50000265 bua:hasKnowledgeArea faecherklassifikation:6240 .
+
+huzb:huzb-50000266 bua:hasKnowledgeArea faecherklassifikation:6240 .
+
+huzb:huzb-50000267 bua:hasKnowledgeArea faecherklassifikation:6240 .
+
+huzb:huzb-50000268 bua:hasKnowledgeArea faecherklassifikation:6240 .
+
+huzb:huzb-50000277 bua:hasKnowledgeArea faecherklassifikation:4000 .
+
+huzb:huzb-50000281 bua:hasKnowledgeArea faecherklassifikation:4070 .
+
+huzb:huzb-50000282 bua:hasKnowledgeArea faecherklassifikation:4030 .
+
+huzb:huzb-50000283 bua:hasKnowledgeArea faecherklassifikation:4000 .
+
+huzb:huzb-50000285 bua:hasKnowledgeArea faecherklassifikation:4030 .
+
+huzb:huzb-50000286 bua:hasKnowledgeArea faecherklassifikation:4090 .
+
+huzb:huzb-50000287 bua:hasKnowledgeArea faecherklassifikation:4040 .
+
+huzb:huzb-50000288 bua:hasKnowledgeArea faecherklassifikation:4030 .
+
+huzb:huzb-50000290 bua:hasKnowledgeArea faecherklassifikation:4030 .
+
+huzb:huzb-50000291 bua:hasKnowledgeArea faecherklassifikation:4080 .
+
+huzb:huzb-50000299 bua:hasKnowledgeArea faecherklassifikation:4080 .
+
+huzb:huzb-50000305 bua:hasKnowledgeArea faecherklassifikation:4050 .
+
+huzb:huzb-50000306 bua:hasKnowledgeArea faecherklassifikation:4050 .
+
+huzb:huzb-50000308 bua:hasKnowledgeArea faecherklassifikation:4050 .
+
+huzb:huzb-50000309 bua:hasKnowledgeArea faecherklassifikation:6205 .
+
+huzb:huzb-50000320 bua:hasKnowledgeArea faecherklassifikation:1700 .
+
+huzb:huzb-50000322 bua:hasKnowledgeArea faecherklassifikation:1700 .
+
+huzb:huzb-50000324 bua:hasKnowledgeArea faecherklassifikation:1710 .
+
+huzb:huzb-50000325 bua:hasKnowledgeArea faecherklassifikation:1700 .
+
+huzb:huzb-50000326 bua:hasKnowledgeArea faecherklassifikation:1710 .
+
+huzb:huzb-50000330 bua:hasKnowledgeArea faecherklassifikation:1740 .
+
+huzb:huzb-50000331 bua:hasKnowledgeArea faecherklassifikation:1730 .
+
+huzb:huzb-50000334 bua:hasKnowledgeArea faecherklassifikation:1740 .
+
+huzb:huzb-50000335 bua:hasKnowledgeArea faecherklassifikation:1720 .
+
+huzb:huzb-50000337 bua:hasKnowledgeArea faecherklassifikation:5060 .
+
+huzb:huzb-50000338 bua:hasKnowledgeArea faecherklassifikation:1760 .
+
+huzb:huzb-50000344 bua:hasKnowledgeArea faecherklassifikation:3300 .
+
+huzb:huzb-50000354 bua:hasKnowledgeArea faecherklassifikation:3700 .
+
+huzb:huzb-50000357 bua:hasKnowledgeArea faecherklassifikation:3790 .
+
+huzb:huzb-50000361 bua:hasKnowledgeArea faecherklassifikation:3720 .
+
+huzb:huzb-50000362 bua:hasKnowledgeArea faecherklassifikation:3720 .
+
+huzb:huzb-50000364 bua:hasKnowledgeArea faecherklassifikation:3720 .
+
+huzb:huzb-50000366 bua:hasKnowledgeArea faecherklassifikation:3710 .
+
+huzb:huzb-50000367 bua:hasKnowledgeArea faecherklassifikation:3720 .
+
+huzb:huzb-50000368 bua:hasKnowledgeArea faecherklassifikation:3710 .
+
+huzb:huzb-50000370 bua:hasKnowledgeArea faecherklassifikation:3750 .
+
+huzb:huzb-50000373 bua:hasKnowledgeArea faecherklassifikation:3730 .
+
+huzb:huzb-50000376 bua:hasKnowledgeArea faecherklassifikation:4200 .
+
+huzb:huzb-50000380 bua:hasKnowledgeArea faecherklassifikation:4240 .
+
+huzb:huzb-50000383 bua:hasKnowledgeArea faecherklassifikation:4215 .
+
+huzb:huzb-50000393 bua:hasKnowledgeArea faecherklassifikation:4250 .
+
+huzb:huzb-50000395 bua:hasKnowledgeArea faecherklassifikation:4205 .
+
+huzb:huzb-50000399 bua:hasKnowledgeArea faecherklassifikation:3500 .
+
+huzb:huzb-50000402 bua:hasKnowledgeArea faecherklassifikation:3510 .
+
+huzb:huzb-50000404 bua:hasKnowledgeArea faecherklassifikation:3500 .
+
+huzb:huzb-50000407 bua:hasKnowledgeArea faecherklassifikation:3520 .
+
+huzb:huzb-50000408 bua:hasKnowledgeArea faecherklassifikation:3520 .
+
+huzb:huzb-50000411 bua:hasKnowledgeArea faecherklassifikation:3500 .
+
+huzb:huzb-50000412 bua:hasKnowledgeArea faecherklassifikation:3570 .
+
+huzb:huzb-50000416 bua:hasKnowledgeArea faecherklassifikation:3520 .
+
+huzb:huzb-50000419 bua:hasKnowledgeArea faecherklassifikation:3400 .
+
+huzb:huzb-50000421 bua:hasKnowledgeArea faecherklassifikation:3410 .
+
+huzb:huzb-50000422 bua:hasKnowledgeArea faecherklassifikation:3410 .
+
+huzb:huzb-50000424 bua:hasKnowledgeArea faecherklassifikation:3410 .
+
+huzb:huzb-50000426 bua:hasKnowledgeArea faecherklassifikation:3410 .
+
+huzb:huzb-50000432 bua:hasKnowledgeArea faecherklassifikation:3420 .
+
+huzb:huzb-50000441 bua:hasKnowledgeArea faecherklassifikation:3450 .
+
+huzb:huzb-50000446 bua:hasKnowledgeArea faecherklassifikation:3420 .
+
+huzb:huzb-50000448 bua:hasKnowledgeArea faecherklassifikation:3610 .
+
+huzb:huzb-50000466 bua:hasKnowledgeArea faecherklassifikation:3610 .
+
+huzb:huzb-50000469 bua:hasKnowledgeArea faecherklassifikation:3610 .
+
+huzb:huzb-50000471 bua:hasKnowledgeArea faecherklassifikation:3650 .
+
+huzb:huzb-50000479 bua:hasKnowledgeArea faecherklassifikation:3637 .
+
+huzb:huzb-50000481 bua:hasKnowledgeArea faecherklassifikation:3637 .
+
+huzb:huzb-50000492 bua:hasKnowledgeArea faecherklassifikation:100 .
+
+huzb:huzb-50000501 bua:hasKnowledgeArea faecherklassifikation:400 .
+
+huzb:huzb-50000503 bua:hasKnowledgeArea faecherklassifikation:400 .
+
+huzb:huzb-50000505 bua:hasKnowledgeArea faecherklassifikation:400 .
+
+huzb:huzb-50000506 bua:hasKnowledgeArea faecherklassifikation:400 .
+
+huzb:huzb-50000507 bua:hasKnowledgeArea faecherklassifikation:425 .
+
+huzb:huzb-50000509 bua:hasKnowledgeArea faecherklassifikation:400 .
+
+huzb:huzb-50000511 bua:hasKnowledgeArea faecherklassifikation:2520 .
+
+huzb:huzb-50000512 bua:hasKnowledgeArea faecherklassifikation:420 .
+
+huzb:huzb-50000515 bua:hasKnowledgeArea faecherklassifikation:425 .
+
+huzb:huzb-50000518 bua:hasKnowledgeArea faecherklassifikation:500 .
+
+huzb:huzb-50000520 bua:hasKnowledgeArea faecherklassifikation:520 .
+
+huzb:huzb-50000521 bua:hasKnowledgeArea faecherklassifikation:520 .
+
+huzb:huzb-50000523 bua:hasKnowledgeArea faecherklassifikation:540 .
+
+huzb:huzb-50000524 bua:hasKnowledgeArea faecherklassifikation:550 .
+
+huzb:huzb-50000525 bua:hasKnowledgeArea faecherklassifikation:550 .
+
+huzb:huzb-50000526 bua:hasKnowledgeArea faecherklassifikation:550 .
+
+huzb:huzb-50000529 bua:hasKnowledgeArea faecherklassifikation:3500 .
+
+huzb:huzb-50000530 bua:hasKnowledgeArea faecherklassifikation:540 .
+
+huzb:huzb-50000531 bua:hasKnowledgeArea faecherklassifikation:540 .
+
+huzb:huzb-50000535 bua:hasKnowledgeArea faecherklassifikation:560 .
+
+huzb:huzb-50000537 bua:hasKnowledgeArea faecherklassifikation:540 .
+
+huzb:huzb-50000541 bua:hasKnowledgeArea faecherklassifikation:1660 .
+
+huzb:huzb-50000543 bua:hasKnowledgeArea faecherklassifikation:1660 .
+
+huzb:huzb-50000545 bua:hasKnowledgeArea faecherklassifikation:1660 .
+
+huzb:huzb-50000553 bua:hasKnowledgeArea faecherklassifikation:710 .
+
+huzb:huzb-50000555 bua:hasKnowledgeArea faecherklassifikation:720 .
+
+huzb:huzb-50000556 bua:hasKnowledgeArea faecherklassifikation:700 .
+
+huzb:huzb-50000557 bua:hasKnowledgeArea faecherklassifikation:700 .
+
+huzb:huzb-50000560 bua:hasKnowledgeArea faecherklassifikation:100 .
+
+huzb:huzb-50000570 bua:hasKnowledgeArea faecherklassifikation:1080 .
+
+huzb:huzb-50000588 bua:hasKnowledgeArea faecherklassifikation:1090 .
+
+huzb:huzb-50000590 bua:hasKnowledgeArea faecherklassifikation:1090 .
+
+huzb:huzb-50000591 bua:hasKnowledgeArea faecherklassifikation:1090 .
+
+huzb:huzb-50000596 bua:hasKnowledgeArea faecherklassifikation:810 .
+
+huzb:huzb-50000599 bua:hasKnowledgeArea faecherklassifikation:1090 .
+
+huzb:huzb-50000600 bua:hasKnowledgeArea faecherklassifikation:1090 .
+
+huzb:huzb-50000601 bua:hasKnowledgeArea faecherklassifikation:1020 .
+
+huzb:huzb-50000609 bua:hasKnowledgeArea faecherklassifikation:1200 .
+
+huzb:huzb-50000633 bua:hasKnowledgeArea faecherklassifikation:1310 .
+
+huzb:huzb-50000635 bua:hasKnowledgeArea faecherklassifikation:1315 .
+
+huzb:huzb-50000636 bua:hasKnowledgeArea faecherklassifikation:1315 .
+
+huzb:huzb-50000637 bua:hasKnowledgeArea faecherklassifikation:1315 .
+
+huzb:huzb-50000639 bua:hasKnowledgeArea faecherklassifikation:1315 .
+
+huzb:huzb-50000640 bua:hasKnowledgeArea faecherklassifikation:1345 .
+
+huzb:huzb-50000641 bua:hasKnowledgeArea faecherklassifikation:1320 .
+
+huzb:huzb-50000642 bua:hasKnowledgeArea faecherklassifikation:900 .
+
+huzb:huzb-50000644 bua:hasKnowledgeArea faecherklassifikation:900 .
+
+huzb:huzb-50000659 bua:hasKnowledgeArea faecherklassifikation:570 .
+
+huzb:huzb-50000662 bua:hasKnowledgeArea faecherklassifikation:570 .
+
+huzb:huzb-50000665 bua:hasKnowledgeArea faecherklassifikation:570 .
+
+huzb:huzb-50000683 bua:hasKnowledgeArea faecherklassifikation:1800 .
+
+huzb:huzb-50000685 bua:hasKnowledgeArea faecherklassifikation:1800 .
+
+huzb:huzb-50000687 bua:hasKnowledgeArea faecherklassifikation:1800 .
+
+huzb:huzb-50000688 bua:hasKnowledgeArea faecherklassifikation:1800 .
+
+huzb:huzb-50000689 bua:hasKnowledgeArea faecherklassifikation:1800 .
+
+huzb:huzb-50000690 bua:hasKnowledgeArea faecherklassifikation:1800 .
+
+huzb:huzb-50000691 bua:hasKnowledgeArea faecherklassifikation:1827 .
+
+huzb:huzb-50000694 bua:hasKnowledgeArea faecherklassifikation:3450 .
+
+huzb:huzb-50000695 bua:hasKnowledgeArea faecherklassifikation:1827 .
+
+huzb:huzb-50000698 bua:hasKnowledgeArea faecherklassifikation:1800 .
+
+huzb:huzb-50000700 bua:hasKnowledgeArea faecherklassifikation:1827 .
+
+huzb:huzb-50000706 bua:hasKnowledgeArea faecherklassifikation:1800 .
+
+huzb:huzb-50000707 bua:hasKnowledgeArea faecherklassifikation:1650 .
+
+huzb:huzb-50000719 bua:hasKnowledgeArea faecherklassifikation:7810 .
+
+huzb:huzb-50000731 bua:hasKnowledgeArea faecherklassifikation:8300 .
+
+huzb:huzb-50000735 bua:hasKnowledgeArea faecherklassifikation:8300 .
+
+huzb:huzb-50000740 bua:hasKnowledgeArea faecherklassifikation:1806 .
+
+huzb:huzb-50000742 bua:hasKnowledgeArea faecherklassifikation:1806 .
+
+huzb:huzb-50000743 bua:hasKnowledgeArea faecherklassifikation:5080 .
+
+huzb:huzb-50000744 bua:hasKnowledgeArea faecherklassifikation:5080 .
+
+huzb:huzb-50000746 bua:hasKnowledgeArea faecherklassifikation:1806 .
+
+huzb:huzb-50000754 bua:hasKnowledgeArea faecherklassifikation:1806 .
+
+huzb:huzb-50000755 bua:hasKnowledgeArea faecherklassifikation:2320 .
+
+huzb:huzb-50000757 bua:hasKnowledgeArea faecherklassifikation:2300 .
+
+huzb:huzb-50000758 bua:hasKnowledgeArea faecherklassifikation:2350 .
+
+huzb:huzb-50000761 bua:hasKnowledgeArea faecherklassifikation:2300 .
+
+huzb:huzb-50000763 bua:hasKnowledgeArea faecherklassifikation:2300 .
+
+huzb:huzb-50000766 bua:hasKnowledgeArea faecherklassifikation:2320 .
+
+huzb:huzb-50000767 bua:hasKnowledgeArea faecherklassifikation:2330 .
+
+huzb:huzb-50000768 bua:hasKnowledgeArea faecherklassifikation:2330 .
+
+huzb:huzb-50000769 bua:hasKnowledgeArea faecherklassifikation:2330 .
+
+huzb:huzb-50000770 bua:hasKnowledgeArea faecherklassifikation:2330 .
+
+huzb:huzb-50000781 bua:hasKnowledgeArea faecherklassifikation:2000 .
+
+huzb:huzb-50000783 bua:hasKnowledgeArea faecherklassifikation:2000 .
+
+huzb:huzb-50000784 bua:hasKnowledgeArea faecherklassifikation:2005 .
+
+huzb:huzb-50000785 bua:hasKnowledgeArea faecherklassifikation:2000 .
+
+huzb:huzb-50000786 bua:hasKnowledgeArea faecherklassifikation:2010 .
+
+huzb:huzb-50000787 bua:hasKnowledgeArea faecherklassifikation:2020 .
+
+huzb:huzb-50000788 bua:hasKnowledgeArea faecherklassifikation:2020 .
+
+huzb:huzb-50000789 bua:hasKnowledgeArea faecherklassifikation:2000 .
+
+huzb:huzb-50000791 bua:hasKnowledgeArea faecherklassifikation:2330 .
+
+huzb:huzb-50000792 bua:hasKnowledgeArea faecherklassifikation:200 .
+
+huzb:huzb-50000802 bua:hasKnowledgeArea faecherklassifikation:260 .
+
+huzb:huzb-50000815 bua:hasKnowledgeArea faecherklassifikation:2900 .
+
+huzb:huzb-50000826 bua:hasKnowledgeArea faecherklassifikation:2960 .
+
+huzb:huzb-50000827 bua:hasKnowledgeArea faecherklassifikation:2980 .
+
+huzb:huzb-50000828 bua:hasKnowledgeArea faecherklassifikation:4205 .
+
+huzb:huzb-50000829 bua:hasKnowledgeArea faecherklassifikation:2930 .
+
+huzb:huzb-50000830 bua:hasKnowledgeArea faecherklassifikation:2960 .
+
+huzb:huzb-50000832 bua:hasKnowledgeArea faecherklassifikation:2930 .
+
+huzb:huzb-50000833 bua:hasKnowledgeArea faecherklassifikation:2940 .
+
+huzb:huzb-50000835 bua:hasKnowledgeArea faecherklassifikation:2960 .
+
+huzb:huzb-50000836 bua:hasKnowledgeArea faecherklassifikation:2915 .
+
+huzb:huzb-50000838 bua:hasKnowledgeArea faecherklassifikation:2935 .
+
+huzb:huzb-50000839 bua:hasKnowledgeArea faecherklassifikation:2930 .
+
+huzb:huzb-50000840 bua:hasKnowledgeArea faecherklassifikation:2930 .
+
+huzb:huzb-50000841 bua:hasKnowledgeArea faecherklassifikation:2930 .
+
+huzb:huzb-50000846 bua:hasKnowledgeArea faecherklassifikation:2960 .
+
+huzb:huzb-50000862 bua:hasKnowledgeArea faecherklassifikation:1100 .
+
+huzb:huzb-50000869 bua:hasKnowledgeArea faecherklassifikation:1650 .
+
+huzb:huzb-50000935 bua:hasKnowledgeArea faecherklassifikation:1950 .
+
+huzb:huzb-50000939 bua:hasKnowledgeArea faecherklassifikation:250 .
+
+huzb:huzb-50000947 bua:hasKnowledgeArea faecherklassifikation:240 .
+
+huzb:huzb-50000948 bua:hasKnowledgeArea faecherklassifikation:320 .
+
+huzb:huzb-50000949 bua:hasKnowledgeArea faecherklassifikation:340 .
+
+faecherklassifikation:1020 bua:knowledgeAreaFor huzb:huzb-50000601 .
+
+faecherklassifikation:1050 bua:knowledgeAreaFor huzb:huzb-50000693 .
+
+faecherklassifikation:1080 bua:knowledgeAreaFor huzb:huzb-50000570 .
+
+faecherklassifikation:1110 bua:knowledgeAreaFor huzb:huzb-50000619 .
+
+faecherklassifikation:1200 bua:knowledgeAreaFor huzb:huzb-50000609 .
+
+faecherklassifikation:130 bua:knowledgeAreaFor huzb:huzb-50000729 .
+
+faecherklassifikation:1310 bua:knowledgeAreaFor huzb:huzb-50000633 .
+
+faecherklassifikation:1320 bua:knowledgeAreaFor huzb:huzb-50000641 .
+
+faecherklassifikation:1345 bua:knowledgeAreaFor huzb:huzb-50000640 .
+
+faecherklassifikation:1400 bua:knowledgeAreaFor huzb:huzb-50000666 .
+
+faecherklassifikation:1420 bua:knowledgeAreaFor huzb:huzb-50000666 .
+
+faecherklassifikation:1725 bua:knowledgeAreaFor huzb:huzb-50000753 .
+
+faecherklassifikation:1730 bua:knowledgeAreaFor huzb:huzb-50000331 .
+
+faecherklassifikation:1760 bua:knowledgeAreaFor huzb:huzb-50000338 .
+
+faecherklassifikation:1950 bua:knowledgeAreaFor huzb:huzb-50000935 .
+
+faecherklassifikation:200 bua:knowledgeAreaFor huzb:huzb-50000792 .
+
+faecherklassifikation:2005 bua:knowledgeAreaFor huzb:huzb-50000784 .
+
+faecherklassifikation:2010 bua:knowledgeAreaFor huzb:huzb-50000786 .
+
+faecherklassifikation:2230 bua:knowledgeAreaFor huzb:huzb-50000760 .
+
+faecherklassifikation:2350 bua:knowledgeAreaFor huzb:huzb-50000758 .
+
+faecherklassifikation:240 bua:knowledgeAreaFor huzb:huzb-50000947 .
+
+faecherklassifikation:250 bua:knowledgeAreaFor huzb:huzb-50000939 .
+
+faecherklassifikation:2520 bua:knowledgeAreaFor huzb:huzb-50000511 .
+
+faecherklassifikation:2570 bua:knowledgeAreaFor huzb:huzb-50000227 .
+
+faecherklassifikation:260 bua:knowledgeAreaFor huzb:huzb-50000802 .
+
+faecherklassifikation:2900 bua:knowledgeAreaFor huzb:huzb-50000815 .
+
+faecherklassifikation:2915 bua:knowledgeAreaFor huzb:huzb-50000836 .
+
+faecherklassifikation:2935 bua:knowledgeAreaFor huzb:huzb-50000838 .
+
+faecherklassifikation:2940 bua:knowledgeAreaFor huzb:huzb-50000833 .
+
+faecherklassifikation:2980 bua:knowledgeAreaFor huzb:huzb-50000827 .
+
+faecherklassifikation:320 bua:knowledgeAreaFor huzb:huzb-50000948 .
+
+faecherklassifikation:3300 bua:knowledgeAreaFor huzb:huzb-50000344 .
+
+faecherklassifikation:340 bua:knowledgeAreaFor huzb:huzb-50000949 .
+
+faecherklassifikation:3400 bua:knowledgeAreaFor huzb:huzb-50000419 .
+
+faecherklassifikation:3510 bua:knowledgeAreaFor huzb:huzb-50000402 .
+
+faecherklassifikation:3570 bua:knowledgeAreaFor huzb:huzb-50000412 .
+
+faecherklassifikation:3650 bua:knowledgeAreaFor huzb:huzb-50000471 .
+
+faecherklassifikation:3700 bua:knowledgeAreaFor huzb:huzb-50000354 .
+
+faecherklassifikation:3730 bua:knowledgeAreaFor huzb:huzb-50000373 .
+
+faecherklassifikation:3750 bua:knowledgeAreaFor huzb:huzb-50000370 .
+
+faecherklassifikation:3790 bua:knowledgeAreaFor huzb:huzb-50000357 .
+
+faecherklassifikation:4040 bua:knowledgeAreaFor huzb:huzb-50000287 .
+
+faecherklassifikation:4065 bua:knowledgeAreaFor huzb:huzb-50000284 .
+
+faecherklassifikation:4070 bua:knowledgeAreaFor huzb:huzb-50000281 .
+
+faecherklassifikation:4090 bua:knowledgeAreaFor huzb:huzb-50000286 .
+
+faecherklassifikation:420 bua:knowledgeAreaFor huzb:huzb-50000512 .
+
+faecherklassifikation:4200 bua:knowledgeAreaFor huzb:huzb-50000376 .
+
+faecherklassifikation:4220 bua:knowledgeAreaFor huzb:huzb-50000384 .
+
+faecherklassifikation:4240 bua:knowledgeAreaFor huzb:huzb-50000380 .
+
+faecherklassifikation:4250 bua:knowledgeAreaFor huzb:huzb-50000393 .
+
+faecherklassifikation:4540 bua:knowledgeAreaFor huzb:huzb-50000279 .
+
+faecherklassifikation:500 bua:knowledgeAreaFor huzb:huzb-50000518 .
+
+faecherklassifikation:5060 bua:knowledgeAreaFor huzb:huzb-50000337 .
+
+faecherklassifikation:530 bua:knowledgeAreaFor huzb:huzb-50000527 .
+
+faecherklassifikation:560 bua:knowledgeAreaFor huzb:huzb-50000535 .
+
+faecherklassifikation:5610 bua:knowledgeAreaFor huzb:huzb-50000297 .
+
+faecherklassifikation:6205 bua:knowledgeAreaFor huzb:huzb-50000309 .
+
+faecherklassifikation:6210 bua:knowledgeAreaFor huzb:huzb-50000252 .
+
+faecherklassifikation:6960 bua:knowledgeAreaFor huzb:huzb-50000258 .
+
+faecherklassifikation:710 bua:knowledgeAreaFor huzb:huzb-50000553 .
+
+faecherklassifikation:720 bua:knowledgeAreaFor huzb:huzb-50000555 .
+
+faecherklassifikation:7430 bua:knowledgeAreaFor huzb:huzb-50000343 .
+
+faecherklassifikation:7810 bua:knowledgeAreaFor huzb:huzb-50000719 .
+
+faecherklassifikation:810 bua:knowledgeAreaFor huzb:huzb-50000596 .
+
+huzb:huzb-50000207 bua:hasKnowledgeArea faecherklassifikation:2640,
+        faecherklassifikation:2670 .
+
+huzb:huzb-50000258 bua:hasKnowledgeArea faecherklassifikation:6230,
+        faecherklassifikation:6960 .
+
+huzb:huzb-50000279 bua:hasKnowledgeArea faecherklassifikation:4020,
+        faecherklassifikation:4540 .
+
+huzb:huzb-50000297 bua:hasKnowledgeArea faecherklassifikation:5610,
+        faecherklassifikation:6230 .
+
+huzb:huzb-50000343 bua:hasKnowledgeArea faecherklassifikation:6200,
+        faecherklassifikation:7430 .
+
+huzb:huzb-50000384 bua:hasKnowledgeArea faecherklassifikation:4215,
+        faecherklassifikation:4220 .
+
+huzb:huzb-50000527 bua:hasKnowledgeArea faecherklassifikation:530,
+        faecherklassifikation:550 .
+
+huzb:huzb-50000619 bua:hasKnowledgeArea faecherklassifikation:1100,
+        faecherklassifikation:1110 .
+
+huzb:huzb-50000649 bua:hasKnowledgeArea faecherklassifikation:1650,
+        faecherklassifikation:2320 .
+
+huzb:huzb-50000666 bua:hasKnowledgeArea faecherklassifikation:1400,
+        faecherklassifikation:1420 .
+
+huzb:huzb-50000693 bua:hasKnowledgeArea faecherklassifikation:1050,
+        faecherklassifikation:1827 .
+
+huzb:huzb-50000696 bua:hasKnowledgeArea faecherklassifikation:1720,
+        faecherklassifikation:1800 .
+
+huzb:huzb-50000729 bua:hasKnowledgeArea faecherklassifikation:130,
+        faecherklassifikation:8300 .
+
+huzb:huzb-50000753 bua:hasKnowledgeArea faecherklassifikation:1725,
+        faecherklassifikation:1800 .
+
+faecherklassifikation:100 bua:knowledgeAreaFor huzb:huzb-50000492,
+        huzb:huzb-50000560 .
+
+faecherklassifikation:1100 bua:knowledgeAreaFor huzb:huzb-50000619,
+        huzb:huzb-50000862 .
+
+faecherklassifikation:1710 bua:knowledgeAreaFor huzb:huzb-50000324,
+        huzb:huzb-50000326 .
+
+faecherklassifikation:1720 bua:knowledgeAreaFor huzb:huzb-50000335,
+        huzb:huzb-50000696 .
+
+faecherklassifikation:1740 bua:knowledgeAreaFor huzb:huzb-50000330,
+        huzb:huzb-50000334 .
+
+faecherklassifikation:2020 bua:knowledgeAreaFor huzb:huzb-50000787,
+        huzb:huzb-50000788 .
+
+faecherklassifikation:2500 bua:knowledgeAreaFor huzb:huzb-50000195,
+        huzb:huzb-50000210 .
+
+faecherklassifikation:2640 bua:knowledgeAreaFor huzb:huzb-50000207,
+        huzb:huzb-50000210 .
+
+faecherklassifikation:3420 bua:knowledgeAreaFor huzb:huzb-50000432,
+        huzb:huzb-50000446 .
+
+faecherklassifikation:3450 bua:knowledgeAreaFor huzb:huzb-50000441,
+        huzb:huzb-50000694 .
+
+faecherklassifikation:3637 bua:knowledgeAreaFor huzb:huzb-50000479,
+        huzb:huzb-50000481 .
+
+faecherklassifikation:3710 bua:knowledgeAreaFor huzb:huzb-50000366,
+        huzb:huzb-50000368 .
+
+faecherklassifikation:4020 bua:knowledgeAreaFor huzb:huzb-50000279,
+        huzb:huzb-50000284 .
+
+faecherklassifikation:4080 bua:knowledgeAreaFor huzb:huzb-50000291,
+        huzb:huzb-50000299 .
+
+faecherklassifikation:4205 bua:knowledgeAreaFor huzb:huzb-50000395,
+        huzb:huzb-50000828 .
+
+faecherklassifikation:4215 bua:knowledgeAreaFor huzb:huzb-50000383,
+        huzb:huzb-50000384 .
+
+faecherklassifikation:425 bua:knowledgeAreaFor huzb:huzb-50000507,
+        huzb:huzb-50000515 .
+
+faecherklassifikation:5080 bua:knowledgeAreaFor huzb:huzb-50000743,
+        huzb:huzb-50000744 .
+
+faecherklassifikation:520 bua:knowledgeAreaFor huzb:huzb-50000520,
+        huzb:huzb-50000521 .
+
+faecherklassifikation:6200 bua:knowledgeAreaFor huzb:huzb-50000241,
+        huzb:huzb-50000343 .
+
+faecherklassifikation:6230 bua:knowledgeAreaFor huzb:huzb-50000258,
+        huzb:huzb-50000297 .
+
+faecherklassifikation:6300 bua:knowledgeAreaFor huzb:huzb-50000231,
+        huzb:huzb-50000241 .
+
+faecherklassifikation:700 bua:knowledgeAreaFor huzb:huzb-50000556,
+        huzb:huzb-50000557 .
+
+faecherklassifikation:900 bua:knowledgeAreaFor huzb:huzb-50000642,
+        huzb:huzb-50000644 .
+
+huzb:huzb-50000210 bua:hasKnowledgeArea faecherklassifikation:2500,
+        faecherklassifikation:2640,
+        faecherklassifikation:2670 .
+
+huzb:huzb-50000231 bua:hasKnowledgeArea faecherklassifikation:1700,
+        faecherklassifikation:4000,
+        faecherklassifikation:6300 .
+
+huzb:huzb-50000241 bua:hasKnowledgeArea faecherklassifikation:6200,
+        faecherklassifikation:6240,
+        faecherklassifikation:6300 .
+
+huzb:huzb-50000284 bua:hasKnowledgeArea faecherklassifikation:4000,
+        faecherklassifikation:4020,
+        faecherklassifikation:4065 .
+
+huzb:huzb-50000760 bua:hasKnowledgeArea faecherklassifikation:2230,
+        faecherklassifikation:2300,
+        faecherklassifikation:2330 .
+
+faecherklassifikation:1650 bua:knowledgeAreaFor huzb:huzb-50000649,
+        huzb:huzb-50000707,
+        huzb:huzb-50000869 .
+
+faecherklassifikation:1660 bua:knowledgeAreaFor huzb:huzb-50000541,
+        huzb:huzb-50000543,
+        huzb:huzb-50000545 .
+
+faecherklassifikation:2320 bua:knowledgeAreaFor huzb:huzb-50000649,
+        huzb:huzb-50000755,
+        huzb:huzb-50000766 .
+
+faecherklassifikation:2560 bua:knowledgeAreaFor huzb:huzb-50000220,
+        huzb:huzb-50000221,
+        huzb:huzb-50000224 .
+
+faecherklassifikation:2670 bua:knowledgeAreaFor huzb:huzb-50000207,
+        huzb:huzb-50000208,
+        huzb:huzb-50000210 .
+
+faecherklassifikation:3520 bua:knowledgeAreaFor huzb:huzb-50000407,
+        huzb:huzb-50000408,
+        huzb:huzb-50000416 .
+
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000448,
+        huzb:huzb-50000466,
+        huzb:huzb-50000469 .
+
+faecherklassifikation:570 bua:knowledgeAreaFor huzb:huzb-50000659,
+        huzb:huzb-50000662,
+        huzb:huzb-50000665 .
+
+faecherklassifikation:8300 bua:knowledgeAreaFor huzb:huzb-50000729,
+        huzb:huzb-50000731,
+        huzb:huzb-50000735 .
+
+faecherklassifikation:1315 bua:knowledgeAreaFor huzb:huzb-50000635,
+        huzb:huzb-50000636,
+        huzb:huzb-50000637,
+        huzb:huzb-50000639 .
+
+faecherklassifikation:1700 bua:knowledgeAreaFor huzb:huzb-50000231,
+        huzb:huzb-50000320,
+        huzb:huzb-50000322,
+        huzb:huzb-50000325 .
+
+faecherklassifikation:1806 bua:knowledgeAreaFor huzb:huzb-50000740,
+        huzb:huzb-50000742,
+        huzb:huzb-50000746,
+        huzb:huzb-50000754 .
+
+faecherklassifikation:1827 bua:knowledgeAreaFor huzb:huzb-50000691,
+        huzb:huzb-50000693,
+        huzb:huzb-50000695,
+        huzb:huzb-50000700 .
+
+faecherklassifikation:2000 bua:knowledgeAreaFor huzb:huzb-50000781,
+        huzb:huzb-50000783,
+        huzb:huzb-50000785,
+        huzb:huzb-50000789 .
+
+faecherklassifikation:2300 bua:knowledgeAreaFor huzb:huzb-50000757,
+        huzb:huzb-50000760,
+        huzb:huzb-50000761,
+        huzb:huzb-50000763 .
+
+faecherklassifikation:2960 bua:knowledgeAreaFor huzb:huzb-50000826,
+        huzb:huzb-50000830,
+        huzb:huzb-50000835,
+        huzb:huzb-50000846 .
+
+faecherklassifikation:3410 bua:knowledgeAreaFor huzb:huzb-50000421,
+        huzb:huzb-50000422,
+        huzb:huzb-50000424,
+        huzb:huzb-50000426 .
+
+faecherklassifikation:3500 bua:knowledgeAreaFor huzb:huzb-50000399,
+        huzb:huzb-50000404,
+        huzb:huzb-50000411,
+        huzb:huzb-50000529 .
+
+faecherklassifikation:3720 bua:knowledgeAreaFor huzb:huzb-50000361,
+        huzb:huzb-50000362,
+        huzb:huzb-50000364,
+        huzb:huzb-50000367 .
+
+faecherklassifikation:4000 bua:knowledgeAreaFor huzb:huzb-50000231,
+        huzb:huzb-50000277,
+        huzb:huzb-50000283,
+        huzb:huzb-50000284 .
+
+faecherklassifikation:4030 bua:knowledgeAreaFor huzb:huzb-50000282,
+        huzb:huzb-50000285,
+        huzb:huzb-50000288,
+        huzb:huzb-50000290 .
+
+faecherklassifikation:4050 bua:knowledgeAreaFor huzb:huzb-50000262,
+        huzb:huzb-50000305,
+        huzb:huzb-50000306,
+        huzb:huzb-50000308 .
+
+faecherklassifikation:540 bua:knowledgeAreaFor huzb:huzb-50000523,
+        huzb:huzb-50000530,
+        huzb:huzb-50000531,
+        huzb:huzb-50000537 .
+
+faecherklassifikation:550 bua:knowledgeAreaFor huzb:huzb-50000524,
+        huzb:huzb-50000525,
+        huzb:huzb-50000526,
+        huzb:huzb-50000527 .
+
+faecherklassifikation:6220 bua:knowledgeAreaFor huzb:huzb-50000243,
+        huzb:huzb-50000244,
+        huzb:huzb-50000245,
+        huzb:huzb-50000251 .
+
+faecherklassifikation:1090 bua:knowledgeAreaFor huzb:huzb-50000588,
+        huzb:huzb-50000590,
+        huzb:huzb-50000591,
+        huzb:huzb-50000599,
+        huzb:huzb-50000600 .
+
+faecherklassifikation:2930 bua:knowledgeAreaFor huzb:huzb-50000829,
+        huzb:huzb-50000832,
+        huzb:huzb-50000839,
+        huzb:huzb-50000840,
+        huzb:huzb-50000841 .
+
+faecherklassifikation:400 bua:knowledgeAreaFor huzb:huzb-50000501,
+        huzb:huzb-50000503,
+        huzb:huzb-50000505,
+        huzb:huzb-50000506,
+        huzb:huzb-50000509 .
+
+faecherklassifikation:2330 bua:knowledgeAreaFor huzb:huzb-50000760,
+        huzb:huzb-50000767,
+        huzb:huzb-50000768,
+        huzb:huzb-50000769,
+        huzb:huzb-50000770,
+        huzb:huzb-50000791 .
+
+faecherklassifikation:6240 bua:knowledgeAreaFor huzb:huzb-50000241,
+        huzb:huzb-50000264,
+        huzb:huzb-50000265,
+        huzb:huzb-50000266,
+        huzb:huzb-50000267,
+        huzb:huzb-50000268 .
+
+faecherklassifikation:1800 bua:knowledgeAreaFor huzb:huzb-50000683,
+        huzb:huzb-50000685,
+        huzb:huzb-50000687,
+        huzb:huzb-50000688,
+        huzb:huzb-50000689,
+        huzb:huzb-50000690,
+        huzb:huzb-50000696,
+        huzb:huzb-50000698,
+        huzb:huzb-50000706,
+        huzb:huzb-50000753 .
+
+
+
+###############################################################################
+#  Additional relations from  extended scripted run - not manually proof read
+###############################################################################
+
+huzb:huzb-50000205 bua:hasKnowledgeArea faecherklassifikation:2670 .
+faecherklassifikation:2670 bua:knowledgeAreaFor huzb:huzb-50000205 .
+
+huzb:huzb-50000206 bua:hasKnowledgeArea faecherklassifikation:2670 .
+faecherklassifikation:2670 bua:knowledgeAreaFor huzb:huzb-50000206 . 
+
+huzb:huzb-50000209 bua:hasKnowledgeArea faecherklassifikation:2640 .
+faecherklassifikation:2640 bua:knowledgeAreaFor huzb:huzb-50000209 .
+
+huzb:huzb-50000211 bua:hasKnowledgeArea faecherklassifikation:2670 .
+faecherklassifikation:2670 bua:knowledgeAreaFor huzb:huzb-50000211 .
+huzb:huzb-50000211 bua:hasKnowledgeArea faecherklassifikation:2640 .
+faecherklassifikation:2640 bua:knowledgeAreaFor huzb:huzb-50000211 .
+huzb:huzb-50000211 bua:hasKnowledgeArea faecherklassifikation:2550 .
+faecherklassifikation:2550 bua:knowledgeAreaFor huzb:huzb-50000211 .
+huzb:huzb-50000211 bua:geritId "31866366" .
+
+huzb:huzb-50000212 bua:hasKnowledgeArea faecherklassifikation:2670 .
+faecherklassifikation:2670 bua:knowledgeAreaFor huzb:huzb-50000212 .
+
+huzb:huzb-50000213 bua:hasKnowledgeArea faecherklassifikation:2640 .
+faecherklassifikation:2640 bua:knowledgeAreaFor huzb:huzb-50000213 .
+
+huzb:huzb-50000214 bua:hasKnowledgeArea faecherklassifikation:2670 .
+faecherklassifikation:2670 bua:knowledgeAreaFor huzb:huzb-50000214 .
+
+huzb:huzb-50000215 bua:hasKnowledgeArea faecherklassifikation:2670 .
+faecherklassifikation:2670 bua:knowledgeAreaFor huzb:huzb-50000215 .
+huzb:huzb-50000215 bua:hasKnowledgeArea faecherklassifikation:2620 .
+faecherklassifikation:2620 bua:knowledgeAreaFor huzb:huzb-50000215 .
+
+
+huzb:huzb-50000216 bua:hasKnowledgeArea faecherklassifikation:2560 .
+faecherklassifikation:2560 bua:knowledgeAreaFor huzb:huzb-50000216 .
+huzb:huzb-50000216 bua:hasKnowledgeArea faecherklassifikation:2580 .
+faecherklassifikation:2580 bua:knowledgeAreaFor huzb:huzb-50000216 .
+
+
+huzb:huzb-50000217 bua:hasKnowledgeArea faecherklassifikation:2560 .
+faecherklassifikation:2560 bua:knowledgeAreaFor huzb:huzb-50000217 .
+huzb:huzb-50000217 bua:hasKnowledgeArea faecherklassifikation:2520 .
+faecherklassifikation:2520 bua:knowledgeAreaFor huzb:huzb-50000217 .
+huzb:huzb-50000217 bua:geritId "24435" .
+
+
+huzb:huzb-50000218 bua:hasKnowledgeArea faecherklassifikation:2560 .
+faecherklassifikation:2560 bua:knowledgeAreaFor huzb:huzb-50000218 .
+huzb:huzb-50000218 bua:hasKnowledgeArea faecherklassifikation:2665 .
+faecherklassifikation:2665 bua:knowledgeAreaFor huzb:huzb-50000218 .
+huzb:huzb-50000218 bua:hasKnowledgeArea faecherklassifikation:2580 .
+faecherklassifikation:2580 bua:knowledgeAreaFor huzb:huzb-50000218 .
+huzb:huzb-50000218 bua:geritId "24434" .
+
+
+huzb:huzb-50000222 bua:hasKnowledgeArea faecherklassifikation:2560 .
+faecherklassifikation:2560 bua:knowledgeAreaFor huzb:huzb-50000222 .
+huzb:huzb-50000222 bua:geritId "24428" .
+
+huzb:huzb-50000223 bua:hasKnowledgeArea faecherklassifikation:2560 .
+faecherklassifikation:2560 bua:knowledgeAreaFor huzb:huzb-50000223 .
+huzb:huzb-50000223 bua:geritId "24428" .
+
+huzb:huzb-50000225 bua:hasKnowledgeArea faecherklassifikation:2570 .
+faecherklassifikation:2570 bua:knowledgeAreaFor huzb:huzb-50000225 .
+huzb:huzb-50000225 bua:geritId "24443" .
+
+huzb:huzb-50000226 bua:hasKnowledgeArea faecherklassifikation:2570 .
+faecherklassifikation:2570 bua:knowledgeAreaFor huzb:huzb-50000226 .
+huzb:huzb-50000226 bua:hasKnowledgeArea faecherklassifikation:2510 .
+faecherklassifikation:2510 bua:knowledgeAreaFor huzb:huzb-50000226 .
+huzb:huzb-50000226 bua:geritId "127405547" .
+
+huzb:huzb-50000228 bua:hasKnowledgeArea faecherklassifikation:2570 .
+faecherklassifikation:2570 bua:knowledgeAreaFor huzb:huzb-50000228 .
+huzb:huzb-50000228 bua:hasKnowledgeArea faecherklassifikation:2520 .
+faecherklassifikation:2520 bua:knowledgeAreaFor huzb:huzb-50000228 .
+huzb:huzb-50000228 bua:hasKnowledgeArea faecherklassifikation:2580 .
+faecherklassifikation:2580 bua:knowledgeAreaFor huzb:huzb-50000228 .
+huzb:huzb-50000228 bua:geritId "24441" .
+
+
+huzb:huzb-50000229 bua:hasKnowledgeArea faecherklassifikation:2570 .
+faecherklassifikation:2570 bua:knowledgeAreaFor huzb:huzb-50000229 .
+huzb:huzb-50000229 bua:geritId "24442" .
+
+huzb:huzb-50000254 bua:hasKnowledgeArea faecherklassifikation:6300 .
+faecherklassifikation:6300 bua:knowledgeAreaFor huzb:huzb-50000254 .
+
+huzb:huzb-50000256 bua:hasKnowledgeArea faecherklassifikation:6210 .
+faecherklassifikation:6210 bua:knowledgeAreaFor huzb:huzb-50000256 .
+
+huzb:huzb-50000259 bua:hasKnowledgeArea faecherklassifikation:4010 .
+faecherklassifikation:4010 bua:knowledgeAreaFor huzb:huzb-50000259 .
+
+huzb:huzb-50000260 bua:hasKnowledgeArea faecherklassifikation:4090 .
+faecherklassifikation:4090 bua:knowledgeAreaFor huzb:huzb-50000260 .
+
+huzb:huzb-50000260 bua:hasKnowledgeArea faecherklassifikation:4090 .
+faecherklassifikation:4090 bua:knowledgeAreaFor huzb:huzb-50000260 .
+
+huzb:huzb-50000272 bua:hasKnowledgeArea faecherklassifikation:2940 .
+faecherklassifikation:2940 bua:knowledgeAreaFor huzb:huzb-50000272 .
+
+huzb:huzb-50000280 bua:hasKnowledgeArea faecherklassifikation:4030 .
+faecherklassifikation:4030 bua:knowledgeAreaFor huzb:huzb-50000280 .
+
+huzb:huzb-50000280 bua:hasKnowledgeArea faecherklassifikation:4030 .
+faecherklassifikation:4030 bua:knowledgeAreaFor huzb:huzb-50000280 .
+
+huzb:huzb-50000289 bua:hasKnowledgeArea faecherklassifikation:4030 .
+faecherklassifikation:4030 bua:knowledgeAreaFor huzb:huzb-50000289 .
+
+huzb:huzb-50000289 bua:hasKnowledgeArea faecherklassifikation:4030 .
+faecherklassifikation:4030 bua:knowledgeAreaFor huzb:huzb-50000289 .
+
+huzb:huzb-50000292 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor huzb:huzb-50000292 .
+
+huzb:huzb-50000292 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor huzb:huzb-50000292 .
+
+huzb:huzb-50000301 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor huzb:huzb-50000301 .
+
+huzb:huzb-50000301 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor huzb:huzb-50000301 .
+
+huzb:huzb-50000315 bua:hasKnowledgeArea faecherklassifikation:4000 .
+faecherklassifikation:4000 bua:knowledgeAreaFor huzb:huzb-50000315 .
+
+huzb:huzb-50000328 bua:hasKnowledgeArea faecherklassifikation:1700 .
+faecherklassifikation:1700 bua:knowledgeAreaFor huzb:huzb-50000328 .
+
+huzb:huzb-50000328 bua:hasKnowledgeArea faecherklassifikation:1700 .
+faecherklassifikation:1700 bua:knowledgeAreaFor huzb:huzb-50000328 .
+
+huzb:huzb-50000356 bua:hasKnowledgeArea faecherklassifikation:3730 .
+faecherklassifikation:3730 bua:knowledgeAreaFor huzb:huzb-50000356 .
+
+
+huzb:huzb-50000358 bua:hasKnowledgeArea faecherklassifikation:3730 .
+faecherklassifikation:3730 bua:knowledgeAreaFor huzb:huzb-50000358 .
+huzb:huzb-50000358 bua:hasKnowledgeArea faecherklassifikation:3790 .
+faecherklassifikation:3790 bua:knowledgeAreaFor huzb:huzb-50000358 .
+
+huzb:huzb-50000359 bua:hasKnowledgeArea faecherklassifikation:3730 .
+faecherklassifikation:3730 bua:knowledgeAreaFor huzb:huzb-50000359 .
+
+huzb:huzb-50000369 bua:hasKnowledgeArea faecherklassifikation:3750 .
+faecherklassifikation:3750 bua:knowledgeAreaFor huzb:huzb-50000369 .
+huzb:huzb-50000369 bua:geritId "128695663" .
+
+huzb:huzb-50000371 bua:hasKnowledgeArea faecherklassifikation:3750 .
+faecherklassifikation:3750 bua:knowledgeAreaFor huzb:huzb-50000371 .
+huzb:huzb-50000369 bua:geritId "352835240" .
+
+huzb:huzb-50000379 bua:hasKnowledgeArea faecherklassifikation:4240 .
+faecherklassifikation:4240 bua:knowledgeAreaFor huzb:huzb-50000379 .
+huzb:huzb-50000379 bua:hasKnowledgeArea faecherklassifikation:6320 .
+faecherklassifikation:6320 bua:knowledgeAreaFor huzb:huzb-50000379 .
+huzb:huzb-50000379 bua:geritId "129146361" .
+
+huzb:huzb-50000381 bua:hasKnowledgeArea faecherklassifikation:4240 .
+faecherklassifikation:4240 bua:knowledgeAreaFor huzb:huzb-50000381 .
+
+huzb:huzb-50000380 bua:hasKnowledgeArea faecherklassifikation:4240 .
+faecherklassifikation:4240 bua:knowledgeAreaFor huzb:huzb-50000380 .
+huzb:huzb-50000379 bua:geritId "129146619" .
+
+
+huzb:huzb-50000401 bua:hasKnowledgeArea faecherklassifikation:3510 .
+faecherklassifikation:3510 bua:knowledgeAreaFor huzb:huzb-50000401 .
+
+huzb:huzb-50000406 bua:hasKnowledgeArea faecherklassifikation:426 .
+faecherklassifikation:426 bua:knowledgeAreaFor huzb:huzb-50000406 .
+
+huzb:huzb-50000402 bua:hasKnowledgeArea faecherklassifikation:3510 .
+faecherklassifikation:3510 bua:knowledgeAreaFor huzb:huzb-50000402 .
+huzb:huzb-50000402 bua:geritId "24577" .
+
+huzb:huzb-50000429 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000429 .
+
+huzb:huzb-50000430  bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000430 .
+huzb:huzb-50000430  bua:hasKnowledgeArea faecherklassifikation:3410 .
+faecherklassifikation:3410 bua:knowledgeAreaFor huzb:huzb-50000430 .
+
+
+huzb:huzb-50000431  bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000431 .
+huzb:huzb-50000431  bua:hasKnowledgeArea faecherklassifikation:3636 .
+faecherklassifikation:3636 bua:knowledgeAreaFor huzb:huzb-50000431 .
+
+
+huzb:huzb-50000454  bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb:huzb-50000454 .
+huzb:huzb-50000454  bua:hasKnowledgeArea faecherklassifikation:3636 .
+faecherklassifikation:3636 bua:knowledgeAreaFor huzb:huzb-50000454 .
+huzb:huzb-50000454 bua:geritId "331106775" .
+
+
+huzb:huzb-50000433 bua:hasKnowledgeArea faecherklassifikation:3420 .
+faecherklassifikation:3420 bua:knowledgeAreaFor huzb:huzb-50000433 .
+
+huzb:huzb-50000434 bua:hasKnowledgeArea faecherklassifikation:3420 .
+faecherklassifikation:3420 bua:knowledgeAreaFor huzb:huzb-50000434 .
+
+huzb:huzb-50000435 bua:hasKnowledgeArea faecherklassifikation:3420 .
+faecherklassifikation:3420 bua:knowledgeAreaFor huzb:huzb-50000435 .
+
+
+huzb:huzb-50000442 bua:hasKnowledgeArea faecherklassifikation:3450 .
+faecherklassifikation:3450 bua:knowledgeAreaFor huzb:huzb-50000442 .
+huzb:huzb-50000402 bua:geritId "24584" .
+
+huzb:huzb-50000450 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000450 .
+huzb:huzb-50000450 bua:hasKnowledgeArea faecherklassifikation:3620 .
+faecherklassifikation:3620 bua:knowledgeAreaFor huzb:huzb-50000450 .
+
+huzb:huzb-50000451 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000451 .
+huzb:huzb-50000451 bua:hasKnowledgeArea faecherklassifikation:3620 .
+faecherklassifikation:3620 bua:knowledgeAreaFor huzb:huzb-50000451 .
+
+huzb:huzb-50000452 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000452 .
+huzb:huzb-50000452 bua:hasKnowledgeArea faecherklassifikation:3620 .
+faecherklassifikation:3620 bua:knowledgeAreaFor huzb:huzb-50000452 .
+
+
+huzb:huzb-50000456 bua:hasKnowledgeArea faecherklassifikation:3420 .
+faecherklassifikation:3420 bua:knowledgeAreaFor huzb:huzb-50000456 .
+huzb:huzb-50000456 bua:hasKnowledgeArea faecherklassifikation:3410 .
+faecherklassifikation:3410 bua:knowledgeAreaFor huzb:huzb-50000456 .
+
+huzb:huzb-50000457 bua:hasKnowledgeArea faecherklassifikation:3420 .
+faecherklassifikation:3420 bua:knowledgeAreaFor huzb:huzb-50000457 .
+huzb:huzb-50000457 bua:hasKnowledgeArea faecherklassifikation:3410 .
+faecherklassifikation:3410 bua:knowledgeAreaFor huzb:huzb-50000457 .
+
+huzb:huzb-50000458 bua:hasKnowledgeArea faecherklassifikation:3420 .
+faecherklassifikation:3420 bua:knowledgeAreaFor huzb:huzb-50000458 .
+huzb:huzb-50000458 bua:hasKnowledgeArea faecherklassifikation:3410 .
+faecherklassifikation:3410 bua:knowledgeAreaFor huzb:huzb-50000458 .
+
+huzb:huzb-50000459 bua:hasKnowledgeArea faecherklassifikation:3420 .
+faecherklassifikation:3420 bua:knowledgeAreaFor huzb:huzb-50000459 .
+huzb:huzb-50000459 bua:hasKnowledgeArea faecherklassifikation:3637 .
+faecherklassifikation:3637 bua:knowledgeAreaFor huzb:huzb-50000459 .
+
+huzb:huzb-50000460 bua:hasKnowledgeArea faecherklassifikation:3420 .
+faecherklassifikation:3420 bua:knowledgeAreaFor huzb:huzb-50000460 .
+huzb:huzb-50000460 bua:hasKnowledgeArea faecherklassifikation:3637 .
+faecherklassifikation:3637 bua:knowledgeAreaFor huzb:huzb-50000460 .
+
+huzb:huzb-50000460 bua:hasKnowledgeArea faecherklassifikation:3420 .
+faecherklassifikation:3420 bua:knowledgeAreaFor huzb:huzb-50000460 .
+huzb:huzb-50000460 bua:hasKnowledgeArea faecherklassifikation:3637 .
+faecherklassifikation:3637 bua:knowledgeAreaFor huzb:huzb-50000460 .
+
+huzb:huzb-50000462 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000462 .
+huzb:huzb-50000462 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000462 .
+huzb:huzb-50000462 bua:geritId "20935" .
+
+huzb:huzb-50000463 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000463 .
+huzb:huzb-50000463 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000463 .
+
+huzb:huzb-50000464 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000464 .
+huzb:huzb-50000464 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000464 .
+huzb:huzb-50000464 bua:hasKnowledgeArea faecherklassifikation:4736 .
+faecherklassifikation:4736 bua:knowledgeAreaFor huzb:huzb-50000464 .
+huzb:huzb-50000464 bua:geritId "461876241" .
+
+huzb:huzb-50000465 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000465 .
+huzb:huzb-50000465 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000465 .
+
+huzb:huzb-50000467 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000467 .
+huzb:huzb-50000467 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000467 .
+
+huzb:huzb-50000468 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000468 .
+huzb:huzb-50000468 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000468 .
+
+huzb:huzb-50000470 bua:hasKnowledgeArea faecherklassifikation:3637 .
+faecherklassifikation:3637 bua:knowledgeAreaFor huzb:huzb-50000470 .
+
+huzb:huzb-50000472 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000472 .
+huzb:huzb-50000472 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000472 .
+
+huzb:huzb-50000473 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000473 .
+huzb:huzb-50000473 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000473 .
+
+huzb:huzb-50000475 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000475 .
+huzb:huzb-50000475 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000475 .
+
+huzb:huzb-50000476 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000476 .
+huzb:huzb-50000476 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000476 .
+
+huzb:huzb-50000478 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000478 .
+huzb:huzb-50000478 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000478 .
+huzb:huzb-50000478 bua:hasKnowledgeArea faecherklassifikation:7700 .
+faecherklassifikation:7700 bua:knowledgeAreaFor huzb:huzb-50000478 .
+
+huzb:huzb-50000487 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000487 .
+huzb:huzb-50000487 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000487 .
+
+huzb:huzb-50000488 bua:hasKnowledgeArea faecherklassifikation:3610 .
+faecherklassifikation:3610 bua:knowledgeAreaFor huzb:huzb-50000488 .
+huzb:huzb-50000488 bua:hasKnowledgeArea faecherklassifikation:3630 .
+faecherklassifikation:3630 bua:knowledgeAreaFor huzb:huzb-50000488 .
+
+huzb:huzb-50000508 bua:hasKnowledgeArea faecherklassifikation:0400 .
+faecherklassifikation:0400 bua:knowledgeAreaFor huzb:huzb-50000508 .
+huzb:huzb-50000508 bua:hasKnowledgeArea faecherklassifikation:0420 .
+faecherklassifikation:0420 bua:knowledgeAreaFor huzb:huzb-50000508 .
+
+huzb:huzb-50000510 bua:hasKnowledgeArea faecherklassifikation:0426 .
+faecherklassifikation:0426 bua:knowledgeAreaFor huzb:huzb-50000510 .
+
+huzb:huzb-50000516 bua:hasKnowledgeArea faecherklassifikation:0400 .
+faecherklassifikation:0400 bua:knowledgeAreaFor huzb:huzb-50000516 .
+
+huzb:huzb-50000540 bua:hasKnowledgeArea faecherklassifikation:0500 .
+faecherklassifikation:0500 bua:knowledgeAreaFor huzb:huzb-50000540 .
+
+huzb:huzb-50000976 bua:hasKnowledgeArea faecherklassifikation:0500 .
+faecherklassifikation:0500 bua:knowledgeAreaFor huzb:huzb-50000976 .
+
+huzb:huzb-50001005 bua:hasKnowledgeArea faecherklassifikation:0500 .
+faecherklassifikation:0500 bua:knowledgeAreaFor huzb:huzb-50001005 .
+
+huzb:huzb-50001005 bua:hasKnowledgeArea faecherklassifikation:0500 .
+faecherklassifikation:0500 bua:knowledgeAreaFor huzb:huzb-50001005 .
+
+huzb:huzb-50000544 bua:hasKnowledgeArea faecherklassifikation:1660 .
+faecherklassifikation:1660 bua:knowledgeAreaFor huzb:huzb-50000544 .
+
+huzb:huzb-50000546 bua:hasKnowledgeArea faecherklassifikation:1660 .
+faecherklassifikation:1660 bua:knowledgeAreaFor huzb:huzb-50000546 .
+
+huzb:huzb-50000546 bua:hasKnowledgeArea faecherklassifikation:1660 .
+faecherklassifikation:1660 bua:knowledgeAreaFor huzb:huzb-50000546 .
+
+huzb:huzb-50000550 bua:hasKnowledgeArea faecherklassifikation:1660 .
+faecherklassifikation:1660 bua:knowledgeAreaFor huzb:huzb-50000550 .
+
+huzb:huzb-50000551 bua:hasKnowledgeArea faecherklassifikation:1660 .
+faecherklassifikation:1660 bua:knowledgeAreaFor huzb:huzb-50000551 .
+
+huzb:huzb-50000559 bua:hasKnowledgeArea faecherklassifikation:0720 .
+faecherklassifikation:0720 bua:knowledgeAreaFor huzb:huzb-50000559 .
+
+huzb:huzb-50000594 bua:hasKnowledgeArea faecherklassifikation:1050 .
+faecherklassifikation:1050 bua:knowledgeAreaFor huzb:huzb-50000594 .
+
+huzb:huzb-50000603 bua:hasKnowledgeArea faecherklassifikation:1020 .
+faecherklassifikation:1020 bua:knowledgeAreaFor huzb:huzb-50000603 .
+
+huzb:huzb-50000603 bua:hasKnowledgeArea faecherklassifikation:1020 .
+faecherklassifikation:1020 bua:knowledgeAreaFor huzb:huzb-50000603 .
+
+huzb:huzb-50000604 bua:hasKnowledgeArea faecherklassifikation:1020 .
+faecherklassifikation:1020 bua:knowledgeAreaFor huzb:huzb-50000604 .
+
+huzb:huzb-50000605 bua:hasKnowledgeArea faecherklassifikation:1020 .
+faecherklassifikation:1020 bua:knowledgeAreaFor huzb:huzb-50000605 .
+
+huzb:huzb-50000606 bua:hasKnowledgeArea faecherklassifikation:1020 .
+faecherklassifikation:1020 bua:knowledgeAreaFor huzb:huzb-50000606 .
+
+huzb:huzb-50000606 bua:hasKnowledgeArea faecherklassifikation:1020 .
+faecherklassifikation:1020 bua:knowledgeAreaFor huzb:huzb-50000606 .
+
+huzb:huzb-50000608 bua:hasKnowledgeArea faecherklassifikation:1020 .
+faecherklassifikation:1020 bua:knowledgeAreaFor huzb:huzb-50000608 .
+
+huzb:huzb-50000661 bua:hasKnowledgeArea faecherklassifikation:570 .
+faecherklassifikation:570 bua:knowledgeAreaFor huzb:huzb-50000661 .
+huzb:huzb-50000464 bua:geritId "29764" .
+
+huzb:huzb-50000663 bua:hasKnowledgeArea faecherklassifikation:570 .
+faecherklassifikation:570 bua:knowledgeAreaFor huzb:huzb-50000663 .
+huzb:huzb-50000464 bua:geritId "22969" .
+
+huzb:huzb-50000664 bua:hasKnowledgeArea faecherklassifikation:570 .
+faecherklassifikation:570 bua:knowledgeAreaFor huzb:huzb-50000664 .
+
+huzb:huzb-50000668 bua:hasKnowledgeArea faecherklassifikation:2250 .
+faecherklassifikation:2250 bua:knowledgeAreaFor huzb:huzb-50000668 .
+
+huzb:huzb-50000669 bua:hasKnowledgeArea faecherklassifikation:2250 .
+faecherklassifikation:2250 bua:knowledgeAreaFor huzb:huzb-50000669 .
+huzb:huzb-50000464 bua:geritId "22961" .
+
+huzb:huzb-50000670 bua:hasKnowledgeArea faecherklassifikation:2250 .
+faecherklassifikation:2250 bua:knowledgeAreaFor huzb:huzb-50000670 .
+
+huzb:huzb-50000671 bua:hasKnowledgeArea faecherklassifikation:2250 .
+faecherklassifikation:2250 bua:knowledgeAreaFor huzb:huzb-50000671 .
+
+huzb:huzb-50000678 bua:hasKnowledgeArea faecherklassifikation:2250 .
+faecherklassifikation:2250 bua:knowledgeAreaFor huzb:huzb-50000678 .
+
+
+huzb:huzb-50000716 bua:hasKnowledgeArea faecherklassifikation:4090 .
+faecherklassifikation:4090 bua:knowledgeAreaFor huzb:huzb-50000716 .
+
+huzb:huzb-50000722 bua:hasKnowledgeArea faecherklassifikation:7810 .
+faecherklassifikation:7810 bua:knowledgeAreaFor huzb:huzb-50000722 .
+
+huzb:huzb-50000723 bua:hasKnowledgeArea faecherklassifikation:7810 .
+faecherklassifikation:7810 bua:knowledgeAreaFor huzb:huzb-50000723 .
+
+huzb:huzb-50000724 bua:hasKnowledgeArea faecherklassifikation:7810 .
+faecherklassifikation:7810 bua:knowledgeAreaFor huzb:huzb-50000724 .
+
+huzb:huzb-50000764 bua:hasKnowledgeArea faecherklassifikation:2330 .
+faecherklassifikation:2330 bua:knowledgeAreaFor huzb:huzb-50000764 .
+huzb:huzb-50000464 bua:geritId "24907" .
+
+huzb:huzb-50000776 bua:hasKnowledgeArea faecherklassifikation:2330 .
+faecherklassifikation:2330 bua:knowledgeAreaFor huzb:huzb-50000776 .
+
+huzb:huzb-50000776 bua:hasKnowledgeArea faecherklassifikation:2330 .
+faecherklassifikation:2330 bua:knowledgeAreaFor huzb:huzb-50000776 .
+
+huzb:huzb-50000777 bua:hasKnowledgeArea faecherklassifikation:2330 .
+faecherklassifikation:2330 bua:knowledgeAreaFor huzb:huzb-50000777 .
+huzb:huzb-50000777 bua:hasKnowledgeArea faecherklassifikation:2230 .
+faecherklassifikation:2230 bua:knowledgeAreaFor huzb:huzb-50000777 .
+huzb:huzb-50000777 bua:hasKnowledgeArea faecherklassifikation:2300 .
+faecherklassifikation:2300 bua:knowledgeAreaFor huzb:huzb-50000777 .
+huzb:huzb-50000464 bua:geritId "130518713" .
+
+huzb:huzb-50000778 bua:hasKnowledgeArea faecherklassifikation:2330 .
+faecherklassifikation:2330 bua:knowledgeAreaFor huzb:huzb-50000778 .
+
+huzb:huzb-50000813 bua:hasKnowledgeArea faecherklassifikation:410 .
+faecherklassifikation:410 bua:knowledgeAreaFor huzb:huzb-50000813 .
+
+huzb:huzb-50000831 bua:hasKnowledgeArea faecherklassifikation:2960 .
+faecherklassifikation:2960 bua:knowledgeAreaFor huzb:huzb-50000831 .
+huzb:huzb-50000831 bua:geritId "282752080" .
+
+huzb:huzb-50000834 bua:hasKnowledgeArea faecherklassifikation:2960 .
+faecherklassifikation:2960 bua:knowledgeAreaFor huzb:huzb-50000834 .
+
+huzb:huzb-50000837 bua:hasKnowledgeArea faecherklassifikation:2930 .
+faecherklassifikation:2930 bua:knowledgeAreaFor huzb:huzb-50000837 .
+
+huzb:huzb-50000842 bua:hasKnowledgeArea faecherklassifikation:2930 .
+faecherklassifikation:2930 bua:knowledgeAreaFor huzb:huzb-50000842 .
+
+huzb:huzb-50000845 bua:hasKnowledgeArea faecherklassifikation:2960 .
+faecherklassifikation:2960 bua:knowledgeAreaFor huzb:huzb-50000845 .
+huzb:huzb-50000837 bua:geritId "282752080" .
+
+huzb:huzb-50000847 bua:hasKnowledgeArea faecherklassifikation:2960 .
+faecherklassifikation:2960 bua:knowledgeAreaFor huzb:huzb-50000847 .
+huzb:huzb-50000847 bua:geritId "350248" .
+
+huzb:huzb-50000849 bua:hasKnowledgeArea faecherklassifikation:2930 .
+faecherklassifikation:2930 bua:knowledgeAreaFor huzb:huzb-50000849 .
+huzb:huzb-50000849 bua:geritId "282753387" .
+
+huzb:huzb-50000850 bua:hasKnowledgeArea faecherklassifikation:2930 .
+faecherklassifikation:2930 bua:knowledgeAreaFor huzb:huzb-50000850 .
+huzb:huzb-50000850 bua:geritId "254026620" .
+
+huzb:huzb-50000853 bua:hasKnowledgeArea faecherklassifikation:2930 .
+faecherklassifikation:2930 bua:knowledgeAreaFor huzb:huzb-50000853 .
+huzb:huzb-50000853 bua:geritId "25220" .
+
+huzb:huzb-50001079 bua:hasKnowledgeArea faecherklassifikation:2930 .
+faecherklassifikation:2930 bua:knowledgeAreaFor huzb:huzb-50001079 .

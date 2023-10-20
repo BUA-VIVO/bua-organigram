@@ -1,0 +1,10 @@
+site_name: BUA VIVO Organigram
+site_description: Organizations structure ontologies for the members of the Berlin University Ailliance
+site_author: Rolf Guescini
+docs_dir: docs/
+repo_name: BUA-VIVO/bua-organigram
+repo_url: https://github.com/BUA-VIVO/bua-organigram
+nav:
+  - BUA VIVO Organigrams: index.md
+theme:
+  name: material

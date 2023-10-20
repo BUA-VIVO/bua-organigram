@@ -1,0 +1,1028 @@
+@prefix bua: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/> .
+@prefix char: <http://vivo.berlin-university-alliance.de/ontology/core/v1/bua/char/> .
+@prefix faecherklassifikation: <https://onto.tib.eu/destf/cs/> .
+
+
+
+########################################################################################################
+#  Charité – Universitätsmedizin Berlin Subject Matter Relations from scripted extract - not manually proof read
+########################################################################################################
+
+char:0013b3ea-96f1-3c4e-a434-63b57e5e4795 bua:geritId "177080578" ;
+    bua:hasKnowledgeArea faecherklassifikation:5010 .
+
+char:00bf2b92-bdba-36dc-b4d6-2deccef866a1 bua:hasKnowledgeArea faecherklassifikation:5220 .
+
+char:0159992b-acb3-3696-b332-a7de6371e371 bua:hasKnowledgeArea faecherklassifikation:5150 .
+
+char:017eaa11-e939-3645-84dd-d3fb26cdcd3c bua:hasKnowledgeArea faecherklassifikation:4450 .
+
+char:01a661b2-c287-3f7e-be7f-908c53274629 bua:hasKnowledgeArea faecherklassifikation:4715 .
+
+char:02c777da-80f9-386e-aa7a-2fc55f86d9ec bua:hasKnowledgeArea faecherklassifikation:5010 .
+
+char:02d7d03c-259e-3fc6-a7be-19bad27c7aa8 bua:hasKnowledgeArea faecherklassifikation:4950 .
+
+char:030a273b-6882-30ca-9ef3-a11e15577239 bua:geritId "175718599" ;
+    bua:hasKnowledgeArea faecherklassifikation:4760 .
+
+char:0438d6fe-6bf5-33c8-9e55-a5944c54127a bua:hasKnowledgeArea faecherklassifikation:5030 .
+
+char:051e5e4e-80d8-3c8e-ae4a-c05dd999a67d bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:05914756-ff6b-3aa2-ad15-2ed85a3075cd bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:07021017-4609-32fa-b9ae-3d8412898b82 bua:hasKnowledgeArea faecherklassifikation:4595 .
+
+char:081f9372-154c-3795-8e43-abdfd33cbb67 bua:hasKnowledgeArea faecherklassifikation:4780 .
+
+char:08d55569-5121-31cc-8e46-b684d8f8fe0d bua:hasKnowledgeArea faecherklassifikation:4900 .
+
+char:0de78175-b273-34f7-b722-98d3c97c6fed bua:hasKnowledgeArea faecherklassifikation:5150 .
+
+char:0ea5ebea-b94f-32bd-92d0-074be3f45975 bua:hasKnowledgeArea faecherklassifikation:5660 .
+
+char:13dc6037-3a78-337f-9696-0361301660bf bua:geritId "56296657" ;
+    bua:hasKnowledgeArea faecherklassifikation:4732 .
+
+char:17375118-f069-3163-a176-3bb79c57eaa8 bua:geritId "440397243" ;
+    bua:hasKnowledgeArea faecherklassifikation:5200 .
+
+char:19104e91-0156-367f-b60d-cbfe151cc00c bua:geritId "440430168" ;
+    bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:1a75f3d6-c528-329f-a00e-76a7ff5a4b5e bua:hasKnowledgeArea faecherklassifikation:5130 .
+
+char:1ab97ca2-efcc-3dc8-a8b4-ea9229e30352 bua:hasKnowledgeArea faecherklassifikation:4540 .
+
+char:1af41c49-c131-398e-b0d8-53eeb9f40773 bua:geritId "440428700" ;
+    bua:hasKnowledgeArea faecherklassifikation:5070 .
+
+char:1d1cd2e2-007d-3038-a961-ff06bcd57a2d bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:1db254d8-d5ee-38cc-aebc-5b36422e652b bua:hasKnowledgeArea faecherklassifikation:1740 .
+
+char:1e093dd3-c5aa-3bfc-a65d-9eb9bb3b905d bua:hasKnowledgeArea faecherklassifikation:4730 .
+
+char:1ec04f5b-9b18-366a-ba0a-23c3000a91f0 bua:hasKnowledgeArea faecherklassifikation:4732 .
+
+char:229d1c91-1724-3250-8f4f-8076e2f4fcbe bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:24fa106e-a301-3984-9665-e3f9df036956 bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:26d6c70b-8b51-305f-9a0e-362c2a74403a bua:hasKnowledgeArea faecherklassifikation:5150 .
+
+char:270e9ea3-8b45-363e-9f97-831838f1a7fd bua:hasKnowledgeArea faecherklassifikation:5210 .
+
+char:28ad82cd-20ef-3793-b62f-77544a693343 bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:2918e6d6-d793-351b-8b3e-e8099bcce477 bua:hasKnowledgeArea faecherklassifikation:4950 .
+
+char:295d6774-a55a-349f-9b51-c0ee7f9ab620 bua:hasKnowledgeArea faecherklassifikation:4700 .
+
+char:2a8cee87-2fe2-3578-b64f-4e1a22a47269 bua:geritId "10426" ;
+    bua:hasKnowledgeArea faecherklassifikation:8700 .
+
+char:2aa6de70-50a4-399c-bd88-9195b2abdb74 bua:hasKnowledgeArea faecherklassifikation:5010 .
+
+char:2c40bb58-2d2e-39dc-a058-e62ba5fb61af bua:hasKnowledgeArea faecherklassifikation:4725 .
+
+char:2e65fe48-0ac9-31cc-8a19-2ad5ffd38351 bua:geritId "25659" ;
+    bua:hasKnowledgeArea faecherklassifikation:4950 .
+
+char:31685aa1-84b4-33c6-8335-2b9002d6d5fc bua:geritId "25529" ;
+    bua:hasKnowledgeArea faecherklassifikation:4900 .
+
+char:31d88ea5-f001-3b59-8fc3-934c783af21c bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:352f4018-34d7-3c0f-9518-127809e8a431 bua:hasKnowledgeArea faecherklassifikation:5130 .
+
+char:378e1907-e42b-3354-a079-92c136762b13 bua:hasKnowledgeArea faecherklassifikation:5150 .
+
+char:39dca9c3-4d93-3bf4-8be8-bfffbda833b3 bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:3c070df5-81ec-347e-8c75-fe37bbbd2834 bua:hasKnowledgeArea faecherklassifikation:5070 .
+
+char:3d5a34e3-7658-316b-8f80-990fb672c459 bua:hasKnowledgeArea faecherklassifikation:4732 .
+
+char:3f48e28e-1030-3d8f-9ffe-8c77f092b165 bua:hasKnowledgeArea faecherklassifikation:4950 .
+
+char:42af32b8-9ed2-357f-9a58-580e39a369f6 bua:hasKnowledgeArea faecherklassifikation:4550 .
+
+char:43a03654-ec95-34aa-9308-bc986dd23c59 bua:hasKnowledgeArea faecherklassifikation:5030 .
+
+char:43ee1df6-e081-35cf-961c-4f1aaa33d044 bua:hasKnowledgeArea faecherklassifikation:4745 .
+
+char:45efdee6-ed7c-3884-b839-d4e7599d11fb bua:hasKnowledgeArea faecherklassifikation:5140 .
+
+char:46431a2c-347d-3dda-85d5-e41ba8b07667 bua:hasKnowledgeArea faecherklassifikation:4936 .
+
+char:46e309cc-b6ee-3645-8890-32799bb31288 bua:hasKnowledgeArea faecherklassifikation:4560 .
+
+char:48a18063-663a-3aef-9aa0-e23542e1a836 bua:hasKnowledgeArea faecherklassifikation:5230 .
+
+char:49b850f8-2038-33ed-b0e9-3a501c091039 bua:hasKnowledgeArea faecherklassifikation:5230 .
+
+char:503bca7e-82ff-33da-8e31-c24e7e857b6e bua:hasKnowledgeArea faecherklassifikation:4950 .
+
+char:50cbcf16-d2ab-39fb-9bc8-002361852102 bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:540d82ed-6762-3a68-bafd-c282bf976eb3 bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:57f92bfd-997b-3fcd-b831-59caf1bfa7d4 bua:hasKnowledgeArea faecherklassifikation:4770 .
+
+char:58a482dd-e9ca-35f3-9061-f81ad713e1d8 bua:hasKnowledgeArea faecherklassifikation:4980 .
+
+char:590655cb-b293-3338-8885-4bb4f10a03ab bua:hasKnowledgeArea faecherklassifikation:5200 .
+
+char:59ae3115-2183-3c29-a859-949711f26b98 bua:hasKnowledgeArea faecherklassifikation:5020 .
+
+char:5c9d954e-6ec4-320c-a90a-11ac7309ac69 bua:hasKnowledgeArea faecherklassifikation:5200 .
+
+char:5cff4205-a608-3cc9-9e3a-d22a4077f155 bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:5e7980b4-5ac6-36a9-bd02-fdd001a86bbd bua:geritId "10828" ;
+    bua:hasKnowledgeArea faecherklassifikation:4700 .
+
+char:60d2f056-7341-348e-83e0-f8729ac3c5c9 bua:hasKnowledgeArea faecherklassifikation:4710 .
+
+char:63986478-e37f-3186-8625-64708cf56d69 bua:hasKnowledgeArea faecherklassifikation:4810 .
+
+char:6404ebc9-1df3-37aa-a6e3-4e1cc5c4fadc bua:geritId "440397162" ;
+    bua:hasKnowledgeArea faecherklassifikation:4400 .
+
+char:64ea5425-5231-3a98-9876-9ed488a6f1c3 bua:hasKnowledgeArea faecherklassifikation:5060 .
+
+char:67196688-d7b2-3f68-ad69-bf12c6c34d49 bua:geritId "29756" ;
+    bua:hasKnowledgeArea faecherklassifikation:4820 .
+
+char:6838be90-4abe-3142-8f52-29d1319a4158 bua:hasKnowledgeArea faecherklassifikation:4000 .
+
+char:683dfe63-0676-3b67-b2e6-8a87f7353842 bua:hasKnowledgeArea faecherklassifikation:5200 .
+
+char:6ac43ba7-d0be-3cea-9e48-02a18698c59f bua:hasKnowledgeArea faecherklassifikation:4540 .
+
+char:6ada50ed-0981-3b25-9d5f-33f6ef0f80cf bua:hasKnowledgeArea faecherklassifikation:4936 .
+
+char:6b798b83-a32d-3086-a770-7c6d0c1f972f bua:hasKnowledgeArea faecherklassifikation:4990 .
+
+char:6be2d397-399b-38d9-9d5e-01c86a667f87 bua:hasKnowledgeArea faecherklassifikation:5150 .
+
+char:6c4f6c60-6a91-3d35-8559-d6ab76d0742a bua:hasKnowledgeArea faecherklassifikation:5150 .
+
+char:6d9f8406-f82a-34f9-9f3a-06a19430a0f8 bua:hasKnowledgeArea faecherklassifikation:4820 .
+
+char:703a6fb3-3e6c-3bbe-a7f5-986dc688f821 bua:hasKnowledgeArea faecherklassifikation:4790 .
+
+char:72348510-6aa3-3501-a045-f16f53871dd6 bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:7513407b-a396-3cf0-bd00-4d41794dd2af bua:hasKnowledgeArea faecherklassifikation:4715 .
+
+char:758c43bf-1831-34b7-926b-a4d2482f7596 bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:80ff9a5b-fe09-398e-a72c-9a6804bafbc5 bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:81fea04a-3912-3a1a-9f4b-9ca2cd5047fa bua:hasKnowledgeArea faecherklassifikation:4730 .
+
+char:8221cca0-f698-311e-8ffe-969436ea62ff bua:hasKnowledgeArea faecherklassifikation:4550 .
+
+char:83c6ba25-e747-363a-a2f4-f8518f81d5c9 bua:geritId "208457497" ;
+    bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:840458e1-230c-35bb-b792-992e9aefe80c bua:hasKnowledgeArea faecherklassifikation:5120 .
+
+char:8434d7f3-68e5-381c-9dc4-8ecf67f09ce3 bua:hasKnowledgeArea faecherklassifikation:4900 .
+
+char:87b3cdb7-ef45-35a6-8fd3-c240de4c2c99 bua:hasKnowledgeArea faecherklassifikation:5120 .
+
+char:88416ad6-2392-3a45-af29-f7e865a0e036 bua:hasKnowledgeArea faecherklassifikation:4810 .
+
+char:89687b3e-2897-3761-a807-1f43c38b344c bua:hasKnowledgeArea faecherklassifikation:5060 .
+
+char:8ccf424a-9ec0-3a49-a19c-01cf614b9ce3 bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:8d16a814-982c-3873-8043-d9ccce879ded bua:hasKnowledgeArea faecherklassifikation:4980 .
+
+char:8d22cabb-87c8-3236-937d-43e46725d3ca bua:hasKnowledgeArea faecherklassifikation:4560 .
+
+char:8d5e3345-49ed-3738-960a-8deadae01a9d bua:geritId "312865382" ;
+    bua:hasKnowledgeArea faecherklassifikation:4736 .
+
+char:91f888f6-8008-3b81-b894-79e7e241d817 bua:geritId "972529" ;
+    bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:9324bf24-12f8-30b9-a875-9f315e2fdebf bua:hasKnowledgeArea faecherklassifikation:4730 .
+
+char:9393af5b-7759-3175-8dfe-97f4f02934a2 bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:941e6d49-be2d-3314-8d91-646fed534938 bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:95e93f9d-539a-31d6-ad6d-e26f11d209a9 bua:hasKnowledgeArea faecherklassifikation:4400 .
+
+char:966075bf-c677-3587-bbec-9db9520b33e3 bua:hasKnowledgeArea faecherklassifikation:4936 .
+
+char:966ee49e-b4f9-362b-b3dd-3741065c34e0 bua:hasKnowledgeArea faecherklassifikation:4950 .
+
+char:969236b6-72db-3dd1-a285-6cae8c9fac90 bua:hasKnowledgeArea faecherklassifikation:4950 .
+
+char:978ea544-0376-31f6-b39e-350cbc1c7b5b bua:hasKnowledgeArea faecherklassifikation:4970 .
+
+char:97d6a247-3413-3e57-bfdf-0718de4b91ca bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:991f81ea-b31f-371c-9b87-c9b192db4c86 bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:9954ac98-b885-3230-bac2-a4563b2280d4 bua:hasKnowledgeArea faecherklassifikation:5030 .
+
+char:9ca66416-bde2-3890-97b8-09e10836d0c0 bua:hasKnowledgeArea faecherklassifikation:4540 .
+
+char:9f3b3985-445b-39c4-abc8-264ff965b46e bua:geritId "440437070" ;
+    bua:hasKnowledgeArea faecherklassifikation:4732 .
+
+char:a0fd370a-2c01-372e-8d0a-938797d42bf3 bua:hasKnowledgeArea faecherklassifikation:4990 .
+
+char:a32a4654-e23c-396b-8a97-2da5af29eca2 bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:a727ea95-e1c5-3773-b006-ec50c18111f2 bua:hasKnowledgeArea faecherklassifikation:4990 .
+
+char:ac63db0f-b412-32cf-b509-e125d744741f bua:hasKnowledgeArea faecherklassifikation:5130 .
+
+char:ad886868-4151-30e1-acdf-034b2fc24d7a bua:geritId "9330153" ;
+    bua:hasKnowledgeArea faecherklassifikation:4595 .
+
+char:b07cc50b-7e9e-3fe3-8442-456292879dae bua:geritId "440437002" ;
+    bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:b0864e3a-e76d-3f64-ad50-0a176c491a7a bua:hasKnowledgeArea faecherklassifikation:4750 .
+
+char:b104e929-a4ec-3a59-9ade-1f83813fe4db bua:hasKnowledgeArea faecherklassifikation:4705 .
+
+char:b131f066-e54c-3d43-947d-427c406a6a8f bua:hasKnowledgeArea faecherklassifikation:5120 .
+
+char:b360bd03-19b1-3a25-9026-04e79c3b19e0 bua:geritId "440428919" ;
+    bua:hasKnowledgeArea faecherklassifikation:4980 .
+
+char:b48376a7-4c3f-3972-bf5f-cf0967cce425 bua:hasKnowledgeArea faecherklassifikation:4990 .
+
+char:b4ddccfa-1fd8-395f-ad42-83cef3f18862 bua:hasKnowledgeArea faecherklassifikation:5030 .
+
+char:b5bee968-732f-3e03-8ee0-8394d8455cfb bua:hasKnowledgeArea faecherklassifikation:5130 .
+
+char:b6fd5c75-24ca-3413-b346-49a9c80943b3 bua:hasKnowledgeArea faecherklassifikation:5070 .
+
+char:b931353f-4f70-351a-b4af-2af40e30cf97 bua:hasKnowledgeArea faecherklassifikation:4710 .
+
+char:bfce9c1a-5db3-3587-982b-a0b142ba95d1 bua:hasKnowledgeArea faecherklassifikation:4990 .
+
+char:c115b5cd-9c6a-3135-8b78-eaf65676e1d4 bua:hasKnowledgeArea faecherklassifikation:4770 .
+
+char:c1f1c9f2-b295-3b0b-9e6a-9104150b5e9f bua:hasKnowledgeArea faecherklassifikation:5020 .
+
+char:c26fda78-ff47-347b-a18f-6f66aeadf7ef bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:c27f1b26-2f7e-356d-aaa4-ff566d9a1332 bua:hasKnowledgeArea faecherklassifikation:4810 .
+
+char:c2c1ffe6-683e-3592-a64d-797ec013fbbe bua:hasKnowledgeArea faecherklassifikation:4990 .
+
+char:c485d874-f0ac-39e0-8724-5dfc371d6056 bua:hasKnowledgeArea faecherklassifikation:4715 .
+
+char:c5fe552a-a7e9-37d9-9bef-b84141377108 bua:geritId "970996" ;
+    bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:c6de5ee9-17d7-3dc5-b5af-3547f9eb6dd1 bua:hasKnowledgeArea faecherklassifikation:5120 .
+
+char:c728b7e3-0a3c-3093-afd2-bda95f020fa1 bua:hasKnowledgeArea faecherklassifikation:4980 .
+
+char:c9b922d2-cf2c-30c5-83a5-7e3f58c29470 bua:hasKnowledgeArea faecherklassifikation:1700 .
+
+char:cc066818-dafe-37c8-baaf-6f1c39e34532 bua:hasKnowledgeArea faecherklassifikation:4910 .
+
+char:ccd3d55a-4942-3d40-a3d9-b2f52945bdf6 bua:hasKnowledgeArea faecherklassifikation:4900 .
+
+char:ccf831c9-eca5-3ee5-a388-910c5ab66948 bua:hasKnowledgeArea faecherklassifikation:4740 .
+
+char:d170035d-80c1-39c6-ac97-f685f781f499 bua:hasKnowledgeArea faecherklassifikation:4810 .
+
+char:d2408e48-0d08-3d36-87d5-9866c25856a7 bua:hasKnowledgeArea faecherklassifikation:4760 .
+
+char:d4071cf9-9ef1-3c1a-a5c1-03147b5c7a58 bua:hasKnowledgeArea faecherklassifikation:4595 .
+
+char:d4986170-a218-35e9-86da-0ed93c1ec9a4 bua:hasKnowledgeArea faecherklassifikation:5010 .
+
+char:d4eb76a7-41d4-355b-95e4-cf49ffc8b4e3 bua:hasKnowledgeArea faecherklassifikation:4745 .
+
+char:d5d25f78-688c-316c-a9df-881f447a94ae bua:geritId "502274113" ;
+    bua:hasKnowledgeArea faecherklassifikation:5030 .
+
+char:d6203ad0-b665-3755-b4b0-2605bde8cee2 bua:hasKnowledgeArea faecherklassifikation:5230 .
+
+char:d8a7e51c-b0da-32a7-a460-c7d21aad7f7b bua:hasKnowledgeArea faecherklassifikation:4950 .
+
+char:d989e75e-c234-369b-8c55-b8bc5774e731 bua:hasKnowledgeArea faecherklassifikation:4080 .
+
+char:de906707-a488-363d-950b-3942b7dadede bua:geritId "228941589" ;
+    bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:e229576d-cc5a-3b48-a8d3-204ea941b5a1 bua:hasKnowledgeArea faecherklassifikation:4540 .
+
+char:e3954ae8-e95b-3bd3-a464-d70bdd03be92 bua:hasKnowledgeArea faecherklassifikation:4775 .
+
+char:e3bbd949-dcc9-3864-bc92-b41ac6e23f27 bua:hasKnowledgeArea faecherklassifikation:4810 .
+
+char:e85827ff-8336-3630-b6d2-badd7236fe36 bua:geritId "440397823" ;
+    bua:hasKnowledgeArea faecherklassifikation:4400 .
+
+char:e90e814e-f810-3ea2-99ed-1bc23fb17211 bua:hasKnowledgeArea faecherklassifikation:4960 .
+
+char:ec22babb-a5bb-321f-9ff1-2226f475c9d0 bua:hasKnowledgeArea faecherklassifikation:5040 .
+
+char:ec931f9a-1ae5-3b93-9941-cbb8f4e15f46 bua:hasKnowledgeArea faecherklassifikation:4525 .
+
+char:f11a7d68-d59d-33cf-848f-30a3fb904e16 bua:hasKnowledgeArea faecherklassifikation:5030 .
+
+char:f1bd3b80-f7ed-3aa1-b5a8-2bf3c211408e bua:hasKnowledgeArea faecherklassifikation:4940 .
+
+char:f57b969a-8382-328c-b0d5-32048669d04f bua:hasKnowledgeArea faecherklassifikation:5160 .
+
+char:f9a4a38c-811c-3298-bda1-bf79e89ba9a8 bua:hasKnowledgeArea faecherklassifikation:4400 .
+
+char:fc0b5ddb-9139-3234-8e9c-b62a4742770c bua:hasKnowledgeArea faecherklassifikation:4715 .
+
+char:fc40c28c-c7a8-363a-8e01-8b9a2f65d75e bua:hasKnowledgeArea faecherklassifikation:4980 .
+
+char:fc852ace-b862-355d-91fb-14a0d0c45d2b bua:hasKnowledgeArea faecherklassifikation:4950 .
+
+char:fee4d4f3-93b6-37b7-b1f8-b99460afa078 bua:hasKnowledgeArea faecherklassifikation:5050 .
+
+faecherklassifikation:1700 bua:knowledgeAreaFor char:c9b922d2-cf2c-30c5-83a5-7e3f58c29470 .
+
+faecherklassifikation:2400 bua:knowledgeAreaFor char:ad28d69d-308a-32c9-82fe-d7969048d3f6 .
+
+faecherklassifikation:4030 bua:knowledgeAreaFor char:5bfce03f-b194-34ef-b2aa-33895e1d8020 .
+
+faecherklassifikation:4080 bua:knowledgeAreaFor char:d989e75e-c234-369b-8c55-b8bc5774e731 .
+
+faecherklassifikation:4457 bua:knowledgeAreaFor char:ad28d69d-308a-32c9-82fe-d7969048d3f6 .
+
+faecherklassifikation:4459 bua:knowledgeAreaFor char:25c389eb-f7d1-3c7f-9b32-a81e987ff108 .
+
+faecherklassifikation:4510 bua:knowledgeAreaFor char:5bfce03f-b194-34ef-b2aa-33895e1d8020 .
+
+faecherklassifikation:4580 bua:knowledgeAreaFor char:abf4dc0e-483b-31dd-bb8e-20dbebad00f2 .
+
+faecherklassifikation:4585 bua:knowledgeAreaFor char:25e3702b-323b-330d-b407-eb37bd1ada71 .
+
+faecherklassifikation:4705 bua:knowledgeAreaFor char:b104e929-a4ec-3a59-9ade-1f83813fe4db .
+
+faecherklassifikation:4725 bua:knowledgeAreaFor char:2c40bb58-2d2e-39dc-a058-e62ba5fb61af .
+
+faecherklassifikation:4736 bua:knowledgeAreaFor char:8d5e3345-49ed-3738-960a-8deadae01a9d .
+
+faecherklassifikation:4740 bua:knowledgeAreaFor char:ccf831c9-eca5-3ee5-a388-910c5ab66948 .
+
+faecherklassifikation:4750 bua:knowledgeAreaFor char:b0864e3a-e76d-3f64-ad50-0a176c491a7a .
+
+faecherklassifikation:4775 bua:knowledgeAreaFor char:e3954ae8-e95b-3bd3-a464-d70bdd03be92 .
+
+faecherklassifikation:4776 bua:knowledgeAreaFor char:25e3702b-323b-330d-b407-eb37bd1ada71 .
+
+faecherklassifikation:4790 bua:knowledgeAreaFor char:703a6fb3-3e6c-3bbe-a7f5-986dc688f821 .
+
+faecherklassifikation:4960 bua:knowledgeAreaFor char:e90e814e-f810-3ea2-99ed-1bc23fb17211 .
+
+faecherklassifikation:4970 bua:knowledgeAreaFor char:978ea544-0376-31f6-b39e-350cbc1c7b5b .
+
+faecherklassifikation:5110 bua:knowledgeAreaFor char:25c389eb-f7d1-3c7f-9b32-a81e987ff108 .
+
+faecherklassifikation:5160 bua:knowledgeAreaFor char:f57b969a-8382-328c-b0d5-32048669d04f .
+
+faecherklassifikation:5210 bua:knowledgeAreaFor char:270e9ea3-8b45-363e-9f97-831838f1a7fd .
+
+faecherklassifikation:5220 bua:knowledgeAreaFor char:00bf2b92-bdba-36dc-b4d6-2deccef866a1 .
+
+faecherklassifikation:5240 bua:knowledgeAreaFor char:c5321319-ad85-3728-8f27-28357ca4f01b .
+
+faecherklassifikation:5660 bua:knowledgeAreaFor char:0ea5ebea-b94f-32bd-92d0-074be3f45975 .
+
+faecherklassifikation:8700 bua:knowledgeAreaFor char:2a8cee87-2fe2-3578-b64f-4e1a22a47269 .
+
+char:0d047f38-72ca-32fd-aa21-52ff639ec769 bua:hasKnowledgeArea faecherklassifikation:4810,
+        faecherklassifikation:4950 .
+
+char:20b49176-1dc4-3a0f-96d9-8212a008dbcd bua:hasKnowledgeArea faecherklassifikation:4810,
+        faecherklassifikation:5140 .
+
+char:21403aeb-cfad-3b00-879c-994fcc68d481 bua:hasKnowledgeArea faecherklassifikation:3540,
+        faecherklassifikation:4000 .
+
+char:25e3702b-323b-330d-b407-eb37bd1ada71 bua:hasKnowledgeArea faecherklassifikation:4585,
+        faecherklassifikation:4776 .
+
+char:32f5ed3d-2d62-3ec5-85c5-d356adccb9ab bua:hasKnowledgeArea faecherklassifikation:4980,
+        faecherklassifikation:5010 .
+
+char:3416eb81-8f2c-353b-a833-5dc1389b42e3 bua:hasKnowledgeArea faecherklassifikation:4920,
+        faecherklassifikation:4940 .
+
+char:3753cf06-c9cb-3d67-aa88-c2b07ac414de bua:hasKnowledgeArea faecherklassifikation:3540,
+        faecherklassifikation:4000 .
+
+char:55a01b37-bf10-3826-9939-0af9703f3a22 bua:hasKnowledgeArea faecherklassifikation:4810,
+        faecherklassifikation:5140 .
+
+char:5bfce03f-b194-34ef-b2aa-33895e1d8020 bua:hasKnowledgeArea faecherklassifikation:4030,
+        faecherklassifikation:4510 .
+
+char:5ff0543e-ed9a-3c3b-8e20-01b774939427 bua:hasKnowledgeArea faecherklassifikation:4980,
+        faecherklassifikation:5010 .
+
+char:6e4ad14f-9f1e-389a-b62b-ad7f88bc9faf bua:hasKnowledgeArea faecherklassifikation:4020,
+        faecherklassifikation:4780 .
+
+char:8e805c8d-b44f-3bb7-8937-6d0e5876ecc7 bua:geritId "440437359" ;
+    bua:hasKnowledgeArea faecherklassifikation:5020,
+        faecherklassifikation:5030 .
+
+char:abf4dc0e-483b-31dd-bb8e-20dbebad00f2 bua:hasKnowledgeArea faecherklassifikation:4580,
+        faecherklassifikation:5050 .
+
+char:ad28d69d-308a-32c9-82fe-d7969048d3f6 bua:hasKnowledgeArea faecherklassifikation:2400,
+        faecherklassifikation:4457 .
+
+char:b2323a4b-5e40-3311-9a67-dc51dee9bed4 bua:hasKnowledgeArea faecherklassifikation:4400,
+        faecherklassifikation:5040 .
+
+char:b38866cb-37a0-3ec5-83d0-ef032b06806e bua:hasKnowledgeArea faecherklassifikation:4940,
+        faecherklassifikation:5140 .
+
+char:c5321319-ad85-3728-8f27-28357ca4f01b bua:hasKnowledgeArea faecherklassifikation:5200,
+        faecherklassifikation:5240 .
+
+char:c7f70f8f-25ff-3612-93c6-ea766bfb77f4 bua:hasKnowledgeArea faecherklassifikation:4020,
+        faecherklassifikation:4780 .
+
+char:d89ea363-3092-3f44-a328-61679f85d4f4 bua:geritId "440429043" ;
+    bua:hasKnowledgeArea faecherklassifikation:4980,
+        faecherklassifikation:5010 .
+
+char:ea4a7f72-2546-3118-82c1-c02023d193ab bua:hasKnowledgeArea faecherklassifikation:4730,
+        faecherklassifikation:4950 .
+
+char:eadf9c13-e1d4-381d-addf-404cbb063f06 bua:hasKnowledgeArea faecherklassifikation:4000,
+        faecherklassifikation:4745 .
+
+faecherklassifikation:3540 bua:knowledgeAreaFor char:21403aeb-cfad-3b00-879c-994fcc68d481,
+        char:3753cf06-c9cb-3d67-aa88-c2b07ac414de .
+
+faecherklassifikation:3560 bua:knowledgeAreaFor char:a33ade69-5d09-3056-b591-34a8234a7058,
+        char:f2e55c7f-a54a-35e4-a29c-4c4ceadc993d .
+
+faecherklassifikation:4020 bua:knowledgeAreaFor char:6e4ad14f-9f1e-389a-b62b-ad7f88bc9faf,
+        char:c7f70f8f-25ff-3612-93c6-ea766bfb77f4 .
+
+faecherklassifikation:4450 bua:knowledgeAreaFor char:017eaa11-e939-3645-84dd-d3fb26cdcd3c,
+        char:a170c373-91b9-3f0e-97b4-73fe25152405 .
+
+faecherklassifikation:4550 bua:knowledgeAreaFor char:42af32b8-9ed2-357f-9a58-580e39a369f6,
+        char:8221cca0-f698-311e-8ffe-969436ea62ff .
+
+faecherklassifikation:4560 bua:knowledgeAreaFor char:46e309cc-b6ee-3645-8890-32799bb31288,
+        char:8d22cabb-87c8-3236-937d-43e46725d3ca .
+
+faecherklassifikation:4710 bua:knowledgeAreaFor char:60d2f056-7341-348e-83e0-f8729ac3c5c9,
+        char:b931353f-4f70-351a-b4af-2af40e30cf97 .
+
+faecherklassifikation:4760 bua:knowledgeAreaFor char:030a273b-6882-30ca-9ef3-a11e15577239,
+        char:d2408e48-0d08-3d36-87d5-9866c25856a7 .
+
+faecherklassifikation:4770 bua:knowledgeAreaFor char:57f92bfd-997b-3fcd-b831-59caf1bfa7d4,
+        char:c115b5cd-9c6a-3135-8b78-eaf65676e1d4 .
+
+faecherklassifikation:4820 bua:knowledgeAreaFor char:67196688-d7b2-3f68-ad69-bf12c6c34d49,
+        char:6d9f8406-f82a-34f9-9f3a-06a19430a0f8 .
+
+faecherklassifikation:4910 bua:knowledgeAreaFor char:a170c373-91b9-3f0e-97b4-73fe25152405,
+        char:cc066818-dafe-37c8-baaf-6f1c39e34532 .
+
+faecherklassifikation:4920 bua:knowledgeAreaFor char:17586aee-d7c2-3a3d-b1a9-c96fe9259c5d,
+        char:3416eb81-8f2c-353b-a833-5dc1389b42e3 .
+
+char:17586aee-d7c2-3a3d-b1a9-c96fe9259c5d bua:hasKnowledgeArea faecherklassifikation:4700,
+        faecherklassifikation:4730,
+        faecherklassifikation:4920 .
+
+char:25c389eb-f7d1-3c7f-9b32-a81e987ff108 bua:hasKnowledgeArea faecherklassifikation:4459,
+        faecherklassifikation:4745,
+        faecherklassifikation:5110 .
+
+char:987c586f-c196-36d2-be7e-765d7335f332 bua:geritId "259739890" ;
+    bua:hasKnowledgeArea faecherklassifikation:5040,
+        faecherklassifikation:5050,
+        faecherklassifikation:5130 .
+
+char:a33ade69-5d09-3056-b591-34a8234a7058 bua:geritId "453312152" ;
+    bua:hasKnowledgeArea faecherklassifikation:3560,
+        faecherklassifikation:4525,
+        faecherklassifikation:5040 .
+
+char:e9bb69db-4281-3947-a85a-c7ddf926fea6 bua:hasKnowledgeArea faecherklassifikation:1740,
+        faecherklassifikation:5050,
+        faecherklassifikation:5060 .
+
+char:ec51bb62-166d-31d9-808a-e1e0b6a50f9c bua:hasKnowledgeArea faecherklassifikation:1740,
+        faecherklassifikation:5050,
+        faecherklassifikation:5060 .
+
+char:f2e55c7f-a54a-35e4-a29c-4c4ceadc993d bua:hasKnowledgeArea faecherklassifikation:3560,
+        faecherklassifikation:4525,
+        faecherklassifikation:5040 .
+
+faecherklassifikation:1740 bua:knowledgeAreaFor char:1db254d8-d5ee-38cc-aebc-5b36422e652b,
+        char:e9bb69db-4281-3947-a85a-c7ddf926fea6,
+        char:ec51bb62-166d-31d9-808a-e1e0b6a50f9c .
+
+faecherklassifikation:4525 bua:knowledgeAreaFor char:a33ade69-5d09-3056-b591-34a8234a7058,
+        char:ec931f9a-1ae5-3b93-9941-cbb8f4e15f46,
+        char:f2e55c7f-a54a-35e4-a29c-4c4ceadc993d .
+
+faecherklassifikation:4595 bua:knowledgeAreaFor char:07021017-4609-32fa-b9ae-3d8412898b82,
+        char:ad886868-4151-30e1-acdf-034b2fc24d7a,
+        char:d4071cf9-9ef1-3c1a-a5c1-03147b5c7a58 .
+
+faecherklassifikation:4700 bua:knowledgeAreaFor char:17586aee-d7c2-3a3d-b1a9-c96fe9259c5d,
+        char:295d6774-a55a-349f-9b51-c0ee7f9ab620,
+        char:5e7980b4-5ac6-36a9-bd02-fdd001a86bbd .
+
+faecherklassifikation:4780 bua:knowledgeAreaFor char:081f9372-154c-3795-8e43-abdfd33cbb67,
+        char:6e4ad14f-9f1e-389a-b62b-ad7f88bc9faf,
+        char:c7f70f8f-25ff-3612-93c6-ea766bfb77f4 .
+
+faecherklassifikation:4936 bua:knowledgeAreaFor char:46431a2c-347d-3dda-85d5-e41ba8b07667,
+        char:6ada50ed-0981-3b25-9d5f-33f6ef0f80cf,
+        char:966075bf-c677-3587-bbec-9db9520b33e3 .
+
+faecherklassifikation:5020 bua:knowledgeAreaFor char:59ae3115-2183-3c29-a859-949711f26b98,
+        char:8e805c8d-b44f-3bb7-8937-6d0e5876ecc7,
+        char:c1f1c9f2-b295-3b0b-9e6a-9104150b5e9f .
+
+faecherklassifikation:5070 bua:knowledgeAreaFor char:1af41c49-c131-398e-b0d8-53eeb9f40773,
+        char:3c070df5-81ec-347e-8c75-fe37bbbd2834,
+        char:b6fd5c75-24ca-3413-b346-49a9c80943b3 .
+
+faecherklassifikation:5230 bua:knowledgeAreaFor char:48a18063-663a-3aef-9aa0-e23542e1a836,
+        char:49b850f8-2038-33ed-b0e9-3a501c091039,
+        char:d6203ad0-b665-3755-b4b0-2605bde8cee2 .
+
+faecherklassifikation:4000 bua:knowledgeAreaFor char:21403aeb-cfad-3b00-879c-994fcc68d481,
+        char:3753cf06-c9cb-3d67-aa88-c2b07ac414de,
+        char:6838be90-4abe-3142-8f52-29d1319a4158,
+        char:eadf9c13-e1d4-381d-addf-404cbb063f06 .
+
+faecherklassifikation:4540 bua:knowledgeAreaFor char:1ab97ca2-efcc-3dc8-a8b4-ea9229e30352,
+        char:6ac43ba7-d0be-3cea-9e48-02a18698c59f,
+        char:9ca66416-bde2-3890-97b8-09e10836d0c0,
+        char:e229576d-cc5a-3b48-a8d3-204ea941b5a1 .
+
+faecherklassifikation:4715 bua:knowledgeAreaFor char:01a661b2-c287-3f7e-be7f-908c53274629,
+        char:7513407b-a396-3cf0-bd00-4d41794dd2af,
+        char:c485d874-f0ac-39e0-8724-5dfc371d6056,
+        char:fc0b5ddb-9139-3234-8e9c-b62a4742770c .
+
+faecherklassifikation:4732 bua:knowledgeAreaFor char:13dc6037-3a78-337f-9696-0361301660bf,
+        char:1ec04f5b-9b18-366a-ba0a-23c3000a91f0,
+        char:3d5a34e3-7658-316b-8f80-990fb672c459,
+        char:9f3b3985-445b-39c4-abc8-264ff965b46e .
+
+faecherklassifikation:4745 bua:knowledgeAreaFor char:25c389eb-f7d1-3c7f-9b32-a81e987ff108,
+        char:43ee1df6-e081-35cf-961c-4f1aaa33d044,
+        char:d4eb76a7-41d4-355b-95e4-cf49ffc8b4e3,
+        char:eadf9c13-e1d4-381d-addf-404cbb063f06 .
+
+faecherklassifikation:5060 bua:knowledgeAreaFor char:64ea5425-5231-3a98-9876-9ed488a6f1c3,
+        char:89687b3e-2897-3761-a807-1f43c38b344c,
+        char:e9bb69db-4281-3947-a85a-c7ddf926fea6,
+        char:ec51bb62-166d-31d9-808a-e1e0b6a50f9c .
+
+faecherklassifikation:5120 bua:knowledgeAreaFor char:840458e1-230c-35bb-b792-992e9aefe80c,
+        char:87b3cdb7-ef45-35a6-8fd3-c240de4c2c99,
+        char:b131f066-e54c-3d43-947d-427c406a6a8f,
+        char:c6de5ee9-17d7-3dc5-b5af-3547f9eb6dd1 .
+
+faecherklassifikation:5140 bua:knowledgeAreaFor char:20b49176-1dc4-3a0f-96d9-8212a008dbcd,
+        char:45efdee6-ed7c-3884-b839-d4e7599d11fb,
+        char:55a01b37-bf10-3826-9939-0af9703f3a22,
+        char:b38866cb-37a0-3ec5-83d0-ef032b06806e .
+
+char:a170c373-91b9-3f0e-97b4-73fe25152405 bua:hasKnowledgeArea faecherklassifikation:4400,
+        faecherklassifikation:4450,
+        faecherklassifikation:4900,
+        faecherklassifikation:4910,
+        faecherklassifikation:4940 .
+
+faecherklassifikation:4730 bua:knowledgeAreaFor char:17586aee-d7c2-3a3d-b1a9-c96fe9259c5d,
+        char:1e093dd3-c5aa-3bfc-a65d-9eb9bb3b905d,
+        char:81fea04a-3912-3a1a-9f4b-9ca2cd5047fa,
+        char:9324bf24-12f8-30b9-a875-9f315e2fdebf,
+        char:ea4a7f72-2546-3118-82c1-c02023d193ab .
+
+faecherklassifikation:4900 bua:knowledgeAreaFor char:08d55569-5121-31cc-8e46-b684d8f8fe0d,
+        char:31685aa1-84b4-33c6-8335-2b9002d6d5fc,
+        char:8434d7f3-68e5-381c-9dc4-8ecf67f09ce3,
+        char:a170c373-91b9-3f0e-97b4-73fe25152405,
+        char:ccd3d55a-4942-3d40-a3d9-b2f52945bdf6 .
+
+faecherklassifikation:5050 bua:knowledgeAreaFor char:987c586f-c196-36d2-be7e-765d7335f332,
+        char:abf4dc0e-483b-31dd-bb8e-20dbebad00f2,
+        char:e9bb69db-4281-3947-a85a-c7ddf926fea6,
+        char:ec51bb62-166d-31d9-808a-e1e0b6a50f9c,
+        char:fee4d4f3-93b6-37b7-b1f8-b99460afa078 .
+
+faecherklassifikation:5130 bua:knowledgeAreaFor char:1a75f3d6-c528-329f-a00e-76a7ff5a4b5e,
+        char:352f4018-34d7-3c0f-9518-127809e8a431,
+        char:987c586f-c196-36d2-be7e-765d7335f332,
+        char:ac63db0f-b412-32cf-b509-e125d744741f,
+        char:b5bee968-732f-3e03-8ee0-8394d8455cfb .
+
+faecherklassifikation:5200 bua:knowledgeAreaFor char:17375118-f069-3163-a176-3bb79c57eaa8,
+        char:590655cb-b293-3338-8885-4bb4f10a03ab,
+        char:5c9d954e-6ec4-320c-a90a-11ac7309ac69,
+        char:683dfe63-0676-3b67-b2e6-8a87f7353842,
+        char:c5321319-ad85-3728-8f27-28357ca4f01b .
+
+faecherklassifikation:4400 bua:knowledgeAreaFor char:6404ebc9-1df3-37aa-a6e3-4e1cc5c4fadc,
+        char:95e93f9d-539a-31d6-ad6d-e26f11d209a9,
+        char:a170c373-91b9-3f0e-97b4-73fe25152405,
+        char:b2323a4b-5e40-3311-9a67-dc51dee9bed4,
+        char:e85827ff-8336-3630-b6d2-badd7236fe36,
+        char:f9a4a38c-811c-3298-bda1-bf79e89ba9a8 .
+
+faecherklassifikation:4990 bua:knowledgeAreaFor char:6b798b83-a32d-3086-a770-7c6d0c1f972f,
+        char:a0fd370a-2c01-372e-8d0a-938797d42bf3,
+        char:a727ea95-e1c5-3773-b006-ec50c18111f2,
+        char:b48376a7-4c3f-3972-bf5f-cf0967cce425,
+        char:bfce9c1a-5db3-3587-982b-a0b142ba95d1,
+        char:c2c1ffe6-683e-3592-a64d-797ec013fbbe .
+
+faecherklassifikation:5150 bua:knowledgeAreaFor char:0159992b-acb3-3696-b332-a7de6371e371,
+        char:0de78175-b273-34f7-b722-98d3c97c6fed,
+        char:26d6c70b-8b51-305f-9a0e-362c2a74403a,
+        char:378e1907-e42b-3354-a079-92c136762b13,
+        char:6be2d397-399b-38d9-9d5e-01c86a667f87,
+        char:6c4f6c60-6a91-3d35-8559-d6ab76d0742a .
+
+faecherklassifikation:5010 bua:knowledgeAreaFor char:0013b3ea-96f1-3c4e-a434-63b57e5e4795,
+        char:02c777da-80f9-386e-aa7a-2fc55f86d9ec,
+        char:2aa6de70-50a4-399c-bd88-9195b2abdb74,
+        char:32f5ed3d-2d62-3ec5-85c5-d356adccb9ab,
+        char:5ff0543e-ed9a-3c3b-8e20-01b774939427,
+        char:d4986170-a218-35e9-86da-0ed93c1ec9a4,
+        char:d89ea363-3092-3f44-a328-61679f85d4f4 .
+
+faecherklassifikation:5030 bua:knowledgeAreaFor char:0438d6fe-6bf5-33c8-9e55-a5944c54127a,
+        char:43a03654-ec95-34aa-9308-bc986dd23c59,
+        char:8e805c8d-b44f-3bb7-8937-6d0e5876ecc7,
+        char:9954ac98-b885-3230-bac2-a4563b2280d4,
+        char:b4ddccfa-1fd8-395f-ad42-83cef3f18862,
+        char:d5d25f78-688c-316c-a9df-881f447a94ae,
+        char:f11a7d68-d59d-33cf-848f-30a3fb904e16 .
+
+faecherklassifikation:4810 bua:knowledgeAreaFor char:0d047f38-72ca-32fd-aa21-52ff639ec769,
+        char:20b49176-1dc4-3a0f-96d9-8212a008dbcd,
+        char:55a01b37-bf10-3826-9939-0af9703f3a22,
+        char:63986478-e37f-3186-8625-64708cf56d69,
+        char:88416ad6-2392-3a45-af29-f7e865a0e036,
+        char:c27f1b26-2f7e-356d-aaa4-ff566d9a1332,
+        char:d170035d-80c1-39c6-ac97-f685f781f499,
+        char:e3bbd949-dcc9-3864-bc92-b41ac6e23f27 .
+
+faecherklassifikation:4980 bua:knowledgeAreaFor char:32f5ed3d-2d62-3ec5-85c5-d356adccb9ab,
+        char:58a482dd-e9ca-35f3-9061-f81ad713e1d8,
+        char:5ff0543e-ed9a-3c3b-8e20-01b774939427,
+        char:8d16a814-982c-3873-8043-d9ccce879ded,
+        char:b360bd03-19b1-3a25-9026-04e79c3b19e0,
+        char:c728b7e3-0a3c-3093-afd2-bda95f020fa1,
+        char:d89ea363-3092-3f44-a328-61679f85d4f4,
+        char:fc40c28c-c7a8-363a-8e01-8b9a2f65d75e .
+
+faecherklassifikation:4950 bua:knowledgeAreaFor char:02d7d03c-259e-3fc6-a7be-19bad27c7aa8,
+        char:0d047f38-72ca-32fd-aa21-52ff639ec769,
+        char:2918e6d6-d793-351b-8b3e-e8099bcce477,
+        char:2e65fe48-0ac9-31cc-8a19-2ad5ffd38351,
+        char:3f48e28e-1030-3d8f-9ffe-8c77f092b165,
+        char:503bca7e-82ff-33da-8e31-c24e7e857b6e,
+        char:966ee49e-b4f9-362b-b3dd-3741065c34e0,
+        char:969236b6-72db-3dd1-a285-6cae8c9fac90,
+        char:d8a7e51c-b0da-32a7-a460-c7d21aad7f7b,
+        char:ea4a7f72-2546-3118-82c1-c02023d193ab,
+        char:fc852ace-b862-355d-91fb-14a0d0c45d2b .
+
+faecherklassifikation:5040 bua:knowledgeAreaFor char:051e5e4e-80d8-3c8e-ae4a-c05dd999a67d,
+        char:24fa106e-a301-3984-9665-e3f9df036956,
+        char:28ad82cd-20ef-3793-b62f-77544a693343,
+        char:39dca9c3-4d93-3bf4-8be8-bfffbda833b3,
+        char:50cbcf16-d2ab-39fb-9bc8-002361852102,
+        char:540d82ed-6762-3a68-bafd-c282bf976eb3,
+        char:5cff4205-a608-3cc9-9e3a-d22a4077f155,
+        char:80ff9a5b-fe09-398e-a72c-9a6804bafbc5,
+        char:941e6d49-be2d-3314-8d91-646fed534938,
+        char:97d6a247-3413-3e57-bfdf-0718de4b91ca,
+        char:987c586f-c196-36d2-be7e-765d7335f332,
+        char:a33ade69-5d09-3056-b591-34a8234a7058,
+        char:b2323a4b-5e40-3311-9a67-dc51dee9bed4,
+        char:c26fda78-ff47-347b-a18f-6f66aeadf7ef,
+        char:de906707-a488-363d-950b-3942b7dadede,
+        char:ec22babb-a5bb-321f-9ff1-2226f475c9d0,
+        char:f2e55c7f-a54a-35e4-a29c-4c4ceadc993d .
+
+faecherklassifikation:4940 bua:knowledgeAreaFor char:05914756-ff6b-3aa2-ad15-2ed85a3075cd,
+        char:19104e91-0156-367f-b60d-cbfe151cc00c,
+        char:1d1cd2e2-007d-3038-a961-ff06bcd57a2d,
+        char:229d1c91-1724-3250-8f4f-8076e2f4fcbe,
+        char:31d88ea5-f001-3b59-8fc3-934c783af21c,
+        char:3416eb81-8f2c-353b-a833-5dc1389b42e3,
+        char:72348510-6aa3-3501-a045-f16f53871dd6,
+        char:758c43bf-1831-34b7-926b-a4d2482f7596,
+        char:83c6ba25-e747-363a-a2f4-f8518f81d5c9,
+        char:8ccf424a-9ec0-3a49-a19c-01cf614b9ce3,
+        char:91f888f6-8008-3b81-b894-79e7e241d817,
+        char:9393af5b-7759-3175-8dfe-97f4f02934a2,
+        char:991f81ea-b31f-371c-9b87-c9b192db4c86,
+        char:a170c373-91b9-3f0e-97b4-73fe25152405,
+        char:a32a4654-e23c-396b-8a97-2da5af29eca2,
+        char:b07cc50b-7e9e-3fe3-8442-456292879dae,
+        char:b38866cb-37a0-3ec5-83d0-ef032b06806e,
+        char:c5fe552a-a7e9-37d9-9bef-b84141377108,
+        char:f1bd3b80-f7ed-3aa1-b5a8-2bf3c211408e .
+
+
+###############################################################################
+#  Additional relations from  extended scripted run - not manually proof read
+###############################################################################
+
+
+char:4e894bcc-002c-3747-a27c-adf562b0bda3 bua:hasKnowledgeArea faecherklassifikation:4980 .
+faecherklassifikation:4980 bua:knowledgeAreaFor char:4e894bcc-002c-3747-a27c-adf562b0bda3 .
+char:4e894bcc-002c-3747-a27c-adf562b0bda3 bua:geritId "327101268".
+
+char:22aef1bd-b001-3598-a053-38c0e7d1a9e8 bua:hasKnowledgeArea faecherklassifikation:5040 .
+faecherklassifikation:5040 bua:knowledgeAreaFor char:22aef1bd-b001-3598-a053-38c0e7d1a9e8 .
+
+char:6a898522-ecb6-37c5-ba34-dfbb8c3d1fa9 bua:hasKnowledgeArea faecherklassifikation:5050 .
+faecherklassifikation:5050 bua:knowledgeAreaFor char:6a898522-ecb6-37c5-ba34-dfbb8c3d1fa9 .
+
+char:b794175a-fd93-3cf6-823a-cd1c77f142e7 bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:b794175a-fd93-3cf6-823a-cd1c77f142e7 .
+
+char:6c687795-4257-3ff5-ad4c-fba6ab69d7e7 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor char:6c687795-4257-3ff5-ad4c-fba6ab69d7e7 .
+
+char:945d2f6c-68bb-344a-95e3-c399d6cc941d bua:hasKnowledgeArea faecherklassifikation:5040 .
+faecherklassifikation:5040 bua:knowledgeAreaFor char:945d2f6c-68bb-344a-95e3-c399d6cc941d .
+
+char:945d2f6c-68bb-344a-95e3-c399d6cc941d bua:hasKnowledgeArea faecherklassifikation:5040 .
+faecherklassifikation:5040 bua:knowledgeAreaFor char:945d2f6c-68bb-344a-95e3-c399d6cc941d .
+
+char:83947f9d-fdef-3b93-a624-1ec354cc99d4 bua:hasKnowledgeArea faecherklassifikation:5070 .
+faecherklassifikation:5070 bua:knowledgeAreaFor char:83947f9d-fdef-3b93-a624-1ec354cc99d4 .
+char:83947f9d-fdef-3b93-a624-1ec354cc99d4 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor char:83947f9d-fdef-3b93-a624-1ec354cc99d4 .
+
+char:f51f68d0-2074-35e2-87f9-453c1fdb8e17 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor char:f51f68d0-2074-35e2-87f9-453c1fdb8e17 .
+char:f51f68d0-2074-35e2-87f9-453c1fdb8e17 bua:hasKnowledgeArea faecherklassifikation:5070 .
+faecherklassifikation:5070 bua:knowledgeAreaFor char:f51f68d0-2074-35e2-87f9-453c1fdb8e17 .
+
+
+char:4b537a0f-10d3-3998-8e8b-b2a9049220e6 bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:4b537a0f-10d3-3998-8e8b-b2a9049220e6 .
+
+char:f1f717b0-e262-3081-a76d-7461866341e2 bua:hasKnowledgeArea faecherklassifikation:3560 .
+faecherklassifikation:3560 bua:knowledgeAreaFor char:f1f717b0-e262-3081-a76d-7461866341e2 .
+char:f1f717b0-e262-3081-a76d-7461866341e2 bua:hasKnowledgeArea faecherklassifikation:4525 .
+faecherklassifikation:4525 bua:knowledgeAreaFor char:f1f717b0-e262-3081-a76d-7461866341e2 .
+
+char:fdfce975-c3bb-3f53-bef9-5521dc59ff0d bua:hasKnowledgeArea faecherklassifikation:4020 .
+faecherklassifikation:4020 bua:knowledgeAreaFor char:fdfce975-c3bb-3f53-bef9-5521dc59ff0d .
+
+char:7969937f-4603-397d-8e3d-08fbfb5eb73a bua:hasKnowledgeArea faecherklassifikation:4020 .
+faecherklassifikation:4020 bua:knowledgeAreaFor char:7969937f-4603-397d-8e3d-08fbfb5eb73a .
+
+char:8fc2e963-1937-3550-a4bb-7460bc8a2a75 bua:hasKnowledgeArea faecherklassifikation:4000 .
+faecherklassifikation:4000 bua:knowledgeAreaFor char:8fc2e963-1937-3550-a4bb-7460bc8a2a75 .
+
+char:fd0de1c9-0851-32cf-8cd0-eddecf51c368 bua:hasKnowledgeArea faecherklassifikation:4745 .
+faecherklassifikation:4745 bua:knowledgeAreaFor char:fd0de1c9-0851-32cf-8cd0-eddecf51c368 .
+
+char:8631ec6f-12c4-32bb-9af0-e04aa718996b bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:8631ec6f-12c4-32bb-9af0-e04aa718996b .
+
+char:5e769e4e-5d30-3525-bc1c-f6bd72b61f56 bua:hasKnowledgeArea faecherklassifikation:4790 .
+faecherklassifikation:4790 bua:knowledgeAreaFor char:5e769e4e-5d30-3525-bc1c-f6bd72b61f56 .
+
+char:9ab81708-b665-3e75-b913-f80cae84514c bua:hasKnowledgeArea faecherklassifikation:4790 .
+faecherklassifikation:4790 bua:knowledgeAreaFor char:9ab81708-b665-3e75-b913-f80cae84514c .
+char:9ab81708-b665-3e75-b913-f80cae84514c bua:hasKnowledgeArea faecherklassifikation:4745 .
+faecherklassifikation:4745 bua:knowledgeAreaFor char:9ab81708-b665-3e75-b913-f80cae84514c .
+
+char:19d4642f-9b8e-3da7-aab2-dca2788fd61e bua:hasKnowledgeArea faecherklassifikation:4790 .
+faecherklassifikation:4790 bua:knowledgeAreaFor char:19d4642f-9b8e-3da7-aab2-dca2788fd61e .
+
+char:9b4063f6-fa5f-312f-9b07-f08ac4612fd7 bua:hasKnowledgeArea faecherklassifikation:5160 .
+faecherklassifikation:5160 bua:knowledgeAreaFor char:9b4063f6-fa5f-312f-9b07-f08ac4612fd7 .
+
+char:677a32fd-9aa3-3636-a8c7-b84b0f34a17c bua:hasKnowledgeArea faecherklassifikation:5160 .
+faecherklassifikation:5160 bua:knowledgeAreaFor char:677a32fd-9aa3-3636-a8c7-b84b0f34a17c .
+
+char:81e411ca-75af-3120-9365-d02d5707efdd bua:hasKnowledgeArea faecherklassifikation:5160 .
+faecherklassifikation:5160 bua:knowledgeAreaFor char:81e411ca-75af-3120-9365-d02d5707efdd .
+
+char:451af381-eba4-3335-8759-cf4aa5c303de bua:hasKnowledgeArea faecherklassifikation:5160 .
+faecherklassifikation:5160 bua:knowledgeAreaFor char:451af381-eba4-3335-8759-cf4aa5c303de .
+
+char:451af381-eba4-3335-8759-cf4aa5c303de bua:hasKnowledgeArea faecherklassifikation:5160 .
+faecherklassifikation:5160 bua:knowledgeAreaFor char:451af381-eba4-3335-8759-cf4aa5c303de .
+
+char:e063276d-50b1-3bb9-8857-9af0cfca3462 bua:hasKnowledgeArea faecherklassifikation:5160 .
+faecherklassifikation:5160 bua:knowledgeAreaFor char:e063276d-50b1-3bb9-8857-9af0cfca3462 .
+
+char:a088bd36-dbf5-357c-a6f8-55616f3a1df1 bua:hasKnowledgeArea faecherklassifikation:5160 .
+faecherklassifikation:5160 bua:knowledgeAreaFor char:a088bd36-dbf5-357c-a6f8-55616f3a1df1 .
+
+char:66194e62-22ec-37e2-a032-6357ba35a7eb bua:hasKnowledgeArea faecherklassifikation:4950 .
+faecherklassifikation:4950 bua:knowledgeAreaFor char:66194e62-22ec-37e2-a032-6357ba35a7eb .
+
+char:234e4aff-3a75-33b1-a85c-1cb7f92017b5 bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:234e4aff-3a75-33b1-a85c-1cb7f92017b5 .
+
+char:a89a874f-38b5-3954-adba-3ec9f61c1c53 bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:a89a874f-38b5-3954-adba-3ec9f61c1c53 .
+char:a89a874f-38b5-3954-adba-3ec9f61c1c53 bua:hasKnowledgeArea faecherklassifikation:5140 .
+faecherklassifikation:5140 bua:knowledgeAreaFor char:a89a874f-38b5-3954-adba-3ec9f61c1c53 .
+
+char:0eb4284e-1ead-3a0e-9aea-5b0f25c72b2d bua:hasKnowledgeArea faecherklassifikation:5160 .
+faecherklassifikation:5160 bua:knowledgeAreaFor char:0eb4284e-1ead-3a0e-9aea-5b0f25c72b2d .
+
+char:7771c705-3790-35d8-9192-8f20a5bc0680 bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:7771c705-3790-35d8-9192-8f20a5bc0680 .
+
+char:6ed478a5-1865-33a7-af93-408d15902e2e bua:hasKnowledgeArea faecherklassifikation:4080 .
+faecherklassifikation:4080 bua:knowledgeAreaFor char:6ed478a5-1865-33a7-af93-408d15902e2e .
+
+
+char:d203b0e4-5f8f-39fc-a7d3-5ac92b7710b6 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor char:d203b0e4-5f8f-39fc-a7d3-5ac92b7710b6 .
+
+char:c7eeac13-bc9d-3b55-9a0b-45c0d647f859 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor char:c7eeac13-bc9d-3b55-9a0b-45c0d647f859 .
+
+char:4c4d79f6-c4a2-3611-aafc-4d4e632b4c53 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor char:4c4d79f6-c4a2-3611-aafc-4d4e632b4c53 .
+
+char:74bc8303-e867-339a-9b2c-fc969e708a5b bua:hasKnowledgeArea faecherklassifikation:3540 .
+faecherklassifikation:3540 bua:knowledgeAreaFor char:74bc8303-e867-339a-9b2c-fc969e708a5b .
+
+char:74bc8303-e867-339a-9b2c-fc969e708a5b bua:hasKnowledgeArea faecherklassifikation:3540 .
+faecherklassifikation:3540 bua:knowledgeAreaFor char:74bc8303-e867-339a-9b2c-fc969e708a5b .
+
+char:e786342c-d5b6-38e4-b1e9-e4456eb11770 bua:hasKnowledgeArea faecherklassifikation:3540 .
+faecherklassifikation:3540 bua:knowledgeAreaFor char:e786342c-d5b6-38e4-b1e9-e4456eb11770 .
+
+char:e786342c-d5b6-38e4-b1e9-e4456eb11770 bua:hasKnowledgeArea faecherklassifikation:5660 .
+faecherklassifikation:5660 bua:knowledgeAreaFor char:e786342c-d5b6-38e4-b1e9-e4456eb11770 .
+
+char:8443d5d6-2385-3f67-9761-8fa0a36a4c08 bua:hasKnowledgeArea faecherklassifikation:4000 .
+faecherklassifikation:4000 bua:knowledgeAreaFor char:8443d5d6-2385-3f67-9761-8fa0a36a4c08 .
+
+char:e986a6b1-e2c0-3721-9487-19e6d7d2b259 bua:hasKnowledgeArea faecherklassifikation:4000 .
+faecherklassifikation:4000 bua:knowledgeAreaFor char:e986a6b1-e2c0-3721-9487-19e6d7d2b259 .
+
+char:8dce327b-ea7a-3f00-967b-5e26dcf29d9f bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor char:8dce327b-ea7a-3f00-967b-5e26dcf29d9f .
+
+char:487dacdd-0c38-363a-8923-db275de6dcc8 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor char:487dacdd-0c38-363a-8923-db275de6dcc8 .
+
+char:c356b339-8af9-3d88-a8ee-4fe1c33b8fe6 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor char:c356b339-8af9-3d88-a8ee-4fe1c33b8fe6 .
+
+char:dac3b8a2-5b31-3802-996a-ce91fa784ca0 bua:hasKnowledgeArea faecherklassifikation:5050 .
+faecherklassifikation:5050 bua:knowledgeAreaFor char:dac3b8a2-5b31-3802-996a-ce91fa784ca0 .
+
+char:dac3b8a2-5b31-3802-996a-ce91fa784ca0 bua:hasKnowledgeArea faecherklassifikation:5050 .
+faecherklassifikation:5050 bua:knowledgeAreaFor char:dac3b8a2-5b31-3802-996a-ce91fa784ca0 .
+
+char:d5dfb0ef-b264-374d-980e-ec059709f60b bua:hasKnowledgeArea faecherklassifikation:4745 .
+faecherklassifikation:4745 bua:knowledgeAreaFor char:d5dfb0ef-b264-374d-980e-ec059709f60b .
+
+char:2bcc1bdd-6134-3a36-bf8d-5019fdba9dae bua:hasKnowledgeArea faecherklassifikation:4745 .
+faecherklassifikation:4745 bua:knowledgeAreaFor char:2bcc1bdd-6134-3a36-bf8d-5019fdba9dae .
+char:2bcc1bdd-6134-3a36-bf8d-5019fdba9dae bua:hasKnowledgeArea faecherklassifikation:5040 .
+faecherklassifikation:5040 bua:knowledgeAreaFor char:2bcc1bdd-6134-3a36-bf8d-5019fdba9dae .
+
+char:9d18441a-c385-32bf-9b4e-3118440523e9 bua:hasKnowledgeArea faecherklassifikation:4745 .
+faecherklassifikation:4745 bua:knowledgeAreaFor char:9d18441a-c385-32bf-9b4e-3118440523e9 .
+
+char:358afc98-9a3d-3cf5-afab-4857396a14e8 bua:hasKnowledgeArea faecherklassifikation:4459 .
+faecherklassifikation:4459 bua:knowledgeAreaFor char:358afc98-9a3d-3cf5-afab-4857396a14e8 .
+
+char:8d4aff56-aadc-3bf8-b5b6-cb3a58c8dc70 bua:hasKnowledgeArea faecherklassifikation:5140 .
+faecherklassifikation:5140 bua:knowledgeAreaFor char:8d4aff56-aadc-3bf8-b5b6-cb3a58c8dc70 .
+
+char:8d4aff56-aadc-3bf8-b5b6-cb3a58c8dc70 bua:hasKnowledgeArea faecherklassifikation:5140 .
+faecherklassifikation:5140 bua:knowledgeAreaFor char:8d4aff56-aadc-3bf8-b5b6-cb3a58c8dc70 .
+
+
+char:ca14b401-f5f4-32f7-bbdd-a22aca269be1 bua:hasKnowledgeArea faecherklassifikation:4790 .
+faecherklassifikation:4790 bua:knowledgeAreaFor char:ca14b401-f5f4-32f7-bbdd-a22aca269be1 .
+
+char:ca14b401-f5f4-32f7-bbdd-a22aca269be1 bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:ca14b401-f5f4-32f7-bbdd-a22aca269be1 .
+
+char:ea0938ed-b3ea-3dfd-95c5-1177a5a90130 bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:ea0938ed-b3ea-3dfd-95c5-1177a5a90130 .
+char:ea0938ed-b3ea-3dfd-95c5-1177a5a90130 bua:geritId "185796987".
+
+char:a013fd0c-b8f6-3e4e-bca4-05b741ddd6f6 bua:hasKnowledgeArea faecherklassifikation:4540 .
+faecherklassifikation:4540 bua:knowledgeAreaFor char:a013fd0c-b8f6-3e4e-bca4-05b741ddd6f6 .
+
+char:d1ddcdc1-058f-39b9-bbe0-1383d905e123 bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:d1ddcdc1-058f-39b9-bbe0-1383d905e123 .
+
+char:bfe60c72-c020-31ae-bf18-a876a6ace729 bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:bfe60c72-c020-31ae-bf18-a876a6ace729 .
+
+char:333343a2-335b-32c2-88c1-328eb2a5414b bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:333343a2-335b-32c2-88c1-328eb2a5414b .
+
+char:9e08203b-949c-3fb5-8e71-4ae49435e909 bua:hasKnowledgeArea faecherklassifikation:5140 .
+faecherklassifikation:5140 bua:knowledgeAreaFor char:9e08203b-949c-3fb5-8e71-4ae49435e909 .
+
+char:d678f608-030e-346a-8ce1-bea1ebc5cfe9 bua:hasKnowledgeArea faecherklassifikation:5140 .
+faecherklassifikation:5140 bua:knowledgeAreaFor char:d678f608-030e-346a-8ce1-bea1ebc5cfe9 .
+
+char:a85069f7-c531-3d28-a048-02dbb8ebcc47 bua:hasKnowledgeArea faecherklassifikation:5140 .
+faecherklassifikation:5140 bua:knowledgeAreaFor char:a85069f7-c531-3d28-a048-02dbb8ebcc47 .
+
+char:cb70a651-5c5c-3426-9258-aebb1d67fa3c bua:hasKnowledgeArea faecherklassifikation:5040 .
+faecherklassifikation:5040 bua:knowledgeAreaFor char:cb70a651-5c5c-3426-9258-aebb1d67fa3c .
+
+char:858ecd30-ebed-3eae-95bc-127a9f7dfa74 bua:hasKnowledgeArea faecherklassifikation:5040 .
+faecherklassifikation:5040 bua:knowledgeAreaFor char:858ecd30-ebed-3eae-95bc-127a9f7dfa74 .
+
+char:bc9ba0c9-862d-37ea-a642-2070774c23a2 bua:hasKnowledgeArea faecherklassifikation:5040 .
+faecherklassifikation:5040 bua:knowledgeAreaFor char:bc9ba0c9-862d-37ea-a642-2070774c23a2 .
+
+char:ac60d8ef-feb7-3ce8-93a8-28ebc5f7ce14 bua:hasKnowledgeArea faecherklassifikation:4080 .
+faecherklassifikation:4080 bua:knowledgeAreaFor char:ac60d8ef-feb7-3ce8-93a8-28ebc5f7ce14 .
+
+char:ee5bfa50-6109-3740-a10d-57bd9595f1b6 bua:hasKnowledgeArea faecherklassifikation:5050 .
+faecherklassifikation:5050 bua:knowledgeAreaFor char:ee5bfa50-6109-3740-a10d-57bd9595f1b6 .
+
+char:897aa047-f584-3f80-bd52-cc54be40fe2b bua:hasKnowledgeArea faecherklassifikation:5050 .
+faecherklassifikation:5050 bua:knowledgeAreaFor char:897aa047-f584-3f80-bd52-cc54be40fe2b .
+
+char:5e824fff-4213-3101-943a-6fff3425ac3d bua:hasKnowledgeArea faecherklassifikation:5050 .
+faecherklassifikation:5050 bua:knowledgeAreaFor char:5e824fff-4213-3101-943a-6fff3425ac3d .
+char:5e824fff-4213-3101-943a-6fff3425ac3d bua:hasKnowledgeArea faecherklassifikation:5060 .
+faecherklassifikation:5060 bua:knowledgeAreaFor char:5e824fff-4213-3101-943a-6fff3425ac3d .
+
+char:28e5a30b-0c9d-334d-981d-164598a17c08 bua:hasKnowledgeArea faecherklassifikation:5050 .
+faecherklassifikation:5050 bua:knowledgeAreaFor char:28e5a30b-0c9d-334d-981d-164598a17c08 .
+
+char:9615f303-dce2-3525-a13a-6e600118cd7e bua:hasKnowledgeArea faecherklassifikation:5050 .
+faecherklassifikation:5050 bua:knowledgeAreaFor char:9615f303-dce2-3525-a13a-6e600118cd7e .
+
+char:9615f303-dce2-3525-a13a-6e600118cd7e bua:hasKnowledgeArea faecherklassifikation:5050 .
+faecherklassifikation:5050 bua:knowledgeAreaFor char:9615f303-dce2-3525-a13a-6e600118cd7e .
+
+char:112b1be2-e98e-3550-b324-9ab7bf1097fd bua:hasKnowledgeArea faecherklassifikation:4080 .
+faecherklassifikation:4080 bua:knowledgeAreaFor char:112b1be2-e98e-3550-b324-9ab7bf1097fd .
+
+char:dec8ed0d-65eb-38a8-bf76-ad11648add71 bua:hasKnowledgeArea faecherklassifikation:4030 .
+faecherklassifikation:4030 bua:knowledgeAreaFor char:dec8ed0d-65eb-38a8-bf76-ad11648add71 .
+
+char:c470c3c2-42f4-3a38-8781-40be0f9bb556 bua:hasKnowledgeArea faecherklassifikation:5010 .
+faecherklassifikation:5010 bua:knowledgeAreaFor char:c470c3c2-42f4-3a38-8781-40be0f9bb556 .
+
+char:ca163c5f-0003-329c-b3e5-1f70adc5f35b bua:hasKnowledgeArea faecherklassifikation:4000 .
+faecherklassifikation:4000 bua:knowledgeAreaFor char:ca163c5f-0003-329c-b3e5-1f70adc5f35b .
+
+
+char:cc343bb2-8c98-316e-8dd7-7efa76bbb2c9 bua:hasKnowledgeArea faecherklassifikation:4810 .
+faecherklassifikation:4810 bua:knowledgeAreaFor char:cc343bb2-8c98-316e-8dd7-7efa76bbb2c9 .
+
+char:f41139f9-b6f8-379a-8dc5-8c12ebf195b2 bua:hasKnowledgeArea faecherklassifikation:4525 .
+faecherklassifikation:4525 bua:knowledgeAreaFor char:f41139f9-b6f8-379a-8dc5-8c12ebf195b2 .
+char:f41139f9-b6f8-379a-8dc5-8c12ebf195b2 bua:hasKnowledgeArea faecherklassifikation:3560 .
+faecherklassifikation:3560 bua:knowledgeAreaFor char:f41139f9-b6f8-379a-8dc5-8c12ebf195b2 .
+char:f41139f9-b6f8-379a-8dc5-8c12ebf195b2 bua:hasKnowledgeArea faecherklassifikation:5200 .
+faecherklassifikation:5200 bua:knowledgeAreaFor char:f41139f9-b6f8-379a-8dc5-8c12ebf195b2 .
+
+char:e4da90ca-cb35-35a8-bb54-ec1d5e648a9d bua:hasKnowledgeArea faecherklassifikation:5200 .
+faecherklassifikation:5200 bua:knowledgeAreaFor char:e4da90ca-cb35-35a8-bb54-ec1d5e648a9d .
+char:e4da90ca-cb35-35a8-bb54-ec1d5e648a9d bua:hasKnowledgeArea faecherklassifikation:5210 .
+faecherklassifikation:5210 bua:knowledgeAreaFor char:e4da90ca-cb35-35a8-bb54-ec1d5e648a9d .
+char:e4da90ca-cb35-35a8-bb54-ec1d5e648a9d bua:hasKnowledgeArea faecherklassifikation:5230 .
+faecherklassifikation:5230 bua:knowledgeAreaFor char:e4da90ca-cb35-35a8-bb54-ec1d5e648a9d .
+
+char:23b91fbd-4f44-390f-8ccf-1e6527774b5e bua:hasKnowledgeArea faecherklassifikation:4010 .
+faecherklassifikation:4010 bua:knowledgeAreaFor char:23b91fbd-4f44-390f-8ccf-1e6527774b5e .
