@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: Berlin University Alliance Organigrams
+message: >-
+  If you use this software, please cite it using these
+  metadata.
+type: dataset
+authors:
+  - given-names: Rolf
+    family-names: Guescini
+    affiliation: Humboldt-Universität zu Berlin
+    orcid: 'https://orcid.org/0000-0003-4325-5751'
+repository-code: >-
+  https://github.com/BUA-VIVO/bua-organigram
+url: >-
+  https://bua-vivo.github.io/bua-organigram/
+abstract: >-
+  An organigram is what the member institutions of the Berlin University Alliance name the mapping of organizational structures of their institution. These Ontologies try to capture the perspective structures for each instiution
+keywords:
+  - Organigram
+  - Berlin University Alliance
+  - Ontology
+license: CC0-1.0
+version: '1.0.0'
+commit: https://github.com/BUA-VIVO/bua-organigram/releases/tag/v1.0.0
+date-released: '2023-11-06'
