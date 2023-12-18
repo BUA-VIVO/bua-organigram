@@ -10,3 +10,6 @@ These Ontologies try to capture the perspective structures for each instution, t
 Documentation: https://bua-vivo.github.io/bua-organigram/
 
 [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+## Publication
+[![DOI](https://zenodo.org/badge/706777153.svg)](https://zenodo.org/doi/10.5281/zenodo.10401049)
